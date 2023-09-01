@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>NINE30 CONSULTING</title>
+        <meta name="description" content="nine30 consulting website">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300;400&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+
+        <script src="https://use.fontawesome.com/14b8e0b9e5.js"></script>
+
+        <link rel="stylesheet" href="caseStudies.css">
+        <link rel="stylesheet" href="career.css">
+        <link rel="stylesheet" href="responsive.css">
+    </head>
+
+    <body>
+        <!-- HERO BACKGROUND -->
+
+        <div class="hero-container">
+            <div class="header">
+                <div class="nav-logo">
+                    <a href="index.html"><img class="nine30-logo" src="https://www.nine30consulting.com/uploads/1/1/8/0/118003059/nine-thirty-consulting-logo-final-03_orig.png" alt="nine30-logo"></a>
+                </div>
+                <div class="navbar">
+                    <a href="aboutUs.html">ABOUT US <span>&#43;</span></a>
+                    <a href="capabilities.html">CAPABILITIES <span>&#43;</span></a>
+                    <a href="career.html">CAREER <span>&#43;</span></a>
+                </div>
+                <div class="countdown">
+                    <p id="demo"></p>
+                    <p>DAYS TILL 9.30</p>
+                </div>
+                <div class="navbar-button">
+                    <button><a href="contactUs.html">CONTACT US</a></button>
+                </div>
+            </div>
+
+            <div class="hero-title-image">
+                <div class="hero-text">
+                    <h1>Career</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br> sed do eiusmod tempor incididunt ut labore et dolore <br> magna aliqua. 
+                        Ut enim ad minim veniam. </p>
+                </div>
+    
+                <div class="hero-image">
+                    <img class="hero-picture-career" src="https://img.freepik.com/premium-vector/career-education-with-growth-concept-learning-model-associate-activity-hand-drawn-illustration_2175-10323.jpg?w=2000" alt="hero-image">
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Footer Section -->
+
+        <section>
+            <footer>
+                <div class="footer-container">
+                    <div class="nine30-info">
+                        <img src="https://www.nine30consulting.com/uploads/1/1/8/0/118003059/nine-thirty-consulting-logo-final-03_orig.png" alt="nine30-logo">
+                        <div>
+                           <div class="location">
+                                <i class="fa fa-compass"></i>
+                                <p>46915 S Shangri La Dr <br> Lexington Park, MD 20653</p>
+                           </div>
+                            <div class="phone-number">
+                                <i class="fa fa-phone"></i>
+                                <p>240-842-9301</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-us-info">
+                        <h3>ABOUT US</h3>
+                        <hr>
+                        <ul>
+                            <li><a href="ourHistory.html">Our History</a></li>
+                            <li><a href="#">Our Team</a></li>
+                        </ul>
+                    </div>
+                    <div class="capabilities-info">
+                        <h3>CAPABILITIES</h3>
+                        <hr>
+                        <ul>
+                            <li><a href="aquisition.html">Aquisition</a></li>
+                            <li><a href="dataAnalytics.html">Data Analytics</a></li>
+                            <li><a href="financialManagement.html">Financial Management</a></li>
+                            <li><a href="projectManagement.html">Project Management</a></li>
+                            <li><a href="caseStudies.html">Case Studies</a></li>
+                        </ul>
+                    </div>
+                    <div class="career-info">
+                        <h3>CAREER</h3>
+                        <hr>
+                        <ul>
+                            <li><a href="#">Culture & Benefits</a></li>
+                            <li><a href="#">Open Jobs</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+        </section>
+
+
+        <!-- Navbar Bottom -->
+
+        <section>
+            <div class="navbar-bottom-container">
+                <div class="copyright">
+                    <h3>NINE 30 CONSULTING, Inc<span>&#169</span> 2022 | All Rights Reserved</h3>
+                </div>
+                <div class="social-media">
+                    <a href="https://www.facebook.com/Nine30Consulting/" target="_blank"><i class="fa fa-facebook-f"></i></a>
+                    <a href="https://www.linkedin.com/company/nine-30-consulting/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                </div>
+            </div>
+        </section>
+       
+
+        <!-- JavaScript -->
+
+        <script>
+
+            // Countdown Timer 9.30 //
+
+            var countDownDate = new Date("September 30, 2023 00:00:00").getTime();
+            var x = setInterval(function() {
+
+            var now = new Date().getTime();
+
+            var distance = countDownDate - now;
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            document.getElementById("demo").innerHTML = days + " ";
+
+            if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("demo").innerHTML = "EXPIRED";
+                }
+            }, 1000);
+        </script>
+    </body>
+</html>

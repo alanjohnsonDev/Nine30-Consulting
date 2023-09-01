@@ -1,0 +1,363 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hero-container {
+    background-color:rgb(4, 50, 73);
+    height: 850px; 
+}
+
+
+/* NAVBAR */
+
+.header {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px 20px 0px;
+    overflow: hidden;
+    background-color:rgb(4, 50, 73);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+    box-shadow: 0px 4px 10px rgb(4, 50, 73, 0.6);
+}
+
+.nav-logo {
+    margin-right: 200px;
+}
+
+.nine30-logo {
+    width: 160px;
+    height: 80px;
+}
+
+.navbar {
+    margin-right: 75px;
+    text-align: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 28px;
+    color: rgb(225, 225, 225);
+    padding: 30px;
+    font-family: 'Teko', sans-serif;
+    letter-spacing: 1.25px;
+}
+
+.navbar span {
+    margin-left: 10px;
+    color: rgb(0, 255, 0);
+    font-weight: bold;
+}
+
+.countdown p {
+    margin-right: 20px;
+    color: white;
+    font-family: 'Teko', sans-serif;
+    font-size: 26px;
+}
+
+.countdown span {
+    color: white;
+}
+
+#demo {
+    color: rgb(0, 196, 0);
+    font-size: 30px;
+    font-family: 'Teko', sans-serif;
+    border: 1px solid black;
+    background-color:rgba(33, 33, 33, 0.746);
+    border-radius: 10px;
+}
+
+.navbar-button {
+    display: inline-block;
+}
+
+.navbar-button button {
+    background-color: rgb(40, 140, 113);
+    color: white;
+    font-size: 24px;
+    border-radius: 20px;
+    border-color: transparent;
+    padding: 7px 12px;
+    font-family: 'Teko', sans-serif;
+    letter-spacing: 1.25px;
+    margin-left: 70px;
+}
+
+.navbar-button a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Hero TITLE & VIDEO */
+
+.hero-title-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 190px;
+    padding-top: 170px;
+}
+
+.hero-text h1 {
+    font-size: 90px;
+    color:rgb(118, 216, 65);
+    font-weight:500;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.hero-text p {
+    font-size: 16px;
+    color:white;
+    margin-top: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 1.5;
+}
+
+.hero-picture {
+    width: 550px;
+    height: 600px;
+    border-radius: 0px 200px 0px 0px;
+    z-index: 1;
+}
+
+.hero-image-backshape {
+    height: 400px;
+    width: 100px;
+    color: rgb(230, 233, 234);
+    z-index: 19;
+}
+
+
+/* Filter Navbar */
+
+.filter-navbar {
+    background-color:rgb(4, 50, 73);
+    padding-left: 20%;
+    height: 70px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.filter-navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding-right: 70px;
+}
+
+.filter-navbar .select {
+    color:rgb(118, 216, 65);
+    font-weight: bold;
+    text-decoration: underline;
+    text-underline-offset: 12px;
+}
+
+
+/* Case Studies Section */
+
+.case-studies-container {
+    font-family: 'Ubuntu', sans-serif;
+    display: grid;
+    grid-template-columns: repeat(3, 450px);
+    justify-content: center;
+    gap: 50px;
+    padding-top: 70px;
+    background-image: linear-gradient(azure 90%, rgba(233, 255, 210, 0.741));
+    padding-bottom: 100px;
+}
+
+.case-studies-card {
+    position: relative;
+}
+
+.case-studies-card img {
+    height: 260px;
+    width: 400px;
+    padding-bottom: 30px;
+}
+
+.case-studies-card .aquisition-button {
+    border: 1px solid transparent;
+    background-color: rgb(242, 253, 25);
+    border-radius: 25px;
+    font-size: 18px;
+    padding: 8px 15px;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    display: block;
+}
+
+.case-studies-card .data-analytics-button {
+    border: 1px solid transparent;
+    background-color: rgb(145, 208, 74);
+    border-radius: 25px;
+    font-size: 18px;
+    padding: 8px 15px;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    display: block;
+}
+
+.case-studies-card .financial-management-button {
+    border: 1px solid transparent;
+    background-color: rgb(17, 209, 209);
+    border-radius: 25px;
+    font-size: 18px;
+    padding: 8px 15px;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    display: block;
+}
+
+.case-studies-card .project-management-button {
+    border: 1px solid transparent;
+    background-color: rgb(139, 172, 249);
+    border-radius: 25px;
+    font-size: 18px;
+    padding: 8px 15px;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    display: block;
+}
+
+.case-studies-card a::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+
+.case-studies-card a {
+    text-decoration: none;
+    color:rgb(4, 49, 47);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.case-studies-card span {
+    color: rgb(95, 163, 0);
+    font-weight: bolder;
+}
+
+.case-studies-card h3 {
+    font-size: 26px;
+    padding: 10px 0px;
+}
+
+.case-studies-card p {
+    line-height: 1.25;
+    padding-bottom: 10px;
+}
+
+
+/* Footer Section */
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    justify-content: space-evenly;
+    padding-top: 100px;
+    background-color:rgb(4, 50, 73);
+    height: 300px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.footer-container h3 {
+    font-size: 22px;
+    padding-bottom: 15px;
+    color: rgb(122, 182, 54);
+}
+
+.footer-container hr {
+    width: 20%;
+    border: 0;
+    height: 3px;
+    background-color: rgb(122, 182, 54);
+}
+
+.footer-container a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.footer-container p {
+    color: white;
+    font-size: 18px;
+}
+
+.footer-container .footer-green-line {
+    color: rgb(122, 182, 54);
+}
+
+.nine30-info img {
+    width: 225px;
+    height: 120px;
+    margin-top: -8px;
+}
+
+ul {
+    list-style: none;
+    line-height: 2.0;
+    padding-top: 20px;
+}
+
+.fa {
+    color: white;
+    font-size: 26px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.location {
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.phone-number {
+    align-items: center;
+}
+
+.location p {
+    display: inline-block;
+}
+
+.phone-number p {
+    display: inline-block;
+}
+
+
+/* Navbar Bottom */
+
+.navbar-bottom-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(122, 182, 54);
+    padding: 22px 0px;
+    font-family: 'Ubuntu', sans-serif;
+    align-items: center;
+}
+
+.copyright h3 {
+    font-size: 22px;
+    color: black;
+}
+
+.social-media a {
+    margin-right: 25px;
+}
+
+.social-media .fa {
+    color: black;
+    font-size: 35px;
+}

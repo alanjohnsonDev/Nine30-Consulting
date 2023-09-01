@@ -1,0 +1,402 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    
+    
+    /* Home Page */
+
+    .hero-title-image {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+    
+    .hero-text h1 {
+        font-size: 50px;
+        color:rgb(203, 255, 175);
+        font-weight: 500;
+        font-family: 'Ubuntu', sans-serif;
+        text-align: center;
+    }
+    
+    .hero-text p {
+        font-size: 16px;
+        color:rgb(203, 255, 175);
+        margin-top: 20px;
+        font-family: 'Ubuntu', sans-serif;
+        text-align: center;
+    }
+    
+    
+    .hero-picture {
+        width: 400px;
+        height: 250px;
+        border-radius: 12px;
+    }
+
+
+    /* Capabilities Section */
+
+    .capabilities-container {
+        height: 1050px;
+        background-color: rgb(231, 240, 216, 0.8);
+    }
+    
+    .capabilities-title {
+        text-align: center;
+        padding-top: 75px;
+    }
+    
+    .capabilities-title h2 {
+        font-size: 45px;
+        color: rgb(32, 72, 1);
+        font-family: 'Ubuntu', sans-serif;
+    }
+    
+    .capabilities-title p {
+        font-size: 18px;
+        margin-top: 30px;
+        padding-bottom: 30px;
+        color: rgb(89, 89, 89);
+        font-family: 'Ubuntu', sans-serif;
+    }
+    
+    .green-line {
+        display: none;
+    }
+    
+    .cards-container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 50px;
+        padding-top: 20px;
+    }
+
+
+    /* Supporting Agencies Section */
+
+    .supporting-container {
+        height: 2500px;
+        background-color: rgb(4, 50, 73);
+    }
+    
+    .supporting-title {
+        margin-left: 0;
+        text-align: center;
+        padding-top: 70px;
+    }
+    
+    .supporting-title hr {
+        width: 40%;
+        margin-left: 24.4%;
+        border: 0;
+        height: 6px;
+        background-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgb(7, 223, 0));
+    }
+    
+    .supporting-title h2 {
+        font-size: 45px;
+        color: white;
+        padding-top: 30px;
+    }
+    
+    .supporting-title p {
+        color: white;
+        padding-top: 30px;
+        line-height: 1.3;
+        letter-spacing: 1px;
+        font-size: 18px;
+    }
+    
+    .supporting-card-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 70px;
+    }
+    
+    .supporting-card {
+        display: flex;
+        gap: 20px;
+        border: 1px solid transparent;
+        background-color: rgb(236, 238, 230);
+        border-radius: 20px;
+        padding: 10px;
+        width: 500px;
+        height: 180px;
+        align-items: center;
+    }
+    
+    .supporting-card img {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .supporting-card h3 {
+        font-size: 30px;
+    }
+
+
+    /* Lets Talk Section */
+
+    .lets-talk-container {
+        height: 2400px;
+        background-image: linear-gradient(to bottom, rgb(231, 240, 216, 0.5) 40%, rgb(177, 221, 151, 0.7) 90%);
+    }
+
+    .lets-talk-div {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        gap: 40px;
+        padding-top: 120px;
+        font-family: 'Ubuntu', sans-serif;
+        align-items: center;
+    }
+
+    .lets-talk-image img {
+        border-radius: 15px;
+        width: 500px;
+        height: 350px;
+    }
+
+    .lets-talk-title {
+        width: 500px;
+    }
+
+    .lets-talk-title h4 {
+        font-size: 24px;
+        color: rgb(56, 149, 129);
+        font-weight: bold;
+    }
+
+    .lets-talk-title h2 {
+        font-size: 40px;
+        color: rgb(32, 72, 1);
+        padding-top: 15px;
+    }
+
+
+    /* The Buzz Section */
+
+    .the-buzz-div {
+        font-family: 'Ubuntu', sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        padding-top: 80px;
+    }
+    
+    .the-buzz-title {
+        padding-top: 150px;
+        margin-left: 20%;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    
+    .the-buzz-title h4 {
+        font-size: 24px;
+        color: rgb(56, 149, 129);
+        font-weight: bold;
+    }
+    
+    .the-buzz-title h2 {
+        font-size: 40px;
+        color: rgb(32, 72, 1);
+        padding-top: 15px;
+    }
+    
+    .testimonial-image img {
+        width: 140px;
+        height: 140px;
+        border-radius: 20px;
+        box-shadow: -2px 2px 6px rgb(200, 200, 200);
+    }
+
+
+    /* Join Us Section */
+
+    .join-us-container {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 100px;
+        background-image: linear-gradient(to left, rgb(4, 50, 73), rgba(25, 83, 61), rgb(79, 127, 45), rgb(99, 171, 66) 90%);
+        height: 1025px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    .join-us-image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .join-us-title hr {
+        width: 80%;
+        border: 0;
+        height: 5px;
+        background-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgb(7, 223, 0));
+    }
+
+    .join-us-title {
+        margin-left: 0;
+    }
+
+    .join-us-title h2 {
+        padding-top: 20px;
+        font-size: 45px;
+        color: white;
+        padding-bottom: 20px;
+    }
+
+    .join-us-title p {
+        color: white;
+        line-height: 1.35;
+        font-size: 18px;
+        padding-bottom: 40px;
+    }
+
+    .join-us-title button {
+        background-color: rgb(40, 140, 113);
+        color: white;
+        font-size: 30px;
+        border-radius: 20px;
+        border-color: transparent;
+        padding: 8px 14px;
+        font-family: 'Teko', sans-serif;
+        letter-spacing: 1.25px;
+    }
+
+    .join-us-title a {
+        text-decoration: none;
+        color: white;
+    }
+
+
+    /* Footer Section */
+
+    .footer-container {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 10px 120px;
+        padding-top: 110px;
+        background-image: linear-gradient(to top, rgb(16, 16, 16), rgb(29, 29, 29));
+        height: 700px;
+        font-family: 'Ubuntu', sans-serif;
+        margin-top: -10px;
+    }
+    
+    .footer-container h3 {
+        font-size: 22px;
+        padding-bottom: 15px;
+        color: rgb(122, 182, 54);
+    }
+    
+    .footer-container hr {
+        width: 20%;
+        border: 0;
+        height: 3px;
+        background-color: rgb(122, 182, 54);
+    }
+    
+    .footer-container a {
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+    }
+    
+    .footer-container p {
+        color: white;
+        font-size: 18px;
+    }
+    
+    .footer-container .footer-green-line {
+        color: rgb(122, 182, 54);
+    }
+    
+    .nine30-info img {
+        width: 225px;
+        height: 120px;
+        margin-top: -8px;
+    }
+    
+    ul {
+        list-style: none;
+        line-height: 2.0;
+        padding-top: 20px;
+    }
+    
+    .fa {
+        color: white;
+        font-size: 26px;
+        display: inline-block;
+        margin-right: 20px;
+    }
+    
+    .location {
+        align-items: center;
+        padding: 20px 0px;
+    }
+    
+    .phone-number {
+        align-items: center;
+    }
+    
+    .location p {
+        display: inline-block;
+    }
+    
+    .phone-number p {
+        display: inline-block;
+    }
+
+
+    /* Navbar Bottom */
+
+    .navbar-bottom-container {
+        display: flex;
+        justify-content: space-evenly;
+        background-color: rgb(122, 182, 54);
+        padding: 22px 0px;
+        font-family: 'Ubuntu', sans-serif;
+        align-items: center;
+    }
+
+    .copyright h3 {
+        font-size: 20px;
+        color: black;
+    }
+
+    .social-media a {
+        margin-right: 25px;
+    }
+
+    .social-media .fa {
+        color: black;
+        font-size: 35px;
+    }
+}
+
+
+
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1300px) {
+
+}

@@ -1,0 +1,80 @@
+
+.about-us-picture {
+    height: 550px;
+    width: 600px;
+    border-radius: 20px;
+}
+
+.our-philosophy-container {
+    font-family: 'Ubuntu', sans-serif;
+    height: 1000px;
+}
+
+.philosophy-title {
+    margin-left: 20%;
+    padding-top: 100px;
+}
+
+.philosophy-title h2 {
+    font-size: 50px;
+    color: rgb(32, 72, 1);
+    padding-bottom: 20px;
+}
+
+.philosophy-title p {
+    color: rgb(89, 89, 89);
+    font-size: 20px;
+}
+
+.philosophy-content {
+    display: flex;
+    justify-content: center;
+    gap: 350px;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.philosophy-image img {
+    height: 550px;
+    width: 550px;
+}
+
+.innovate-elevate-collaborate {
+    padding-top: 60px;
+}
+
+.innovate-elevate-collaborate h3 {
+    color: rgb(122, 182, 54);
+    font-size: 32px;
+    display: inline-block;
+}
+
+.innovate-elevate-collaborate hr {
+    display: inline-block;
+    margin-bottom: 7px;
+    color: transparent;
+    height: 2px;
+    background-color: rgb(122, 182, 54);
+}
+
+.innovate hr {
+    width: 520px;
+    margin-left: 20px;
+}
+
+.elevate hr {
+    width: 510px;
+    margin-left: 20px;
+}
+
+.collaborate hr {
+    width: 465px;
+    margin-left: 20px;
+}
+
+.innovate-elevate-collaborate p {
+    color: black;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}

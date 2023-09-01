@@ -1,0 +1,570 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hero-container {
+    background-image: linear-gradient(rgb(4, 50, 73) 32%, rgba(25, 83, 61), rgb(79, 127, 45), rgb(99, 171, 66));
+    height: 700px; 
+}
+
+
+/* NAVBAR */
+
+.header {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px 20px 0px;
+    overflow: hidden;
+    background-color:rgb(4, 50, 73);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+    box-shadow: 0px 4px 10px rgb(4, 50, 73, 0.6);
+}
+
+.nav-logo {
+    margin-right: 365px;
+}
+
+.nine30-logo {
+    width: 160px;
+    height: 80px;
+}
+
+.navbar {
+    margin-right: 75px;
+    text-align: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 28px;
+    color: rgb(225, 225, 225);
+    padding: 30px;
+    font-family: 'Teko', sans-serif;
+    letter-spacing: 1.25px;
+}
+
+.navbar span {
+    margin-left: 10px;
+    color: rgb(0, 255, 0);
+    font-weight: bold;
+}
+
+.countdown p {
+    margin-right: 20px;
+    color: white;
+    font-family: 'Teko', sans-serif;
+    font-size: 26px;
+}
+
+.countdown span {
+    color: white;
+}
+
+#demo {
+    color: rgb(0, 196, 0);
+    font-size: 30px;
+    font-family: 'Teko', sans-serif;
+    border: 1px solid black;
+    background-color:rgba(33, 33, 33, 0.746);
+    border-radius: 10px;
+}
+
+.navbar-button {
+    display: inline-block;
+    margin-left: 180px;
+}
+
+.navbar-button button {
+    background-color: rgb(40, 140, 113);
+    color: white;
+    font-size: 24px;
+    border-radius: 20px;
+    border-color: transparent;
+    padding: 7px 12px;
+    font-family: 'Teko', sans-serif;
+    letter-spacing: 1.25px;
+   
+}
+
+.navbar-button a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Hero TITLE & VIDEO */
+
+.hero-title-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 190px;
+    padding-top: 170px;
+}
+
+.hero-text h1 {
+    font-size: 90px;
+    color:rgb(203, 255, 175);
+    font-weight:500;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.hero-text p {
+    font-size: 16px;
+    color:rgb(203, 255, 175);
+    margin-top: 10px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.hero-picture {
+    width: 700px;
+    height: 450px;
+    border-radius: 12px;
+}
+
+
+/* Capabilities Section */
+
+
+.capabilities-container {
+    height: 900px;
+    background-color: rgb(231, 240, 216, 0.8);
+}
+
+.capabilities-title {
+    text-align: center;
+    padding-top: 75px;
+}
+
+.capabilities-title h2 {
+    font-size: 50px;
+    color: rgb(32, 72, 1);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.capabilities-title p {
+    font-size: 18px;
+    margin-top: 30px;
+    color: rgb(89, 89, 89);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.green-line {
+    border-left: 4px solid rgb(95, 163, 0);
+    height: 150px;
+    width: 0%;
+    margin: 50px auto;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 20px;
+}
+
+.capabilities-card {
+    border: 1px solid white;
+    background: white;
+    border-radius: 10px;
+    height: 300px;
+    width: 250px;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 18px;
+    box-shadow: -2px 2px 10px rgba(204, 204, 204, 0.898);
+    position: relative;
+}
+
+.capabilities-card a::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+
+.capabilities-card img {
+    width: 90px;
+    height: 90px;
+}
+
+.capabilities-card h3 {
+    color:rgb(4, 49, 47);
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.capabilities-card p {
+    color:rgb(89, 89, 89);
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.capabilities-card a {
+    text-decoration: none;
+    color:rgb(4, 49, 47);
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.capabilities-card span {
+    color: rgb(95, 163, 0);
+    font-weight: bold;
+}
+
+
+/* Supporting Agencies Section */
+
+.supporting-container {
+    height: 1150px;
+    background-color: rgb(4, 50, 73);
+}
+
+.supporting-title {
+    margin-left: 395px;
+    padding-top: 100px;
+}
+
+.supporting-title hr {
+    width: 40%;
+    border: 0;
+    height: 6px;
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgb(7, 223, 0));
+}
+
+.supporting-title h2 {
+    font-size: 60px;
+    color: white;
+    padding-top: 30px;
+}
+
+.supporting-title p {
+    color: white;
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+.supporting-card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 500px);
+    justify-content: center;
+    gap: 30px 50px;
+    padding-top: 70px;
+}
+
+.supporting-card {
+    display: flex;
+    gap: 20px;
+    border: 1px solid transparent;
+    background-color: rgb(236, 238, 230);
+    border-radius: 20px;
+    padding: 10px;
+    width: 500px;
+    height: 180px;
+    align-items: center;
+}
+
+.supporting-card img {
+    width: 150px;
+    height: 150px;
+}
+
+.supporting-card h3 {
+    font-size: 30px;
+}
+
+
+/* Lets Talk Section */
+
+.lets-talk-container {
+    height: 1475px;
+    background-image: linear-gradient(to bottom, rgb(231, 240, 216, 0.5) 40%, rgb(177, 221, 151, 0.7) 90%);
+}
+
+.lets-talk-div {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    padding-top: 120px;
+    font-family: 'Ubuntu', sans-serif;
+    align-items: center;
+}
+
+.lets-talk-image img {
+    border-radius: 15px;
+    width: 800px;
+    height: 550px;
+}
+
+.lets-talk-title {
+    width: 500px;
+}
+
+.lets-talk-title h4 {
+    font-size: 24px;
+    color: rgb(56, 149, 129);
+    font-weight: bold;
+}
+
+.lets-talk-title h2 {
+    font-size: 50px;
+    color: rgb(32, 72, 1);
+    padding-top: 15px;
+}
+
+.lets-talk-title p {
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    line-height: 1.25;
+    color:rgb(89, 89, 89);
+}
+
+.lets-talk-title button {
+    border-radius: 20px;
+    padding: 12px;
+    background-color:rgb(4, 50, 73);
+}
+
+.lets-talk-title a {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+/* The Buzz Section */
+
+.the-buzz-div {
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 100px;
+}
+
+.the-buzz-title {
+    padding-top: 150px;
+    margin-left: 20%;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.the-buzz-title h4 {
+    font-size: 24px;
+    color: rgb(56, 149, 129);
+    font-weight: bold;
+}
+
+.the-buzz-title h2 {
+    font-size: 50px;
+    color: rgb(32, 72, 1);
+    padding-top: 15px;
+}
+
+.testimonial-image img {
+    width: 140px;
+    height: 140px;
+    border-radius: 20px;
+    box-shadow: -2px 2px 6px rgb(200, 200, 200);
+}
+
+
+.testimonial {
+    width: 400px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: -2px 2px 10px rgb(200, 200, 200);
+}
+
+.testimonial p {
+    font-size: 20px;
+}
+
+.testimonial-image {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.testimonial-client-info h4 {
+    font-size: 20px;
+}
+
+.testimonial-client-info p {
+    font-size: 16px;
+    line-height: 1.25;
+}
+
+
+/* Join Us Section */
+
+.join-us-container {
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(to left, rgb(4, 50, 73), rgba(25, 83, 61), rgb(79, 127, 45), rgb(99, 171, 66) 90%);
+    height: 699px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.join-us-image img {
+    width: 1200px;
+    height: 700px;
+}
+
+.join-us-title hr {
+    width: 80%;
+    border: 0;
+    height: 5px;
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgb(7, 223, 0));
+}
+
+.join-us-title {
+    margin-left: 240px;
+}
+
+.join-us-title h2 {
+    padding-top: 20px;
+    font-size: 45px;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.join-us-title p {
+    color: white;
+    line-height: 1.35;
+    font-size: 18px;
+    padding-bottom: 40px;
+}
+
+.join-us-title button {
+    background-color: rgb(40, 140, 113);
+    color: white;
+    font-size: 30px;
+    border-radius: 20px;
+    border-color: transparent;
+    padding: 8px 14px;
+    font-family: 'Teko', sans-serif;
+    letter-spacing: 1.25px;
+}
+
+.join-us-title a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Footer Section */
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    justify-content: space-evenly;
+    padding-top: 100px;
+    background-image: linear-gradient(to top, rgb(16, 16, 16), rgb(29, 29, 29));
+    height: 300px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.footer-container h3 {
+    font-size: 22px;
+    padding-bottom: 15px;
+    color: rgb(122, 182, 54);
+}
+
+.footer-container hr {
+    width: 20%;
+    border: 0;
+    height: 3px;
+    background-color: rgb(122, 182, 54);
+}
+
+.footer-container a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.footer-container p {
+    color: white;
+    font-size: 18px;
+}
+
+.footer-container .footer-green-line {
+    color: rgb(122, 182, 54);
+}
+
+.nine30-info img {
+    width: 225px;
+    height: 120px;
+    margin-top: -8px;
+}
+
+ul {
+    list-style: none;
+    line-height: 2.0;
+    padding-top: 20px;
+}
+
+.fa {
+    color: white;
+    font-size: 26px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.location {
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.phone-number {
+    align-items: center;
+}
+
+.location p {
+    display: inline-block;
+}
+
+.phone-number p {
+    display: inline-block;
+}
+
+
+/* Navbar Bottom */
+
+.navbar-bottom-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(122, 182, 54);
+    padding: 22px 0px;
+    font-family: 'Ubuntu', sans-serif;
+    align-items: center;
+}
+
+.copyright h3 {
+    font-size: 22px;
+    color: black;
+}
+
+.social-media a {
+    margin-right: 25px;
+}
+
+.social-media .fa {
+    color: black;
+    font-size: 35px;
+}
