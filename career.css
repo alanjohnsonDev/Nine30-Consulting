@@ -1,4 +1,24 @@
+/* Additions to Navbar */
 
+.checkbtn .fa {
+    font-size: 30px;
+    color: white;
+    margin: 0px;
+    float: right;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+.menu {
+    list-style-type: none;
+}
+
+
+/* Career Page */
 
 /* Hero Image */
 
