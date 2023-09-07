@@ -1,0 +1,26 @@
+
+
+/* Our Team Card */
+
+.our-team-container {
+    display: grid;
+    grid-template-columns: repeat(5, 350px);
+    height: 2500px;
+    align-items: center;
+    justify-content: center;
+    gap: 0px 100px;
+    padding: 0px 50px;
+    background-color: rgb(231, 240, 216, 0.8);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.our-team-card img {
+    width: 325px;
+    height: 450px;
+    border-radius: 20px;
+}
+
+.our-team-card h3 {
+    padding: 20px 0px 10px 20px;
+    font-size: 22px;
+}

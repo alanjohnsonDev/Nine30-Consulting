@@ -27,6 +27,10 @@
     list-style-type: none;
 }
 
+.menu li {
+    display: inline-block;
+}
+
 
 /* NAVBAR */
 
@@ -142,10 +146,9 @@
 }
 
 .hero-picture-case-studies {
-    width: 550px;
-    height: 600px;
-    border-radius: 0px 200px 0px 0px;
-    z-index: 1;
+    width: 575px;
+    height: 575px;
+    border-radius: 20px;
 }
 
 .hero-image-backshape {

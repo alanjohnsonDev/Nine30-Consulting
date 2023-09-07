@@ -3,6 +3,87 @@
     
     /* Home Page */
 
+
+    /* Responsive Navbar */
+
+    .checkbtn .fa {
+        display: block;
+    }
+
+    .menu {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color:rgb(4, 50, 73);
+        top: 150px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+
+    .checkbtn .fa {
+        font-size: 30px;
+        color: rgb(120, 177, 89);
+        float: right;
+        margin-right: 40px;
+        cursor: pointer;
+    }
+
+    .menu li {
+        display: block;
+    }
+
+    ul li {
+        padding-bottom: 30px;
+    }
+
+    .navbar a:hover {
+        background: none;
+    }
+
+    #check:checked ~ ul {
+        left: 0;
+    }
+
+    /* NavBar */
+
+    .nav-logo {
+        margin-right: 130px;
+    }
+
+    .countdown {
+        display: none;
+    }
+
+    .navbar-button {
+        display: none;
+    }
+
+    .nine30-logo {
+        height: 60px;
+        width: 100px;
+    }
+
+    .header {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        padding: 20px 0px 20px 0px;
+        overflow: hidden;
+        background-color:rgb(4, 50, 73);
+        position: fixed;
+        top: 0;
+        height: 100px;
+        width: 100%;
+        z-index: 5;
+        box-shadow: 0px 4px 10px rgb(4, 50, 73, 0.6);
+    }
+
+    .navbar {
+        margin-right: 0px;
+        text-align: center;
+    }
+
     /* Hero Title and Image */
     
     .hero-title-image {
@@ -435,9 +516,9 @@
     }
 
     .copyright h3 {
-        font-size: 12px;
+        font-size: 11px;
         color: black;
-        padding: 0px 30px 0px 10px;
+        padding: 0px 10px 0px 10px;
     }
 
     .social-media a {
@@ -448,6 +529,462 @@
         color: black;
         font-size: 20px;
     }
+
+
+
+    /* About Us Page */
+
+    .about-us-picture {
+        margin-top: 50px;
+        height: 300px;
+        width: 300px;
+        border-radius: 20px;
+    }
+    
+    .our-philosophy-container {
+        font-family: 'Ubuntu', sans-serif;
+        height: 1325px;
+        padding: 0px 30px;
+    }
+
+    .our-philosophy-container br {
+        display: none;
+    }
+    
+    .philosophy-title {
+        margin-left: 0px;
+        padding-top: 70px;
+    }
+    
+    .philosophy-title h2 {
+        font-size: 35px;
+        color: rgb(32, 72, 1);
+        padding-bottom: 20px;
+    }
+    
+    .philosophy-title p {
+        color: rgb(89, 89, 89);
+        font-size: 18px;
+    }
+    
+    .philosophy-content {
+        display: flex;
+        width: 375px;
+        flex-direction: column-reverse;
+        justify-content: center;
+        gap: 50px;
+        align-items: center;
+        padding-top: 50px;
+    }
+
+    .philosophy-content br {
+        display: none;
+    }
+    
+    .philosophy-image img {
+        height: 400px;
+        width: 400px;
+    }
+    
+    .innovate-elevate-collaborate {
+        padding-top: 50px;
+    }
+    
+    .innovate-elevate-collaborate h3 {
+        color: rgb(122, 182, 54);
+        font-size: 22px;
+        display: inline-block;
+    }
+    
+    .innovate-elevate-collaborate hr {
+        display: inline-block;
+        margin-bottom: 2px;
+        color: transparent;
+        height: 2px;
+        background-color: rgb(122, 182, 54);
+    }
+    
+    .innovate hr {
+        width: 210px;
+        margin-left: 10px;
+    }
+    
+    .elevate hr {
+        width: 220px;
+        margin-left: 10px;
+    }
+    
+    .collaborate hr {
+        width: 180px;
+        margin-left: 10px;
+    }
+    
+    .innovate-elevate-collaborate p {
+        color: black;
+        font-size: 18px;
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+
+
+
+
+    /* Core Competencies Page */
+
+    .core-comp-container {
+        height: 1450px;
+        background-color: rgb(231, 240, 216, 0.8);
+        font-family: 'Ubuntu', sans-serif;
+        padding: 0px 30px;
+    }
+
+    .core-comp-container br {
+        display: none;
+    }
+
+    .core-comp {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: normal;
+        align-items: center;
+        gap: 70px;
+    }
+
+    .core-comp-title h2 {
+        margin-left: 0px;
+        font-size: 35px;
+        color: rgb(32, 72, 1);
+        padding: 75px 0px 30px 0px;
+    }
+
+    .core-comp-image video {
+        width: 380px;
+        height: 380px;
+    }
+
+    .capabilities {
+        width: 365px;
+    }
+
+    .capabilities-info-content {
+        margin-bottom: 25px;
+    }
+
+    .capabilities-info-content h3 {
+        display: inline-block;
+        padding-bottom: 15px;
+        font-size: 22px;
+        color:rgb(4, 49, 47);
+    }
+
+    .capabilities-info-content hr {
+        display: block;
+        display: none;
+    }
+
+    .capabilities-info-content p {
+        font-size: 16px;
+        line-height: 1.2;
+        padding-bottom: 8px;
+        color:rgb(89, 89, 89);
+    }
+
+    .capabilities-info-content a {
+        text-decoration: none;
+        color:rgb(4, 49, 47);
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .capabilities-info-content span {
+        color: rgb(95, 163, 0);
+        font-weight: bold;
+    }
+
+    .capabilities-financial hr {
+        width: 320px;
+        margin-left: 10px;
+        margin-bottom: 4px;
+    }
+
+    .capabilities-project hr {
+        width: 335px;
+        margin-left: 10px;
+        margin-bottom: 4px;
+    }
+
+    .capabilities-data hr {
+        width: 408px;
+        margin-left: 10px;
+        margin-bottom: 4px;
+    }
+
+    .capabilities-acquisition hr {
+        width: 443px;
+        margin-left: 10px;
+        margin-bottom: 4px;
+    }
+
+
+
+    /* Footer Section */
+
+    .footer-container-capabilities {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 30px 0px;
+        padding-top: 50px;
+        background-color:rgb(4, 50, 73);
+        height: 1200px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    .footer-container-capabilities h3 {
+        font-size: 20px;
+        padding-bottom: 15px;
+        color: rgb(122, 182, 54);
+    }
+
+    .footer-container-capabilities hr {
+        width: 16%;
+        margin-left: 42.1%;
+        border: 0;
+        height: 3px;
+        background-color: rgb(122, 182, 54);
+        text-align: center;
+    }
+
+    .footer-container-capabilities a {
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+    }
+
+    .footer-container-capabilities p {
+        color: white;
+        font-size: 18px;
+    }
+
+
+
+
+    /* Case Studies Page */
+
+    /* Hero TITLE & VIDEO */
+
+    .hero-title-image {
+        display: flex;
+        justify-content: normal;
+        align-items: center;
+        gap: 60px;
+        padding: 0px 30px 0px 30px;
+        height: 1100px;
+    }
+
+    .hero-title-image br {
+        display: none;
+    }
+
+    .hero-text h1 {
+        font-size: 40px;
+        color:rgb(118, 216, 65);
+        font-weight: 500;
+        font-family: 'Ubuntu', sans-serif;
+        padding-top: 160px;
+    }
+
+    .hero-text p {
+        font-size: 16px;
+        color:white;
+        margin-top: 20px;
+        font-family: 'Ubuntu', sans-serif;
+        line-height: 1.3;
+    }
+
+    .hero-picture-case-studies {
+        width: 320px;
+        height: 420px;
+        border-radius: 20px;
+        z-index: 1;
+    }
+
+    .hero-image-backshape {
+        height: 400px;
+        width: 100px;
+        color: rgb(230, 233, 234);
+        z-index: 19;
+    }
+
+
+    /* Filter Navbar */
+
+    .filter-navbar {
+        background-color:rgb(4, 50, 73);
+        padding-left: 20%;
+        font-family: 'Ubuntu', sans-serif;
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+        padding-top: 15px;
+    }
+
+    .filter-navbar a {
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+        padding-right: 0px;
+        padding-bottom: 15px;
+    }
+
+    .filter-navbar .select {
+        color:rgb(118, 216, 65);
+        font-weight: bold;
+        text-decoration: underline;
+        text-underline-offset: 12px;
+    }
+
+
+    /* Case Studies Section */
+
+    .case-studies-container {
+        font-family: 'Ubuntu', sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        padding-top: 70px;
+        background-image: linear-gradient(azure 90%, rgba(233, 255, 210, 0.741));
+        padding: 70px 30px;
+    }
+
+    .case-studies-card {
+        position: relative;
+    }
+
+    .case-studies-card img {
+        height: 240px;
+        width: 375px;
+        padding-bottom: 30px;
+    }
+
+    .case-studies-card .aquisition-button {
+        border: 1px solid transparent;
+        background-color: rgb(242, 253, 25);
+        border-radius: 25px;
+        font-size: 14px;
+        padding: 8px 15px;
+        font-weight: bold;
+        font-family: 'Ubuntu', sans-serif;
+        display: block;
+    }
+
+    .case-studies-card .data-analytics-button {
+        border: 1px solid transparent;
+        background-color: rgb(145, 208, 74);
+        border-radius: 25px;
+        font-size: 14px;
+        padding: 8px 15px;
+        font-weight: bold;
+        font-family: 'Ubuntu', sans-serif;
+        display: block;
+    }
+
+    .case-studies-card .financial-management-button {
+        border: 1px solid transparent;
+        background-color: rgb(17, 209, 209);
+        border-radius: 25px;
+        font-size: 14px;
+        padding: 8px 15px;
+        font-weight: bold;
+        font-family: 'Ubuntu', sans-serif;
+        display: block;
+    }
+
+    .case-studies-card .project-management-button {
+        border: 1px solid transparent;
+        background-color: rgb(139, 172, 249);
+        border-radius: 25px;
+        font-size: 14px;
+        padding: 8px 15px;
+        font-weight: bold;
+        font-family: 'Ubuntu', sans-serif;
+        display: block;
+    }
+
+    .case-studies-card a::before {
+        content: "";
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+    }
+
+    .case-studies-card a {
+        text-decoration: none;
+        color:rgb(4, 49, 47);
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    .case-studies-card span {
+        color: rgb(95, 163, 0);
+        font-weight: bolder;
+    }
+
+    .case-studies-card h3 {
+        font-size: 22px;
+        padding: 10px 0px;
+    }
+
+    .case-studies-card p {
+        line-height: 1.25;
+        padding-bottom: 10px;
+    }
+
+
+    /* Footer Section */
+
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 30px 0px;
+        padding-top: 50px;
+        background-color:rgb(4, 50, 73);
+        height: 1050px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    .footer-container h3 {
+        font-size: 20px;
+        padding-bottom: 15px;
+        color: rgb(122, 182, 54);
+    }
+
+    .footer-container hr {
+        width: 16%;
+        margin-left: 42.1%;
+        border: 0;
+        height: 3px;
+        background-color: rgb(122, 182, 54);
+        text-align: center;
+    }
+
+    .footer-container a {
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+    }
+
+    .footer-container p {
+        color: white;
+        font-size: 18px;
+    }
+
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -456,7 +993,7 @@
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 784px) and (max-width: 991px) {
+@media only screen and (min-width: 768px) and (max-width: 991px) {
     
     
     /* Home Page */
@@ -486,8 +1023,11 @@
         cursor: pointer;
     }
 
-    ul li {
+    .menu li {
         display: block;
+    }
+
+    ul li {
         padding-bottom: 30px;
     }
 

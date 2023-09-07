@@ -5,7 +5,7 @@
 
 .hero-container {
     background-image: linear-gradient(rgb(4, 50, 73) 32%, rgba(25, 83, 61), rgb(79, 127, 45), rgb(99, 171, 66));
-    height: 700px; 
+    height: 775px; 
 }
 
 
@@ -59,6 +59,10 @@
 
 .menu {
     list-style-type: none;
+}
+
+.menu li {
+    display: inline-block;
 }
 
 .navbar a {
@@ -125,14 +129,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 190px;
+    gap: 300px;
     padding-top: 170px;
 }
 
 .hero-text h1 {
     font-size: 90px;
     color:rgb(203, 255, 175);
-    font-weight:500;
+    font-weight: 500;
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -145,8 +149,8 @@
 
 
 .hero-picture {
-    width: 700px;
-    height: 450px;
+    width: 800px;
+    height: 475px;
     border-radius: 12px;
 }
 
@@ -155,7 +159,7 @@
 
 
 .capabilities-container {
-    height: 900px;
+    height: 1000px;
     background-color: rgb(231, 240, 216, 0.8);
 }
 
@@ -195,10 +199,10 @@
     border: 1px solid white;
     background: white;
     border-radius: 10px;
-    height: 300px;
-    width: 250px;
+    height: 375px;
+    width: 310px;
     font-family: 'Ubuntu', sans-serif;
-    padding: 18px;
+    padding: 20px 30px;
     box-shadow: -2px 2px 10px rgba(204, 204, 204, 0.898);
     position: relative;
 }
@@ -219,15 +223,16 @@
 
 .capabilities-card h3 {
     color:rgb(4, 49, 47);
-    font-size: 18px;
-    margin-top: 20px;
+    font-size: 22px;
+    margin-top: 30px;
     font-weight: bold;
 }
 
 .capabilities-card p {
     color:rgb(89, 89, 89);
-    font-size: 16px;
-    margin-top: 10px;
+    font-size: 18px;
+    margin-top: 20px;
+    line-height: 1.3;
     margin-bottom: 20px;
 }
 
@@ -235,7 +240,7 @@
     text-decoration: none;
     color:rgb(4, 49, 47);
     font-weight: bold;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .capabilities-card span {
@@ -308,23 +313,25 @@
 /* Lets Talk Section */
 
 .lets-talk-container {
-    height: 1475px;
+    height: 950px;
     background-image: linear-gradient(to bottom, rgb(231, 240, 216, 0.5) 40%, rgb(177, 221, 151, 0.7) 90%);
 }
 
 .lets-talk-div {
     display: flex;
+    flex-direction: row-reverse;
     justify-content: center;
-    gap: 150px;
+    gap: 230px;
     padding-top: 120px;
     font-family: 'Ubuntu', sans-serif;
     align-items: center;
+    padding-bottom: 130px;
 }
 
 .lets-talk-image img {
     border-radius: 15px;
-    width: 800px;
-    height: 550px;
+    width: 850px;
+    height: 600px;
 }
 
 .lets-talk-title {
@@ -365,85 +372,19 @@
 }
 
 
-/* The Buzz Section */
-
-.the-buzz-div {
-    font-family: 'Ubuntu', sans-serif;
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-    padding-top: 100px;
-}
-
-.the-buzz-title {
-    padding-top: 150px;
-    margin-left: 20%;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-.the-buzz-title h4 {
-    font-size: 24px;
-    color: rgb(56, 149, 129);
-    font-weight: bold;
-}
-
-.the-buzz-title h2 {
-    font-size: 50px;
-    color: rgb(32, 72, 1);
-    padding-top: 15px;
-}
-
-.testimonial-image img {
-    width: 140px;
-    height: 140px;
-    border-radius: 20px;
-    box-shadow: -2px 2px 6px rgb(200, 200, 200);
-}
-
-
-.testimonial {
-    width: 400px;
-    border: 1px solid transparent;
-    border-radius: 20px;
-    background-color: white;
-    padding: 20px;
-    margin-bottom: 20px;
-    box-shadow: -2px 2px 10px rgb(200, 200, 200);
-}
-
-.testimonial p {
-    font-size: 20px;
-}
-
-.testimonial-image {
-    display: flex;
-    gap: 20px;
-    align-items: center;
-}
-
-.testimonial-client-info h4 {
-    font-size: 20px;
-}
-
-.testimonial-client-info p {
-    font-size: 16px;
-    line-height: 1.25;
-}
-
-
 /* Join Us Section */
 
 .join-us-container {
     display: flex;
     align-items: center;
     background-image: linear-gradient(to left, rgb(4, 50, 73), rgba(25, 83, 61), rgb(79, 127, 45), rgb(99, 171, 66) 90%);
-    height: 699px;
+    height: 759px;
     font-family: 'Ubuntu', sans-serif;
 }
 
 .join-us-image img {
-    width: 1200px;
-    height: 700px;
+    width: 105%;
+    height: 760px;
 }
 
 .join-us-title hr {

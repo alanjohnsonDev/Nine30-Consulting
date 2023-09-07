@@ -17,11 +17,15 @@
     list-style-type: none;
 }
 
+.menu li {
+    display: inline-block;
+}
+
 /* About Us Page */
 
 .about-us-picture {
-    height: 550px;
-    width: 600px;
+    height: 600px;
+    width: 480px;
     border-radius: 20px;
 }
 
