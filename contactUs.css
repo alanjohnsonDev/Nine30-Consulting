@@ -83,20 +83,15 @@
     padding: 7px;
 }
 
-#contact-form  {
+form #submit {
     display: block;
     margin-top: 20px;
     border-radius: 10px;
     padding: 12px;
+    color: white;
+    font-size: 24px;
     background-color:rgb(4, 50, 73);
     width: 416px;
-}
-
-#contact-form a {
-    text-decoration: none;
-    color: white;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 24px;
 }
 
 .contact-us-image img {
