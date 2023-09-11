@@ -74,6 +74,14 @@
                             a message and we'll respond as soon as possible.</p>
                     </div>
                     <form id="contact-form" action="https://formsubmit.co/acj155833@gmail.com" method="POST">
+                        <!-- Honeypot -->
+
+                        <input type="text" name="_honey" style="display: none;">
+
+                        <!-- Disable Captcha -->
+
+                        <input type="hidden" name="_captcha" value="false">
+
                         <label for="name">Name *</label>
                         <input type="text" id="name" name="name" required>
     
@@ -83,7 +91,7 @@
                         <label for="messageBox">Message *</label>
                         <textarea name="messageBox" id="messageBox" required></textarea>
     
-                        <button type="submit"><a href="success.html">Send Message</a></button>
+                        <input type="submit" value="submit" action="/success.html">
                     </form>
                 </div>
 
