@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body {
+    scroll-behavior: smooth;
+}
+
 .hero-container {
     background-image: linear-gradient(rgb(4, 50, 73) 32%, rgba(25, 83, 61), rgb(79, 127, 45), rgb(99, 171, 66));
     height: 775px; 
@@ -144,6 +148,7 @@
     font-size: 16px;
     color:rgb(203, 255, 175);
     margin-top: 10px;
+    line-height: 1.35;
     font-family: 'Ubuntu', sans-serif;
 }
 
