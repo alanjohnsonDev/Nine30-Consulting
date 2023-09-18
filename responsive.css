@@ -1,8 +1,1518 @@
 
 /* Extra small devices (phones, 374px max width and below) */
 @media only screen and (max-width:374px) {
+    /* Home Page */
+
+
+    /* Responsive Navbar */
+
+    .checkbtn .fa {
+        display: block;
+    }
+
+    .menu {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color:rgb(4, 50, 73);
+        top: 100px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+
+    .checkbtn .fa {
+        font-size: 30px;
+        color: rgb(120, 177, 89);
+        float: right;
+        margin-right: 40px;
+        cursor: pointer;
+    }
+
+    .menu li {
+        display: block;
+    }
+
+    ul li {
+        padding-bottom: 30px;
+    }
+
+    .navbar a:hover {
+        background: none;
+    }
+
+    #check:checked ~ ul {
+        left: 0;
+    }
+
+    /* NavBar */
+
+    .nav-logo {
+        margin-right: 50px;
+    }
+
+    .countdown {
+        display: none;
+    }
+
+    .navbar-button {
+        display: none;
+    }
+
+    .nine30-logo {
+        height: 60px;
+        width: 100px;
+    }
+
+    .header {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        padding: 20px 0px 20px 0px;
+        overflow: hidden;
+        background-color:rgb(4, 50, 73);
+        position: sticky;
+        top: 0;
+        height: 50px;
+        width: 100%;
+        z-index: 5;
+        box-shadow: 0px 4px 10px rgb(4, 50, 73, 0.6);
+    }
+
+    .navbar {
+        margin-right: 0px;
+        text-align: center;
+    }
+
+
+    /* Hero Title and Image */
+
+    .hero-container {
+        height: 620px;
+    }
+    
+    .hero-title-image {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        gap: 50px;
+        padding-top: 0px;
+        width: 250px;
+        margin: 0 auto;
+    }
+
+    .hero-title-image br {
+        display: none;
+    }
+    
+    .hero-text h1 {
+        font-size: 30px;
+        color:rgb(203, 255, 175);
+        font-weight: 500;
+        font-family: 'Ubuntu', sans-serif;
+        padding: 30px 0px 30px 0px;
+    }
+    
+    .hero-text p {
+        font-size: 14px;
+        color:rgb(203, 255, 175);
+        margin-top: 10px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    
+    
+    .hero-picture {
+        width: 250px;
+        height: 160px;
+        border-radius: 12px;
+    }
+
+
+
+    /* Capabilities Section */
+
+    .capabilities-container {
+        height: 2150px;
+        background-color: rgb(231, 240, 216, 0.8);
+    }
+    
+    .capabilities-title {
+        text-align: center;
+        padding-top: 75px;
+    }
+    
+    .capabilities-title h2 {
+        font-size: 30px;
+        color: rgb(32, 72, 1);
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    .capabilities-title br {
+        display: none;
+    }
+    
+    .capabilities-title p {
+        font-size: 16px;
+        margin-top: 30px;
+        padding: 0px 30px;
+        color: rgb(89, 89, 89);
+        font-family: 'Ubuntu', sans-serif;
+    }
+    
+    .green-line {
+        border-left: 4px solid rgb(95, 163, 0);
+        height: 80px;
+        width: 0%;
+        margin: 50px auto;
+    }
+    
+    .cards-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding-top: 20px;
+    }
+
+    .capabilities-card {
+        border: 1px solid white;
+        background: white;
+        border-radius: 10px;
+        height: 350px;
+        width: 200px;
+        font-family: 'Ubuntu', sans-serif;
+        padding: 20px 30px;
+        box-shadow: -2px 2px 10px rgba(204, 204, 204, 0.898);
+        position: relative;
+    }
+    
+    .capabilities-card a::before {
+        content: "";
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+    }
+    
+    .capabilities-card img {
+        width: 90px;
+        height: 90px;
+    }
+    
+    .capabilities-card h3 {
+        color:rgb(4, 49, 47);
+        font-size: 20px;
+        margin-top: 30px;
+        font-weight: bold;
+    }
+
+    .capabilities-card br {
+        display: none;
+    }
+    
+    .capabilities-card p {
+        color:rgb(89, 89, 89);
+        font-size: 16px;
+        margin-top: 20px;
+        line-height: 1.3;
+        margin-bottom: 20px;
+    }
+    
+    .capabilities-card a {
+        text-decoration: none;
+        color:rgb(4, 49, 47);
+        font-weight: bold;
+        font-size: 18px;
+    }
+    
+    .capabilities-card span {
+        color: rgb(95, 163, 0);
+        font-weight: bold;
+    }
+
+
+
+    /* Supporting Agencies Section */
+
+    .supporting-container {
+        height: 2050px;
+        background-color: rgb(4, 50, 73);
+    }
+
+    .supporting-title {
+        margin-left: 0px;
+        padding-top: 70px;
+    }
+
+    .supporting-title hr {
+        width: 60%;
+        border: 0;
+        height: 5px;
+        margin-left: 20%;
+        background-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgb(7, 223, 0));
+    }
+
+    .supporting-title h2 {
+        font-size: 35px;
+        color: white;
+        padding-top: 10px;
+        text-align: center;
+    }
+
+    .supporting-title br {
+        display: none;
+    }
+
+    .supporting-title p {
+        color: white;
+        padding-top: 30px;
+        font-size: 14px;
+        text-align: justify;
+        width: 260px;
+        margin: 0 auto;
+    }
+
+    .supporting-card-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px 0px;
+        padding-top: 70px;
+    }
+
+    .supporting-card {
+        display: flex;
+        gap: 20px;
+        border: 1px solid transparent;
+        background-color: rgb(236, 238, 230);
+        border-radius: 20px;
+        padding: 10px;
+        width: 250px;
+        height: 130px;
+        align-items: center;
+    }
+
+    .supporting-card img {
+        width: 110px;
+        height: 110px;
+    }
+
+    .supporting-card h3 {
+        font-size: 18px;
+    }
+
+
+
+    /* Lets Talk Section */
+
+    .lets-talk-container {
+        height: 2000px;
+        background-image: linear-gradient(to bottom, rgb(231, 240, 216, 0.5) 40%, rgb(177, 221, 151, 0.7) 90%);
+    }
+    
+    .lets-talk-div {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 95px;
+        padding-top: 120px;
+        font-family: 'Ubuntu', sans-serif;
+        align-items: center;
+    }
+    
+    .lets-talk-image img {
+        border-radius: 15px;
+        width: 260px;
+        height: 180px;
+    }
+    
+    .lets-talk-title {
+        width: auto;
+        padding: 0px 30px;
+    }
+    
+    .lets-talk-title h4 {
+        font-size: 20px;
+        color: rgb(56, 149, 129);
+        font-weight: bold;
+    }
+    
+    .lets-talk-title h2 {
+        font-size: 35px;
+        color: rgb(32, 72, 1);
+        padding-top: 15px;
+    }
+
+    .lets-talk-title br {
+        display: none;
+    }
+    
+    .lets-talk-title p {
+        font-size: 18px;
+        padding-top: 20px;
+        padding-bottom: 40px;
+        line-height: 1.25;
+        color:rgb(89, 89, 89);
+    }
+    
+    .lets-talk-title button {
+        border-radius: 20px;
+        padding: 8px;
+        background-color:rgb(4, 50, 73);
+    }
+    
+    .lets-talk-title a {
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+
+
+
+    /* Join Us Section */
+
+    .join-us-container {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: normal;
+        justify-content: space-evenly;
+        background-image: linear-gradient(to left, rgb(4, 50, 73), rgba(25, 83, 61), rgb(79, 127, 45), rgb(99, 171, 66) 90%);
+        height: 800px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    .join-us-image {
+        text-align: center;
+    }
+
+    .join-us-image img {
+        width: 260px;
+        height: 180px;
+        border-radius: 20px;
+    }
+
+    .join-us-title {
+        margin-left: 0px;
+        padding: 0px 30px;
+    }
+
+    .join-us-title br {
+        display: none;
+    }
+
+    .join-us-title h2 {
+        padding-top: 20px;
+        font-size: 35px;
+        color: white;
+        padding-bottom: 20px;
+    }
+
+    .join-us-title p {
+        color: white;
+        line-height: 1.35;
+        font-size: 16px;
+        padding-bottom: 40px;
+    }
+
+    .join-us-title button {
+        background-color: rgb(40, 140, 113);
+        color: white;
+        font-size: 20px;
+        border-radius: 20px;
+        border-color: transparent;
+        padding: 8px 14px;
+        font-family: 'Teko', sans-serif;
+        letter-spacing: 1.25px;
+    }
+
+
+
+    /* Footer Section */
+
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: normal;
+        text-align: center;
+        align-items: space-evenly;
+        gap: 40px 0px;
+        padding-top: 50px;
+        background-image: linear-gradient(to top, rgb(16, 16, 16), rgb(29, 29, 29));
+        height: 1100px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    
+    .footer-container h3 {
+        font-size: 20px;
+        padding-bottom: 15px;
+        color: rgb(122, 182, 54);
+    }
+    
+    .footer-container hr {
+        width: 18%;
+        margin-left: 41%;
+        border: 0;
+        height: 3px;
+        background-color: rgb(122, 182, 54);
+    }
+    
+    .footer-container a {
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+    }
+    
+    .footer-container p {
+        color: white;
+        font-size: 16px;
+    }
+    
+    .footer-container .footer-green-line {
+        color: rgb(122, 182, 54);
+    }
+    
+    .nine30-info img {
+        width: 125px;
+        height: 70px;
+        margin-top: 0px;
+    }
+    
+    ul {
+        list-style: none;
+        line-height: 2.0;
+        padding-top: 20px;
+    }
+    
+    .fa {
+        color: white;
+        font-size: 22px;
+        display: inline-block;
+        margin-right: 20px;
+    }
+    
+    .location {
+        align-items: center;
+        padding: 20px 0px;
+    }
+    
+    .phone-number {
+        align-items: center;
+    }
+    
+    .location p {
+        display: inline-block;
+    }
+    
+    .phone-number p {
+        display: inline-block;
+    }
+
+
+
+    /* Navbar Bottom */
+
+    .navbar-bottom-container {
+        display: flex;
+        justify-content: space-evenly;
+        background-color: rgb(122, 182, 54);
+        padding: 18px 0px;
+        font-family: 'Ubuntu', sans-serif;
+        align-items: center;
+    }
+
+    .copyright h3 {
+        font-size: 11px;
+        color: black;
+        padding: 0px 10px 0px 10px;
+    }
+
+    .social-media a {
+        margin-right: 5px;
+    }
+
+    .social-media .fa {
+        color: black;
+        font-size: 16px;
+        padding: 5px 0px;
+    }
+
+
+
+
+
+    /* About Us Page */
+
+    .hero-title-image {
+        height: 500px;
+    }
+
+    .about-us-picture {
+        margin-top: 0px;
+        height: 260px;
+        width: 240px;
+        border-radius: 20px;
+    }
+    
+    .our-philosophy-container {
+        font-family: 'Ubuntu', sans-serif;
+        height: 1300px;
+        padding: 0px 30px;
+    }
+
+    .our-philosophy-container br {
+        display: none;
+    }
+    
+    .philosophy-title {
+        margin-left: 0px;
+        padding-top: 70px;
+    }
+    
+    .philosophy-title h2 {
+        font-size: 30px;
+        color: rgb(32, 72, 1);
+        padding-bottom: 20px;
+    }
+    
+    .philosophy-title p {
+        color: rgb(89, 89, 89);
+        font-size: 16px;
+        text-align: center;
+    }
+    
+    .philosophy-content {
+        display: flex;
+        width: 100%;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        padding-top: 50px;
+    }
+
+    .philosophy-content br {
+        display: none;
+    }
+    
+    .philosophy-image img {
+        height: 280px;
+        width: 280px;
+    }
+    
+    .innovate-elevate-collaborate {
+        padding-top: 50px;
+    }
+    
+    .innovate-elevate-collaborate h3 {
+        color: rgb(122, 182, 54);
+        font-size: 20px;
+        display: inline-block;
+    }
+    
+    .innovate-elevate-collaborate hr {
+        display: inline-block;
+        margin-bottom: 2px;
+        color: transparent;
+        height: 2px;
+        background-color: rgb(122, 182, 54);
+    }
+        
+    .collaborate hr {
+        width: 70px;
+        margin-left: 10px;
+    }
+    
+    .innovate hr {
+        width: 100px;
+        margin-left: 10px;
+    }
+    
+    .elevate hr {
+        width: 100px;
+        margin-left: 10px;
+    }
+
+    
+    .innovate-elevate-collaborate p {
+        color: black;
+        font-size: 16px;
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+
+
+
+
+    /* Core Comptencies Page */
+
+    .core-comp-container {
+        height: 1350px;
+        background-color: rgb(231, 240, 216, 0.8);
+        font-family: 'Ubuntu', sans-serif;
+        padding: 0px 30px;
+    }
+
+    .core-comp-container br {
+        display: none;
+    }
+
+    .core-comp {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: normal;
+        align-items: center;
+        gap: 70px;
+    }
+
+    .core-comp-title h2 {
+        margin-left: 0px;
+        font-size: 24px;
+        color: rgb(32, 72, 1);
+        padding: 75px 0px 50px 0px;
+    }
+
+    .core-comp-image video {
+        width: 260px;
+        height: 260px;
+    }
+
+    .capabilities {
+        width: 260px;
+    }
+
+    .capabilities-info-content {
+        margin-bottom: 25px;
+    }
+
+    .capabilities-info-content h3 {
+        display: inline-block;
+        padding-bottom: 15px;
+        font-size: 20px;
+        color:rgb(4, 49, 47);
+    }
+
+    .capabilities-info-content hr {
+        display: block;
+        display: none;
+    }
+
+    .capabilities-info-content p {
+        font-size: 14px;
+        line-height: 1.2;
+        padding-bottom: 8px;
+        color:rgb(89, 89, 89);
+    }
+
+    .capabilities-info-content a {
+        text-decoration: none;
+        color:rgb(4, 49, 47);
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    .capabilities-info-content span {
+        color: rgb(95, 163, 0);
+        font-weight: bold;
+    }
+
+    .capabilities-financial hr {
+        width: 320px;
+        margin-left: 10px;
+        margin-bottom: 4px;
+    }
+
+    .capabilities-project hr {
+        width: 335px;
+        margin-left: 10px;
+        margin-bottom: 4px;
+    }
+
+    .capabilities-data hr {
+        width: 408px;
+        margin-left: 10px;
+        margin-bottom: 4px;
+    }
+
+    .capabilities-acquisition hr {
+        width: 443px;
+        margin-left: 10px;
+        margin-bottom: 4px;
+    }
+
+
+
+    /* Footer Section - Capabilities */
+
+    .footer-container-capabilities {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 30px 0px;
+        padding-top: 50px;
+        background-color:rgb(4, 50, 73);
+        height: 1200px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    .footer-container-capabilities h3 {
+        font-size: 20px;
+        padding-bottom: 15px;
+        color: rgb(122, 182, 54);
+    }
+
+    .footer-container-capabilities hr {
+        width: 16%;
+        margin-left: 42.1%;
+        border: 0;
+        height: 3px;
+        background-color: rgb(122, 182, 54);
+        text-align: center;
+    }
+
+    .footer-container-capabilities a {
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+    }
+
+    .footer-container-capabilities p {
+        color: white;
+        font-size: 18px;
+    }
+
+
+
+
+    /* Case Studies Page */
+
+    .hero-title-image br {
+        display: none;
+    }
+
+    .hero-text h1 {
+        font-size: 30px;
+        color:rgb(118, 216, 65);
+        font-weight: 500;
+        font-family: 'Ubuntu', sans-serif;
+        padding-top: 100px;
+    }
+
+    .hero-text p {
+        font-size: 14px;
+        color:white;
+        margin-top: 0px;
+        font-family: 'Ubuntu', sans-serif;
+        line-height: 1.3;
+    }
+
+    .hero-picture-case-studies {
+        width: 230px;
+        height: 270px;
+        border-radius: 20px;
+        z-index: 1;
+    }
+
+
+
+     /* Filter Navbar */
+
+     .filter-navbar {
+        background-color:rgb(4, 50, 73);
+        padding-left: 0px;
+        text-align: center;
+        font-family: 'Ubuntu', sans-serif;
+        display: flex;
+        flex-direction: column;
+        height: 260px;
+        padding-top: 65px;
+    }
+
+    .filter-navbar a {
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+        padding-right: 0px;
+        padding-bottom: 30px;
+    }
+
+    .filter-navbar .select {
+        color:rgb(118, 216, 65);
+        font-weight: bold;
+        text-decoration: underline;
+        text-underline-offset: 12px;
+    }
+
+
+
+    /* Case Studies Section */
+
+    .case-studies-container {
+        font-family: 'Ubuntu', sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        padding-top: 70px;
+        background-image: linear-gradient(azure 90%, rgba(233, 255, 210, 0.741));
+        padding: 70px 30px;
+    }
+
+    .case-studies-card {
+        position: relative;
+    }
+
+    .case-studies-card img {
+        height: 190px;
+        width: 260px;
+        padding-bottom: 30px;
+    }
+
+    .case-studies-card .aquisition-button {
+        border: 1px solid transparent;
+        background-color: rgb(242, 253, 25);
+        border-radius: 25px;
+        font-size: 14px;
+        padding: 8px 15px;
+        font-weight: bold;
+        font-family: 'Ubuntu', sans-serif;
+        display: block;
+    }
+
+    .case-studies-card .data-analytics-button {
+        border: 1px solid transparent;
+        background-color: rgb(145, 208, 74);
+        border-radius: 25px;
+        font-size: 14px;
+        padding: 8px 15px;
+        font-weight: bold;
+        font-family: 'Ubuntu', sans-serif;
+        display: block;
+    }
+
+    .case-studies-card .financial-management-button {
+        border: 1px solid transparent;
+        background-color: rgb(17, 209, 209);
+        border-radius: 25px;
+        font-size: 14px;
+        padding: 8px 15px;
+        font-weight: bold;
+        font-family: 'Ubuntu', sans-serif;
+        display: block;
+    }
+
+    .case-studies-card .project-management-button {
+        border: 1px solid transparent;
+        background-color: rgb(139, 172, 249);
+        border-radius: 25px;
+        font-size: 14px;
+        padding: 8px 15px;
+        font-weight: bold;
+        font-family: 'Ubuntu', sans-serif;
+        display: block;
+    }
+
+    .case-studies-card a::before {
+        content: "";
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+    }
+
+    .case-studies-card a {
+        text-decoration: none;
+        color:rgb(4, 49, 47);
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    .case-studies-card span {
+        color: rgb(95, 163, 0);
+        font-weight: bolder;
+    }
+
+    .case-studies-card h3 {
+        font-size: 20px;
+        padding: 20px 0px 10px 0px;
+    }
+
+    .case-studies-card p {
+        line-height: 1.25;
+        padding-bottom: 10px;
+    }
+
+
+
+    
+
+
+    /* Our History Page */
+
+    /* Hero Container */
+
+    .hero-container-history {
+        height: 800px; 
+        background-image: linear-gradient(to bottom, rgb(4, 50, 73) 50%, rgb(74, 135, 165));
+    }
+
+
+    /* Header */
+
+    .header {
+        position: sticky;
+    }
+
+
+    /* Hero Section */
+
+    .hero-title-image-history {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+        padding-top: 0px;
+        padding-bottom: 70px;
+        margin: 0 auto;
+    }
+
+    .hero-title-image-history {
+        text-align: center;
+        width: 260px;
+    }
+
+    .hero-text .hero-title-history {
+        font-size: 35px;
+    }
+
+    .hero-title-image-history p {
+        font-size: 14px;
+    }
+
+    .hero-title-image-history br {
+        display: none;
+    }
+
+
+
+    /* Timeline Section */
+
+    .timeline-container {
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    .nine-30-img {
+        width: 250px;
+        height: 150px;
+        padding-bottom: 40px;
+        margin-top: 10px;
+        border-radius: 30px;
+    }
+
+    .timeline {
+        display: flex;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        flex-direction: column;
+        max-width: 700px;
+        position: relative;
+    }
+
+    .timeline-content {
+        padding-top: 50px;
+    }
+
+    .timeline-content-title {
+        font-weight: normal;
+        font-size: 30px;
+        margin: -10px 0 0 0;
+        transition: 0.4s;
+        padding: 0 10px;
+        box-sizing: border-box;
+        color: #fff;
+    }
+
+    .timeline-content-desc {
+        margin: 0;
+        font-size: 14px;
+        box-sizing: border-box;
+        color: rgba(255, 255, 255, .7);
+        font-weight: normal;
+        line-height: 20px;
+    }
+
+    .timeline:before {
+        position: absolute;
+        left: 50%;
+        width: 2px;
+        height: 100%;
+        margin-left: -1px;
+        content: "";
+        background: rgba(255, 255, 255, .07);
+    }
+
+    @media only screen and (max-width: 767px) {
+        .timeline:before {
+            left: 40px;
+        }
+    }
+
+    .timeline-item {
+        padding: 40px 0;
+        opacity: 0.3;
+        filter: blur(2px);
+        transition: 0.5s;
+        box-sizing: border-box;
+        width: calc(50% - 40px);
+        display: flex;
+        position: relative;
+        transform: translateY(-150px);
+    }
+
+    .timeline-item:before {
+        content: attr(data-text);
+        letter-spacing: 3px;
+        width: 100%;
+        position: absolute;
+        color: rgba(255, 255, 255, .5);
+        font-size: 13px;
+        border-left: 2px solid rgba(255, 255, 255, .5);
+        top: 70%;
+        margin-top: -5px;
+        padding-left: 15px;
+        opacity: 0;
+        right: calc(-100% - 56px);
+    }
+
+    .timeline-item:nth-child(even) {
+        align-self: flex-end;
+    }
+
+    .timeline-item:nth-child(even):before {
+        right: auto;
+        text-align: right;
+        left: calc(-100% - 56px);
+        padding-left: 0;
+        border-left: none;
+        border-right: 2px solid rgba(255, 255, 255, .5);
+        padding-right: 15px;
+    }
+
+    .timeline-item--active {
+        opacity: 1;
+        transform: translateY(30px);
+        filter: blur(0px);
+    }
+
+    .time-line--active:before {
+        top: 50%;
+        transition: 0.3s all 0.2s;
+        opacity: 1;
+    }
+
+    /* .timeline-item--active .timeline-content-title {
+        margin: -50px 0 20px 0;
+    } */
+
+    @media only screen and (max-width: 767px) {
+        .timeline-item {
+            align-self: basline !important;
+            width: 100%;
+            padding: 0 30px 150px 80px;
+        }
+
+        .timeline-item:before {
+            left: 10px !important;
+            padding: 0 !important;
+            top: 50px;
+            text-align: center !important;
+            width: 60px;
+            border: none !important;
+        }
+
+        .timeline-item:last-child {
+            padding-bottom: 40px;
+        }
+    }
+
+    .timeline-img {
+        width: 160px;
+        height: 160px;
+        box-shadow: none;
+        padding-bottom: 20px;
+    }
+
+    .timeline .office-space {
+        width: 180px;
+        height: 160px;
+    }
+
+    .timeline-container {
+        width: 100%;
+        position: relative;
+        padding: 80px 0;
+        transition: 0.3s ease 0s;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    .timeline-container:before {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(to bottom, rgb(74, 135, 165) 90%, rgb(4, 50, 73));
+        content: "";
+    }
+
+    .timeline-header {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 80px;
+        position: relative;
+    }
+
+    .timeline-header-title {
+        color: #fff;
+        font-size: 45px;
+        font-weight: normal;
+        margin: 0;
+    }
+
+    .timeline-header-subtitle {
+        color: rgba(255, 255, 255, .5);
+        font-size: 18px;
+        letter-spacing: 3px;
+        margin: 10px 0 40px 0;
+        font-weight: normal;
+    }
+
+    .demo-footer {
+        padding: 60px 0;
+        text-align: center;
+    }
+
+    .demo-footer a {
+        color: #999;
+        display: inline-block;
+        font-family: Cardo;
+    }
+
+
+
+    /* Join Our Team Section */
+
+    .join-our-team-container {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 650px;
+        gap: 70px;
+        background-color: rgb(4, 50, 73);
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    .join-image img {
+        height: 170px;
+        width: 260px;
+        border-radius: 20px;
+    }
+
+    .join-our-team-text {
+        width: 260px;
+    }
+
+    .join-our-team-text br {
+        display: none;
+    }
+
+    .join-our-team-text h2 {
+        color: rgb(122, 182, 54);
+        font-size: 28px;
+        padding-bottom: 30px;
+    }
+
+    .join-our-team-text p {
+        font-size: 16px;
+        line-height: 1.3;
+        color: white;
+        padding-bottom: 30px;
+    }
+
+    .join-our-team-text a {
+        background-color: rgb(40, 140, 113);
+        color: white;
+        font-size: 22px;
+        border-radius: 20px;
+        border-color: transparent;
+        padding: 7px 12px;
+        letter-spacing: 1.25px;
+        text-decoration: none;
+        font-family: 'Teko', sans-serif;
+    }
+
+
+
+    /* Footer Section */
+
+    .footer-container-history {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 30px 0px;
+        padding-top: 50px;
+        background-color:rgb(4, 50, 73);
+        height: 1050px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    .footer-container-history h3 {
+        font-size: 20px;
+        padding-bottom: 15px;
+        color: rgb(122, 182, 54);
+    }
+
+    .footer-container-history hr {
+        width: 16%;
+        margin-left: 42.1%;
+        border: 0;
+        height: 3px;
+        background-color: rgb(122, 182, 54);
+        text-align: center;
+    }
+
+    .footer-container-history a {
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+    }
+
+    .footer-container-history p {
+        color: white;
+        font-size: 18px;
+    }
+
+
+
+
+
+    /* Our Team Page */
+
+    .our-team-container {
+        display: flex;
+        flex-direction: column;
+        height: 7000px;
+        align-items: center;
+        justify-content: center;
+        gap: 50px 100px;
+        padding: 100px 50px;
+        background-color: rgb(231, 240, 216, 0.8);
+        font-family: 'Ubuntu', sans-serif;
+    }
+    
+    .our-team-card {
+        position: relative;
+        width: 100%;
+    }
+    
+    .our-team-card img {
+        display: block;
+        width: 180px;
+        height: 280px;
+        border-radius: 20px;
+        margin: 0 auto;
+    }
+    
+    .overlay {
+       display: none;
+    }
+    
+    .text {
+        color: white;
+        font-size: 12px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: unset;
+    }
+    
+    .our-team-card h3 {
+        text-align: center;
+        padding: 20px 0px;
+        font-size: 20px;
+    }
+
+
+
+
+
+    /* Contact Us Page */
+
+    .hero-container-about-us {
+        height: 650px;
+    }
+
+    .hero-text h1 {
+        padding-top: 0px;
+    }
+
+    .hero-title-image-contact-us {
+        text-align: center;
+        padding-top: 0px;
+    }
+
+    .hero-title-image-contact-us img {
+        width: 260px;
+        height: 180px;
+    }
+
+    .contact-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 0px;
+        align-items: center;
+        height: 700px;
+        background-color: white;
+    }
+    
+    
+    .contact-us-container {
+        font-family: 'Ubuntu', sans-serif;
+        border: 1px solid black;
+        padding: 30px;
+        border-radius: 20px;
+        width: 200px;
+        background-color: rgb(231, 240, 216, 0.8);
+    }
+    
+    .contact-us-title {
+        text-align: center;
+    }
+
+    .contact-us-title br {
+        display: none;
+    }
+    
+    .contact-us-title h2 {
+        font-size: 30px;
+        color: rgb(32, 72, 1);
+    }
+    
+    .contact-us-title p {
+        margin: 20px 0px 30px 0px;
+        color: rgb(89, 89, 89);
+        font-size: 16px;
+        line-height: 1.3;
+    }
+    
+    #contact-form label {
+        display: block;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 18px;
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
+    
+    #contact-form input {
+        font-size: 18px;
+        width: 190px;
+        display: block;
+        padding: 7px;
+        border-radius: 10px;
+    }
+    
+    #contact-form textarea {
+        border-radius: 10px;
+        width: 190px;
+        height: 80px;
+        font-size: 16px;
+        padding: 7px;
+    }
+    
+    form #submit {
+        display: block;
+        margin-top: 20px;
+        border-radius: 10px;
+        padding: 12px;
+        color: white;
+        font-size: 18px;
+        background-color:rgb(4, 50, 73);
+        width: 205px;
+    }
+    
+    .contact-us-image img {
+        display: none;
+    }
+
+
+
+    /* Success Page */
+    
+    
+    .hero-title-image-success {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 95px;
+        padding-top: 70px;
+        width: 260px;
+        margin: 0 auto;
+    }
+
+    .hero-text-success br {
+        display: none;
+    }
+    
+    .hero-text-success h1 {
+        font-size: 40px;
+        color:rgb(203, 255, 175);
+        font-weight: 500;
+        font-family: 'Ubuntu', sans-serif;
+        text-align: center;
+    }
+    
+    .hero-text-success p {
+        font-size: 16px;
+        color:rgb(203, 255, 175);
+        margin-top: 10px;
+        font-family: 'Ubuntu', sans-serif;
+        line-height: 1.5;
+        text-align: center;
+    }
+    
+    
+    .hero-picture-success {
+        width: 260px;
+        height: 200px;
+        border-radius: 12px;
+    }
 
 }
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -124,8 +1634,8 @@
     
     
     .hero-picture {
-        width: 300px;
-        height: 220px;
+        width: 360px;
+        height: 250px;
         border-radius: 12px;
     }
 
@@ -313,72 +1823,6 @@
     }
 
 
-    /* The Buzz Section */
-
-    .the-buzz-div {
-        font-family: 'Ubuntu', sans-serif;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: left;
-        gap: 40px;
-        padding-top: 70px;
-    }
-
-    .the-buzz-title {
-        padding: 100px 30px 0px 30px;
-        margin-left: 0px;
-        font-family: 'Ubuntu', sans-serif;
-    }
-
-    .the-buzz-title h4 {
-        font-size: 20px;
-        color: rgb(56, 149, 129);
-        font-weight: bold;
-    }
-
-    .the-buzz-title h2 {
-        font-size: 35px;
-        color: rgb(32, 72, 1);
-        padding-top: 15px;
-    }
-
-    .testimonial-image img {
-        width: 100px;
-        height: 100px;
-        border-radius: 20px;
-        box-shadow: -2px 2px 6px rgb(200, 200, 200);
-    }
-
-
-    .testimonial {
-        width: 350px;
-        border: 1px solid transparent;
-        border-radius: 20px;
-        background-color: white;
-        padding: 20px;
-        margin-bottom: 20px;
-        box-shadow: -2px 2px 10px rgb(200, 200, 200);
-    }
-
-    .testimonial p {
-        font-size: 16px;
-    }
-
-    .testimonial-image {
-        display: flex;
-        gap: 20px;
-        align-items: center;
-    }
-
-    .testimonial-client-info h4 {
-        font-size: 18px;
-    }
-
-    .testimonial-client-info p {
-        font-size: 14px;
-        line-height: 1.25;
-    }
 
 
     /* Join Us Section */
@@ -1009,7 +2453,7 @@
     /* Hero Container */
 
     .hero-container-history {
-        height: 850px; 
+        height: 800px; 
         background-image: linear-gradient(to bottom, rgb(4, 50, 73) 50%, rgb(74, 135, 165));
     }
 
@@ -1025,15 +2469,30 @@
 
     .hero-title-image-history {
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 300px;
-        padding-top: 50px;
+        gap: 100px;
+        padding-top: 0px;
         padding-bottom: 100px;
+        margin: 0 auto;
+    }
+
+    .hero-title-image-history {
+        text-align: center;
+        width: 360px;
     }
 
     .hero-text .hero-title-history {
-        font-size: 70px;
+        font-size: 40px;
+    }
+
+    .hero-title-image-history p {
+        font-size: 14px;
+    }
+
+    .hero-title-image-history br {
+        display: none;
     }
 
 
@@ -1044,9 +2503,9 @@
     }
 
     .nine-30-img {
-        width: 350px;
-        height: 175px;
-        padding-bottom: 20px;
+        width: 300px;
+        height: 170px;
+        padding-bottom: 40px;
         margin-top: 10px;
         border-radius: 30px;
     }
@@ -1066,7 +2525,7 @@
 
     .timeline-content-title {
         font-weight: normal;
-        font-size: 66px;
+        font-size: 40px;
         margin: -10px 0 0 0;
         transition: 0.4s;
         padding: 0 10px;
@@ -1178,8 +2637,8 @@
     }
 
     .timeline-img {
-        width: 250px;
-        height: 250px;
+        width: 200px;
+        height: 200px;
         box-shadow: 0 10px 15px rgba(70, 129, 156, 0.3);
         padding-bottom: 20px;
     }
@@ -1217,15 +2676,15 @@
 
     .timeline-header-title {
         color: #fff;
-        font-size: 58px;
+        font-size: 45px;
         font-weight: normal;
         margin: 0;
     }
 
     .timeline-header-subtitle {
         color: rgba(255, 255, 255, .5);
-        font-size: 24px;
-        letter-spacing: 5px;
+        font-size: 20px;
+        letter-spacing: 3px;
         margin: 10px 0 0 0;
         font-weight: normal;
     }
@@ -1248,31 +2707,36 @@
 
     .join-our-team-container {
         display: flex;
+        flex-direction: column-reverse;
         justify-content: space-evenly;
         align-items: center;
-        height: 600px;
+        height: 900px;
         background-color: rgb(4, 50, 73);
         font-family: 'Ubuntu', sans-serif;
     }
 
     .join-image img {
-        height: 450px;
-        width: 700px;
+        height: 300px;
+        width: 360px;
         border-radius: 20px;
     }
 
     .join-our-team-text {
-        width: 700px;
+        width: 360px;
+    }
+
+    .join-our-team-text br {
+        display: none;
     }
 
     .join-our-team-text h2 {
         color: rgb(122, 182, 54);
-        font-size: 36px;
+        font-size: 32px;
         padding-bottom: 30px;
     }
 
     .join-our-team-text p {
-        font-size: 22px;
+        font-size: 18px;
         line-height: 1.3;
         color: white;
         padding-bottom: 30px;
@@ -1281,7 +2745,7 @@
     .join-our-team-text a {
         background-color: rgb(40, 140, 113);
         color: white;
-        font-size: 28px;
+        font-size: 22px;
         border-radius: 20px;
         border-color: transparent;
         padding: 7px 12px;
@@ -1294,26 +2758,29 @@
     /* Footer Section */
 
     .footer-container-history {
-        display: grid;
-        grid-template-columns: repeat(4, 300px);
-        justify-content: space-evenly;
-        padding-top: 45px;
-        background-color: rgb(4, 50, 73);
-        height: 300px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 30px 0px;
+        padding-top: 50px;
+        background-color:rgb(4, 50, 73);
+        height: 1050px;
         font-family: 'Ubuntu', sans-serif;
     }
 
     .footer-container-history h3 {
-        font-size: 22px;
+        font-size: 20px;
         padding-bottom: 15px;
         color: rgb(122, 182, 54);
     }
 
     .footer-container-history hr {
-        width: 20%;
+        width: 16%;
+        margin-left: 42.1%;
         border: 0;
         height: 3px;
         background-color: rgb(122, 182, 54);
+        text-align: center;
     }
 
     .footer-container-history a {
@@ -1327,10 +2794,6 @@
         font-size: 18px;
     }
 
-    .footer-container-history .footer-green-line {
-        color: rgb(122, 182, 54);
-    }
-
 
 
 
@@ -1340,7 +2803,7 @@
     .our-team-container {
         display: flex;
         flex-direction: column;
-        height: 7200px;
+        height: 7300px;
         align-items: center;
         justify-content: center;
         gap: 50px 100px;
@@ -1387,14 +2850,31 @@
 
 
 
+
+
     /* Contact Us Page */
+
+    .hero-text h1 {
+        padding-top: 70px;
+    }
+
+    .hero-title-image-contact-us {
+        text-align: center;
+        padding-top: 0px;
+    }
+
+    .hero-title-image-contact-us img {
+        width: 360px;
+        height: 250px;
+    }
 
     .contact-section {
         display: flex;
+        flex-direction: column;
         justify-content: center;
-        gap: 350px;
+        gap: 70px;
         align-items: center;
-        height: 750px;
+        height: 950px;
         background-color: white;
     }
     
@@ -1404,11 +2884,16 @@
         border: 1px solid black;
         padding: 30px;
         border-radius: 20px;
+        width: 360px;
         background-color: rgb(231, 240, 216, 0.8);
     }
     
     .contact-us-title {
         text-align: center;
+    }
+
+    .contact-us-title br {
+        display: none;
     }
     
     .contact-us-title h2 {
@@ -1433,7 +2918,7 @@
     
     #contact-form input {
         font-size: 20px;
-        width: 400px;
+        width: 345px;
         display: block;
         padding: 7px;
         border-radius: 10px;
@@ -1441,7 +2926,7 @@
     
     #contact-form textarea {
         border-radius: 10px;
-        width: 400px;
+        width: 345px;
         height: 100px;
         font-size: 18px;
         padding: 7px;
@@ -1455,12 +2940,12 @@
         color: white;
         font-size: 24px;
         background-color:rgb(4, 50, 73);
-        width: 416px;
+        width: 360px;
     }
     
     .contact-us-image img {
-        height: 260px;
-        width: 450px;
+        height: 160px;
+        width: 320px;
     }
     
     
@@ -1469,14 +2954,21 @@
     
     .hero-title-image-success {
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 190px;
+        gap: 70px;
         padding-top: 170px;
+        width: 350px;
+        margin: 0 auto;
+    }
+
+    .hero-text-success br {
+        display: none;
     }
     
     .hero-text-success h1 {
-        font-size: 90px;
+        font-size: 40px;
         color:rgb(203, 255, 175);
         font-weight:500;
         font-family: 'Ubuntu', sans-serif;
@@ -1484,7 +2976,7 @@
     }
     
     .hero-text-success p {
-        font-size: 20px;
+        font-size: 16px;
         color:rgb(203, 255, 175);
         margin-top: 10px;
         font-family: 'Ubuntu', sans-serif;
@@ -1494,8 +2986,8 @@
     
     
     .hero-picture-success {
-        width: 700px;
-        height: 450px;
+        width: 360px;
+        height: 240px;
         border-radius: 12px;
     }
 }
@@ -2739,7 +4231,17 @@
 
 
 
-/* Large devices (laptops/desktops, 992px and up) */
+
+
+
+
+
+
+
+
+
+
+/* Large devices (laptops/desktops, 1051px to 1919px) */
 @media only screen and (min-width: 1051px) and (max-width: 1919px) {
 
     /* Home Page */
