@@ -22,8 +22,256 @@
 
 /* Hero Image */
 
+.hero-title-image {
+    gap: 200px;
+}
+
 .hero-picture-career {
     height: 450px;
     width: 700px;
     border-radius: 20px;
+}
+
+
+/* Benefits Section */
+
+.benefits-container {
+    font-family: 'Ubuntu', sans-serif;
+    height: 1550px;
+    background-color: rgb(231, 240, 216, 0.8);
+}
+
+.benefits-title {
+    padding: 100px 0px 70px 0px;
+    margin-left: 15%;
+}
+
+.benefits-title h2 {
+    font-size: 50px;
+    padding-bottom: 40px;
+    color: rgb(32, 72, 1);
+}
+
+.benefits-title p {
+    font-size: 22px;
+    color: rgb(89, 89, 89);
+}
+
+.benefits-card-container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4, 350px);
+    gap: 50px 90px;
+}
+
+.benefits-card {
+    border: 1px solid transparent;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px rgb(199, 199, 199);
+    width: 350px;
+    height: 280px;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    transition: all .5s ease-in;
+    background-color: white;
+}
+
+.benefits-card img {
+    padding-top: 20px;
+    height: 150px;
+    width: 150px;
+}
+
+.benefits-card h4 {
+    font-size: 24px;
+    padding-top: 25px;
+}
+
+
+
+/* Overlay */
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    border-radius: 20px;
+    background-color: rgba(4, 50, 73, 0.9);
+}
+
+.benefits-card:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    font-size: 21px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    line-height: 1.4;
+    font-weight: 600;
+    letter-spacing: 2px;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+
+/* Diversity Section */
+
+.diversity-container {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.diversity-title-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 190px;
+    height: 800px;
+}
+
+.diversity-title {
+    width: 550px;
+    text-align: left;
+}
+
+.diversity-title h2 {
+    font-size: 50px;
+    color: rgb(32, 72, 1);
+    padding-bottom: 30px;
+}
+
+.diversity-title p {
+    font-size: 20px;
+    color:rgb(89, 89, 89);
+    padding-bottom: 20px;
+}
+
+.diversity-list .fa {
+    color:rgb(32, 72, 1);
+    font-size: 28px;
+}
+
+.diversity-list li {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.diversity-image img {
+    height: 650px;
+    width: 900px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgb(184, 190, 174);
+}
+
+
+
+/* Community Section */
+
+.community-container {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.community-title-content {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 190px;
+    padding-top: 75px;
+    height: 800px;
+}
+
+.community-title {
+    width: 550px;
+    text-align: left;
+}
+
+.community-title h2 {
+    font-size: 50px;
+    color: rgb(32, 72, 1);
+    padding-bottom: 30px;
+}
+
+.community-title p {
+    font-size: 20px;
+    color:rgb(89, 89, 89);
+    padding-bottom: 20px;
+}
+
+.community-list .fa {
+    color:rgb(32, 72, 1);
+    font-size: 28px;
+}
+
+.community-list li {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.community-image img {
+    height: 650px;
+    width: 900px;
+    border-radius: 20px;
+    box-shadow: -2px -2px -12px rgb(184, 190, 174);
+}
+
+
+
+/* Apply Section */
+
+.apply-container {
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+    margin-top: 200px;
+    padding-bottom: 60px;
+    background-color: rgb(231, 240, 216, 0.8);
+}
+
+.apply-image img {
+    height: 600px;
+    width: 700px;
+    border-radius: 20px;
+    margin-top: -70px;
+    box-shadow: 2px 2px 12px rgb(184, 190, 174);
+}
+
+.apply-title {
+    width: 550px;
+}
+
+.apply-title h2 {
+    font-size: 45px;
+    padding-bottom: 30px;
+    color:rgb(32, 72, 1);
+}
+
+.apply-title p {
+    font-size: 20px;
+    color:rgb(89, 89, 89);
+    padding-bottom: 40px;
+}
+
+.apply-title a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid transparent;
+    padding: 12px 14px;
+    font-size: 26px;
+    border-radius: 20px;
+    background-color:rgba(4, 50, 73, 0.9);
 }

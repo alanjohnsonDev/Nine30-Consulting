@@ -1,0 +1,199 @@
+/* Additions to Navbar */
+
+.checkbtn .fa {
+    font-size: 30px;
+    color: white;
+    margin: 0px;
+    float: right;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+.menu {
+    list-style-type: none;
+}
+
+
+
+
+/* Open Jobs Page */
+
+.open-jobs-container {
+    display: flex;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.open-job1 {
+    background-color: rgb(231, 240, 216, 0.8);
+    height: 1400px;
+}
+
+.open-job2 {
+    background-color: rgb(255, 255, 255);
+    height: 1300px;
+}
+
+.open-job3 {
+    background-color: rgb(231, 240, 216, 0.8);
+    height: 1150px;
+}
+
+.open-job4 {
+    background-color: rgb(255, 255, 255);
+    height: 1060px;
+}
+
+.open-job {
+    text-align: justify;
+    margin: 0 auto;
+}
+
+.open-job-title {
+    font-size: 45px;
+    color: rgb(32, 72, 1);
+    padding: 100px 0px 40px 0px;
+}
+
+.open-job-subtitle {
+    font-size: 26px;
+    padding-bottom: 30px;
+}
+
+.open-job p {
+    font-size: 22px;
+    padding-bottom: 30px;
+    line-height: 1.4;
+}
+
+.open-job ul {
+    padding-bottom: 70px;
+}
+
+.open-job li {
+    list-style-type: square;
+    margin-left: 30px;
+    padding-left: 8px;
+    font-size: 22px;
+    line-height: 1.6;
+}
+
+.open-job a {
+    text-decoration: none;
+    font-size: 28px;
+    padding: 12px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    color: white;
+    background-color: rgba(4, 50, 73);
+}
+
+
+/* Apply Form */
+
+.apply-form-container {
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    height: 1450px;
+    background-color: rgb(231, 240, 216, 0.8);
+}
+
+.apply-form {
+    margin: 0 auto;
+    width: 920px;
+    border: 1px solid transparent;
+    box-shadow: 2px 2px 20px rgb(172, 172, 172);
+    border-radius: 30px;
+    padding: 30px;
+    background-color: rgb(252, 252, 252);
+}
+
+.apply-form h2 {
+    font-size: 40px;
+    padding: 30px 0px 20px 0px;
+    color:rgb(32, 72, 1);
+}
+
+.apply-form p {
+    padding: 0px 0px 20px 5px;
+}
+
+.apply-form span {
+    color: red;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.apply-form h3 {
+    font-size: 24px;
+}
+
+.apply-form label {
+    font-size: 22px;
+    font-weight: 700;
+    padding-left: 5px;
+}
+
+.apply-form input {
+    padding: 12px 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(189, 189, 189);
+    font-size: 20px;
+    color:rgb(133, 133, 133);
+}
+
+.apply-form .job-subtitle {
+    font-size: 24px;
+}
+
+.apply-form #myFile {
+    width: 886px;
+}
+
+.apply-form .submit {
+    width: 908px;
+    background-color: rgba(4, 50, 73);
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.apply-form .max-width-input {
+    width: 430px;
+}
+
+.apply-form .street-address {
+    width: 96.5%;
+    margin-bottom: 10px;
+}
+
+.apply-form .address2 {
+    width: 278.5px;
+}
+
+.apply-form hr {
+    margin: 10px 0px 30px 0px;
+    width: 908px;
+    height: 2px;
+    background-color:black;
+    font-weight: 800;
+}
+
+[type="radio"] {
+    height: 20px;
+    width: 20px;
+    padding-bottom: 20px;
+}
+
+.apply-form .radio-text {
+    padding-left: 20px;
+    color: black;
+    font-weight: 500;
+
+}
