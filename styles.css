@@ -20,7 +20,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px 0px 20px 0px;
+    padding: 12px 0px 10px 0px;
     overflow: hidden;
     background-color:rgb(4, 50, 73);
     position: fixed;
@@ -39,8 +39,8 @@ body {
 }
 
 .nine30-logo {
-    width: 160px;
-    height: 80px;
+    width: 140px;
+    height: 70px;
 }
 
 .navbar {
@@ -73,7 +73,7 @@ body {
     text-decoration: none;
     font-size: 28px;
     color: rgb(225, 225, 225);
-    padding: 30px;
+    padding: 0px 20px 20px 20px;
     font-family: 'Teko', sans-serif;
     letter-spacing: 1.25px;
 }
@@ -312,6 +312,11 @@ body {
 
 .supporting-card h3 {
     font-size: 30px;
+}
+
+.SCMS-logo img {
+    height: 140px;
+    width: 200px;
 }
 
 

@@ -3006,6 +3006,17 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 /* Medium devices (portrait tablets, 700px and up) */
 @media only screen and (min-width: 700px) and (max-width: 1050px) {
     
@@ -4224,6 +4235,331 @@
         height: 250px;
         border-radius: 12px;
     }
+
+
+
+
+
+
+
+    /* Career Page */
+
+    /* Hero Image */
+
+    .hero-title-image {
+        gap: 90px;
+        padding-top: 40px;
+        height: 700px;
+    }
+
+    .hero-picture-career {
+        height: 280px;
+        width: 430px;
+        border-radius: 20px;
+    }
+
+
+    /* Benefits Section */
+
+    .benefits-container {
+        font-family: 'Ubuntu', sans-serif;
+        height: 2600px;
+        background-color: rgb(231, 240, 216, 0.8);
+    }
+
+    .benefits-title {
+        padding: 100px 0px 70px 0px;
+        margin: 0 auto;
+        width: 400px;
+    }
+
+    .benefits-title br {
+        display: none;
+    }
+
+    .benefits-title h2 {
+        font-size: 30px;
+        padding-bottom: 40px;
+        color: rgb(32, 72, 1);
+    }
+
+    .benefits-title p {
+        font-size: 22px;
+        color: rgb(89, 89, 89);
+    }
+
+    .benefits-card-container {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(2, 240px);
+        gap: 50px 20px;
+    }
+
+    .benefits-card {
+        border: 1px solid transparent;
+        border-radius: 20px;
+        box-shadow: 2px 2px 10px rgb(199, 199, 199);
+        width: 200px;
+        height: 240px;
+        text-align: center;
+        padding: 20px;
+        position: relative;
+        transition: all .5s ease-in;
+        background-color: white;
+    }
+
+    .benefits-card img {
+        padding-top: 20px;
+        height: 100px;
+        width: 100px;
+    }
+
+    .benefits-card h4 {
+        font-size: 20px;
+        padding-top: 25px;
+    }
+
+
+
+    /* Overlay */
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        border-radius: 20px;
+        background-color: rgba(4, 50, 73, 0.9);
+    }
+
+    .benefits-card:hover .overlay {
+        opacity: 1;
+    }
+
+    .text {
+        color: white;
+        font-size: 16px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        line-height: 1.2;
+        font-weight: 600;
+        letter-spacing: 2px;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+
+
+    /* Diversity Section */
+
+    .diversity-container {
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    .diversity-title-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 70px;
+        height: 1200px;
+    }
+
+    .diversity-title {
+        width: 400px;
+        text-align: left;
+    }
+
+    .diversity-title br {
+        display: none;
+    }
+
+    .diversity-title h2 {
+        font-size: 30px;
+        color: rgb(32, 72, 1);
+        padding-bottom: 30px;
+    }
+
+    .diversity-title p {
+        font-size: 18px;
+        color:rgb(89, 89, 89);
+        padding-bottom: 20px;
+    }
+
+    .diversity-list .fa {
+        color:rgb(32, 72, 1);
+        font-size: 28px;
+    }
+
+    .diversity-list li {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .diversity-image img {
+        height: 280px;
+        width: 400px;
+        border-radius: 20px;
+        box-shadow: 2px 2px 12px rgb(184, 190, 174);
+    }
+
+
+
+    /* Community Section */
+
+    .community-container {
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    .community-title-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 70px;
+        padding-top: 75px;
+        height: 800px;
+    }
+
+    .community-title {
+        width: 400px;
+        text-align: left;
+    }
+
+    .community-title br {
+        display: none;
+    }
+
+    .community-title h2 {
+        font-size: 30px;
+        color: rgb(32, 72, 1);
+        padding-bottom: 30px;
+    }
+
+    .community-title p {
+        font-size: 18px;
+        color:rgb(89, 89, 89);
+        padding-bottom: 20px;
+    }
+
+    .community-list .fa {
+        color:rgb(32, 72, 1);
+        font-size: 28px;
+    }
+
+    .community-list li {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .community-image img {
+        height: 280px;
+        width: 400px;
+        border-radius: 20px;
+        box-shadow: -2px -2px -12px rgb(184, 190, 174);
+    }
+
+
+
+    /* Apply Section */
+
+    .apply-container {
+        font-family: 'Ubuntu', sans-serif;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+        height: 800px;
+        margin-top: 200px;
+        padding-bottom: 60px;
+        background-color: rgb(231, 240, 216, 0.8);
+    }
+
+    .apply-image img {
+        height: 400px;
+        width: 400px;
+        border-radius: 20px;
+        margin-top: 0px;
+        box-shadow: 2px 2px 12px rgb(184, 190, 174);
+    }
+
+    .apply-title {
+        width: 400px;
+    }
+
+    .apply-title br {
+        display: none;
+    }
+
+    .apply-title h2 {
+        font-size: 30px;
+        padding-bottom: 30px;
+        color:rgb(32, 72, 1);
+    }
+
+    .apply-title p {
+        font-size: 16px;
+        color:rgb(89, 89, 89);
+        padding-bottom: 40px;
+    }
+
+    .apply-title a {
+        text-decoration: none;
+        color: white;
+        border: 1px solid transparent;
+        padding: 12px 14px;
+        font-size: 22px;
+        border-radius: 20px;
+        background-color:rgba(4, 50, 73, 0.9);
+    }
+
+
+
+    /* Navbar Bottom */
+
+    .navbar-bottom-container {
+        display: flex;
+        justify-content: center;
+        background-color: rgb(122, 182, 54);
+        padding: 22px 0px;
+        font-family: 'Ubuntu', sans-serif;
+        align-items: center;
+    }
+
+    .copyright h3 {
+        font-size: 16px;
+        color: black;
+        padding-right: 25px;
+    }
+
+    .social-media a {
+        margin-right: 15px;
+    }
+
+    .social-media .fa {
+        color: black;
+        font-size: 22px;
+    }
+
+
+
+
+
+
+
+    /* Open Jobs Page */
+
+
+
 }
 
 
@@ -4362,8 +4698,7 @@
     
     .hero-title-image {
         display: flex;
-        flex-direction: column;
-        justify-content: normal;
+        justify-content: center;
         align-items: center;
         gap: 50px;
         padding-top: 50px;
