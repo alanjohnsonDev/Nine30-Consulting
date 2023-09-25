@@ -17,14 +17,17 @@
 
         <script src="https://use.fontawesome.com/14b8e0b9e5.js"></script>
 
+        <link rel="stylesheet" href="caseStudies.css">
         <link rel="stylesheet" href="styles.css">
-        <link rel="stylesheet" href="contactUs.css">
+        <link rel="stylesheet" href="career.css">
+        <link rel="stylesheet" href="openJobs.css">
         <link rel="stylesheet" href="responsive.css">
     </head>
+
     <body>
         <!-- HERO BACKGROUND -->
 
-        <div class="hero-container-about-us">
+        <div class="hero-container">
             <div class="header">
                 <div class="nav-logo">
                     <a href="index.html"><img class="nine30-logo" src="Nine 30 White_Green Logo.png" alt="nine30-logo"></a>
@@ -45,66 +48,63 @@
                     <p>DAYS TILL 9.30</p>
                 </div>
                 <div class="navbar-button">
-                    <button><a href="contactUs.html">CONTACT US</a></button>
+                    <button><a href="https://form.jotform.com/232625193821051">CONTACT US</a></button>
                 </div>
             </div>
 
-            <div class="hero-title-image hero-title-image-contact-us">
+            <div class="hero-title-image">
                 <div class="hero-text">
-                    <h1>Contact Us</h1>
+                    <h1>Open Jobs</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br> sed do eiusmod tempor incididunt ut labore et dolore <br> magna aliqua. 
-                        Ut enim ad minim veniam, quis <br> nostrud exercitation ullamco laboris nisi ut <br> aliquip ex ea commodo consequat.</p>
+                        Ut enim ad minim veniam. </p>
                 </div>
     
                 <div class="hero-image">
-                    <img class="hero-picture hero-picture-contact-us" src="Nine30_ContactUsHero.jpg" alt="hero-image">
+                    <img class="hero-picture-career" src="Nine30_ContactUsHero.jpg" alt="hero-image">
                 </div>
             </div>
         </div>
 
 
-        <!-- Contact Form -->
+
+        <!-- Open Jobs Section -->
 
         <section>
-            <div class="contact-section">
-                <div class="contact-us-container">
-                    <div class="contact-us-title">
-                        <h2>Contact Us</h2>
-                        <p>Got a question? We'd love to hear from you. Send us <br>
-                            a message and we'll respond as soon as possible.</p>
-                    </div>
-                    <form id="contact-form" action="https://formsubmit.co/acj155833@gmail.com" method="POST">
+            <div class="open-jobs-container open-job1">
+                <div class="open-job">
+                    <h3 class="open-job-title">JSE Acquisition Analyst</h3>
+                    <h5 class="open-job-subtitle">Job Location:</h5>
+                    <p>Hybrid with 3 days a week at the government facility at Pax River and 2 days a <br> 
+                        week split between the Nine 30 office in Lexington Park and Work From Home (WFH)</p>
+                    <h5 class="open-job-subtitle">Job Description:</h5>
+                    <p>Provide acquisition support to the Joint Simulation Environment (JSE) Division at Patuxent River <br> 
+                        supporting service contract and hardware contract procurement actions. <br><br>  
+
+                        Provide service acquisition support and develop acquisition strategies and plans by considering <br> 
+                        current and future project needs.  Develop Procurement Initiation Documents (PIDs) and track <br> 
+                        Procurement Requests (PRs) through Navy ERP.  Support CORs/ACORs and Acquisition Cell with <br> 
+                        post award contract management across a portfolio of contracts.  Support the Project Leads on <br> 
+                        managing, monitoring, and reporting on specific projects Task Orders (TOs).  Determine long <br>
+                        term acquisition and resource requirements. <br><br>
                         
-                        <!-- Honeypot -->
-
-                        <input type="text" name="_honey" style="display: none;">
-
-                        <!-- Disable Captcha -->
-
-                        <input type="hidden" name="_captcha" value="false">
-
-                        <!-- Success message Link -->
-
-                        <input type="hidden" name="_next" value="https://alanjohnsondev.github.io/Nine30-Consulting/success.html">
-
-                        <label for="name">Name *</label>
-                        <input type="text" id="name" name="name" required>
-    
-                        <label for="email">Email address *</label>
-                        <input type="email" id="email" name="email" pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" required>
-                        
-                        <label for="message">Message *</label>
-                        <textarea name="message" id="message" required></textarea>
-    
-                        <input id="submit" type="submit" value="submit" action="/success.html">
-                    </form>
-                </div>
-
-                <div class="contact-us-image">
-                    <img class="nine30-logo" src="https://www.nine30consulting.com/uploads/1/1/8/0/118003059/nine-thirty-consulting-logo-final-03_orig.png" alt="contact-us image">
+                        Provide hardware acquisition support and monitor procurements to ensure project schedules <br> 
+                        are met.  Assist in translating technical requirements into acquisition documentation, conduct <br> 
+                        market research, and develop Bill of Materials (BOM) and Material Equipment Lists (MELs).  <br>
+                        Draft procurement documentation, track material from procurement planning to delivery, and <br> 
+                        provide project material tracking reports to Acquisition Cell and Project Lead stakeholders.
+                    </p>
+                    <h5 class="open-job-subtitle">Qualifications:</h5>
+                    <ul class="open-job-list">
+                        <li>Active Secret Clearance</li>
+                        <li>Bachelor's degree</li>
+                        <li>At least 3 years of experience in DoD acquisition management or <br> procurement management</li>
+                        <li>Proficiency in MS Office Tools</li>
+                        <li>Strong analytical and problem-solving skills</li>
+                        <li>Experience in Navy ERP and Procurement Management Tool (PMT)</li>
+                    </ul>
+                    <a href="https://form.jotform.com/232624906842055">Apply Now</a>
                 </div>
             </div>
-        </section>
 
 
         <!-- Footer Section -->
@@ -154,7 +154,7 @@
                     </div>
                 </div>
             </footer>
-        </section>
+        </section> 
 
 
         <!-- Navbar Bottom -->
@@ -170,7 +170,7 @@
                 </div>
             </div>
         </section>
-
+       
 
         <!-- JavaScript -->
 
@@ -196,7 +196,6 @@
             document.getElementById("demo").innerHTML = "EXPIRED";
                 }
             }, 1000);
-
         </script>
     </body>
 </html>

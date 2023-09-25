@@ -90,3 +90,54 @@
     color: white;
     background-color: rgba(4, 50, 73);
 }
+
+
+
+
+
+/* Jobs Page */
+
+.jobs-container {
+    height: 900px;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: rgb(231, 240, 216, 0.8);
+}
+
+.jobs-title {
+    font-size: 45px;
+    text-align: center;
+    color:rgb(32, 72, 1);
+    padding-top: 130px;
+}
+
+.jobs-container hr {
+    width: 17%;
+    height: 3px;
+    background-color:rgb(32, 72, 1);
+    margin: 6px auto;
+    
+}
+
+.jobs-links-container {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.jobs-links {
+    border: 1px solid transparent;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 10px rgb(190, 190, 190);
+    padding: 15px;
+}
+
+.jobs-links a {
+    text-decoration: none;
+    color:rgba(4, 50, 73);
+    font-size: 30px;
+    font-weight: 600;
+}

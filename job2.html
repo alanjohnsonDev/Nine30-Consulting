@@ -17,14 +17,17 @@
 
         <script src="https://use.fontawesome.com/14b8e0b9e5.js"></script>
 
+        <link rel="stylesheet" href="caseStudies.css">
         <link rel="stylesheet" href="styles.css">
-        <link rel="stylesheet" href="contactUs.css">
+        <link rel="stylesheet" href="career.css">
+        <link rel="stylesheet" href="openJobs.css">
         <link rel="stylesheet" href="responsive.css">
     </head>
+
     <body>
         <!-- HERO BACKGROUND -->
 
-        <div class="hero-container-about-us">
+        <div class="hero-container">
             <div class="header">
                 <div class="nav-logo">
                     <a href="index.html"><img class="nine30-logo" src="Nine 30 White_Green Logo.png" alt="nine30-logo"></a>
@@ -45,66 +48,61 @@
                     <p>DAYS TILL 9.30</p>
                 </div>
                 <div class="navbar-button">
-                    <button><a href="contactUs.html">CONTACT US</a></button>
+                    <button><a href="https://form.jotform.com/232625193821051">CONTACT US</a></button>
                 </div>
             </div>
 
-            <div class="hero-title-image hero-title-image-contact-us">
+            <div class="hero-title-image">
                 <div class="hero-text">
-                    <h1>Contact Us</h1>
+                    <h1>Open Jobs</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br> sed do eiusmod tempor incididunt ut labore et dolore <br> magna aliqua. 
-                        Ut enim ad minim veniam, quis <br> nostrud exercitation ullamco laboris nisi ut <br> aliquip ex ea commodo consequat.</p>
+                        Ut enim ad minim veniam. </p>
                 </div>
     
                 <div class="hero-image">
-                    <img class="hero-picture hero-picture-contact-us" src="Nine30_ContactUsHero.jpg" alt="hero-image">
+                    <img class="hero-picture-career" src="Nine30_ContactUsHero.jpg" alt="hero-image">
                 </div>
             </div>
         </div>
 
 
-        <!-- Contact Form -->
 
-        <section>
-            <div class="contact-section">
-                <div class="contact-us-container">
-                    <div class="contact-us-title">
-                        <h2>Contact Us</h2>
-                        <p>Got a question? We'd love to hear from you. Send us <br>
-                            a message and we'll respond as soon as possible.</p>
-                    </div>
-                    <form id="contact-form" action="https://formsubmit.co/acj155833@gmail.com" method="POST">
-                        
-                        <!-- Honeypot -->
+        <!-- Open Jobs Section -->
 
-                        <input type="text" name="_honey" style="display: none;">
+            <div class="open-jobs-container open-job2">
+                <div class="open-job">
+                    <h3 class="open-job-title">Data Scientist</h3>
+                    <h5 class="open-job-subtitle">Job Location:</h5>
+                    <p>Hybrid with primarily Work From Home (WFH), but with occasional meetings at <br> 
+                        the Nine 30 office in Lexington Park, MD. </p>
+                    <h5 class="open-job-subtitle">Job Description:</h5>
+                    <p>Provide data analytics support to the Naval Air Warfare Center Aircraft Division (NAWCAD) <br>
+                        Comptroller and Business & Financial Management Community (BFMC) to provide real-time <br>
+                        data to improve organizational decision making.  <br><br>
 
-                        <!-- Disable Captcha -->
-
-                        <input type="hidden" name="_captcha" value="false">
-
-                        <!-- Success message Link -->
-
-                        <input type="hidden" name="_next" value="https://alanjohnsondev.github.io/Nine30-Consulting/success.html">
-
-                        <label for="name">Name *</label>
-                        <input type="text" id="name" name="name" required>
-    
-                        <label for="email">Email address *</label>
-                        <input type="email" id="email" name="email" pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" required>
-                        
-                        <label for="message">Message *</label>
-                        <textarea name="message" id="message" required></textarea>
-    
-                        <input id="submit" type="submit" value="submit" action="/success.html">
-                    </form>
-                </div>
-
-                <div class="contact-us-image">
-                    <img class="nine30-logo" src="https://www.nine30consulting.com/uploads/1/1/8/0/118003059/nine-thirty-consulting-logo-final-03_orig.png" alt="contact-us image">
+                        We are looking for a Qlik Developer, Data Analyst, or Data Scientist with at least 3 years of <br>
+                        experience in business intelligence and at least one year of experience with Qlik to join our <br>
+                        Business Intelligence team. The successful candidate will be responsible for creating, <br>
+                        implementing, and maintaining Qlik dashboards, reports, and data models.  Work closely with <br> 
+                        Comptroller, BFMs, project managers, financial analysts, and acquisition specialists to <br>
+                        understand their needs and requirements and apply these to the build/test phase of reports <br>
+                        and dashboards.  Identify opportunities to improve data visualization tools and streamline <br>
+                        reporting to make processes more automated and less manual.  Develop and manage business <br>
+                        intelligence solutions for the organization. 
+                    </p>
+                    <h5 class="open-job-subtitle">Qualifications:</h5>
+                    <ul class="open-job-list">
+                        <li>Active Secret Clearance</li>
+                        <li>Bachelor's degree</li>
+                        <li>At least 3 years of experience in business intelligence</li>
+                        <li>Proficiency in Qlik</li>
+                        <li>Strong analytical and problem-solving skills</li>
+                        <li>Knowledge of DoD acquisition, financial, and DoD PPBE processes preferred</li>
+                    </ul>
+                    <a href="https://form.jotform.com/232624906842055">Apply Now</a>
                 </div>
             </div>
-        </section>
+
 
 
         <!-- Footer Section -->
@@ -154,7 +152,7 @@
                     </div>
                 </div>
             </footer>
-        </section>
+        </section> 
 
 
         <!-- Navbar Bottom -->
@@ -170,7 +168,7 @@
                 </div>
             </div>
         </section>
-
+       
 
         <!-- JavaScript -->
 
@@ -196,7 +194,6 @@
             document.getElementById("demo").innerHTML = "EXPIRED";
                 }
             }, 1000);
-
         </script>
     </body>
 </html>

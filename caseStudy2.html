@@ -17,14 +17,18 @@
 
         <script src="https://use.fontawesome.com/14b8e0b9e5.js"></script>
 
-        <link rel="stylesheet" href="styles.css">
-        <link rel="stylesheet" href="contactUs.css">
+        <link rel="stylesheet" href="caseStudies.css">
+        <link rel="stylesheet" href="aquisition.html">
+        <link rel="stylesheet" href="dataAnalytics.html">
+        <link rel="stylesheet" href="financialManagement.html">
+        <link rel="stylesheet" href="projectManagement.html">
         <link rel="stylesheet" href="responsive.css">
     </head>
+
     <body>
         <!-- HERO BACKGROUND -->
 
-        <div class="hero-container-about-us">
+        <div class="hero-container hero-container-casestudies">
             <div class="header">
                 <div class="nav-logo">
                     <a href="index.html"><img class="nine30-logo" src="Nine 30 White_Green Logo.png" alt="nine30-logo"></a>
@@ -45,66 +49,88 @@
                     <p>DAYS TILL 9.30</p>
                 </div>
                 <div class="navbar-button">
-                    <button><a href="contactUs.html">CONTACT US</a></button>
+                    <button><a href="https://form.jotform.com/232625193821051">CONTACT US</a></button>
                 </div>
             </div>
 
-            <div class="hero-title-image hero-title-image-contact-us">
+            <div class="hero-title-image">
                 <div class="hero-text">
-                    <h1>Contact Us</h1>
+                    <h1>Case Studies</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br> sed do eiusmod tempor incididunt ut labore et dolore <br> magna aliqua. 
-                        Ut enim ad minim veniam, quis <br> nostrud exercitation ullamco laboris nisi ut <br> aliquip ex ea commodo consequat.</p>
+                        Ut enim ad minim veniam. </p>
                 </div>
     
                 <div class="hero-image">
-                    <img class="hero-picture hero-picture-contact-us" src="Nine30_ContactUsHero.jpg" alt="hero-image">
+                    <img class="hero-picture-case-studies" src="Nine30_CaseStudies.jpg" alt="hero-image">
                 </div>
             </div>
         </div>
 
 
-        <!-- Contact Form -->
+        <!-- Case Study Section -->
 
         <section>
-            <div class="contact-section">
-                <div class="contact-us-container">
-                    <div class="contact-us-title">
-                        <h2>Contact Us</h2>
-                        <p>Got a question? We'd love to hear from you. Send us <br>
-                            a message and we'll respond as soon as possible.</p>
-                    </div>
-                    <form id="contact-form" action="https://formsubmit.co/acj155833@gmail.com" method="POST">
-                        
-                        <!-- Honeypot -->
-
-                        <input type="text" name="_honey" style="display: none;">
-
-                        <!-- Disable Captcha -->
-
-                        <input type="hidden" name="_captcha" value="false">
-
-                        <!-- Success message Link -->
-
-                        <input type="hidden" name="_next" value="https://alanjohnsondev.github.io/Nine30-Consulting/success.html">
-
-                        <label for="name">Name *</label>
-                        <input type="text" id="name" name="name" required>
-    
-                        <label for="email">Email address *</label>
-                        <input type="email" id="email" name="email" pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" required>
-                        
-                        <label for="message">Message *</label>
-                        <textarea name="message" id="message" required></textarea>
-    
-                        <input id="submit" type="submit" value="submit" action="/success.html">
-                    </form>
+            <div class="case-study-container">
+                <div class="case-study-title">
+                    <h2>Funds Acceptance Sharepoint Tool (FAST)</h2>
                 </div>
+                <div class="case-study-content">
+                    <div class="background-content content">
+                        <h3>Background</h3>
+                        <p>The NAWCAD comptroller was struggling with the time-consuming and manual process of accepting 
+                            incoming external funding. The existing process was completed via email and required multiple manual 
+                            approvals, which led to delays in processing times. To address this challenge, NAWAD comptroller 
+                            collaborated with Nine 30 Consulting to develop a SharePoint-based tool called FAST (Funds Acceptance 
+                            SharePoint Tool). </p>
+                    </div>
+                    <div class="challenge-content content">
+                        <h3>Challenge</h3>
+                        <p>The customer was looking for a solution that could help them streamline their process of accepting 
+                            incoming external funding. The solution needed to be easy to use, customizable, and scalable across 
+                            multiple organizations. The goal was to reduce the processing time for incoming external funding from 
+                            28 days. </p>
+                    </div>
+                    <div class="solution-content content">
+                        <h3>Solution</h3>
+                        <p>Nine 30 Consulting worked closely with NAWAD comptroller and the BFM community to understand
+                            their requirements and co-designed and implemented a SharePoint-based tool called FAST (Funds 
+                            Acceptance SharePoint Tool). The Nine 30 team worked to train all potential users of the tool across the 
+                            organization, complete all tool administrative duties, and analyze and report findings from the data 
+                            collected in the tool.  </p>
+                    </div>
+                    <div class="features-content content">
+                        <h3>FAST was designed with the following key features</h3>
+                        <p>Automated Workflow: FAST has an automated workflow that simplifies the process of accepting 
+                            incoming external funding. The workflow was designed to ensure that all required approvals were 
+                            obtained in the correct order and that the necessary documentation was collected in one place.</p>
 
-                <div class="contact-us-image">
-                    <img class="nine30-logo" src="https://www.nine30consulting.com/uploads/1/1/8/0/118003059/nine-thirty-consulting-logo-final-03_orig.png" alt="contact-us image">
+                        <p>Automated Notifications: FAST has an automated notification system that reminds users of upcoming 
+                            funding acceptance tasks. Care was taken to ensure that there are no single points of failure, addressing
+                            a common concern with conducting approvals via email. </p>
+
+                        <p>Centralized Document Repository: FAST has a centralized document repository that allows users to store 
+                            and share funding acceptance documents with the entire team. This library stores all related 
+                            documentation for each funding document, including the final acceptance which is emailed directly 
+                            to the sponsor.  </p>
+                    </div>
+                    <div class="results-content content">
+                        <h3>Results</h3>
+                        <p>The implementation of FAST helped NAWAD comptroller to streamline their process of accepting 
+                            incoming external funding and reduce processing times from 28 days to approximately 4 days. FAST 
+                            helped the organization to reduce manual effort, improve the accuracy of the funding acceptance
+                            process, and eliminate delays caused by manual approvals. </p>
+                    </div>
+                    <div class="conclusion-content content">
+                        <h3>Conclusion</h3>
+                        <p>Nine 30 Consulting's FAST tool was able to solve NAWAD comptroller's funding acceptance challenge by 
+                            automating the process, providing measurable metrics, and centralizing the document repository. The 
+                            FAST tool helped the customer to save time, reduce manual effort, and improve the accuracy and speed 
+                            of their funding acceptance process. </p>
+                    </div>
                 </div>
             </div>
         </section>
+
 
 
         <!-- Footer Section -->
@@ -170,7 +196,7 @@
                 </div>
             </div>
         </section>
-
+       
 
         <!-- JavaScript -->
 
@@ -196,7 +222,6 @@
             document.getElementById("demo").innerHTML = "EXPIRED";
                 }
             }, 1000);
-
         </script>
     </body>
 </html>
