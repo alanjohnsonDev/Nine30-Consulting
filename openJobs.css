@@ -50,6 +50,7 @@
 .open-job {
     text-align: justify;
     margin: 0 auto;
+    max-width: 1200px;
 }
 
 .open-job-title {

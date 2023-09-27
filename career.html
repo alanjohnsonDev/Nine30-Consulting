@@ -63,6 +63,99 @@
                 </div>
             </div>
         </div>
+        
+
+
+        <!-- Employee Testimonals Section -->
+
+        <section class="slideshow">
+            <div class="employee-title">
+                <h2>Employee Testimonals</h2>
+            </div>
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <div class="slide-text">
+                        <h3>What is the best thing about working at Nine 30?</h3>
+                        <p>The best thing (besides the company tab at St. Inie's) is that you are always recognized 
+                            for your work, whether it's supporting your client, collaborating with another contractor, 
+                            or assisting a coworker!  Nine 30 is so diverse and welcoming and has an amazing team culture.  
+                            With so many different skill sets and ideas, it’s easy to learn something new or look at 
+                            a problem from a different angle. </p>
+                        <h4>- Kali</h4>
+                    </div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="slide-text">
+                        <h3>What makes Nine 30 different?</h3>
+                        <p>The people! The team has really invested in a positive, supportive culture here at Nine 30 
+                            and that shines. It sets Nine 30 apart from other contractors.  Also, I’ve been surprised by 
+                            the telework flexibility! Having a family and a spouse who is frequently deployed can make 
+                            in-office hours tough certain days. Having the ability to telework from a home office helps me 
+                            continue to support my projects and clients, while also being there for my family. </p>
+                        <h4>- Kate</h4>
+                    </div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="slide-text">
+                        <h3>How would you describe your job satisfaction at Nine 30?</h3>
+                        <p>My overall job satisfaction is off the charts. The work-life balance is exceptional with great 
+                            benefits and a flexible work schedule. My position also fits exactly with my skills, ability,
+                            and career goals. Best of all, the people at Nine 30 are truly exceptional and care about 
+                            continuing to cultivate the work culture we have worked diligently to create. </p>
+                        <h4>- Lauren</h4>
+                    </div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="slide-text">
+                        <h3>What does your current job have that your previous jobs have not?</h3>
+                        <p>My current job has so much flexibility with work. I can work from home when my family is sick 
+                            or other various complications arise. Nine 30 leadership is extremely understanding regarding 
+                            work life balance. </p>
+                        <h4>- JC</h4>
+                    </div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="slide-text">
+                        <h3>What has surprised you most about working at Nine 30?</h3>
+                        <p>I was really surprised by how great the benefits are, being a small company.  Coming from a 
+                            larger company with less than desirable health insurance coverage, I'm immensely pleased with 
+                            the plans offered here, especially the zero deductible option and how much Nine 30 contributes 
+                            to the premiums. </p>
+                        <h4>- Sam</h4>
+                    </div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="slide-text">
+                        <h3>How has Nine 30 helped you develop and grow your skills? </h3>
+                        <p>The team is so kind, patient, and encouraging in helping me learn new processes and develop my 
+                            skills.  There is a lot of hands-on training and a support system in place, but I love that I 
+                            am empowered to support my clients on my own.  I can make the decisions and can find solutions 
+                            that work for me and the client without going through any red tape.  Also, my current job has 
+                            an incredible amount of flexibility, it has made my life as a single mother much easier to navigate. </p>
+                        <h4>- Rebekah</h4>
+                    </div>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+
+            <div class="dots" style="text-align: center;">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+                <span class="dot" onclick="currentSlide(6)"></span>
+            </div>
+        </section>
+
+
 
 
 
@@ -349,6 +442,39 @@
             document.getElementById("demo").innerHTML = "EXPIRED";
                 }
             }, 1000);
+
+
+
+
+
+            // Slideshow //
+
+            let slideIndex = 1;
+            showSlides(slideIndex);
+
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
+            }
+
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+                let i;
+                let slides = document.getElementsByClassName("mySlides");
+                let dots = document.getElementsByClassName("dot");
+                if (n > slides.length) {slideIndex = 1}
+                if (n < 1) {slideIndex = slides.length}
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex-1].style.display = "block";
+                dots[slideIndex-1].className += " active";
+            }
         </script>
     </body>
 </html>

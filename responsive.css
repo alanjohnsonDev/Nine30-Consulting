@@ -238,7 +238,7 @@
     /* Supporting Agencies Section */
 
     .supporting-container {
-        height: 2050px;
+        height: 1975px;
         background-color: rgb(4, 50, 73);
     }
 
@@ -251,7 +251,7 @@
         width: 60%;
         border: 0;
         height: 5px;
-        margin-left: 20%;
+        margin-left: 17%;
         background-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgb(7, 223, 0));
     }
 
@@ -271,7 +271,7 @@
         padding-top: 30px;
         font-size: 14px;
         text-align: justify;
-        width: 260px;
+        width: 240px;
         margin: 0 auto;
     }
 
@@ -291,18 +291,18 @@
         background-color: rgb(236, 238, 230);
         border-radius: 20px;
         padding: 10px;
-        width: 250px;
-        height: 130px;
+        width: 240px;
+        height: 120px;
         align-items: center;
     }
 
     .supporting-card img {
-        width: 110px;
-        height: 110px;
+        width: 100px;
+        height: 100px;
     }
 
     .supporting-card h3 {
-        font-size: 18px;
+        font-size: 16px;
     }
 
 
@@ -554,8 +554,8 @@
 
     .about-us-picture {
         margin-top: 0px;
-        height: 260px;
-        width: 240px;
+        height: 240px;
+        width: 220px;
         border-radius: 20px;
     }
     
@@ -667,14 +667,14 @@
         flex-direction: column-reverse;
         justify-content: normal;
         align-items: center;
-        gap: 70px;
+        gap: 60px;
     }
 
     .core-comp-title h2 {
         margin-left: 0px;
         font-size: 24px;
         color: rgb(32, 72, 1);
-        padding: 75px 0px 50px 0px;
+        padding: 75px 0px 20px 0px;
     }
 
     .core-comp-image video {
@@ -693,6 +693,7 @@
     .capabilities-info-content h3 {
         display: inline-block;
         padding-bottom: 15px;
+        padding-top: 20px;
         font-size: 20px;
         color:rgb(4, 49, 47);
     }
@@ -812,8 +813,8 @@
     }
 
     .hero-picture-case-studies {
-        width: 230px;
-        height: 270px;
+        width: 210px;
+        height: 230px;
         border-radius: 20px;
         z-index: 1;
     }
@@ -858,8 +859,8 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 50px;
-        padding-top: 70px;
+        gap: 70px;
+        padding-top: 50px;
         background-image: linear-gradient(azure 90%, rgba(233, 255, 210, 0.741));
         padding: 70px 30px;
     }
@@ -941,11 +942,12 @@
 
     .case-studies-card h3 {
         font-size: 20px;
-        padding: 20px 0px 10px 0px;
+        padding: 20px 0px 10px 10px;
     }
 
     .case-studies-card p {
         line-height: 1.25;
+        font-size: 16px;
         padding-bottom: 10px;
     }
 
@@ -1010,11 +1012,11 @@
     }
 
     .nine-30-img {
-        width: 250px;
-        height: 150px;
+        width: 230px;
+        height: 130px;
         padding-bottom: 40px;
         margin-top: 10px;
-        border-radius: 30px;
+        border-radius: 0px;
     }
 
     .timeline {
@@ -1359,147 +1361,606 @@
 
 
 
-    /* Contact Us Page */
+    
+    /* Career Page */
 
-    .hero-container-about-us {
-        height: 650px;
+    /* Hero Image */
+
+    .hero-title-image {
+        gap: 50px;
     }
 
-    .hero-text h1 {
-        padding-top: 0px;
+    .hero-picture-career {
+        height: 160px;
+        width: 240px;
+        border-radius: 20px;
     }
 
-    .hero-title-image-contact-us {
+
+
+    /* Employee Testimonial Section */
+
+    /* * {box-sizing: border-box;} */
+
+    .slideshow {
+        background-color: rgb(255,255,255);
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    .employee-title h2 {
+        font-size: 30px;
+        padding-top: 50px;
         text-align: center;
-        padding-top: 0px;
+        color: rgb(32, 72, 1);
     }
 
-    .hero-title-image-contact-us img {
-        width: 260px;
-        height: 180px;
+    .slideshow-container {
+        max-width: 270px;
+        height: 600px;
+        position: relative;
+        margin: auto;
+        padding: 50px 0px 40px 0px;
+        background-color: rgb(255,255,255);
+        font-family: 'Ubuntu', sans-serif;
     }
 
-    .contact-section {
+    .mySlides {
+        display: none;
+    }
+
+    .slide-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: normal;
+        align-items: center;
+        margin: 0 auto;
+        max-width: 200px;
+        height: 400px;
+        text-align: center;
+    }
+
+    .slide-text h3 {
+        font-size: 22px;
+        color: rgb(58, 58, 58);
+        padding-bottom: 20px;
+    }
+
+    .slide-text p {
+        font-size: 18px;
+        color:rgb(89, 89, 89);
+        text-align: center;
+        padding-bottom: 20px;
+        line-height: 1.4;
+    }
+
+    .slide-text h4 {
+        font-size: 22px;
+        color:rgb(58, 58, 58);
+    }
+
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: -22px;
+        padding: 16px;
+        color: rgb(183, 183, 183);
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+    }
+
+    .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }
+
+    .prev:hover, .next:hover {
+        background-color:rgba(4, 50, 73, 0.8);
+        color: white;
+    }
+
+    .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+    }
+
+    .dots {
+        padding-top: 100px;
+        padding-bottom: 75px;
+    }
+
+    .active, .dot:hover {
+        background-color: rgba(4, 50, 73, 0.9);
+    }
+
+    .fade {
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+
+    @keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+    }
+
+
+
+
+    /* Benefits Section */
+
+    .benefits-container {
+        font-family: 'Ubuntu', sans-serif;
+        height: 4900px;
+        background-color: rgb(231, 240, 216, 0.8);
+        padding: 0px 20px;
+    }
+
+    .benefits-title {
+        padding: 70px 0px 70px 0px;
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .benefits-title h2 {
+        font-size: 30px;
+        padding-bottom: 40px;
+        color: rgb(32, 72, 1);
+    }
+
+    .benefits-title p {
+        font-size: 18px;
+        color: rgb(89, 89, 89);
+    }
+
+    .benefits-card-container {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        gap: 0px;
         align-items: center;
-        height: 700px;
+        gap: 50px 90px;
+    }
+
+    .benefits-card {
+        border: 1px solid transparent;
+        border-radius: 20px;
+        box-shadow: 2px 2px 10px rgb(199, 199, 199);
+        width: 200px;
+        height: 260px;
+        text-align: center;
+        padding: 20px;
+        position: relative;
+        transition: all .5s ease-in;
         background-color: white;
     }
-    
-    
-    .contact-us-container {
-        font-family: 'Ubuntu', sans-serif;
-        border: 1px solid black;
-        padding: 30px;
-        border-radius: 20px;
-        width: 200px;
-        background-color: rgb(231, 240, 216, 0.8);
+
+    .benefits-card img {
+        padding-top: 20px;
+        height: 100px;
+        width: 100px;
     }
-    
-    .contact-us-title {
+
+    .benefits-card h4 {
+        font-size: 24px;
+        padding-top: 25px;
+    }
+
+
+
+    /* Overlay */
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        border-radius: 20px;
+        background-color: rgba(4, 50, 73, 0.9);
+    }
+
+    .benefits-card:hover .overlay {
+        opacity: 1;
+    }
+
+    .text {
+        color: white;
+        font-size: 21px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        line-height: 1.4;
+        font-weight: 600;
+        letter-spacing: 2px;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
         text-align: center;
     }
 
-    .contact-us-title br {
-        display: none;
+
+
+    /* Diversity Section */
+
+    .diversity-container {
+        font-family: 'Ubuntu', sans-serif;
+        
+    }
+
+    .diversity-title-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        height: 1000px;
+    }
+
+    .diversity-title {
+        width: 250px;
+    }
+
+    .diversity-title h2 {
+        font-size: 30px;
+        color: rgb(32, 72, 1);
+        padding-bottom: 30px;
+        text-align: center;
+    }
+
+    .diversity-title p {
+        font-size: 16px;
+        color:rgb(89, 89, 89);
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
+    .diversity-list .fa {
+        color:rgb(32, 72, 1);
+        font-size: 20px;
+        text-align: left;
+    }
+
+    .diversity-list li {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 1.3;
+    }
+
+    .diversity-image img {
+        height: 210px;
+        width: 260px;
+        border-radius: 20px;
+        box-shadow: 2px 2px 12px rgb(184, 190, 174);
+    }
+
+
+
+    /* Community Section */
+
+    .community-container {
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    .community-title-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        padding-top: 0px;
+        height: 900px;
+    }
+
+    .community-title {
+        width: 250px;
+    }
+
+    .community-title h2 {
+        font-size: 30px;
+        color: rgb(32, 72, 1);
+        padding-bottom: 30px;
+        text-align: center;
+    }
+
+    .community-title p {
+        font-size: 16px;
+        color:rgb(89, 89, 89);
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
+    .community-list .fa {
+        color:rgb(32, 72, 1);
+        font-size: 20px;
+    }
+
+    .community-list li {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 1.3;
+    }
+
+    .community-image img {
+        height: 210px;
+        width: 260px;
+        border-radius: 20px;
+        box-shadow: -2px -2px -12px rgb(184, 190, 174);
+    }
+
+
+
+    /* Apply Section */
+
+    .apply-container {
+        font-family: 'Ubuntu', sans-serif;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+        height: 600px;
+        margin-top: 0px;
+        padding-bottom: 60px;
+        background-color: rgb(231, 240, 216, 0.8);
+    }
+
+    .apply-image img {
+        height: 210px;
+        width: 260px;
+        border-radius: 20px;
+        margin-top: 0px;
+        box-shadow: 2px 2px 12px rgb(184, 190, 174);
+    }
+
+    .apply-title {
+        width: 250px;
+        text-align: center;
+    }
+
+    .apply-title h2 {
+        font-size: 30px;
+        padding-bottom: 30px;
+        color:rgb(32, 72, 1);
+        padding-top: 50px;
+    }
+
+    .apply-title p {
+        font-size: 16px;
+        color:rgb(89, 89, 89);
+        padding-bottom: 40px;
+    }
+
+    .apply-title a {
+        text-decoration: none;
+        color: white;
+        border: 1px solid transparent;
+        padding: 12px 14px;
+        font-size: 22px;
+        border-radius: 20px;
+        background-color:rgba(4, 50, 73, 0.9);
+    }
+
+
+
+
+
+    /* Open Jobs Page */
+
+    .open-jobs-container {
+        display: flex;
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    .open-job1 {
+        background-color: rgb(231, 240, 216, 0.8);
+        height: 2500px;
+    }
+
+    .open-job2 {
+        background-color: rgb(255, 255, 255);
+        height: 2250px;
+    }
+
+    .open-job3 {
+        background-color: rgb(231, 240, 216, 0.8);
+        height: 2000px;
+    }
+
+    .open-job4 {
+        background-color: rgb(255, 255, 255);
+        height: 1800px;
+    }
+
+    .open-job {
+        text-align: left;
+        margin: 0 auto;
+        max-width: 250px;
+    }
+
+    .open-job-title {
+        font-size: 30px;
+        text-align: center;
+        color: rgb(32, 72, 1);
+        padding: 100px 0px 40px 0px;
+    }
+
+    .open-job-subtitle {
+        font-size: 22px;
+        padding-bottom: 30px;
+    }
+
+    .open-job p {
+        font-size: 18px;
+        padding-bottom: 30px;
+        line-height: 1.4;
+    }
+
+    .open-job ul {
+        padding-bottom: 70px;
+    }
+
+    .open-job li {
+        list-style-type: square;
+        margin-left: 30px;
+        padding-left: 8px;
+        font-size: 20px;
+        line-height: 1.3;
+    }
+
+    .open-job a {
+        text-decoration: none;
+        font-size: 22px;
+        padding: 12px;
+        border: 1px solid transparent;
+        border-radius: 20px;
+        color: white;
+        background-color: rgba(4, 50, 73);
+    }
+
+
+
+
+
+    /* Jobs Page */
+
+    .jobs-container {
+        height: 650px;
+        font-family: 'Ubuntu', sans-serif;
+        background-color: rgb(231, 240, 216, 0.8);
+        width: 280px;
+    }
+
+    .jobs-title {
+        font-size: 30px;
+        text-align: center;
+        color:rgb(32, 72, 1);
+        padding-top: 50px;
+    }
+
+    .jobs-container hr {
+        width: 75%;
+        height: 3px;
+        background-color:rgb(32, 72, 1);
+        margin: 8px auto;
+        
+    }
+
+    .jobs-links-container {
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        margin: 0 auto;
+        width: 250px;
+        text-align: center;
+    }
+
+    .jobs-links {
+        border: 1px solid transparent;
+        border-radius: 20px;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 2px 2px 10px rgb(190, 190, 190);
+        padding: 15px;
+    }
+
+    .jobs-links a {
+        text-decoration: none;
+        color:rgba(4, 50, 73);
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+
+
+
+
+
+    /* Case Study Pages */
+
+    .case-study-container {
+        font-family: 'Ubuntu', sans-serif;
+        width: 100%;
+        padding-bottom: 100px;
     }
     
-    .contact-us-title h2 {
-        font-size: 30px;
+    .case-study-title {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 280px;
+    }
+    
+    .case-study-title h2 {
+        font-size: 29px;
+        padding-top: 50px;
+        letter-spacing: 4px;
+        text-align: center;
         color: rgb(32, 72, 1);
     }
     
-    .contact-us-title p {
-        margin: 20px 0px 30px 0px;
+    .case-study-title p {
+        padding-top: 30px;
+        text-align: center;
+        font-size: 20px;
         color: rgb(89, 89, 89);
-        font-size: 16px;
-        line-height: 1.3;
+        font-weight: 500;
     }
     
-    #contact-form label {
-        display: block;
-        font-family: 'Ubuntu', sans-serif;
-        font-size: 18px;
-        margin-top: 20px;
-        margin-bottom: 5px;
-    }
-    
-    #contact-form input {
-        font-size: 18px;
-        width: 190px;
-        display: block;
-        padding: 7px;
-        border-radius: 10px;
-    }
-    
-    #contact-form textarea {
-        border-radius: 10px;
-        width: 190px;
-        height: 80px;
-        font-size: 16px;
-        padding: 7px;
-    }
-    
-    form #submit {
-        display: block;
-        margin-top: 20px;
-        border-radius: 10px;
-        padding: 12px;
-        color: white;
-        font-size: 18px;
-        background-color:rgb(4, 50, 73);
-        width: 205px;
-    }
-    
-    .contact-us-image img {
-        display: none;
-    }
-
-
-
-    /* Success Page */
-    
-    
-    .hero-title-image-success {
+    .case-study-content {
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
-        gap: 95px;
-        padding-top: 70px;
-        width: 260px;
-        margin: 0 auto;
-    }
-
-    .hero-text-success br {
-        display: none;
+        width: 100%;
+        justify-content: center;
     }
     
-    .hero-text-success h1 {
-        font-size: 40px;
-        color:rgb(203, 255, 175);
-        font-weight: 500;
-        font-family: 'Ubuntu', sans-serif;
-        text-align: center;
+    .content {
+        padding-top: 40px;
+        text-align: left;
+        width: 250px;
     }
     
-    .hero-text-success p {
+    .content h3 {
+        font-size: 22px;
+        padding: 30px 0px 20px 0px;
+        color:rgb(4, 50, 73);
+        font-weight: 700;
+    }
+    
+    .content p {
         font-size: 16px;
-        color:rgb(203, 255, 175);
-        margin-top: 10px;
-        font-family: 'Ubuntu', sans-serif;
-        line-height: 1.5;
-        text-align: center;
+        letter-spacing: 1px;
+        line-height: 1.4;
+        padding-bottom: 10px;
     }
     
+    .caseStudy-button {
+        padding-top: 70px;
+    }
     
-    .hero-picture-success {
-        width: 260px;
-        height: 200px;
-        border-radius: 12px;
+    .caseStudy-button a {
+        text-decoration: none;
+        background-color: rgb(4, 50, 73);
+        color: white;
+        font-size: 18px;
+        font-weight: 500;
+        padding: 12px;
+        border-radius: 20px;
     }
 
 }
@@ -2324,7 +2785,7 @@
 
     .case-studies-card img {
         height: 240px;
-        width: 375px;
+        width: 350px;
         padding-bottom: 30px;
     }
 
@@ -2394,8 +2855,8 @@
     }
 
     .case-studies-card h3 {
-        font-size: 22px;
-        padding: 10px 0px;
+        font-size: 26px;
+        padding: 10px 0px 10px 10px;
     }
 
     .case-studies-card p {
@@ -2852,143 +3313,618 @@
 
 
 
-    /* Contact Us Page */
+
+    /* Career Page */
+
+    /* Hero Image */
 
     .hero-text h1 {
-        padding-top: 70px;
+        font-size: 36px;
+        padding-top: 100px;
     }
 
-    .hero-title-image-contact-us {
+    .hero-title-image {
+        gap: 90px;
+    }
+
+    .hero-picture-career {
+        height: 230px;
+        width: 350px;
+        border-radius: 20px;
+    }
+
+
+
+
+    /* Employee Testimonial Section */
+
+    /* * {box-sizing: border-box;} */
+
+    .slideshow {
+        background-color: rgb(255,255,255);
+        font-family: 'Ubuntu', sans-serif;
+        height: 925px;
+    }
+
+    .employee-title h2 {
+        font-size: 40px;
+        padding-top: 75px;
         text-align: center;
-        padding-top: 0px;
+        color: rgb(32, 72, 1);
     }
 
-    .hero-title-image-contact-us img {
-        width: 360px;
-        height: 250px;
+    .slideshow-container {
+        max-width: 375px;
+        height: 200px;
+        position: relative;
+        margin: auto;
+        padding: 250px 0px 40px 0px;
+        background-color: rgb(255,255,255);
+        font-family: 'Ubuntu', sans-serif;
     }
 
-    .contact-section {
+    .mySlides {
+        display: none;
+    }
+
+    .slide-text {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        gap: 70px;
         align-items: center;
-        height: 950px;
+        margin: 0 auto;
+        max-width: 295px;
+        height: 200px;
+    }
+
+    .slide-text h3 {
+        font-size: 26px;
+        color: rgb(58, 58, 58);
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
+    .slide-text p {
+        font-size: 20px;
+        color:rgb(89, 89, 89);
+        text-align: center;
+        padding-bottom: 20px;
+        line-height: 1.4;
+    }
+
+    .slide-text h4 {
+        font-size: 22px;
+        color:rgb(58, 58, 58);
+    }
+
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: 0px;
+        padding: 16px;
+        color: rgb(143, 143, 143);
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+    }
+
+    .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }
+
+    .prev:hover, .next:hover {
+        background-color:rgba(4, 50, 73, 0.8);
+        color: white;
+    }
+
+    .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+    }
+
+    .dots {
+        padding-top: 180px;
+        padding-bottom: 75px;
+    }
+
+    .active, .dot:hover {
+        background-color: rgba(4, 50, 73, 0.9);
+    }
+
+    .fade {
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+
+    @keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+    }
+
+
+
+
+    /* Benefits Section */
+
+    .benefits-container {
+        font-family: 'Ubuntu', sans-serif;
+        height: 4750px;
+        background-color: rgb(231, 240, 216, 0.8);
+    }
+
+    .benefits-title {
+        padding: 100px 20px 70px 20px;
+        margin-left: 0px;
+    }
+
+    .benefits-title br {
+        display: none;
+    }
+
+    .benefits-title h2 {
+        font-size: 36px;
+        padding-bottom: 50px;
+        text-align: center;
+        color: rgb(32, 72, 1);
+    }
+
+    .benefits-title p {
+        font-size: 20px;
+        text-align: center;
+        color: rgb(89, 89, 89);
+    }
+
+    .benefits-card-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px 90px;
+    }
+
+    .benefits-card {
+        border: 1px solid transparent;
+        border-radius: 20px;
+        box-shadow: 2px 2px 10px rgb(199, 199, 199);
+        width: 250px;
+        height: 250px;
+        text-align: center;
+        padding: 20px;
+        position: relative;
+        transition: all .5s ease-in;
         background-color: white;
+    }
+
+    .benefits-card img {
+        padding-top: 20px;
+        height: 120px;
+        width: 120px;
+    }
+
+    .benefits-card h4 {
+        font-size: 24px;
+        padding-top: 25px;
+    }
+
+
+
+    /* Overlay */
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        border-radius: 20px;
+        background-color: rgba(4, 50, 73, 0.9);
+    }
+
+    .benefits-card:hover .overlay {
+        opacity: 1;
+    }
+
+    .text {
+        color: white;
+        font-size: 21px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        line-height: 1.4;
+        font-weight: 600;
+        letter-spacing: 2px;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+
+
+    /* Diversity Section */
+
+    .diversity-container {
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    .diversity-title-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: normal;
+        align-items: center;
+        gap: 50px;
+        height: 1050px;
+    }
+
+    .diversity-title {
+        width: 350px;
+        text-align: left;
+        padding-top: 90px;
+    }
+
+    .diversity-title br {
+        display: none;
+    }
+
+    .diversity-title h2 {
+        font-size: 30px;
+        color: rgb(32, 72, 1);
+        padding-bottom: 30px;
+        text-align: center;
+    }
+
+    .diversity-title p {
+        font-size: 18px;
+        color:rgb(89, 89, 89);
+        padding-bottom: 20px;
+    }
+
+    .diversity-list .fa {
+        color:rgb(32, 72, 1);
+        font-size: 22px;
+    }
+
+    .diversity-list li {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .diversity-image img {
+        height: 280px;
+        width: 350px;
+        border-radius: 20px;
+        box-shadow: 2px 2px 12px rgb(184, 190, 174);
+    }
+
+
+
+    /* Community Section */
+
+    .community-container {
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    .community-title-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: normal;
+        align-items: center;
+        gap: 50px;
+        padding-top: 50px;
+        height: 775px;
+    }
+
+    .community-title {
+        width: 350px;
+        text-align: left;
+    }
+
+    .community-title br {
+        display: none;
+    }
+
+    .community-title h2 {
+        font-size: 30px;
+        color: rgb(32, 72, 1);
+        padding-bottom: 30px;
+        text-align: center;
+    }
+
+    .community-title p {
+        font-size: 18px;
+        color:rgb(89, 89, 89);
+        padding-bottom: 20px;
+    }
+
+    .community-list .fa {
+        color:rgb(32, 72, 1);
+        font-size: 22px;
+    }
+
+    .community-list li {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .community-image img {
+        height: 280px;
+        width: 350px;
+        border-radius: 20px;
+        box-shadow: -2px -2px -12px rgb(184, 190, 174);
+    }
+
+
+
+    /* Apply Section */
+
+    .apply-container {
+        font-family: 'Ubuntu', sans-serif;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 90px;
+        margin-top: 200px;
+        padding-bottom: 60px;
+        height: 800px;
+        background-color: rgb(231, 240, 216, 0.8);
+    }
+
+    .apply-image img {
+        height: 350px;
+        width: 350px;
+        border-radius: 20px;
+        margin-top: 0px;
+        box-shadow: 2px 2px 12px rgb(184, 190, 174);
+    }
+
+    .apply-title {
+        width: 350px;
+        text-align: center;
+    }
+
+    .apply-title br {
+        display: none;
+    }
+
+    .apply-title h2 {
+        font-size: 36px;
+        padding-top: 50px;
+        padding-bottom: 30px;
+        color:rgb(32, 72, 1);
+    }
+
+    .apply-title p {
+        font-size: 20px;
+        color:rgb(89, 89, 89);
+        padding-bottom: 50px;
+    }
+
+    .apply-title a {
+        text-decoration: none;
+        color: white;
+        border: 1px solid transparent;
+        padding: 12px 14px;
+        font-size: 24px;
+        border-radius: 20px;
+        background-color:rgba(4, 50, 73, 0.9);
+    }
+
+
+
+
+
+
+
+
+    /* Jobs Page */
+
+    .open-jobs-container {
+        display: flex;
+        font-family: 'Ubuntu', sans-serif;
+        width: 340px;
+        padding: 0px 30px;
+        line-height: 1.4;
+        text-align: justify;
+    }
+    
+    .open-job1 {
+        background-color: rgb(231, 240, 216, 0.8);
+        height: 2300px;
+    }
+    
+    .open-job2 {
+        background-color: rgb(255, 255, 255);
+        height: 2050px;
+    }
+    
+    .open-job3 {
+        background-color: rgb(231, 240, 216, 0.8);
+        height: 1825px;
+    }
+    
+    .open-job4 {
+        background-color: rgb(255, 255, 255);
+        height: 1625px;
+    }
+    
+    .open-job {
+        text-align: justify;
+        margin: 0 auto;
+        max-width: 330px;
+    }
+    
+    .open-job-title {
+        font-size: 32px;
+        color: rgb(32, 72, 1);
+        padding: 100px 0px 40px 0px;
+        text-align: center;
+    }
+    
+    .open-job-subtitle {
+        font-size: 24px;
+        padding-bottom: 30px;
+    }
+    
+    .open-job p {
+        font-size: 20px;
+        padding-bottom: 30px;
+        line-height: 1.4;
+    }
+    
+    .open-job ul {
+        padding-bottom: 40px;
+    }
+    
+    .open-job li {
+        list-style-type: square;
+        margin-left: 30px;
+        padding-left: 8px;
+        font-size: 20px;
+        line-height: 1.4;
+    }
+    
+    .open-job a {
+        text-decoration: none;
+        font-size: 28px;
+        padding: 12px;
+        border: 1px solid transparent;
+        border-radius: 20px;
+        color: white;
+        background-color: rgba(4, 50, 73);
     }
     
     
-    .contact-us-container {
+    
+    
+    
+    /* Jobs Page */
+    
+    .jobs-container {
+        height: 700px;
         font-family: 'Ubuntu', sans-serif;
-        border: 1px solid black;
-        padding: 30px;
-        border-radius: 20px;
-        width: 360px;
         background-color: rgb(231, 240, 216, 0.8);
     }
     
-    .contact-us-title {
+    .jobs-title {
+        font-size: 36px;
         text-align: center;
-    }
-
-    .contact-us-title br {
-        display: none;
+        color:rgb(32, 72, 1);
+        padding-top: 70px;
     }
     
-    .contact-us-title h2 {
-        font-size: 40px;
-        color: rgb(32, 72, 1);
+    .jobs-container hr {
+        width: 75%;
+        height: 3px;
+        background-color:rgb(32, 72, 1);
+        margin: 8px auto;
+        
     }
     
-    .contact-us-title p {
-        margin: 20px 0px 30px 0px;
-        color: rgb(89, 89, 89);
-        font-size: 18px;
-        line-height: 1.3;
-    }
-    
-    #contact-form label {
-        display: block;
-        font-family: 'Ubuntu', sans-serif;
-        font-size: 20px;
-        margin-top: 20px;
-        margin-bottom: 5px;
-    }
-    
-    #contact-form input {
-        font-size: 20px;
-        width: 345px;
-        display: block;
-        padding: 7px;
-        border-radius: 10px;
-    }
-    
-    #contact-form textarea {
-        border-radius: 10px;
-        width: 345px;
-        height: 100px;
-        font-size: 18px;
-        padding: 7px;
-    }
-    
-    form #submit {
-        display: block;
-        margin-top: 20px;
-        border-radius: 10px;
-        padding: 12px;
-        color: white;
-        font-size: 24px;
-        background-color:rgb(4, 50, 73);
-        width: 360px;
-    }
-    
-    .contact-us-image img {
-        height: 160px;
-        width: 320px;
-    }
-    
-    
-    /* Success Page */
-    
-    
-    .hero-title-image-success {
+    .jobs-links-container {
+        padding-top: 50px;
         display: flex;
+        margin: 0 auto;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 70px;
-        padding-top: 170px;
-        width: 350px;
-        margin: 0 auto;
+        gap: 50px;
+        width: 320px;
+    }
+    
+    .jobs-links {
+        border: 1px solid transparent;
+        border-radius: 20px;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 2px 2px 10px rgb(190, 190, 190);
+        padding: 10px;
+        text-align: center;
+    }
+    
+    .jobs-links a {
+        text-decoration: none;
+        color:rgba(4, 50, 73);
+        font-size: 26px;
+        font-weight: 600;
     }
 
-    .hero-text-success br {
-        display: none;
-    }
-    
-    .hero-text-success h1 {
-        font-size: 40px;
-        color:rgb(203, 255, 175);
-        font-weight:500;
+
+
+
+
+
+
+    /* Case Study Pages */
+
+    .case-study-container {
         font-family: 'Ubuntu', sans-serif;
-        text-align: center;
+        width: 100%;
+        padding-bottom: 100px;
     }
     
-    .hero-text-success p {
-        font-size: 16px;
-        color:rgb(203, 255, 175);
-        margin-top: 10px;
-        font-family: 'Ubuntu', sans-serif;
-        line-height: 1.5;
-        text-align: center;
+    .case-study-title {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
     
+    .case-study-title h2 {
+        font-size: 36px;
+        padding-top: 100px;
+        letter-spacing: 4px;
+        text-align: center;
+        color: rgb(32, 72, 1);
+    }
     
-    .hero-picture-success {
-        width: 360px;
-        height: 240px;
-        border-radius: 12px;
+    .case-study-title p {
+        padding-top: 30px;
+        text-align: center;
+        font-size: 20px;
+        color: rgb(89, 89, 89);
+        font-weight: 500;
+    }
+    
+    .case-study-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .content {
+        padding-top: 40px;
+        text-align: left;
+        width: 350px;
+    }
+    
+    .content h3 {
+        font-size: 26px;
+        padding: 30px 0px 20px 0px;
+        color:rgb(4, 50, 73);
+        font-weight: 700;
+    }
+    
+    .content p {
+        font-size: 20px;
+        letter-spacing: 1px;
+        line-height: 1.4;
+        padding-bottom: 10px;
     }
 }
 
@@ -4259,6 +5195,76 @@
     }
 
 
+
+
+
+    /* Employee Testimonial Section */
+
+
+    .slideshow {
+        background-color: rgb(255,255,255);
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    .employee-title {
+        height: 180px;
+    }
+
+    .employee-title h2 {
+        font-size: 40px;
+        padding-top: 75px;
+        text-align: center;
+        color: rgb(32, 72, 1);
+    }
+
+    .slideshow-container {
+        max-width: 675px;
+        height: 270px;
+        position: relative;
+        margin: auto;
+        padding: 55px 0px 40px 0px;
+        background-color: rgb(255,255,255);
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    .mySlides {
+        display: none;
+    }
+
+    .slide-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        max-width: 550px;
+        height: 200px;
+    }
+
+    .slide-text h3 {
+        font-size: 30px;
+        color: rgb(58, 58, 58);
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
+    .slide-text p {
+        font-size: 20px;
+        color:rgb(89, 89, 89);
+        text-align: center;
+        padding-bottom: 20px;
+        line-height: 1.4;
+    }
+
+    .slide-text h4 {
+        font-size: 22px;
+        color:rgb(58, 58, 58);
+    }
+
+
+
+
+
     /* Benefits Section */
 
     .benefits-container {
@@ -4558,9 +5564,198 @@
 
     /* Open Jobs Page */
 
+    .open-jobs-container {
+        display: flex;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    
+    .open-job1 {
+        background-color: rgb(231, 240, 216, 0.8);
+        height: 2050px;
+    }
+    
+    .open-job2 {
+        background-color: rgb(255, 255, 255);
+        height: 1820px;
+    }
+    
+    .open-job3 {
+        background-color: rgb(231, 240, 216, 0.8);
+        height: 1550px;
+    }
+    
+    .open-job4 {
+        background-color: rgb(255, 255, 255);
+        height: 1430px;
+    }
+    
+    .open-job {
+        text-align: justify;
+        margin: 0 auto;
+        max-width: 550px;
+    }
+    
+    .open-job-title {
+        font-size: 45px;
+        color: rgb(32, 72, 1);
+        padding: 100px 0px 40px 0px;
+    }
+
+    .PM-Analyst {
+        font-size: 32px;
+    }
+    
+    .open-job-subtitle {
+        font-size: 26px;
+        padding-bottom: 30px;
+    }
+    
+    .open-job p {
+        font-size: 22px;
+        padding-bottom: 30px;
+        line-height: 1.3;
+    }
+    
+    .open-job ul {
+        padding-bottom: 70px;
+    }
+    
+    .open-job li {
+        list-style-type: square;
+        margin-left: 30px;
+        padding-left: 8px;
+        font-size: 22px;
+        line-height: 1.4;
+    }
+    
+    .open-job a {
+        text-decoration: none;
+        font-size: 28px;
+        padding: 12px;
+        border: 1px solid transparent;
+        border-radius: 20px;
+        color: white;
+        background-color: rgba(4, 50, 73);
+    }
+    
+    
+    
+    
+    /* Jobs Page */
+    
+    .jobs-container {
+        height: 900px;
+        font-family: 'Ubuntu', sans-serif;
+        background-color: rgb(231, 240, 216, 0.8);
+    }
+    
+    .jobs-title {
+        font-size: 45px;
+        text-align: center;
+        color:rgb(32, 72, 1);
+        padding-top: 130px;
+    }
+    
+    .jobs-container hr {
+        width: 17%;
+        height: 3px;
+        background-color:rgb(32, 72, 1);
+        margin: 6px auto;
+        
+    }
+    
+    .jobs-links-container {
+        padding-top: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+    
+    .jobs-links {
+        border: 1px solid transparent;
+        border-radius: 20px;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 2px 2px 10px rgb(190, 190, 190);
+        padding: 15px;
+    }
+    
+    .jobs-links a {
+        text-decoration: none;
+        color:rgba(4, 50, 73);
+        font-size: 30px;
+        font-weight: 600;
+    }
 
 
+
+
+    /* Case Study Pages */
+
+    .case-study-container {
+        font-family: 'Ubuntu', sans-serif;
+        padding-bottom: 100px;
+        max-width: 550px;
+        margin: 0 auto;
+    }
+
+    .case-study-title {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 600px;
+    }
+
+    .case-study-title h2 {
+        font-size: 35px;
+        padding-top: 100px;
+        letter-spacing: 4px;
+        text-align: center;
+        color: rgb(32, 72, 1);
+    }
+
+    .case-study-title p {
+        padding-top: 30px;
+        text-align: center;
+        font-size: 20px;
+        color: rgb(89, 89, 89);
+        font-weight: 500;
+    }
+
+    .case-study-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .content {
+        padding-top: 40px;
+        text-align: left;
+        width: 550px;
+    }
+
+    .content h3 {
+        font-size: 24px;
+        padding: 30px 0px 20px 0px;
+        color:rgb(4, 50, 73);
+        font-weight: 700;
+    }
+
+    .content p {
+        font-size: 18px;
+        letter-spacing: 1px;
+        line-height: 1.4;
+        padding-bottom: 10px;
+    }
 }
+
+
+
+
+
 
 
 
@@ -4695,13 +5890,17 @@
     
     
     /* Hero TITLE & VIDEO */
+
+    .hero-container {
+        height: 600px;
+    }
     
     .hero-title-image {
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 50px;
-        padding-top: 50px;
+        gap: 100px;
+        padding-top: 75px;
     }
     
     .hero-text h1 {
@@ -5149,12 +6348,13 @@
         justify-content: center;
         align-items: center;
         gap: 100px;
+        padding-top: 0px;
         height: 500px;
     }
 
     .about-us-picture {
-        height: 500px;
-        width: 380px;
+        height: 400px;
+        width: 300px;
         border-radius: 20px;
         padding: 0;
     }
@@ -5183,7 +6383,7 @@
     .philosophy-content {
         display: flex;
         justify-content: center;
-        gap: 100px;
+        gap: 50px;
         align-items: center;
         padding-top: 50px;
     }
@@ -5847,232 +7047,387 @@
 
 
 
-    /* Contact Us Page */
-
-    .hero-title-image-contact-us {
-        padding-top: 60px;
-    }
-
-    /* Contact Form */
-
-    .contact-section {
-        display: flex;
-        justify-content: center;
-        gap: 0px 10%;
-        align-items: center;
-        height: 750px;
-        background-color: white;
-    }
 
 
-    .contact-us-container {
-        font-family: 'Ubuntu', sans-serif;
-        border: 1px solid black;
-        padding: 30px;
+
+    /* Career Page */
+    
+    .hero-picture-career {
+        height: 350px;
+        width: 500px;
         border-radius: 20px;
-        background-color: rgb(231, 240, 216, 0.8);
     }
 
-    .contact-us-title {
-        text-align: center;
+    .slideshow {
+        background-color: rgb(255,255,255);
+        font-family: 'Ubuntu', sans-serif;
     }
-
-    .contact-us-title h2 {
+    
+    .employee-title h2 {
         font-size: 40px;
+        padding-top: 75px;
+        text-align: center;
         color: rgb(32, 72, 1);
     }
-
-    .contact-us-title p {
-        margin: 20px 0px 30px 0px;
-        color: rgb(89, 89, 89);
-        font-size: 18px;
-        line-height: 1.3;
-    }
-
-    #contact-form label {
-        display: block;
+    
+    .slideshow-container {
+        max-width: 1000px;
+        height: 200px;
+        position: relative;
+        margin: auto;
+        padding: 55px 0px 40px 0px;
+        background-color: rgb(255,255,255);
         font-family: 'Ubuntu', sans-serif;
-        font-size: 20px;
-        margin-top: 20px;
-        margin-bottom: 5px;
     }
-
-    #contact-form input {
-        font-size: 20px;
-        width: 400px;
-        display: block;
-        padding: 7px;
-        border-radius: 10px;
+    
+    .mySlides {
+        display: none;
     }
-
-    #contact-form textarea {
-        border-radius: 10px;
-        width: 400px;
-        height: 100px;
-        font-size: 18px;
-        padding: 7px;
-    }
-
-    form #submit {
-        display: block;
-        margin-top: 20px;
-        border-radius: 10px;
-        padding: 12px;
-        color: white;
-        font-size: 24px;
-        background-color:rgb(4, 50, 73);
-        width: 416px;
-    }
-
-    .contact-us-image img {
-        height: 260px;
-        width: 450px;
-    }
-
-
-    /* Success Page */
-
-    .header-about-us {
-        text-align: center;
+    
+    .slide-text {
         display: flex;
-        justify-content: space-evenly;
+        flex-direction: column;
+        justify-content: center;
         align-items: center;
-        padding: 20px 0px 20px 0px;
-        overflow: hidden;
-        background-color:rgb(4, 50, 73);
-        position: fixed;
-        top: 0;
-        width: 100%;
-        z-index: 5;
-        box-shadow: 0px 4px 10px rgb(4, 50, 73, 0.6);
+        margin: 0 auto;
+        max-width: 850px;
+        height: 200px;
     }
     
-    .header input {
-        display: none;
+    .slide-text h3 {
+        font-size: 30px;
+        color: rgb(58, 58, 58);
+        padding-bottom: 20px;
     }
     
-    .nav-logo {
-        margin-right: 50px;
+    .slide-text p {
+        font-size: 20px;
+        color:rgb(89, 89, 89);
+        text-align: center;
+        padding-bottom: 20px;
+        line-height: 1.4;
     }
     
-    .nine30-logo {
-        width: 120px;
-        height: 60px;
+    .slide-text h4 {
+        font-size: 22px;
+        color:rgb(58, 58, 58);
     }
     
-    .navbar {
-        margin-right: 75px;
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: -22px;
+        padding: 16px;
+        color: rgb(183, 183, 183);
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+    }
+    
+    .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }
+    
+    .prev:hover, .next:hover {
+        background-color:rgba(4, 50, 73, 0.8);
+        color: white;
+    }
+    
+    .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+    }
+    
+    .dots {
+        padding-bottom: 75px;
+    }
+    
+    .active, .dot:hover {
+        background-color: rgba(4, 50, 73, 0.9);
+    }
+    
+    .fade {
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+    
+    @keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+    }
+    
+    
+    
+    
+    /* Benefits Section */
+    
+    .benefits-container {
+        font-family: 'Ubuntu', sans-serif;
+        height: 1950px;
+        background-color: rgb(231, 240, 216, 0.8);
+    }
+    
+    .benefits-title {
+        padding: 100px 0px 70px 0px;
+        margin: 0 auto;
         text-align: center;
     }
     
-    .checkbtn .fa {
-        font-size: 30px;
-        color: white;
-        margin: 0px;
-        float: right;
-        cursor: pointer;
-        display: none;
+    .benefits-title h2 {
+        font-size: 40px;
+        padding-bottom: 40px;
+        color: rgb(32, 72, 1);
     }
     
-    #check {
-        display: none;
-    }
-    
-    .menu {
-        list-style-type: none;
-    }
-    
-    .menu li {
-        display: inline-block;
-    }
-    
-    .navbar a {
-        text-decoration: none;
+    .benefits-title p {
         font-size: 22px;
-        color: rgb(225, 225, 225);
-        padding: 0px 15px;
-        font-family: 'Teko', sans-serif;
-        letter-spacing: 1.25px;
+        color: rgb(89, 89, 89);
     }
     
-    .navbar span {
-        margin-left: 10px;
-        color: rgb(0, 255, 0);
-        font-weight: bold;
+    .benefits-card-container {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(3, 300px);
+        gap: 50px 50px;
     }
     
-    .countdown p {
-        margin-right: 20px;
-        color: white;
-        font-family: 'Teko', sans-serif;
-        font-size: 20px;
-    }
-    
-    .countdown span {
-        color: white;
-    }
-    
-    #demo {
-        color: rgb(0, 196, 0);
-        font-size: 22px;
-        font-family: 'Teko', sans-serif;
-        border: 1px solid black;
-        background-color:rgba(33, 33, 33, 0.746);
-        border-radius: 10px;
-    }
-    
-    .navbar-button {
-        display: inline-block;
-        margin-left: 0px;
-    }
-    
-    .navbar-button button {
-        background-color: rgb(40, 140, 113);
-        color: white;
-        font-size: 18px;
+    .benefits-card {
+        border: 1px solid transparent;
         border-radius: 20px;
-        border-color: transparent;
-        padding: 4px 8px;
-        font-family: 'Teko', sans-serif;
-        letter-spacing: 1.25px;
-       
+        box-shadow: 2px 2px 10px rgb(199, 199, 199);
+        width: 250px;
+        height: 280px;
+        text-align: center;
+        padding: 20px;
+        position: relative;
+        transition: all .5s ease-in;
+        background-color: white;
     }
     
-    .navbar-button a {
-        text-decoration: none;
-        color: white;
+    .benefits-card img {
+        padding-top: 20px;
+        height: 150px;
+        width: 150px;
     }
-
-
-    .hero-title-image-success {
+    
+    .benefits-card h4 {
+        font-size: 24px;
+        padding-top: 25px;
+    }
+    
+    
+    
+    /* Overlay */
+    
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        border-radius: 20px;
+        background-color: rgba(4, 50, 73, 0.9);
+    }
+    
+    .benefits-card:hover .overlay {
+        opacity: 1;
+    }
+    
+    .text {
+        color: white;
+        font-size: 16px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        line-height: 1.4;
+        font-weight: 600;
+        letter-spacing: 2px;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    
+    
+    
+    /* Diversity Section */
+    
+    .diversity-container {
+        font-family: 'Ubuntu', sans-serif;
+    }
+    
+    .diversity-title-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 90px;
+        height: 1250px;
+    }
+    
+    .diversity-title {
+        width: 550px;
+        text-align: left;
+    }
+    
+    .diversity-title h2 {
+        font-size: 50px;
+        color: rgb(32, 72, 1);
+        padding-bottom: 30px;
+    }
+    
+    .diversity-title p {
+        font-size: 20px;
+        color:rgb(89, 89, 89);
+        padding-bottom: 20px;
+    }
+    
+    .diversity-list .fa {
+        color:rgb(32, 72, 1);
+        font-size: 28px;
+    }
+    
+    .diversity-list li {
+        font-size: 22px;
+        font-weight: 500;
+    }
+    
+    .diversity-image img {
+        height: 450px;
+        width: 700px;
+        border-radius: 20px;
+        box-shadow: 2px 2px 12px rgb(184, 190, 174);
+    }
+    
+    
+    
+    /* Community Section */
+    
+    .community-container {
+        font-family: 'Ubuntu', sans-serif;
+    }
+    
+    .community-title-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: normal;
+        align-items: center;
+        gap: 90px;
+        padding-top: 75px;
+        height: 900px;
+    }
+    
+    .community-title {
+        width: 550px;
+        text-align: left;
+    }
+    
+    .community-title h2 {
+        font-size: 50px;
+        color: rgb(32, 72, 1);
+        padding-bottom: 30px;
+    }
+    
+    .community-title p {
+        font-size: 20px;
+        color:rgb(89, 89, 89);
+        padding-bottom: 20px;
+    }
+    
+    .community-list .fa {
+        color:rgb(32, 72, 1);
+        font-size: 28px;
+    }
+    
+    .community-list li {
+        font-size: 22px;
+        font-weight: 500;
+    }
+    
+    .community-image img {
+        height: 650px;
+        width: 900px;
+        border-radius: 20px;
+        box-shadow: -2px -2px -12px rgb(184, 190, 174);
+    }
+    
+    
+    
+    /* Apply Section */
+    
+    .apply-container {
+        font-family: 'Ubuntu', sans-serif;
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 190px;
-        padding-top: 170px;
+        gap: 10%;
+        margin-top: 200px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        background-color: rgb(231, 240, 216, 0.8);
     }
-
-    .hero-text-success h1 {
-        font-size: 90px;
-        color:rgb(203, 255, 175);
-        font-weight:500;
-        font-family: 'Ubuntu', sans-serif;
-        text-align: center;
-    }
-
-    .hero-text-success p {
-        font-size: 20px;
-        color:rgb(203, 255, 175);
-        margin-top: 10px;
-        font-family: 'Ubuntu', sans-serif;
-        line-height: 1.5;
-        text-align: center;
-    }
-
-
-    .hero-picture-success {
-        width: 700px;
+    
+    .apply-image img {
         height: 450px;
-        border-radius: 12px;
+        width: 500px;
+        border-radius: 20px;
+        margin-top: 0px;
+        box-shadow: 2px 2px 12px rgb(184, 190, 174);
     }
+    
+    .apply-title {
+        width: 550px;
+    }
+    
+    .apply-title h2 {
+        font-size: 45px;
+        padding-bottom: 30px;
+        color:rgb(32, 72, 1);
+    }
+    
+    .apply-title p {
+        font-size: 20px;
+        color:rgb(89, 89, 89);
+        padding-bottom: 40px;
+    }
+    
+    .apply-title a {
+        text-decoration: none;
+        color: white;
+        border: 1px solid transparent;
+        padding: 12px 14px;
+        font-size: 26px;
+        border-radius: 20px;
+        background-color:rgba(4, 50, 73, 0.9);
+    }
+
+
+
+
+
+
+    /* Open Jobs Page */
+
+    .open-job {
+        text-align: justify;
+        margin: 0 auto;
+        max-width: 1200px;
+        padding: 0px 50px;
+    }
+
 }

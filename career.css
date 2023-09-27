@@ -33,6 +33,124 @@
 }
 
 
+
+
+/* Employee Testimonial Section */
+
+/* * {box-sizing: border-box;} */
+
+.slideshow {
+    background-color: rgb(255,255,255);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.employee-title h2 {
+    font-size: 40px;
+    padding-top: 75px;
+    text-align: center;
+    color: rgb(32, 72, 1);
+}
+
+.slideshow-container {
+    max-width: 1275px;
+    height: 200px;
+    position: relative;
+    margin: auto;
+    padding: 55px 0px 40px 0px;
+    background-color: rgb(255,255,255);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.mySlides {
+    display: none;
+}
+
+.slide-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1150px;
+    height: 200px;
+}
+
+.slide-text h3 {
+    font-size: 30px;
+    color: rgb(58, 58, 58);
+    padding-bottom: 20px;
+}
+
+.slide-text p {
+    font-size: 20px;
+    color:rgb(89, 89, 89);
+    text-align: center;
+    padding-bottom: 20px;
+    line-height: 1.4;
+}
+
+.slide-text h4 {
+    font-size: 22px;
+    color:rgb(58, 58, 58);
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: rgb(183, 183, 183);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color:rgba(4, 50, 73, 0.8);
+    color: white;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.dots {
+    padding-bottom: 75px;
+}
+
+.active, .dot:hover {
+    background-color: rgba(4, 50, 73, 0.9);
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+
+
+
 /* Benefits Section */
 
 .benefits-container {
