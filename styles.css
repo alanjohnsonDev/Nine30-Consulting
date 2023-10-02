@@ -35,7 +35,7 @@ body {
 }
 
 .nav-logo {
-    margin-right: 365px;
+    margin-right: 360px;
 }
 
 .nine30-logo {
@@ -146,6 +146,32 @@ body {
 
 .hero-text p {
     font-size: 16px;
+    color:rgb(203, 255, 175);
+    margin-top: 10px;
+    line-height: 1.35;
+    font-family: 'Helvetica', Arial;
+}
+
+
+/* Home Page Hero-title-image */
+
+.hero-title-image-index {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 190px;
+    padding-top: 170px;
+}
+
+.hero-text h1 {
+    font-size: 55px;
+    color:rgb(203, 255, 175);
+    font-weight: 500;
+    font-family: 'Helvetica', Arial;
+}
+
+.hero-text p {
+    font-size: 18px;
     color:rgb(203, 255, 175);
     margin-top: 10px;
     line-height: 1.35;
@@ -389,7 +415,7 @@ body {
 .join-us-container {
     display: flex;
     align-items: center;
-    background-image: linear-gradient(to left, rgb(4, 50, 73), rgba(25, 83, 61), rgb(79, 127, 45), rgb(99, 171, 66) 90%);
+    background-image: linear-gradient(to left, rgba(25, 83, 61), rgb(79, 127, 45), rgb(77, 142, 47) 90%);
     height: 651px;
     font-family: 'Helvetica', Arial;
 }
@@ -445,13 +471,18 @@ body {
 /* Footer Section */
 
 .footer-container {
-    display: grid;
-    grid-template-columns: repeat(4, 300px);
-    justify-content: space-evenly;
+    display: flex;
+    justify-content: center;
+    gap: 440px;
     padding-top: 100px;
-    background-image: linear-gradient(to top, rgb(16, 16, 16), rgb(29, 29, 29));
+    background-color:rgb(4, 50, 73);
     height: 300px;
     font-family: 'Helvetica', Arial;
+}
+
+.nav-bottom-links {
+    display: flex;
+    gap: 195px;
 }
 
 .footer-container h3 {
@@ -483,8 +514,8 @@ body {
 }
 
 .nine30-info img {
-    width: 225px;
-    height: 120px;
+    width: 180px;
+    height: 90px;
     margin-top: -8px;
 }
 

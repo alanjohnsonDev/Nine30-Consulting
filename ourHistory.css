@@ -311,13 +311,18 @@
 /* Footer Section */
 
 .footer-container-history {
-    display: grid;
-    grid-template-columns: repeat(4, 300px);
-    justify-content: space-evenly;
-    padding-top: 45px;
-    background-color: rgb(4, 50, 73);
-    height: 300px;
-    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    gap: 440px;
+    padding-top: 100px;
+    background-color:rgb(4, 50, 73);
+    height: 400px;
+    font-family: 'Helvetica', Arial;
+}
+
+.nav-bottom-links {
+    display: flex;
+    gap: 195px;
 }
 
 .footer-container-history h3 {
@@ -346,4 +351,10 @@
 
 .footer-container-history .footer-green-line {
     color: rgb(122, 182, 54);
+}
+
+.nine30-info img {
+    width: 180px;
+    height: 90px;
+    margin-top: -8px;
 }

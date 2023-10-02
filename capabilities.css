@@ -110,13 +110,18 @@
 /* Footer Section */
 
 .footer-container-capabilities {
-    display: grid;
-    grid-template-columns: repeat(4, 300px);
-    justify-content: space-evenly;
+    display: flex;
+    justify-content: center;
+    gap: 440px;
     padding-top: 100px;
     background-color:rgb(4, 50, 73);
     height: 300px;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Helvetica', Arial;
+}
+
+.nav-bottom-links {
+    display: flex;
+    gap: 195px;
 }
 
 .footer-container-capabilities h3 {
