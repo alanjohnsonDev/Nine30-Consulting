@@ -24,27 +24,26 @@
 
 .open-jobs-container {
     display: flex;
-    font-family: 'Ubuntu', sans-serif;
 }
 
 .open-job1 {
-    background-color: rgb(231, 240, 216, 0.8);
-    height: 1400px;
-}
-
-.open-job2 {
-    background-color: rgb(255, 255, 255);
+    background-color: #F0F9EA;
     height: 1300px;
 }
 
+.open-job2 {
+    background-color: #F0F9EA;
+    height: 1130px;
+}
+
 .open-job3 {
-    background-color: rgb(231, 240, 216, 0.8);
-    height: 1150px;
+    background-color: #F0F9EA;
+    height: 1030px;
 }
 
 .open-job4 {
-    background-color: rgb(255, 255, 255);
-    height: 1060px;
+    background-color: #F0F9EA;
+    height: 1000px;
 }
 
 .open-job {
@@ -54,20 +53,26 @@
 }
 
 .open-job-title {
-    font-size: 45px;
-    color: rgb(32, 72, 1);
+    font-size: 40px;
+    color: #023B31;
     padding: 100px 0px 40px 0px;
+    font-family: 'Termina', Helvetica, Arial;
 }
 
 .open-job-subtitle {
-    font-size: 26px;
+    font-size: 22px;
     padding-bottom: 30px;
+    color: black;
+    font-family: 'Montserrat', Helvetica, Arial;
 }
 
 .open-job p {
-    font-size: 22px;
+    font-size: 18px;
     padding-bottom: 30px;
     line-height: 1.4;
+    color: #525252;
+    font-family: 'Montserrat', Helvetica, Arial;
+
 }
 
 .open-job ul {
@@ -78,18 +83,23 @@
     list-style-type: square;
     margin-left: 30px;
     padding-left: 8px;
-    font-size: 22px;
-    line-height: 1.6;
+    font-size: 18px;
+    line-height: 1.8;
+    font-weight: bold;
+    color: #525252;
+    font-family: 'Montserrat', Helvetica, Arial;
 }
 
 .open-job a {
     text-decoration: none;
-    font-size: 28px;
+    font-size: 20px;
+    font-weight: normal;
     padding: 12px;
     border: 1px solid transparent;
     border-radius: 20px;
-    color: white;
-    background-color: rgba(4, 50, 73);
+    color: #FFFFFF;
+    background: transparent linear-gradient(270deg, #023B31 0%, #34776B 100%) 0% 0% no-repeat padding-box;
+    font-family: 'Termina', Helvetica, Arial;
 }
 
 
@@ -99,28 +109,29 @@
 /* Jobs Page */
 
 .jobs-container {
-    height: 900px;
-    font-family: 'Ubuntu', sans-serif;
+    height: 750px;
     background-color: rgb(231, 240, 216, 0.8);
 }
 
 .jobs-title {
-    font-size: 45px;
+    font-size: 40px;
+    font-weight: normal;
     text-align: center;
-    color:rgb(32, 72, 1);
-    padding-top: 130px;
+    color:#023B31;
+    padding-top: 75px;
+    font-family: 'Termina', Helvetica, Arial;
 }
 
 .jobs-container hr {
     width: 17%;
     height: 3px;
-    background-color:rgb(32, 72, 1);
+    background-color: #023B31;
     margin: 6px auto;
     
 }
 
 .jobs-links-container {
-    padding-top: 100px;
+    padding-top: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -138,7 +149,8 @@
 
 .jobs-links a {
     text-decoration: none;
-    color:rgba(4, 50, 73);
-    font-size: 30px;
-    font-weight: 600;
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Montserrat', Helvetica, Arial;
 }

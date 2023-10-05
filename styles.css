@@ -8,7 +8,7 @@ body {
 }
 
 .hero-container {
-    background-image: linear-gradient(rgb(4, 50, 73) 32%, rgba(25, 83, 61), rgb(79, 127, 45), rgb(99, 171, 66));
+    background: transparent linear-gradient(180deg, #173142 22%, #4F8045 63%, #71AE47 100%);
     height: 775px; 
 }
 
@@ -20,14 +20,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 12px 0px 10px 0px;
     overflow: hidden;
-    background-color:rgb(4, 50, 73);
+    background-color: #173142;
     position: fixed;
-    top: 0;
+    height: 119px;
     width: 100%;
     z-index: 5;
-    box-shadow: 0px 4px 10px rgb(4, 50, 73, 0.6);
 }
 
 .header input {
@@ -35,12 +33,12 @@ body {
 }
 
 .nav-logo {
-    margin-right: 360px;
+    margin-right: 160px;
 }
 
 .nine30-logo {
-    width: 140px;
-    height: 70px;
+    width: 167px;
+    height: 63px;
 }
 
 .navbar {
@@ -65,30 +63,45 @@ body {
     list-style-type: none;
 }
 
+.menu ul {
+    padding-top: 0px;
+}
+
 .menu li {
     display: inline-block;
+    margin-bottom: 19px;
 }
 
 .navbar a {
     text-decoration: none;
-    font-size: 28px;
-    color: rgb(225, 225, 225);
-    padding: 0px 20px 20px 20px;
-    font-family: 'Teko', sans-serif;
+    font-size: 16px;
+    color: #F0F9EA;
+    padding: 0px 20px 0px 20px;
+    font-family: 'Termina', Helvetica, Arial;
     letter-spacing: 1.25px;
 }
 
 .navbar span {
     margin-left: 10px;
-    color: rgb(0, 255, 0);
+    color: #71AE47;
+    height: 13px;
+    top: 56px;
     font-weight: bold;
 }
 
+.countdown {
+    display: block;
+    align-items: center;
+    width: 270px;
+}
+
 .countdown p {
-    margin-right: 20px;
-    color: white;
-    font-family: 'Teko', sans-serif;
-    font-size: 26px;
+    display: inline-block;
+    color: #F0F9EA;
+    font-weight: normal;
+    font-family: 'Termina', Helvetica, Arial;
+    font-size: 16px;
+    text-transform: uppercase;
 }
 
 .countdown span {
@@ -96,27 +109,31 @@ body {
 }
 
 #demo {
-    color: rgb(0, 196, 0);
-    font-size: 30px;
-    font-family: 'Teko', sans-serif;
+    color: #71AE47;
+    font-size: 16px;
+    font-weight: normal;
+    display: inline-block;
+    width: 60px;
+    font-family: 'Termina', Helvetica, Arial;
     border: 1px solid black;
     background-color:rgba(33, 33, 33, 0.746);
     border-radius: 10px;
+    margin-right: 10px;
 }
 
 .navbar-button {
     display: inline-block;
-    margin-left: 180px;
+    margin-left: 64px;
 }
 
 .navbar-button button {
-    background-color: rgb(40, 140, 113);
-    color: white;
-    font-size: 24px;
-    border-radius: 20px;
+    background-color: #00796B;
+    color: #F0F9EA;
+    font-size: 16px;
+    border-radius: 27px;
     border-color: transparent;
     padding: 7px 12px;
-    font-family: 'Teko', sans-serif;
+    font-family: 'Termina', Helvetica, Arial;
     letter-spacing: 1.25px;
    
 }
@@ -133,23 +150,25 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 300px;
+    gap: 237px;
     padding-top: 170px;
 }
 
 .hero-text h1 {
-    font-size: 90px;
-    color:rgb(203, 255, 175);
+    font-size: 45px;
+    color: #f6fff0;
     font-weight: 500;
-    font-family: 'Helvetica', Arial;
+    font-family: 'Termina', Helvetica, Arial;
+    opacity: 1;
 }
 
 .hero-text p {
     font-size: 16px;
-    color:rgb(203, 255, 175);
+    width: 493px;
+    color:#D9EFC9;
     margin-top: 10px;
     line-height: 1.35;
-    font-family: 'Helvetica', Arial;
+    font-family: 'Montserrat', Helvetica, Arial;
 }
 
 
@@ -159,30 +178,26 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 190px;
+    gap: 130px;
     padding-top: 170px;
-}
-
-.hero-text h1 {
-    font-size: 55px;
-    color:rgb(203, 255, 175);
-    font-weight: 500;
-    font-family: 'Helvetica', Arial;
-}
-
-.hero-text p {
-    font-size: 18px;
-    color:rgb(203, 255, 175);
-    margin-top: 10px;
-    line-height: 1.35;
-    font-family: 'Helvetica', Arial;
 }
 
 
 .hero-picture {
-    width: 800px;
-    height: 475px;
+    width: 756px;
+    height: 500px;
     border-radius: 12px;
+}
+
+
+/* Our Team Page Hero-title-image */
+
+.hero-title-image-ourteam {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 460px;
+    padding-top: 170px;
 }
 
 
@@ -190,31 +205,31 @@ body {
 
 
 .capabilities-container {
-    height: 1000px;
-    background-color: rgb(231, 240, 216, 0.8);
+    height: 1020px;
+    background-color: #F0F9EA;
 }
 
 .capabilities-title {
     text-align: center;
-    padding-top: 75px;
+    padding-top: 86px;
 }
 
 .capabilities-title h2 {
-    font-size: 50px;
-    color: rgb(32, 72, 1);
-    font-family: 'Helvetica', Arial;
+    font-size: 44px;
+    color: #023B31;
+    font-family: 'Termina', Helvetica, Arial;
 }
 
 .capabilities-title p {
-    font-size: 18px;
-    margin-top: 30px;
-    color: rgb(89, 89, 89);
-    font-family: 'Helvetica', Arial;
+    font-size: 16px;
+    margin-top: 16px;
+    color: #525252;
+    font-family: 'Montserrat', Helvetica, Arial;
 }
 
 .green-line {
-    border-left: 4px solid rgb(95, 163, 0);
-    height: 150px;
+    border-left: 4px solid #91C75E;
+    height: 109px;
     width: 0%;
     margin: 50px auto;
 }
@@ -222,7 +237,7 @@ body {
 .cards-container {
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 38px;
     padding-top: 20px;
 }
 
@@ -230,9 +245,8 @@ body {
     border: 1px solid white;
     background: white;
     border-radius: 10px;
-    height: 375px;
-    width: 310px;
-    font-family: 'Helvetica', Arial;
+    width: 280px;
+    height: 410px;
     padding: 20px 30px;
     box-shadow: -2px 2px 10px rgba(204, 204, 204, 0.898);
     position: relative;
@@ -247,104 +261,114 @@ body {
     left: 0px;
 }
 
+.capabilities-icon {
+    text-align: center;
+}
+
 .capabilities-card img {
-    width: 90px;
-    height: 90px;
+    width: 78px;
+    height: 78px;
 }
 
 .capabilities-card h3 {
-    color:rgb(4, 49, 47);
-    font-size: 22px;
+    color: #023B31;
+    font-size: 20px;
+    font-family: 'Montserrat', Helvetica, Arial;
     margin-top: 30px;
     font-weight: bold;
 }
 
 .capabilities-card p {
-    color:rgb(89, 89, 89);
-    font-size: 18px;
-    margin-top: 20px;
+    color: #525252;
+    font-size: 16px;
+    font-family: 'Montserrat', Helvetica, Arial;
+    margin-top: 10px;
     line-height: 1.3;
     margin-bottom: 20px;
 }
 
 .capabilities-card a {
     text-decoration: none;
-    color:rgb(4, 49, 47);
+    color: #023B31;
+    font-family: 'Montserrat', Helvetica, Arial;
     font-weight: bold;
     font-size: 20px;
 }
 
 .capabilities-card span {
-    color: rgb(95, 163, 0);
+    color: #71AE47;
     font-weight: bold;
 }
+
 
 
 
 /* Supporting Agencies Section */
 
 .supporting-container {
-    height: 1150px;
-    background-color: rgb(4, 50, 73);
-    font-family: 'Helvetica', Arial;
+    height: 1050px;
+    background-color: #173142;
 }
 
 .supporting-title {
-    margin-left: 395px;
+    margin-left: 11.3%;
     padding-top: 100px;
 }
 
 .supporting-title hr {
-    width: 40%;
+    width: 32%;
     border: 0;
+    margin-left: 3px;
     height: 6px;
-    background-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgb(7, 223, 0));
+    background-image: linear-gradient(to left, #023B31, #71AE47);
 }
 
 .supporting-title h2 {
-    font-size: 60px;
-    color: white;
+    font-size: 44px;
+    color: #FFFFFF;
     padding-top: 30px;
+    font-family: 'Termina', Helvetica, Arial;
 }
 
 .supporting-title p {
-    color: white;
+    color: #FFFFFF;
     padding-top: 30px;
-    font-size: 20px;
+    font-size: 16px;
+    font-family: 'Montserrat', Helvetica, Arial;
 }
 
 .supporting-card-container {
     display: grid;
-    grid-template-columns: repeat(3, 500px);
+    grid-template-columns: repeat(3, 480px);
     justify-content: center;
-    gap: 30px 50px;
+    align-items: center;
+    gap: 30px 25px;
     padding-top: 70px;
 }
 
 .supporting-card {
     display: flex;
+    flex-direction: column;
     gap: 20px;
     border: 1px solid transparent;
     background-color: rgb(236, 238, 230);
-    border-radius: 20px;
-    padding: 10px;
-    width: 500px;
-    height: 180px;
+    border-radius: 15px;
+    padding: 20px 10px;
+    width: 448px;
+    height: 160px;
     align-items: center;
 }
 
 .supporting-card img {
-    width: 150px;
-    height: 150px;
+    width: 122px;
+    height: 100px;
 }
 
 .supporting-card h3 {
-    font-size: 30px;
-}
-
-.SCMS-logo img {
-    height: 140px;
-    width: 200px;
+    font-size: 18px;
+    text-align: center;
+    color: #525252;
+    font-family: 'Montserrat', Helvetica, Arial;
 }
 
 
@@ -352,15 +376,13 @@ body {
 
 .lets-talk-container {
     height: 950px;
-    background-image: linear-gradient(to bottom, rgb(231, 240, 216, 0.5) 40%, rgb(177, 221, 151, 0.7) 90%);
-    font-family: 'Helvetica', Arial;
+    background: transparent linear-gradient(180deg, #FFFFFF 0%, #FAFDF8 53%, #F2F9EB 100%);
 }
 
 .lets-talk-div {
     display: flex;
-    flex-direction: row-reverse;
     justify-content: center;
-    gap: 230px;
+    gap: 114px;
     padding-top: 120px;
     align-items: center;
     padding-bottom: 130px;
@@ -368,8 +390,8 @@ body {
 
 .lets-talk-image img {
     border-radius: 15px;
-    width: 850px;
-    height: 600px;
+    width: 720px;
+    height: 647px;
 }
 
 .lets-talk-title {
@@ -377,36 +399,33 @@ body {
 }
 
 .lets-talk-title h4 {
-    font-size: 24px;
-    color: rgb(56, 149, 129);
+    font-size: 21px;
+    color: #00796B;
     font-weight: bold;
+    font-family: 'Termina', Helvetica, Arial;
 }
 
 .lets-talk-title h2 {
-    font-size: 50px;
-    color: rgb(32, 72, 1);
-    padding-top: 15px;
-}
-
-.lets-talk-title p {
-    font-size: 18px;
-    padding-top: 20px;
-    padding-bottom: 40px;
-    line-height: 1.25;
-    color:rgb(89, 89, 89);
+    font-size: 38px;
+    color: #023B31;
+    font-weight: normal;
+    padding: 16px 0px 34px 0px;
+    font-family: 'Termina', Helvetica, Arial;
 }
 
 .lets-talk-title button {
+    border: 1px solid transparent;
     border-radius: 20px;
     padding: 12px;
-    background-color:rgb(4, 50, 73);
+    background: transparent linear-gradient(270deg, #023B31 0%, #34776B 100%) 0% 0% no-repeat padding-box;
 }
 
 .lets-talk-title a {
     text-decoration: none;
-    color: white;
-    font-size: 22px;
-    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Termina', Helvetica, Arial;
 }
 
 
@@ -415,14 +434,13 @@ body {
 .join-us-container {
     display: flex;
     align-items: center;
-    background-image: linear-gradient(to left, rgba(25, 83, 61), rgb(79, 127, 45), rgb(77, 142, 47) 90%);
-    height: 651px;
-    font-family: 'Helvetica', Arial;
+    background-color: #023B31;
+    height: 641.5px;
 }
 
 .join-us-image img {
-    width: 100%;
-    height: 650px;
+    width: 960px;
+    height: 641px;
     margin-top: 4px;
 }
 
@@ -430,41 +448,47 @@ body {
     width: 80%;
     border: 0;
     height: 5px;
-    background-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgb(7, 223, 0));
+    background: transparent linear-gradient(270deg, #163A31 0%, #71AE47 100%) 0% 0% no-repeat padding-box;
 }
 
 .join-us-title {
     margin-left: 160px;
+    width: 450px;
 }
 
 .join-us-title h2 {
-    padding-top: 20px;
-    font-size: 45px;
-    color: white;
+    padding-top: 32px;
+    font-size: 38px;
+    font-weight: normal;
+    color: #FFFFFF;
     padding-bottom: 20px;
+    font-family: 'Termina', Helvetica, Arial;
 }
 
 .join-us-title p {
     color: white;
     line-height: 1.35;
     font-size: 18px;
-    padding-bottom: 40px;
+    padding-bottom: 34px;
+    font-family: 'Montserrat', Helvetica, Arial;
 }
 
 .join-us-title button {
-    background-color: rgb(40, 140, 113);
-    color: white;
-    font-size: 22px;
-    border-radius: 20px;
+    background: transparent linear-gradient(270deg, #B1D98C 0%, #91C75E 100%) 0% 0% no-repeat padding-box;
+    color: #023B31;
+    font-size: 16px;
+    border-radius: 27px;
     border-color: transparent;
-    padding: 8px 14px;
-    font-family: 'Helvetica', Arial;
+    padding: 19px 30px;
     letter-spacing: 1.25px;
+    margin-left: 10px;
 }
 
 .join-us-title a {
     text-decoration: none;
-    color: white;
+    color: #023B31;
+    font-weight: bold;
+    font-family: 'Termina', Helvetica, Arial;
 }
 
 
@@ -473,50 +497,53 @@ body {
 .footer-container {
     display: flex;
     justify-content: center;
-    gap: 440px;
-    padding-top: 100px;
-    background-color:rgb(4, 50, 73);
+    gap: 490px;
+    padding-top: 90px;
+    background-color: #173142;
     height: 300px;
-    font-family: 'Helvetica', Arial;
 }
 
 .nav-bottom-links {
     display: flex;
-    gap: 195px;
+    gap: 150px;
 }
 
 .footer-container h3 {
-    font-size: 22px;
-    padding-bottom: 15px;
-    color: rgb(122, 182, 54);
+    font-size: 16px;
+    padding-bottom: 20px;
+    color: #81C94C;
+    font-family: 'Termina', Helvetica, Arial;
 }
 
 .footer-container hr {
-    width: 20%;
+    width: 49px;
     border: 0;
     height: 3px;
-    background-color: rgb(122, 182, 54);
+    background-color: #81C94C;
 }
 
 .footer-container a {
     text-decoration: none;
-    color: white;
+    color: #FFFFFF;
     font-size: 16px;
+    font-family: 'Montserrat', Helvetica, Arial;
+    font-weight: normal;
 }
 
 .footer-container p {
-    color: white;
-    font-size: 18px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: 'Montserrat', Helvetica, Arial;
 }
 
 .footer-container .footer-green-line {
-    color: rgb(122, 182, 54);
+    color: #81C94C;
 }
 
 .nine30-info img {
-    width: 180px;
-    height: 90px;
-    margin-top: -8px;
+    width: 237px;
+    height: 89px;
+    margin-bottom: 32px;
 }
 
 ul {
@@ -526,15 +553,19 @@ ul {
 }
 
 .fa {
-    color: white;
-    font-size: 26px;
+    color: #DFE5E8;
+    font-size: 14px;
     display: inline-block;
     margin-right: 20px;
 }
 
 .location {
     align-items: center;
-    padding: 20px 0px;
+    padding-bottom: 10px;
+}
+
+.location p {
+    font-family: 'Montserrat', Helvetica, Arial;
 }
 
 .phone-number {
@@ -555,22 +586,23 @@ ul {
 .navbar-bottom-container {
     display: flex;
     justify-content: space-around;
-    background-color: rgb(122, 182, 54);
-    padding: 22px 0px;
-    font-family: 'Helvetica', Arial;
+    gap: 470px;
+    background-color: #81C94C;
+    padding: 25px 0px;
     align-items: center;
 }
 
 .copyright h3 {
-    font-size: 22px;
-    color: black;
+    font-size: 16px;
+    color: #1A2024;
+    font-family: 'Montserrat', Helvetica, Arial;
 }
 
 .social-media a {
-    margin-right: 25px;
+    margin-right: 20px;
 }
 
 .social-media .fa {
-    color: black;
-    font-size: 35px;
+    color: #1A2024;
+    font-size: 30px;
 }

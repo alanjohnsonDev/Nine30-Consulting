@@ -39,23 +39,25 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px 0px 20px 0px;
     overflow: hidden;
-    background-color:rgb(4, 50, 73);
+    background-color: #173142;
     position: fixed;
-    top: 0;
+    height: 119px;
     width: 100%;
     z-index: 5;
-    box-shadow: 0px 4px 10px rgb(4, 50, 73, 0.6);
+}
+
+.header input {
+    display: none;
 }
 
 .nav-logo {
-    margin-right: 200px;
+    margin-right: 160px;
 }
 
 .nine30-logo {
-    width: 160px;
-    height: 80px;
+    width: 167px;
+    height: 63px;
 }
 
 .navbar {
@@ -63,26 +65,61 @@
     text-align: center;
 }
 
+.checkbtn .fa {
+    font-size: 30px;
+    color: white;
+    margin: 0px;
+    float: right;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+.menu {
+    list-style-type: none;
+}
+
+.menu ul {
+    padding-top: 0px;
+}
+
+.menu li {
+    display: inline-block;
+    margin-bottom: 19px;
+}
+
 .navbar a {
     text-decoration: none;
-    font-size: 28px;
+    font-size: 16px;
     color: rgb(225, 225, 225);
-    padding: 30px;
-    font-family: 'Teko', sans-serif;
+    padding: 0px 20px 0px 20px;
+    font-family: 'Termina', Helvetica, Arial;
     letter-spacing: 1.25px;
 }
 
 .navbar span {
     margin-left: 10px;
-    color: rgb(0, 255, 0);
+    color: #71AE47;
+    height: 13px;
+    top: 56px;
     font-weight: bold;
 }
 
+.countdown {
+    display: block;
+    align-items: center;
+    width: 270px;
+}
+
 .countdown p {
-    margin-right: 20px;
+    display: inline-block;
     color: white;
-    font-family: 'Teko', sans-serif;
-    font-size: 26px;
+    font-family: 'Termina', Helvetica, Arial;
+    font-size: 16px;
+    text-transform: uppercase;
 }
 
 .countdown span {
@@ -91,27 +128,32 @@
 
 #demo {
     color: rgb(0, 196, 0);
-    font-size: 30px;
-    font-family: 'Teko', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    display: inline-block;
+    width: 60px;
+    font-family: 'Termina', Helvetica, Arial;
     border: 1px solid black;
     background-color:rgba(33, 33, 33, 0.746);
     border-radius: 10px;
+    margin-right: 10px;
 }
 
 .navbar-button {
     display: inline-block;
+    margin-left: 64px;
 }
 
 .navbar-button button {
     background-color: rgb(40, 140, 113);
     color: white;
-    font-size: 24px;
+    font-size: 16px;
     border-radius: 20px;
     border-color: transparent;
     padding: 7px 12px;
-    font-family: 'Teko', sans-serif;
+    font-family: 'Termina', Helvetica, Arial;
     letter-spacing: 1.25px;
-    margin-left: 70px;
+   
 }
 
 .navbar-button a {
@@ -282,114 +324,6 @@
     line-height: 1.25;
     padding: 0px 0px 10px 10px;
     font-size: 20px;
-}
-
-
-/* Footer Section */
-
-.footer-container-capabilities {
-    display: flex;
-    justify-content: center;
-    gap: 440px;
-    padding-top: 100px;
-    background-color:rgb(4, 50, 73);
-    height: 300px;
-    font-family: 'Helvetica', Arial;
-}
-
-.nav-bottom-links {
-    display: flex;
-    gap: 195px;
-}
-
-.footer-container-capabilities h3 {
-    font-size: 22px;
-    padding-bottom: 15px;
-    color: rgb(122, 182, 54);
-}
-
-.footer-container-capabilities hr {
-    width: 20%;
-    border: 0;
-    height: 3px;
-    background-color: rgb(122, 182, 54);
-}
-
-.footer-container-capabilities a {
-    text-decoration: none;
-    color: white;
-    font-size: 16px;
-}
-
-.footer-container-capabilities p {
-    color: white;
-    font-size: 18px;
-}
-
-.footer-container-capabilities .footer-green-line {
-    color: rgb(122, 182, 54);
-}
-
-.nine30-info img {
-    width: 180px;
-    height: 90px;
-    margin-top: -8px;
-}
-
-ul {
-    list-style: none;
-    line-height: 2.0;
-    padding-top: 20px;
-}
-
-.fa {
-    color: white;
-    font-size: 26px;
-    display: inline-block;
-    margin-right: 20px;
-}
-
-.location {
-    align-items: center;
-    padding: 20px 0px;
-}
-
-.phone-number {
-    align-items: center;
-}
-
-.location p {
-    display: inline-block;
-}
-
-.phone-number p {
-    display: inline-block;
-}
-
-
-/* Navbar Bottom */
-
-.navbar-bottom-container {
-    display: flex;
-    justify-content: space-around;
-    background-color: rgb(122, 182, 54);
-    padding: 22px 0px;
-    font-family: 'Ubuntu', sans-serif;
-    align-items: center;
-}
-
-.copyright h3 {
-    font-size: 22px;
-    color: black;
-}
-
-.social-media a {
-    margin-right: 25px;
-}
-
-.social-media .fa {
-    color: black;
-    font-size: 35px;
 }
 
 

@@ -20,22 +20,23 @@
 /* Core Competencies Section */
 
 .core-comp-container {
-    height: 950px;
+    height: 1000px;
     background-color: rgb(231, 240, 216, 0.8);
-    font-family: 'Ubuntu', sans-serif;
 }
 
 .core-comp {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    gap: 300px;
 }
 
 .core-comp-title h2 {
-    margin-left: 20.5%;
-    font-size: 50px;
-    color: rgb(32, 72, 1);
+    margin-left: 11%;
+    font-size: 44px;
+    color: #023B31;
     padding: 75px 0px 30px 0px;
+    font-family: 'Termina', Helvetica, Arial;
 }
 
 .core-comp-image video {
@@ -54,8 +55,9 @@
 .capabilities-info-content h3 {
     display: inline-block;
     padding-bottom: 15px;
-    font-size: 24px;
-    color:rgb(4, 49, 47);
+    font-size: 20px;
+    color:#023B31;
+    font-family: 'Termina', Helvetica, Arial;
 }
 
 .capabilities-info-content hr {
@@ -66,12 +68,13 @@
     font-size: 18px;
     line-height: 1.2;
     padding-bottom: 8px;
-    color:rgb(89, 89, 89);
+    color:#525252;
+    font-family: 'Montserrat', Helvetica, Arial;
 }
 
 .capabilities-info-content a {
     text-decoration: none;
-    color:rgb(4, 49, 47);
+    color:#023B31;
     font-weight: bold;
     font-size: 18px;
 }
@@ -82,72 +85,25 @@
 }
 
 .capabilities-financial hr {
-    width: 320px;
+    width: 280px;
     margin-left: 10px;
     margin-bottom: 4px;
 }
 
 .capabilities-project hr {
-    width: 335px;
+    width: 305px;
     margin-left: 10px;
     margin-bottom: 4px;
 }
 
 .capabilities-data hr {
-    width: 408px;
+    width: 387px;
     margin-left: 10px;
     margin-bottom: 4px;
 }
 
 .capabilities-acquisition hr {
-    width: 443px;
+    width: 425px;
     margin-left: 10px;
     margin-bottom: 4px;
-}
-
-
-
-/* Footer Section */
-
-.footer-container-capabilities {
-    display: flex;
-    justify-content: center;
-    gap: 440px;
-    padding-top: 100px;
-    background-color:rgb(4, 50, 73);
-    height: 300px;
-    font-family: 'Helvetica', Arial;
-}
-
-.nav-bottom-links {
-    display: flex;
-    gap: 195px;
-}
-
-.footer-container-capabilities h3 {
-    font-size: 22px;
-    padding-bottom: 15px;
-    color: rgb(122, 182, 54);
-}
-
-.footer-container-capabilities hr {
-    width: 20%;
-    border: 0;
-    height: 3px;
-    background-color: rgb(122, 182, 54);
-}
-
-.footer-container-capabilities a {
-    text-decoration: none;
-    color: white;
-    font-size: 16px;
-}
-
-.footer-container-capabilities p {
-    color: white;
-    font-size: 18px;
-}
-
-.footer-container-capabilities .footer-green-line {
-    color: rgb(122, 182, 54);
 }

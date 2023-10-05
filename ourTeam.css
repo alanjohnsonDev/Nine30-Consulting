@@ -4,14 +4,13 @@
 
 .our-team-container {
     display: grid;
-    grid-template-columns: repeat(5, 300px);
-    height: 2500px;
+    grid-template-columns: repeat(5, 250px);
+    height: 2000px;
     align-items: center;
     justify-content: center;
-    gap: 60px 50px;
+    gap: 20px 60px;
     padding: 100px 50px;
     background-color: rgb(231, 240, 216, 0.8);
-    font-family: 'Ubuntu', sans-serif;
 }
 
 .our-team-card {
@@ -21,14 +20,14 @@
 
 .our-team-card img {
     display: block;
-    width: 300px;
-    height: 420px;
+    width: 250px;
+    height: 370px;
     border-radius: 20px;
 }
 
 .overlay {
     position: absolute;
-    height: 89.5%;
+    height: 88%;
     width: 100%;
     top: 0;
     left: 0;
@@ -45,8 +44,8 @@
 }
 
 .text {
-    color: white;
-    font-size: 17px;
+    color: #FFFFFF;
+    font-size: 12px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -54,9 +53,12 @@
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: unset;
+    font-family: 'Montserrat', Helvetica, Arial;
 }
 
 .our-team-card h3 {
     padding: 20px 0px 10px 20px;
-    font-size: 22px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Montserrat', Helvetica, Arial;
 }

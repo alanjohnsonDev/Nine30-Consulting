@@ -26,6 +26,10 @@
     gap: 200px;
 }
 
+.hero-title-image-career {
+    gap: 430px;
+}
+
 .hero-picture-career {
     height: 450px;
     width: 700px;
@@ -41,14 +45,14 @@
 
 .slideshow {
     background-color: rgb(255,255,255);
-    font-family: 'Ubuntu', sans-serif;
 }
 
 .employee-title h2 {
     font-size: 40px;
     padding-top: 75px;
     text-align: center;
-    color: rgb(32, 72, 1);
+    color: #023B31;
+    font-family: 'Termina', Helvetica, Arial;
 }
 
 .slideshow-container {
@@ -58,7 +62,6 @@
     margin: auto;
     padding: 55px 0px 40px 0px;
     background-color: rgb(255,255,255);
-    font-family: 'Ubuntu', sans-serif;
 }
 
 .mySlides {
@@ -77,21 +80,25 @@
 
 .slide-text h3 {
     font-size: 30px;
-    color: rgb(58, 58, 58);
+    color: #023B31;
     padding-bottom: 20px;
+    font-family: 'Montserrat', Helvetica, Arial;
 }
 
 .slide-text p {
     font-size: 20px;
-    color:rgb(89, 89, 89);
+    color:#525252;
     text-align: center;
     padding-bottom: 20px;
     line-height: 1.4;
+    font-family: 'Montserrat', Helvetica, Arial;
 }
 
 .slide-text h4 {
     font-size: 22px;
-    color:rgb(58, 58, 58);
+    font-weight: bold;
+    color:#525252;
+    font-family: 'Montserrat', Helvetica, Arial;
 }
 
 .prev, .next {
@@ -154,39 +161,40 @@
 /* Benefits Section */
 
 .benefits-container {
-    font-family: 'Ubuntu', sans-serif;
     height: 1550px;
     background-color: rgb(231, 240, 216, 0.8);
 }
 
 .benefits-title {
     padding: 100px 0px 70px 0px;
-    margin-left: 15%;
+    margin-left: 11%;
 }
 
 .benefits-title h2 {
-    font-size: 50px;
+    font-size: 44px;
     padding-bottom: 40px;
-    color: rgb(32, 72, 1);
+    color: #023B31;
+    font-family: 'Termina', Helvetica, Arial;
 }
 
 .benefits-title p {
-    font-size: 22px;
-    color: rgb(89, 89, 89);
+    font-size: 18px;
+    color: #525252;
+    font-family: 'Montserrat', Helvetica, Arial;
 }
 
 .benefits-card-container {
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(4, 350px);
-    gap: 50px 90px;
+    gap: 50px 32px;
 }
 
 .benefits-card {
     border: 1px solid transparent;
     border-radius: 20px;
     box-shadow: 2px 2px 10px rgb(199, 199, 199);
-    width: 350px;
+    width: 300px;
     height: 280px;
     text-align: center;
     padding: 20px;
@@ -202,8 +210,10 @@
 }
 
 .benefits-card h4 {
-    font-size: 24px;
+    font-size: 22px;
     padding-top: 25px;
+    color: #525252;
+    font-family: 'Montserrat', Helvetica, Arial;
 }
 
 
@@ -229,33 +239,30 @@
 }
 
 .text {
-    color: white;
-    font-size: 21px;
+    color: #FFFFFF;
+    font-size: 18px;
     position: absolute;
     top: 50%;
     left: 50%;
-    line-height: 1.4;
+    line-height: 1.3;
     font-weight: 600;
     letter-spacing: 2px;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
+    font-family: 'Montserrat', Helvetica, Arial;
 }
 
 
 
 /* Diversity Section */
 
-.diversity-container {
-    font-family: 'Ubuntu', sans-serif;
-}
-
 .diversity-title-content {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 190px;
+    gap: 30px;
     height: 800px;
 }
 
@@ -265,25 +272,28 @@
 }
 
 .diversity-title h2 {
-    font-size: 50px;
-    color: rgb(32, 72, 1);
+    font-size: 38px;
+    color: #023B31;
     padding-bottom: 30px;
+    font-family: 'Termina', Helvetica, Arial;
 }
 
 .diversity-title p {
-    font-size: 20px;
-    color:rgb(89, 89, 89);
+    font-size: 16px;
+    color:#525252;
     padding-bottom: 20px;
+    font-family: 'Montserrat', Helvetica, Arial;
 }
 
 .diversity-list .fa {
-    color:rgb(32, 72, 1);
+    color: #023B31;
     font-size: 28px;
 }
 
 .diversity-list li {
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 500;
+    font-family: 'Montserrat', Helvetica, Arial;
 }
 
 .diversity-image img {
@@ -297,16 +307,12 @@
 
 /* Community Section */
 
-.community-container {
-    font-family: 'Ubuntu', sans-serif;
-}
-
 .community-title-content {
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
-    gap: 190px;
+    gap: 40px;
     padding-top: 75px;
     height: 800px;
 }
@@ -317,25 +323,28 @@
 }
 
 .community-title h2 {
-    font-size: 50px;
-    color: rgb(32, 72, 1);
+    font-size: 38px;
+    color: #023B31;
     padding-bottom: 30px;
+    font-family: 'Termina', Helvetica, Arial;
 }
 
 .community-title p {
-    font-size: 20px;
-    color:rgb(89, 89, 89);
+    font-size: 16px;
+    color:#525252;
     padding-bottom: 20px;
+    font-family: 'Montserrat', Helvetica, Arial;
 }
 
 .community-list .fa {
-    color:rgb(32, 72, 1);
+    color: #023B31;
     font-size: 28px;
 }
 
 .community-list li {
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 500;
+    font-family: 'Montserrat', Helvetica, Arial;
 }
 
 .community-image img {
@@ -354,7 +363,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 300px;
+    gap: 240px;
     margin-top: 200px;
     padding-bottom: 60px;
     background-color: rgb(231, 240, 216, 0.8);
