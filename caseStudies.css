@@ -4,7 +4,7 @@
 }
 
 .hero-container {
-    background-color:rgb(4, 50, 73);
+    background-color: #173142;
     height: 850px; 
 }
 
@@ -162,59 +162,20 @@
 }
 
 
-/* Hero TITLE & VIDEO */
-
-.hero-title-image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 190px;
-    padding-top: 170px;
-}
-
-.hero-text h1 {
-    font-size: 90px;
-    color:rgb(118, 216, 65);
-    font-weight:500;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-.hero-text p {
-    font-size: 16px;
-    color:white;
-    margin-top: 20px;
-    font-family: 'Ubuntu', sans-serif;
-    line-height: 1.5;
-}
-
-.hero-picture-case-studies {
-    width: 575px;
-    height: 575px;
-    border-radius: 20px;
-}
-
-.hero-image-backshape {
-    height: 400px;
-    width: 100px;
-    color: rgb(230, 233, 234);
-    z-index: 19;
-}
-
-
 /* Filter Navbar */
 
 .filter-navbar {
-    background-color:rgb(4, 50, 73);
-    padding-left: 20%;
+    background-color: #173142;
+    padding-left: 11%;
     height: 70px;
-    font-family: 'Ubuntu', sans-serif;
 }
 
 .filter-navbar a {
     color: white;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 16px;
     padding-right: 70px;
+    font-family: 'Montserrat', Helvetica, Arial;
 }
 
 .filter-navbar .select {
@@ -228,13 +189,12 @@
 /* Case Studies Section */
 
 .case-studies-container {
-    font-family: 'Ubuntu', sans-serif;
     display: grid;
     grid-template-columns: repeat(3, 450px);
     justify-content: center;
-    gap: 50px;
+    gap: 64px;
     padding-top: 70px;
-    background-image: linear-gradient(azure 90%, rgba(233, 255, 210, 0.741));
+    background-color: #ffffff;
     padding-bottom: 100px;
 }
 
@@ -243,53 +203,57 @@
 }
 
 .case-studies-card img {
-    height: 260px;
-    width: 400px;
+    height: 262px;
+    width: 447px;
     padding-bottom: 30px;
 }
 
 .case-studies-card .aquisition-button {
     border: 1px solid transparent;
-    background-color: rgb(242, 253, 25);
+    background-color: #EFEF3D;
     border-radius: 25px;
-    font-size: 18px;
+    font-size: 14px;
     padding: 8px 15px;
     font-weight: bold;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Montserrat', Helvetica, Arial;
     display: block;
+    color: #1A2024;
 }
 
 .case-studies-card .data-analytics-button {
     border: 1px solid transparent;
-    background-color: rgb(145, 208, 74);
+    background-color: #A7DA83;
     border-radius: 25px;
-    font-size: 18px;
+    font-size: 14px;
     padding: 8px 15px;
     font-weight: bold;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Montserrat', Helvetica, Arial;
     display: block;
+    color: #1A2024;
 }
 
 .case-studies-card .financial-management-button {
     border: 1px solid transparent;
-    background-color: rgb(17, 209, 209);
+    background-color: #48BFB1;
     border-radius: 25px;
-    font-size: 18px;
+    font-size: 14px;
     padding: 8px 15px;
     font-weight: bold;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Montserrat', Helvetica, Arial;
     display: block;
+    color: #1A2024;
 }
 
 .case-studies-card .project-management-button {
     border: 1px solid transparent;
-    background-color: rgb(139, 172, 249);
+    background-color: #98C4FF;
     border-radius: 25px;
-    font-size: 18px;
+    font-size: 14px;
     padding: 8px 15px;
     font-weight: bold;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Montserrat', Helvetica, Arial;
     display: block;
+    color: #1A2024;
 }
 
 .case-studies-card a::before {
@@ -303,27 +267,31 @@
 
 .case-studies-card a {
     text-decoration: none;
-    color:rgb(4, 49, 47);
+    color: #023B31;
     font-weight: bold;
     font-size: 18px;
     padding-left: 10px;
+    font-family: 'Montserrat', Helvetica, Arial;
 }
 
 .case-studies-card span {
-    color: rgb(95, 163, 0);
+    color: #71AE47;
     font-weight: bolder;
 }
 
 .case-studies-card h3 {
-    font-size: 26px;
+    font-size: 27px;
     padding: 10px 0px 10px 10px;
-
+    color: #023B31;
+    font-family: 'Montserrat', Helvetica, Arial;
 }
 
 .case-studies-card p {
     line-height: 1.25;
     padding: 0px 0px 10px 10px;
-    font-size: 20px;
+    font-size: 16px;
+    color: #1A2024;
+    font-family: 'Montserrat', Helvetica, Arial;
 }
 
 
@@ -335,7 +303,6 @@
 /* Case Study Pages */
 
 .case-study-container {
-    font-family: 'Ubuntu', sans-serif;
     width: 100%;
     padding-bottom: 100px;
 }
@@ -347,19 +314,21 @@
 }
 
 .case-study-title h2 {
-    font-size: 42px;
+    font-size: 40px;
     padding-top: 100px;
     letter-spacing: 4px;
     text-align: center;
-    color: rgb(32, 72, 1);
+    color: #023B31;
+    font-family: 'Termina', Helvetica, Arial;
 }
 
 .case-study-title p {
     padding-top: 30px;
     text-align: center;
-    font-size: 20px;
-    color: rgb(89, 89, 89);
+    font-size: 18px;
+    color: #525252;
     font-weight: 500;
+    font-family: 'Montserrat', Helvetica, Arial;
 }
 
 .case-study-content {
@@ -379,8 +348,9 @@
 .content h3 {
     font-size: 24px;
     padding: 30px 0px 20px 0px;
-    color:rgb(4, 50, 73);
+    color: #023B31;
     font-weight: 700;
+    font-family: 'Montserrat', Helvetica, Arial;
 }
 
 .content p {
@@ -388,6 +358,8 @@
     letter-spacing: 1px;
     line-height: 1.4;
     padding-bottom: 10px;
+    color: #525252;
+    font-family: 'Montserrat', Helvetica, Arial;
 }
 
 .caseStudy-button {
@@ -396,10 +368,11 @@
 
 .caseStudy-button a {
     text-decoration: none;
-    background-color: rgb(4, 50, 73);
-    color: white;
-    font-size: 18px;
+    background: transparent linear-gradient(270deg, #023B31 0%, #34776B 100%) 0% 0% no-repeat padding-box;
+    color: #ffffff;
+    font-size: 16px;
     font-weight: 500;
-    padding: 12px;
+    padding: 15px;
     border-radius: 20px;
+    font-family: 'Termina', Helvetica, Arial;
 }

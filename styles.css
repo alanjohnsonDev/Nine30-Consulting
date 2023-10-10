@@ -189,6 +189,56 @@ body {
     border-radius: 12px;
 }
 
+/* Case Studies Hero-title-image */
+
+.hero-container-casestudies {
+    background-color: #173142;
+}
+
+.hero-title-image-casestudies {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 280px;
+    padding-top: 80px;
+    background-color: #173142;
+    height: 800px;
+}
+
+.hero-text-casestudies h1 {
+    font-size: 76px;
+    color:rgb(118, 216, 65);
+    font-weight:500;
+    font-family: 'Termina', Helvetica, Arial;
+}
+
+.hero-text-casestudies p {
+    font-size: 16px;
+    color:white;
+    margin-top: 20px;
+    line-height: 1.5;
+    font-family: 'Montserrat', Helvetica, Arial;
+}
+
+.hero-picture-case-studies {
+    width: 579px;
+    height: 530px;
+    border-radius: 20px;
+}
+
+
+/* Our History Page Hero-title-image */
+
+.hero-title-image-ourhistory {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 190px;
+    padding-top: 80px;
+    background-color: #173142;
+    height: 800px;
+}
+
 
 /* Our Team Page Hero-title-image */
 
