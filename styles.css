@@ -227,6 +227,17 @@ body {
 }
 
 
+/* Career Page Hero-title-image */
+
+.hero-title-image-career {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 212px;
+    padding-top: 170px;
+}
+
+
 /* Our History Page Hero-title-image */
 
 .hero-title-image-ourhistory {
@@ -234,7 +245,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 190px;
-    padding-top: 80px;
+    padding-top: 10px;
     background-color: #173142;
     height: 800px;
 }
@@ -540,6 +551,8 @@ body {
     font-weight: bold;
     font-family: 'Termina', Helvetica, Arial;
 }
+
+
 
 
 /* Footer Section */

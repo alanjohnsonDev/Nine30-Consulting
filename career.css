@@ -220,7 +220,7 @@
 
 /* Overlay */
 
-.overlay {
+.overlay-career {
     position: absolute;
     top: 0;
     left: 0;
@@ -234,11 +234,11 @@
     background-color: rgba(4, 50, 73, 0.9);
 }
 
-.benefits-card:hover .overlay {
+.benefits-card:hover .overlay-career {
     opacity: 1;
 }
 
-.text {
+.text-career {
     color: #FFFFFF;
     font-size: 18px;
     position: absolute;
@@ -359,7 +359,6 @@
 /* Apply Section */
 
 .apply-container {
-    font-family: 'Ubuntu', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -384,13 +383,15 @@
 .apply-title h2 {
     font-size: 45px;
     padding-bottom: 30px;
-    color:rgb(32, 72, 1);
+    color: #023B31;
+    font-family: 'Termina', Helvetica, Arial;
 }
 
 .apply-title p {
-    font-size: 20px;
-    color:rgb(89, 89, 89);
+    font-size: 16px;
+    color: #525252;
     padding-bottom: 40px;
+    font-family: 'Montserrat', Helvetica, Arial;
 }
 
 .apply-title a {
@@ -400,5 +401,6 @@
     padding: 12px 14px;
     font-size: 26px;
     border-radius: 20px;
-    background-color:rgba(4, 50, 73, 0.9);
+    background: transparent linear-gradient(270deg, #023B31 0%, #34776B 100%) 0% 0% no-repeat padding-box;
+    font-family: 'Termina', Helvetica, Arial;
 }
