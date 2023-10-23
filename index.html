@@ -21,7 +21,7 @@
 
         <div class="hero-container">
             <div class="header">
-                <div class="nav-logo">
+                <div class="nav-logo" id="myNavLogo">
                     <a href="index.html"><img class="nine30-logo" src="Nine 30 White_Green Logo.png" alt="nine30-logo"></a>
                 </div>
                 <div class="navbar" id="myNavbar">
@@ -35,18 +35,22 @@
                         <li><a href="career.html">CAREER <span>&#43;</span></a></li>
                     </ul>
                 </div>
-                <div class="countdown">
+                <div class="countdown" id="myCountdown">
                     <p id="demo"></p>
                     <p>Days Till Nine 30</p>
                 </div>
-                <div class="navbar-button">
+                <div class="navbar-button" id="myButton">
                     <button><a href="https://form.jotform.com/232625193821051">CONTACT US</a></button>
                 </div>
             </div>
 
-            <div class="hero-title-image hero-title-image-index">
+            <div class="hero-title-image">
                 <div class="hero-text">
-                    <h1>Collaborate. Innovate. <br> Elevate.</h1>
+                    <div class="hero-title-container">
+                        <div class="word">Collaborate.</div>
+                        <div class="word">Innovate.</div>
+                        <div class="word">Elevate.</div>
+                    </div>
                     <p>Nine 30 is a numbers company and our name is 
                         a reference to the most important number in 
                         government financial management – Nine 30, or 
@@ -73,51 +77,73 @@
                         data analytics while offering unparalleled career opportunities, experiences, <br>
                         and benefits to our employees.</p>
                 </div>
-            <div class="green-line"></div>
+                <div class="green-line"></div>
 
-            <div class="cards-container">
-                <div class="capabilities-card">
-                    <div class="capabilities-icon">
-                        <img src="https://cdn-icons-png.flaticon.com/512/5732/5732593.png" alt="card-picture">
+                <div class="cards-container slide-card-container">
+                    <div class="capabilities-card myCardSlides card-fade">
+                        <div class="capabilities-icon">
+                            <img src="https://cdn-icons-png.flaticon.com/512/5732/5732593.png" alt="card-picture">
+                        </div>
+                        <div class="card-text">
+                            <h3>AQUISITION</h3>
+                            <p></p>
+                            <a href="aquisition.html">Learn More <span>&#129125;</span></a>
+                        </div>
                     </div>
-                    <h3>AQUISITION</h3>
-                    <p></p>
-                    <a href="aquisition.html">Learn More <span>&#129125;</span></a>
+
+                    <div class="capabilities-card myCardSlides card-fade">
+                        <div class="card-text">
+                            <div class="capabilities-icon">
+                                <img src="https://www.freeiconspng.com/thumbs/analytic-icon/seo-analytic-icon-7.png" alt="card-picture">
+                            </div>
+                            <h3>DATA ANALYTICS</h3>
+                            <p></p>
+                            <a href="dataAnalytics.html">Learn More <span>&#129125;</span></a>
+                        </div>
+                    </div>
+
+                    <div class="capabilities-card myCardSlides card-fade">
+                        <div class="capabilities-icon">
+                            <img src="https://static.vecteezy.com/system/resources/previews/024/149/615/non_2x/dollar-coin-with-cogwheel-showing-concept-of-money-management-vector.jpg" alt="card-picture">
+                        </div>
+                        <div class="card-text">
+                            <h3>FINANCIAL MANAGEMENT</h3>
+                            <p>Deep subject matter expertise in financial management,
+                                directly supported NAWCAD Commander initiative to 
+                                improve funds acceptance and workload acceptance 
+                                processes, adept in appropriation law, FIAR compliance, 
+                                PTA review.</p>
+                        <a href="financialManagement.html">Learn More <span>&#129125;</span></a>
+                        </div>
+                    </div>
+
+                    <div class="capabilities-card myCardSlides card-fade">
+                        <div class="capabilities-icon">
+                            <img src="https://cdn-icons-png.flaticon.com/512/7946/7946752.png" alt="card-picture">
+                        </div>
+                        <div class="card-text">
+                            <h3>PROJECT MANAGEMENT</h3>
+                            <p>Experienced Project Management Professionals (PMPs) supporting 
+                                projects ranging from $10K to $75M.</p>
+                            <a href="projectManagement.html">Learn More <span>&#129125;</span></a>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="capabilities-card">
-                    <div class="capabilities-icon">
-                        <img src="https://www.freeiconspng.com/thumbs/analytic-icon/seo-analytic-icon-7.png" alt="card-picture">
-                    </div>
-                    <h3>DATA ANALYTICS</h3>
-                    <p></p>
-                    <a href="dataAnalytics.html">Learn More <span>&#129125;</span></a>
+                <div class="card-buttons">
+                    <a class="card-prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="card-next" onclick="plusSlides(1)">&#10095;</a>
                 </div>
 
-                <div class="capabilities-card">
-                    <div class="capabilities-icon">
-                        <img src="https://static.vecteezy.com/system/resources/previews/024/149/615/non_2x/dollar-coin-with-cogwheel-showing-concept-of-money-management-vector.jpg" alt="card-picture">
-                    </div>
-                    <h3>FINANCIAL MANAGEMENT</h3>
-                    <p>Deep subject matter expertise in financial management,
-                        directly supported NAWCAD Commander initiative to 
-                        improve funds acceptance and workload acceptance 
-                         processes, adept in appropriation law, FIAR compliance, 
-                         PTA review.</p>
-                    <a href="financialManagement.html">Learn More <span>&#129125;</span></a>
+                <div style="text-align: center;">
+                    <span class="card-dot" onclick="currentSlides(1)"></span>
+                    <span class="card-dot" onclick="currentSlides(2)"></span>
+                    <span class="card-dot" onclick="currentSlides(3)"></span>
+                    <span class="card-dot" onclick="currentSlides(4)"></span>
                 </div>
-
-                <div class="capabilities-card">
-                    <div class="capabilities-icon">
-                        <img src="https://cdn-icons-png.flaticon.com/512/7946/7946752.png" alt="card-picture">
-                    </div>
-                    <h3>PROJECT MANAGEMENT</h3>
-                    <p>Experienced Project Management Professionals (PMPs) supporting projects ranging from $10K to $75M.</p>
-                    <a href="projectManagement.html">Learn More <span>&#129125;</span></a>
-                </div>
-            </div>
             </div>
         </section>
+
 
 
         <!-- Supporting Agencies Section -->
@@ -196,7 +222,6 @@
                     <img src="Nine30_OurTeam.jpg" alt="join-us image">
                 </div>
                 <div class="join-us-title">
-                    <hr>
                     <h2>Join Us</h2>
                     <p>Nine 30 is always looking for bright, energetic, and 
                         hard-working analysts with experience in financial 
@@ -275,6 +300,7 @@
 
 
         <!-- JavaScript -->
+        <script src="https://code.jquery.com/jquery-latest.min.js"></script>
 
         <script>
 
@@ -298,6 +324,40 @@
             document.getElementById("demo").innerHTML = "EXPIRED";
                 }
             }, 1000);
+
+
+
+
+            // Capabilities Slideshow //
+
+            if (jQuery(window).width() < 699) {
+                let slideIndex = 1;
+                    showSlides(slideIndex);
+
+                function plusSlides(n) {
+                    showSlides(slideIndex += n);
+                }
+
+                function currentSlides(n) {
+                    showSlides(slideIndex = n);
+                }
+
+                function showSlides(n) {
+                    let i;
+                    let slides = document.getElementsByClassName("myCardSlides");
+                    let dots = document.getElementsByClassName("card-dot");
+                    if (n > slides.length) {slideIndex = 1}
+                    if (n < 1) {slideIndex = slides.length}
+                    for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";
+                    }
+                    for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" active", "");
+                    }
+                    slides[slideIndex-1].style.display = "block";
+                    dots[slideIndex-1].className += " active";
+                }
+            }
         </script>
     </body>
 </html>

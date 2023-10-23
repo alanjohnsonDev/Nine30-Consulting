@@ -178,13 +178,52 @@
     
     
     /* Home Page Hero-title-image */
-    
-    .hero-title-image-index {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 130px;
-        padding-top: 65px;
+
+    .hero-title-container {
+        position: relative;
+        font-family: 'Termina', Helvetica, Arial;
+        color: #f6fff0;
+        font-size: 45px;
+        filter: contrast(15);
+        margin-bottom: 60px;
+    }
+
+    .word {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        animation: switch 8s infinite ease-in-out;
+        min-width: 100%;
+        margin: auto;
+    }
+
+    .word:nth-child(1) {
+        animation-delay: -7s;
+    }
+
+    .word:nth-child(2) {
+        animation-delay: -4s;
+    }
+
+    .word:nth-child(3) {
+        animation-delay: -2s;
+    }
+
+    @keyframes switch {
+
+        0%,
+        5%,
+        100% {
+            filter: blur(0px);
+            opacity: 1;
+        }
+
+        50%,
+        80% {
+            filter: blur(30px);
+            opacity: 0;
+        }
     }
     
     
@@ -429,7 +468,7 @@
         flex-direction: column;
         gap: 20px;
         border: 1px solid transparent;
-        background-color: rgb(236, 238, 230);
+        background-color: #F0F9EA;
         border-radius: 15px;
         padding: 20px 10px;
         width: 370px;
@@ -642,16 +681,13 @@
         padding-bottom: 10px;
     }
     
-    .location p {
-        font-family: 'Montserrat', Helvetica, Arial;
-    }
-    
     .phone-number {
         align-items: center;
     }
     
     .location p {
         display: inline-block;
+        font-family: 'Montserrat', Helvetica, Arial;
     }
     
     .phone-number p {

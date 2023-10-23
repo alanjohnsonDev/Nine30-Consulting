@@ -4,7 +4,7 @@
 
 .our-team-container {
     display: grid;
-    grid-template-columns: repeat(5, 250px);
+    grid-template-columns: repeat(5, 260px);
     height: 2000px;
     align-items: center;
     justify-content: center;
@@ -20,7 +20,7 @@
 
 .our-team-card img {
     display: block;
-    width: 250px;
+    width: 260px;
     height: 370px;
     border-radius: 20px;
 }

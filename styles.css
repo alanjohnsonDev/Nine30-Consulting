@@ -172,14 +172,51 @@ body {
 }
 
 
-/* Home Page Hero-title-image */
+.hero-title-container {
+    position: relative;
+    font-family: 'Termina', Helvetica, Arial;
+    color: #f6fff0;
+    font-size: 45px;
+    filter: contrast(15);
+    margin-bottom: 60px;
+}
 
-.hero-title-image-index {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 130px;
-    padding-top: 170px;
+.word {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: switch 10s infinite ease-in-out;
+    min-width: 100%;
+    margin: auto;
+}
+
+.word:nth-child(1) {
+    animation-delay: -9s;
+}
+
+.word:nth-child(2) {
+    animation-delay: -6s;
+}
+
+.word:nth-child(3) {
+    animation-delay: -3s;
+}
+
+@keyframes switch {
+
+    0%,
+    5%,
+    100% {
+        filter: blur(0px);
+        opacity: 1;
+    }
+
+    50%,
+    80% {
+        filter: blur(25px);
+        opacity: 0;
+    }
 }
 
 
@@ -263,7 +300,6 @@ body {
 
 
 /* Capabilities Section */
-
 
 .capabilities-container {
     height: 1020px;
@@ -361,6 +397,11 @@ body {
     font-weight: bold;
 }
 
+@media only screen and (min-width: 700px) {
+    .card-prev, .card-next {
+        display: none;
+    }
+}
 
 
 
@@ -412,7 +453,7 @@ body {
     flex-direction: column;
     gap: 20px;
     border: 1px solid transparent;
-    background-color: rgb(236, 238, 230);
+    background-color: #F0F9EA;
     border-radius: 15px;
     padding: 20px 10px;
     width: 448px;
@@ -495,7 +536,7 @@ body {
 .join-us-container {
     display: flex;
     align-items: center;
-    background-color: #023B31;
+    background: transparent linear-gradient(0deg, #173142 0%, #398276 100%) 0% 0% no-repeat padding-box;
     height: 641.5px;
 }
 
@@ -503,13 +544,6 @@ body {
     width: 960px;
     height: 641px;
     margin-top: 4px;
-}
-
-.join-us-title hr {
-    width: 80%;
-    border: 0;
-    height: 5px;
-    background: transparent linear-gradient(270deg, #163A31 0%, #71AE47 100%) 0% 0% no-repeat padding-box;
 }
 
 .join-us-title {
