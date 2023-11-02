@@ -98,10 +98,9 @@
     .countdown {
         display: block;
         align-items: center;
-        justify-content: center;
-        width: 180px;
+        justify-content: right;
+        width: 230px;
         margin-left: 0px;
-        float: right;
         margin-bottom: 7px;
     }
 
@@ -366,7 +365,7 @@
         text-align: left;
         padding-top: 40px;
         width: 250px;
-        margin-left: 6%;
+        margin: 0 auto;
     }
 
     .capabilities-title h2 {
@@ -418,6 +417,7 @@
         transition: 0.6s ease;
         border-radius: 0 3px 3px 0;
         user-select: none;
+        display: none;
     }
 
     .card-prev {
@@ -529,8 +529,9 @@
     }
     
     .supporting-title {
-        margin-left: 6%;
+        margin: 0 auto;
         padding-top: 48px;
+        width: 250px;
     }
     
     .supporting-title hr {
@@ -662,10 +663,15 @@
         background: transparent linear-gradient(0deg, #173142 0%, #398276 100%) 0% 0% no-repeat padding-box;
         height: 600px;
     }
+
+    .join-us-image {
+        max-width: 374px;
+        max-height: 248px;
+    }
     
     .join-us-image img {
         width: 100%;
-        height: 204px;
+        max-height: 100%;
         margin-top: 0px;
     }
     
@@ -729,6 +735,7 @@
         width: 280px;
         background-color: #173142;
         height: 880px;
+        display: none;
     }
     
     .footer-container h3 {
@@ -1549,6 +1556,7 @@
         width: 280px;
         background-color: #173142;
         height: 880px;
+        display: none;
     }
     
     .footer-container-history h3 {
@@ -3122,6 +3130,7 @@
         width: 390px;
         background-color: #173142;
         height: 920px;
+        display: none;
     }
     
     .footer-container h3 {
@@ -3933,6 +3942,7 @@
         width: 390px;
         background-color: #173142;
         height: 920px;
+        display: none;
     }
 
     .footer-container-history h3 {
