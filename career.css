@@ -30,12 +30,6 @@
     gap: 430px;
 }
 
-.hero-picture-career {
-    height: 450px;
-    width: 700px;
-    border-radius: 20px;
-}
-
 
 
 
@@ -282,17 +276,8 @@
     font-size: 16px;
     color:#525252;
     padding-bottom: 20px;
-    font-family: 'Montserrat', Helvetica, Arial;
-}
-
-.diversity-list .fa {
-    color: #023B31;
-    font-size: 28px;
-}
-
-.diversity-list li {
-    font-size: 18px;
-    font-weight: 500;
+    line-height: 1.5;
+    width: 450px;
     font-family: 'Montserrat', Helvetica, Arial;
 }
 
@@ -332,6 +317,7 @@
 .community-title p {
     font-size: 16px;
     color:#525252;
+    line-height: 1.5;
     padding-bottom: 20px;
     font-family: 'Montserrat', Helvetica, Arial;
 }
@@ -391,6 +377,7 @@
     font-size: 16px;
     color: #525252;
     padding-bottom: 40px;
+    line-height: 1.5;
     font-family: 'Montserrat', Helvetica, Arial;
 }
 

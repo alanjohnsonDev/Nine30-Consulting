@@ -21,12 +21,12 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        overflow: hidden;
         background-color: #173142;
-        position: fixed;
         height: 119px;
         width: 100%;
-        z-index: 5;
+        z-index: 10;
+        top: 0;
+        position: fixed;
     }
 
     .header input {
@@ -34,16 +34,16 @@
     }
 
     .nav-logo {
-        margin-right: 160px;
+        margin-right: 40px;
     }
 
     .nine30-logo {
-        width: 135px;
+        width: 140px;
         height: 55px;
     }
 
     .navbar {
-        margin-right: 40px;
+        margin-right: 45px;
         text-align: center;
     }
 
@@ -60,34 +60,162 @@
         display: none;
     }
 
-    .menu {
-        list-style-type: none;
-    }
 
-    .menu ul {
-        padding-top: 0px;
-    }
 
-    .menu li {
-        display: inline-block;
-        margin-bottom: 19px;
-    }
+    /* Dropdown Menu */
 
-    .navbar a {
-        text-decoration: none;
-        font-size: 14px;
+    .dropbtn {
+        background-color: transparent;
         color: #F0F9EA;
-        padding: 0px 20px 0px 0px;
+        padding: 22px 20px;
+        font-size: 16px;
+        border: none;
+        text-decoration: none;
         font-family: 'Termina', Helvetica, Arial;
-        letter-spacing: 1.25px;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
     }
 
-    .navbar span {
-        margin-left: 10px;
+    .dropbtn a {
+        text-decoration: none;
+        color: #F0F9EA;
+    }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background: transparent linear-gradient(180deg, #FFFFFF 0%, #FAFDF8 53%, #F2F9EB 100%);
+        min-width: 200px;
+        box-shadow: 2px 2px 5px 1px rgba(118, 118, 118, 0.693);
+        z-index: -1;
+        border-radius: 10px;
+    }
+
+    .dropdown-content-aboutus {
+        display: none;
+        position: absolute;
+        background: transparent linear-gradient(180deg, #FFFFFF 0%, #FAFDF8 53%, #F2F9EB 100%);
+        min-width: 145px;
+        box-shadow: 2px 2px 5px 1px rgba(118, 118, 118, 0.693);
+        z-index: -1;
+        border-radius: 10px;
+    }
+
+    .dropdown-content-capabilities {
+        display: none;
+        position: absolute;
+        background: transparent linear-gradient(180deg, #FFFFFF 0%, #FAFDF8 53%, #F2F9EB 100%);
+        min-width: 235px;
+        box-shadow: 2px 2px 5px 1px rgba(118, 118, 118, 0.693);
+        z-index: -1;
+        border-radius: 10px;
+        float: left;
+    }
+
+    .dropdown-content-block {
+        padding-left: 10px;
+    }
+
+    .caret {
+        width: 0;
+        height: 0;
+        border-top: 8px solid transparent;
+        border-bottom: 8px solid #FFFFFF;
+        border-right: 8px solid transparent;
+        border-left: 8px solid transparent;
+        position: absolute;
+        top: 54px;
+        left: 60px;
+        display: none;
+    }
+
+    .dropdown-content h3 {
+        color: #023B31;
+        padding: 15px 0 0 0;
+        font-size: 15px;
+        display: block;
+        font-family: 'Termina', Helvetica, Arial;
+        text-align: left;
+    }
+
+    .dropdown-content a {
+        text-decoration: none;
+    }
+
+    .dropdown-content-capabilities h3 {
+        color: #023B31;
+        padding: 15px 0px 0px 0px;
+        font-size: 15px;
+        display: block;
+        font-family: 'Termina', Helvetica, Arial;
+        text-align: left;
+    }
+
+    .dropdown-content-capabilities a {
+        text-decoration: none;
+    }
+
+    .dropdown-content-aboutus h3 {
+        color: #023B31;
+        padding: 15px 0px 0px 0px;
+        font-size: 15px;
+        display: block;
+        font-family: 'Termina', Helvetica, Arial;
+        text-align: left;
+    }
+
+    .dropdown-content-aboutus a {
+        text-decoration: none;
+    }
+
+    .dropdown-content h3:hover {  
         color: #71AE47;
-        height: 13px;
-        top: 56px;
-        font-weight: bold;
+        border-radius: 10px;
+    }
+
+    .dropdown-content-capabilities h3:hover { 
+        color: #71AE47;
+        border-radius: 10px;
+    }
+
+    .dropdown-content-aboutus h3:hover { 
+        background-color: white; 
+        color: #71AE47;
+        border-radius: 10px;
+    }
+
+    .dropdown:hover .dropdown-content-aboutus { 
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px 10px 15px 10px;
+        left: 0; 
+    }
+
+    .dropdown:hover .dropdown-content-capabilities { 
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px 10px 15px 10px;
+        left: 0; 
+    }
+
+    .dropdown:hover .dropdown-content { 
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px 10px 15px 10px;
+        left: 0; 
+        text-align: center;
+    }
+
+    .dropdown:hover .caret {
+        display: block;
     }
 
     .countdown {
@@ -155,7 +283,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 237px;
+        gap: 210px;
         padding-top: 100px;
     }
     
@@ -295,7 +423,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 190px;
+        gap: 100px;
         padding-top: 10px;
         background-color: #173142;
         height: 800px;
@@ -308,7 +436,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 265px;
+        gap: 40px;
         padding-top: 70px;
     }
 
@@ -614,7 +742,7 @@
     .footer-container {
         display: flex;
         justify-content: center;
-        gap: 340px;
+        gap: 290px;
         padding-top: 90px;
         background-color: #173142;
         height: 300px;
@@ -838,11 +966,11 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 200px;
+        gap: 180px;
     }
     
     .core-comp-title h2 {
-        margin-left: 5%;
+        margin-left: 5.5%;
         font-size: 44px;
         color: #023B31;
         padding: 75px 0px 30px 0px;
@@ -1372,7 +1500,7 @@
     .footer-container-history {
         display: flex;
         justify-content: center;
-        gap: 340px;
+        gap: 280px;
         padding-top: 90px;
         background-color: #173142;
         height: 390px;

@@ -396,6 +396,7 @@ body {
     color:white;
     margin-top: 20px;
     line-height: 1.5;
+    width: 600px;
     font-family: 'Montserrat', Helvetica, Arial;
 }
 
@@ -412,8 +413,17 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 212px;
+    gap: 345px;
     padding-top: 170px;
+}
+
+.hero-title-image-career p {
+    width: 750px;
+}
+
+.hero-title-image-career img {
+    width: 380px;
+    height: 520px;
 }
 
 
@@ -436,7 +446,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 460px;
+    gap: 230px;
     padding-top: 170px;
 }
 
