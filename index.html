@@ -24,12 +24,10 @@
                 <div class="nav-logo" id="myNavLogo">
                     <a href="index.html"><img class="nine30-logo" src="Nine 30 White_Green Logo.png" alt="nine30-logo"></a>
                 </div>
-                <div class="navbar" id="myNavbar">
-                    <input type="checkbox" id="check">
-                    <label for="check" class="checkbtn">
-                        <i class="fa fa-bars"></i>
-                    </label>
-                    
+                <div class="navbar">
+
+                <!-- Desktop, Laptop Navbar -->
+
                     <div class="dropdown">
                         <button class="dropbtn"><a href="aboutUs.html">About Us<span>&#43;</span></a></button>
                         <div class="caret">
@@ -91,8 +89,55 @@
                             </div>
                         </div>
                     </div>
-                    
                 </div>
+
+
+
+
+                <!-- Mobile Menu w/ Dropdown -->
+
+                <div class="topNav" id="myTopNav">
+
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    
+                   <div class="topNav-content">
+                        <div class="dropdown-mob">
+                            <button class="dropbtn-mob">ABOUT US<span>&#43;</span></button>
+                            <div class="dropdown-content-mob">
+                                <a href="#ourHistory">Our History</a>
+                                <a href="#ourTeam">Our Team</a>
+                            </div>
+                        </div>
+
+                        <div class="dropdown-mob">
+                            <button class="dropbtn-mob">CAPABILITIES<span>&#43;</span></button>
+                            <div class="dropdown-content-mob">
+                                <a href="#financialManagement">Financial Management</a>
+                                <a href="#projectManagement">Project Management</a>
+                                <a href="#dataAnalytics">Project Management</a>
+                                <a href="#Acquisition">Acquisition</a>
+                                <a href="#caseStudies">Case Studies</a>
+                            </div>
+                        </div>
+
+                        <div class="dropdown-mob">
+                            <button class="dropbtn-mob">CAREER<span>&#43;</span></button>
+                            <div class="dropdown-content-mob">
+                                <a href="#cultureAndBenefits">Culture & Benefits</a>
+                                <a href="#openJobs">Open Jobs</a>
+                            </div>
+                        </div>
+                   </div>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+                </div>
+
+                
+
+
+
+
+                <!-- Countdown - Days Till Nine 30 -->
+
                 <div class="countdown" id="myCountdown">
                     <p id="demo"></p>
                     <p>Days Till Nine 30</p>
@@ -101,6 +146,10 @@
                     <button><a href="https://form.jotform.com/232625193821051">CONTACT US</a></button>
                 </div>
             </div>
+
+
+            <!-- HERO TITLE IMAGE -->
+
 
             <div class="hero-title-image">
                 <div class="hero-text">
@@ -392,6 +441,27 @@
 
 
 
+            // Mobile Menu w/ Dropdown //
+
+            // function myFunction() {
+            //     var x = document.getElementById("myTopNav");
+            //     if (x.className === "topNav") {
+            //         x.className += " responsive";
+            //     } else {
+            //         x.className = "topNav";
+            //     }
+            // }
+
+            function openNav() {
+                document.getElementById("myTopNav").style.width = "100%";
+            }
+
+            function closeNav() {
+                document.getElementById("myTopNav").style.width = "0%";
+            }
+
+
+            
 
             // Capabilities Slideshow //
 

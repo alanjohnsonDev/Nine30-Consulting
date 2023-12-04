@@ -24,12 +24,11 @@
 }
 
 
-/* Hero Container */
+/* Hero-Title-Image */
 
-.header {
-    position: sticky;
+.hero-title-image-ourhistory {
+    gap: 100px;
 }
-
 
 /* Timeline Section */
 
@@ -204,9 +203,11 @@
     height: 225px;
 }
 
-/* .fast-logo {
-
-} */
+.fast-logo {
+    width: 250px;
+    height: 160px;
+    padding-top: 50px;
+}
 
 .timeline .office-space {
     width: 300px;

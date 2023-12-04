@@ -46,22 +46,10 @@ body {
     text-align: center;
 }
 
-.checkbtn .fa {
-    font-size: 30px;
-    color: white;
-    margin: 0px;
-    float: right;
-    cursor: pointer;
-    display: none;
-}
-
-#check {
-    display: none;
-}
-
 
 
 /* Dropdown Menu */
+
 
 .dropbtn {
     background-color: transparent;
@@ -218,6 +206,14 @@ body {
 }
 
 
+
+
+
+/* Mobile Dropdown Menu */
+
+.topNav {
+    display: none;
+}
 
 
 /* Countdown */
@@ -433,7 +429,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 190px;
+    gap: 120px;
     padding-top: 10px;
     background-color: #173142;
     height: 800px;
