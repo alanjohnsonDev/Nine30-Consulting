@@ -171,7 +171,7 @@ body {
 }
 
 .dropdown-content-aboutus h3:hover { 
-    background-color: white; 
+    background-color: transparent; 
     color: #71AE47;
     border-radius: 10px;
 }
@@ -181,7 +181,8 @@ body {
     flex-direction: column;
     gap: 10px;
     padding: 10px 10px 15px 10px;
-    left: 0; 
+    left: 0;
+    text-align: center; 
 }
 
 .dropdown:hover .dropdown-content-capabilities { 
@@ -209,17 +210,81 @@ body {
 
 
 
+
+
+
+
+
+
 /* Mobile Dropdown Menu */
 
-.topNav {
+.mobile-menu-overlay {
     display: none;
 }
+
+
+.mobile-menu-overlay {
+    height: 100%;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    background-color: #173142;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.mobile-overlay-content {
+    position: relative;
+    top: 10%;
+    width: 100%;
+    text-align: left;
+    padding-left: 50px;
+    margin-top: 30px;
+}
+
+.mobile-menu-overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #71AE47;
+    font-weight: bold;
+    display: block;
+    transition: 0.3s;
+}
+
+.mobile-menu-overlay .closebtn {
+    position: absolute;
+    top: 10px;
+    right: -45px;
+    font-size: 60px;
+}
+
+span.ham-menu {
+    color: #71AE47;
+    font-size: 30px;
+    margin-right: 50px;
+    display: none;
+}
+
+
+
+
+
+/* Mobile Menu */
+
+
+.mobile-menu-overlay {
+    display: none;
+}
+
+
 
 
 /* Countdown */
 
 
-.navbar span {
+.navbar .plus {
     margin-left: 10px;
     color: #71AE47;
     height: 13px;

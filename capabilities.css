@@ -72,12 +72,9 @@
     font-family: 'Montserrat', Helvetica, Arial;
 }
 
-.capabilities-info-content a {
-    text-decoration: none;
-    color:#023B31;
-    font-weight: bold;
-    font-size: 18px;
-    font-family: 'Montserrat', Helvetica, Arial;
+.learn-more {
+    width: 200px;
+    border-radius: 10px;
 }
 
 .capabilities-info-content span {
