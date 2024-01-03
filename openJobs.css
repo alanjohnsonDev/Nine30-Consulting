@@ -90,10 +90,20 @@
     font-family: 'Montserrat', Helvetica, Arial;
 }
 
+.jobs-button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    gap: 0px 20px;
+}
+
 .open-job a {
     text-decoration: none;
     font-size: 20px;
     font-weight: normal;
+    width: 150px;
+    text-align: center;
     padding: 12px;
     border: 1px solid transparent;
     border-radius: 20px;
@@ -101,6 +111,8 @@
     background: transparent linear-gradient(270deg, #023B31 0%, #34776B 100%) 0% 0% no-repeat padding-box;
     font-family: 'Termina', Helvetica, Arial;
 }
+
+
 
 
 
