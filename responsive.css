@@ -2692,14 +2692,17 @@
 
     .mobile-menu-overlay {
         display: block;
+        float: none;
     }
 
     .dropdown-mob {
         display: block;
+        float: none;
     }
 
     span.ham-menu {
         display: block;
+        float: none;
     }
 
     .mobile-overlay-content {
@@ -2734,7 +2737,6 @@
     
     .dropdown-mob {
         position: relative;
-        display: block;
     }
     
     .dropdown-mob:hover {
@@ -2990,6 +2992,8 @@
         position: fixed;
         top: 0;
         left: 0;
+        right: 0;
+        bottom: 0;
         height: 70px;
         width: 100%;
         z-index: 5;
@@ -3020,7 +3024,7 @@
     span.ham-menu {
         color: #71AE47;
         font-size: 23px;
-        margin-right: 30px;
+        margin-right: 15px;
         display: inline-block;
         padding-left: 30px;
     }
@@ -3037,7 +3041,7 @@
         display: block;
         align-items: center;
         justify-content: right;
-        width: 230px;
+        width: 210px;
         margin-left: 0px;
         margin-bottom: 7px;
     }
@@ -3200,10 +3204,10 @@
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
-        gap: 80px;
+        gap: 40px;
         padding-top: 5px;
         background-color: #173142;
-        height: 850px;
+        height: 780px;
     }
     
     .hero-text-casestudies h1 {
@@ -3211,6 +3215,7 @@
         color:rgb(118, 216, 65);
         font-weight: 500;
         font-family: 'Termina', Helvetica, Arial;
+        text-align: center;
     }
 
     .hero-text-casestudies br {
@@ -3224,6 +3229,7 @@
         line-height: 1.5;
         font-family: 'Montserrat', Helvetica, Arial;
         width: 340px;
+        text-align: center;
     }
     
     .hero-picture-case-studies {
@@ -3501,7 +3507,8 @@
         padding-top: 30px;
         font-size: 16px;
         font-family: 'Montserrat', Helvetica, Arial;
-        width: 100%;
+        width: 350px;
+        margin: 0 auto;
         text-align: center;
     }
     
@@ -3567,6 +3574,7 @@
     
     .lets-talk-title {
         width: 350px;
+        text-align: center;
     }
     
     .lets-talk-title h4 {
@@ -3625,6 +3633,7 @@
     .join-us-title {
         margin-left: 0px;
         width: 333px;
+        text-align: center;
     }
     
     .join-us-title h2 {
@@ -3819,11 +3828,13 @@
     .our-philosophy-container {
         height: 1300px;
         background-color: #FFFFFF;
-        width: 350px;
+        width: 375px;
+        margin: 0 auto;
     }
     
     .philosophy-title {
-        margin-left: 6%;
+        margin-left: 0;
+        text-align: center;
         padding-top: 40px;
     }
 
@@ -3833,6 +3844,7 @@
     
     .philosophy-title h2 {
         font-size: 32px;
+        text-align: center;
         color: #023B31;
         padding-bottom: 20px;
         font-family: 'Termina', Helvetica, Arial;
@@ -3862,7 +3874,7 @@
     .philosophy-image img {
         height: 350px;
         width: 350px;
-        margin-left: 8%;
+        margin: 0 auto;
     }
     
     .innovate-elevate-collaborate {
@@ -3917,7 +3929,7 @@
     /* Capabilities Page */
 
     .core-comp-container {
-        height: 1580px;
+        height: 1650px;
         background-color: rgb(231, 240, 216, 0.8);
     }
     
@@ -3930,7 +3942,8 @@
     }
     
     .core-comp-title h2 {
-        margin-left: 3%;
+        margin-left: 0;
+        text-align: center;
         font-size: 28px;
         color: #023B31;
         padding: 75px 0px 50px 0px;
@@ -4032,8 +4045,8 @@
         flex-direction: column;
         padding-top: 0px;
         background-color: #173142;
-        padding-left: 5%;
-        text-align: left;
+        padding-left: 0;
+        text-align: center;
         height: 280px;
 
     }
@@ -4276,6 +4289,7 @@
         bottom: 0px;
         z-index: 1;
         animation: pulse 3s infinite;
+        display: none;
     }
 
     .timeline-item::after {
@@ -4396,7 +4410,7 @@
         font-size: 16px;
         font-weight: bold;
         width: 120px;
-        margin: 10px 0 10px 123px;
+        margin: 10px 0 10px 38%;
         padding: 12px 15px;
         font-family: 'Montserrat', Helvetica, Arial;
         border: 1px solid transparent;
@@ -4584,7 +4598,6 @@
         display: flex;
         flex-direction: column;
         height: 6450px;
-        width: 260px;
         align-items: center;
         justify-content: normal;
         gap: 30px 0px;
@@ -4607,7 +4620,7 @@
     .overlay {
         position: absolute;
         height: 87%;
-        width: 100%;
+        width: 90.5%;
         top: 0;
         left: 0;
         bottom: 0;
@@ -4777,7 +4790,9 @@
 
     .benefits-title {
         padding: 50px 0px 70px 0px;
-        margin-left: 6%;
+        margin-left: 0;
+        margin: 0 auto;
+        text-align: center;
         width: 347px;
     }
 
@@ -4888,7 +4903,8 @@
     }
 
     .diversity-title {
-        text-align: left;
+        text-align: center;
+        width: 350px;
     }
 
     .diversity-title br {
@@ -4896,7 +4912,7 @@
     }
 
     .diversity-title h2 {
-        font-size: 30px;
+        font-size: 32px;
         color: #023B31;
         width: 350px;
         margin: 0 auto;
@@ -4962,12 +4978,14 @@
         color: #023B31;
         padding-bottom: 30px;
         font-family: 'Termina', Helvetica, Arial;
+        text-align: center;
     }
 
     .community-title p {
         font-size: 16px;
         color:#525252;
         padding-bottom: 20px;
+        text-align: center;
         font-family: 'Montserrat', Helvetica, Arial;
     }
 
@@ -4980,7 +4998,7 @@
         font-size: 17px;
         font-weight: 500;
         padding-bottom: 15px;
-        line-height: 1.4;
+        line-height: 1.5;
         font-family: 'Montserrat', Helvetica, Arial;
     }
 
@@ -5016,6 +5034,7 @@
 
     .apply-title {
         width: 350px;
+        text-align: center;
     }
 
     .apply-title br {
@@ -5213,9 +5232,11 @@
     }
 
     .case-study-title h2 {
-        font-size: 28px;
+        font-size: 30px;
         padding-top: 100px;
         letter-spacing: 4px;
+        width: 375px;
+        margin: 0 auto;
         text-align: center;
         color: #023B31;
         font-family: 'Termina', Helvetica, Arial;
@@ -5227,6 +5248,8 @@
         font-size: 18px;
         color: #525252;
         font-weight: 500;
+        width: 360px;
+        margin: 0 auto;
         font-family: 'Montserrat', Helvetica, Arial;
     }
 

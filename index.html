@@ -16,6 +16,18 @@
         <link rel="stylesheet" href="responsive.css">
         <link rel="stylesheet" href="responsive2.css">
     </head>
+
+    <script>
+        // Mobile Menu w/ Dropdown //
+
+        function closeNav() {
+                document.getElementById("myNav").style.width = "0%";
+            }
+
+        function openNav() {
+                document.getElementById("myNav").style.width = "100%";
+            }
+    </script>
     <body>
         <!-- HERO BACKGROUND -->
 
@@ -475,7 +487,10 @@
 
 
         <!-- JavaScript -->
-        <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+        <script src="https://code.jquery.com/jquery-latest.min.js">
+
+
+        </script>
 
         <script>
 
@@ -501,21 +516,6 @@
             }, 1000);
 
 
-
-            // Mobile Menu w/ Dropdown //
-
-            function openNav() {
-                document.getElementById("myNav").style.width = "100%";
-            }
-
-            function closeNav() {
-                document.getElementById("myNav").style.width = "0%";
-            }
-            
-            
-
-
-            
 
             // Capabilities Slideshow //
 
@@ -547,6 +547,7 @@
                     dots[slideIndex-1].className += " active";
                 }
             }
+
         </script>
     </body>
 </html>
