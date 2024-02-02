@@ -2683,8 +2683,8 @@
         display: none;
     }
 
-    div#myNavLogo { order: 2; }
     div#myNav { order: 1; }
+    div#myNavLogo { order: 2; }
     div#myCountdown { order: 3; }
 
 
@@ -2708,7 +2708,7 @@
     .mobile-overlay-content {
         position: relative;
         top: 10%;
-        width: 100%;
+        /* width: 100%; */
         text-align: left;
         padding-left: 30px;
         margin-top: 60px;
@@ -2751,7 +2751,7 @@
         display: none;
         position: absolute;
         background: transparent;
-        min-width: 200px;
+        /* min-width: 200px; */
         z-index: 1;
         border-radius: 10px;
         box-shadow: none;
@@ -2761,7 +2761,7 @@
         display: none;
         position: absolute;
         background: transparent;
-        min-width: 145px;
+        /* min-width: 145px; */
         z-index: 1;
         box-shadow: none;
     }
@@ -2770,7 +2770,7 @@
         display: none;
         position: absolute;
         background: transparent;
-        min-width: 235px;
+        /* min-width: 235px; */
         margin-bottom: 30px;
         z-index: 1;
         box-shadow: none;
@@ -2876,7 +2876,7 @@
 
     .mobile-address-container {
         position: absolute;
-        bottom: 96px;
+        bottom: 15px;
         left: 30px;
         display: flex;
         flex-direction: column;
@@ -3032,8 +3032,8 @@
     .navbar span {
         margin-left: 10px;
         color: #71AE47;
-        height: 13px;
-        top: 56px;
+        height: 34px;
+        top: 40px;
         font-weight: bold;
     }
 

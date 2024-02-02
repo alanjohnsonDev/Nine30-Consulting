@@ -371,10 +371,10 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 90px;
+        gap: 55px;
         padding-top: 0px;
         background-color: #173142;
-        height: 750px;
+        height: 761px;
     }
     
     .hero-text-casestudies h1 {
@@ -389,6 +389,7 @@
         color:white;
         margin-top: 20px;
         line-height: 1.5;
+        width: 500px;
         font-family: 'Montserrat', Helvetica, Arial;
     }
     
@@ -405,12 +406,12 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 250px;
+        gap: 160px;
         padding-top: 100px;
     }
 
     .hero-title-image-career p {
-        width: 700px;
+        width: 650px;
     }
 
     
@@ -427,7 +428,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 100px;
+        gap: 62px;
         padding-top: 10px;
         background-color: #173142;
         height: 800px;
@@ -440,13 +441,13 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 40px;
+        gap: 50px;
         padding-top: 70px;
     }
 
     .hero-picture-ourteam {
-        width: 750px;
-        height: 500px;
+        width: 600px;
+        height: 410px;
         border-radius: 12px;
     }
     
@@ -588,10 +589,10 @@
     
     .supporting-card-container {
         display: grid;
-        grid-template-columns: repeat(3, 400px);
+        grid-template-columns: repeat(3, 360px);
         justify-content: center;
         align-items: center;
-        gap: 30px 42px;
+        gap: 30px 35px;
         padding-top: 70px;
     }
     
@@ -603,8 +604,8 @@
         background-color: #F0F9EA;
         border-radius: 15px;
         padding: 20px 10px;
-        width: 370px;
-        height: 160px;
+        width: 330px;
+        height: 170px;
         align-items: center;
     }
     
@@ -631,7 +632,7 @@
     .lets-talk-div {
         display: flex;
         justify-content: center;
-        gap: 64px;
+        gap: 50px;
         padding-top: 120px;
         align-items: center;
         padding-bottom: 130px;
@@ -639,8 +640,8 @@
     
     .lets-talk-image img {
         border-radius: 15px;
-        width: 650px;
-        height: 525px;
+        width: 550px;
+        height: 450px;
     }
     
     .lets-talk-title {
@@ -655,7 +656,7 @@
     }
     
     .lets-talk-title h2 {
-        font-size: 38px;
+        font-size: 36px;
         color: #023B31;
         font-weight: normal;
         padding: 16px 0px 34px 0px;
@@ -701,7 +702,7 @@
     }
     
     .join-us-title {
-        margin-left: 160px;
+        margin-left: 130px;
         width: 450px;
     }
     
@@ -746,7 +747,7 @@
     .footer-container {
         display: flex;
         justify-content: center;
-        gap: 290px;
+        gap: 140px;
         padding-top: 90px;
         background-color: #173142;
         height: 300px;
@@ -754,7 +755,7 @@
     
     .nav-bottom-links {
         display: flex;
-        gap: 150px;
+        gap: 100px;
     }
     
     .footer-container h3 {
@@ -832,7 +833,7 @@
     .navbar-bottom-container {
         display: flex;
         justify-content: space-around;
-        gap: 550px;
+        gap: 290px;
         background-color: #81C94C;
         padding: 25px 0px;
         align-items: center;
@@ -866,7 +867,7 @@
     /* About Us Page */
 
     .about-us-picture {
-        width: 550px;
+        width: 560px;
         height: 400px;
         border-radius: 12px;
     }
@@ -877,7 +878,7 @@
     }
     
     .philosophy-title {
-        margin-left: 6%;
+        margin-left: 10.5%;
         padding-top: 100px;
     }
     
@@ -897,18 +898,23 @@
     .philosophy-content {
         display: flex;
         justify-content: center;
-        gap: 105px;
+        gap: 95px;
         align-items: center;
         padding-top: 50px;
     }
     
     .philosophy-image img {
-        height: 550px;
-        width: 550px;
+        height: 530px;
+        width: 530px;
     }
     
     .innovate-elevate-collaborate {
         padding-top: 60px;
+        width: 510px;
+    }
+
+    .innovate-elevate-collaborate br {
+        display: none;
     }
     
     .innovate-elevate-collaborate h3 {
@@ -927,17 +933,17 @@
     }
     
     .collaborate hr {
-        width: 370px;
+        width: 274px;
         margin-left: 20px;
     }
     
     .innovate hr {
-        width: 420px;
+        width: 327px;
         margin-left: 20px;
     }
     
     .elevate hr {
-        width: 440px;
+        width: 350px;
         margin-left: 20px;
     }
     
@@ -962,7 +968,7 @@
     /* Capabilities Page */
 
     .core-comp-container {
-        height: 1000px;
+        height: 1100px;
         background-color: rgb(231, 240, 216, 0.8);
     }
     
@@ -970,24 +976,28 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 90px;
+        gap: 60px;
     }
     
     .core-comp-title h2 {
-        margin-left: 5.5%;
-        font-size: 44px;
+        margin-left: 10.5%;
+        font-size: 40px;
         color: #023B31;
         padding: 75px 0px 30px 0px;
         font-family: 'Termina', Helvetica, Arial;
     }
     
-    .core-comp-image video {
-        width: 515px;
-        height: 515px;
+    .core-comp-image img {
+        width: 570px;
+        height: 570px;
     }
     
     .capabilities {
-        width: 595px;
+        width: 530px;
+    }
+
+    .capabilities br {
+        display: none;
     }
     
     .capabilities-info-content {
@@ -1028,25 +1038,25 @@
     }
     
     .capabilities-financial hr {
-        width: 280px;
+        width: 218px;
         margin-left: 10px;
         margin-bottom: 4px;
     }
     
     .capabilities-project hr {
-        width: 305px;
+        width: 248px;
         margin-left: 10px;
         margin-bottom: 4px;
     }
     
     .capabilities-data hr {
-        width: 387px;
+        width: 327px;
         margin-left: 10px;
         margin-bottom: 4px;
     }
     
     .capabilities-acquisition hr {
-        width: 425px;
+        width: 370px;
         margin-left: 10px;
         margin-bottom: 4px;
     }
@@ -1066,8 +1076,9 @@
 
     .filter-navbar {
         background-color: #173142;
-        padding-left: 2.5%;
-        height: 70px;
+        padding-left: 10.5%;
+        height: 80px;
+        padding-top: 30px;
     }
 
     .filter-navbar a {
@@ -1075,6 +1086,7 @@
         text-decoration: none;
         font-size: 16px;
         padding-right: 70px;
+        padding-top: 30px;
         font-family: 'Montserrat', Helvetica, Arial;
     }
 
@@ -1090,9 +1102,9 @@
 
     .case-studies-container {
         display: grid;
-        grid-template-columns: repeat(3, 405px);
+        grid-template-columns: repeat(3, 340px);
         justify-content: center;
-        gap: 40px;
+        gap: 60px;
         padding-top: 70px;
         background-color: #ffffff;
         padding-bottom: 100px;
@@ -1103,8 +1115,8 @@
     }
 
     .case-studies-card img {
-        height: 262px;
-        width: 400px;
+        height: 220px;
+        width: 340px;
         padding-bottom: 30px;
     }
 
@@ -1220,7 +1232,7 @@
         margin: 0 auto;
         flex-wrap: wrap;
         flex-direction: column;
-        max-width: 1200px;
+        max-width: 1135px;
         position: relative;
         padding-top: 160px;
     }
@@ -1272,8 +1284,8 @@
 
     .timeline-item {
         position: relative;
-        width: 476px; 
-        height: 250px;
+        width: 410px; 
+        height: 270px;
         background-color: #E0F2F1;
         margin-bottom: 200px;
         border: 1px solid transparent;
@@ -1330,6 +1342,7 @@
         border-radius: 50%;
         z-index: 1;
         animation: pulse 3s infinite;
+        display: none;
     }
 
     @keyframes pulse {
@@ -1349,11 +1362,11 @@
     }
 
     .left::after {
-        right: -146.3px;
+        right: -179.7px;
     }
 
     .right::after {
-        left: -147.3px;
+        left: -180.7px;
     }
 
     .timeline::after {
@@ -1459,23 +1472,23 @@
         justify-content: center;
         align-items: center;
         height: 800px;
-        gap: 79px;
+        gap: 48px;
         background-color: #FFFFFF;
     }
 
     .join-image img {
-        height: 510px;
-        width: 650px;
+        height: 450px;
+        width: 550px;
         border-radius: 20px;
     }
 
     .join-our-team-text {
-        width: 550px;
+        width: 500px;
     }
 
     .join-our-team-text h2 {
         color: #222222;
-        font-size: 36px;
+        font-size: 34px;
         padding-bottom: 30px;
         font-family: 'Termina', Helvetica, Arial;
     }
@@ -1509,7 +1522,7 @@
     .footer-container-history {
         display: flex;
         justify-content: center;
-        gap: 280px;
+        gap: 200px;
         padding-top: 90px;
         background-color: #173142;
         height: 390px;
@@ -1517,7 +1530,7 @@
     
     .nav-bottom-links {
         display: flex;
-        gap: 150px;
+        gap: 120px;
     }
     
     .footer-container-history h3 {
@@ -1605,8 +1618,8 @@
 
     .our-team-container {
     display: grid;
-    grid-template-columns: repeat(4, 250px);
-    height: 2000px;
+    grid-template-columns: repeat(3, 300px);
+    height: 2600px;
     align-items: center;
     justify-content: center;
     gap: 20px 92px;
@@ -1621,15 +1634,15 @@
 
     .our-team-card img {
         display: block;
-        width: 250px;
-        height: 370px;
+        width: 280px;
+        height: 390px;
         border-radius: 20px;
     }
 
     .overlay {
         position: absolute;
         height: 88%;
-        width: 100%;
+        width: 93.8%;
         top: 0;
         left: 0;
         bottom: 0;
@@ -1646,7 +1659,7 @@
 
     .text {
         color: #FFFFFF;
-        font-size: 13px;
+        font-size: 14px;
         position: absolute;
         top: 50%;
         left: 50%;
@@ -1690,7 +1703,7 @@
     }
 
     .slideshow-container {
-        max-width: 1275px;
+        max-width: 1130px;
         height: 200px;
         position: relative;
         margin: auto;
@@ -1708,12 +1721,12 @@
         justify-content: center;
         align-items: center;
         margin: 0 auto;
-        max-width: 1150px;
+        max-width: 990px;
         height: 200px;
     }
 
     .slide-text h3 {
-        font-size: 30px;
+        font-size: 28px;
         color: #023B31;
         padding-bottom: 20px;
         font-family: 'Montserrat', Helvetica, Arial;
@@ -1801,7 +1814,7 @@
 
     .benefits-title {
         padding: 100px 0px 70px 0px;
-        margin-left: 2.5%;
+        margin-left: 10.5%;
     }
 
     .benefits-title h2 {
@@ -1820,15 +1833,15 @@
     .benefits-card-container {
         display: grid;
         justify-content: center;
-        grid-template-columns: repeat(4, 310px);
-        gap: 50px 20px;
+        grid-template-columns: repeat(4, 260px);
+        gap: 50px 30px;
     }
 
     .benefits-card {
         border: 1px solid transparent;
         border-radius: 20px;
         box-shadow: 2px 2px 10px rgb(199, 199, 199);
-        width: 255px;
+        width: 220px;
         height: 280px;
         text-align: center;
         padding: 20px;
@@ -1898,12 +1911,12 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 20px;
+        gap: 10px;
         height: 750px;
     }
 
     .diversity-title {
-        width: 550px;
+        width: 535px;
         text-align: left;
     }
 
@@ -1933,8 +1946,8 @@
     }
 
     .diversity-image img {
-        height: 530px;
-        width: 730px;
+        height: 460px;
+        width: 590px;
         border-radius: 20px;
         box-shadow: 2px 2px 12px rgb(184, 190, 174);
     }
@@ -1984,8 +1997,8 @@
     }
 
     .community-image img {
-        height: 530px;
-        width: 730px;
+        height: 460px;
+        width: 590px;
         border-radius: 20px;
         box-shadow: -2px -2px -12px rgb(184, 190, 174);
     }
@@ -1998,22 +2011,22 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 70px;
+        gap: 90px;
         margin-top: 200px;
         padding-bottom: 60px;
         background-color: rgb(231, 240, 216, 0.8);
     }
 
     .apply-image img {
-        height: 600px;
-        width: 700px;
+        height: 520px;
+        width: 580px;
         border-radius: 20px;
         margin-top: -70px;
         box-shadow: 2px 2px 12px rgb(184, 190, 174);
     }
 
     .apply-title {
-        width: 550px;
+        width: 500px;
     }
 
     .apply-title h2 {
@@ -2035,7 +2048,7 @@
         color: white;
         border: 1px solid transparent;
         padding: 12px 14px;
-        font-size: 26px;
+        font-size: 20px;
         border-radius: 20px;
         background: transparent linear-gradient(270deg, #023B31 0%, #34776B 100%) 0% 0% no-repeat padding-box;
         font-family: 'Termina', Helvetica, Arial;
@@ -2079,7 +2092,7 @@
     .open-job {
         text-align: justify;
         margin: 0 auto;
-        max-width: 1200px;
+        max-width: 1150px;
     }
 
     .open-job-title {
@@ -2211,6 +2224,8 @@
     .case-study-title h2 {
         font-size: 40px;
         padding-top: 100px;
+        width: 1150px;
+        margin: 0 auto;
         letter-spacing: 4px;
         text-align: center;
         color: #023B31;
