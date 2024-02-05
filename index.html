@@ -21,187 +21,53 @@
     <body>
         <!-- HERO BACKGROUND -->
 
-        <div class="hero-container">
-            <div class="header">
-                <div class="nav-logo" id="myNavLogo">
-                    <a href="index.html"><img class="nine30-logo" src="Nine 30 White_Green Logo.png" alt="nine30-logo"></a>
+        <header>
+            <a href="index.html" class="logo"><img src="Nine 30 White_Green Logo.png" alt="Nine30 Logo"></a>
+            <div class="menuToggle"></div>
+            <nav class="navbar">
+                <div>
+                    <ul class="navbar-icons">
+                        <li class="navbar-menu"><a href="aboutUs.html">About Us<span>&#43;</span></a>
+                            <ul class="navbar-submenu">
+                                <li class="navbar-submenu-icons"><a href="ourHistory.html">Our History</a></li>
+                                <li class="navbar-submenu-icons"><a href="ourTeam.html">Our Team</a></li>
+                            </ul>
+                        </li>
+                        <li class="navbar-menu"><a href="capabilities.html">Capabilities<span>&#43;</span></a>
+                            <ul class="navbar-submenu">
+                                <li class="navbar-submenu-icons"><a href="financialManagement.html">Financial Management</a></li>
+                                <li class="navbar-submenu-icons"><a href="projectManagement.html">Project Management</a></li>
+                                <li class="navbar-submenu-icons"><a href="dataAnalytics.html">Data Analytics</a></li>
+                                <li class="navbar-submenu-icons"><a href="acquisition.html">Acquisition</a></li>
+                                <li class="navbar-submenu-icons"><a href="caseStudies.html">Case Studies</a></li>
+                            </ul>
+                        </li>
+                        <li class="navbar-menu"><a href="career.html">Career & Benefits<span>&#43;</span></a>
+                            <ul class="navbar-submenu">
+                                <li class="navbar-submenu-icons"><a href="career.html">Career & Benefits</a></li>
+                                <li class="navbar-submenu-icons"><a href="jobs.html">Open Jobs</a></li>
+                            </ul>
+                        </li>
+                    </ul>
                 </div>
-
-
-                <div class="navbar">
-
-                    <!-- Desktop, Laptop Navbar -->
-
-                        <div class="dropdown">
-                            <button class="dropbtn"><a href="aboutUs.html">About Us<span class="plus">&#43;</span></a></button>
-                            <div class="caret">
-                                <div class="arrow-up"></div>
-                            </div>
-                            <div class="dropdown-content-aboutus">
-                                <div class="dropdown-content-block">
-                                    <a href="ourHistory.html"><h3>Our History</h3></a>
-                                </div>
-
-                                <div class="dropdown-content-block">
-                                    <a href="ourTeam.html"><h3>Our Team</h3></a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="dropdown">
-                            <button class="dropbtn"><a href="capabilities.html">Capabilities<span class="plus">&#43;</span></a></button>
-                            <div class="caret">
-                                <div class="arrow-up"></div>
-                            </div>
-                            <div class="dropdown-content-capabilities">
-                                
-                                <div class="dropdown-content-block">
-                                    <a href="financialManagement.html"><h3>Financial Management</h3></a>
-                                </div>
-
-                                <div class="dropdown-content-block">
-                                    <a href="projectManagement.html"><h3>Project Management</h3></a>
-                                </div>
-
-                                <div class="dropdown-content-block">
-                                    <a href="dataAnalytics.html"><h3>Data Analytics</h3></a>
-                                </div>
-
-                                <div class="dropdown-content-block">
-                                    <a href="acquisition.html"><h3>Acquisition</h3></a>
-                                </div>
-
-                                <div class="dropdown-content-block">
-                                    <a href="caseStudies.html"><h3>Case Studies</h3></a>
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <div class="dropdown">
-                            <button class="dropbtn"><a href="career.html">Career<span class="plus">&#43;</span></a></button>
-                            <div class="caret">
-                                <div class="arrow-up"></div>
-                            </div>
-                            <div class="dropdown-content">
-                                <div class="dropdown-content-block">
-                                    <a href="career.html"><h3>Culture & Benefits</h3></a>
-                                </div>
-
-                                <div class="dropdown-content-block">
-                                    <a href="jobs.html"><h3>Open Jobs</h3></a>
-                                </div>
-                            </div>
-                        </div>
-
-
-
-
-
-
-
-                    <!-- Mobile Menu -->
-                    
-                    <div id="myNav" class="mobile-menu-overlay">
-                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                        <div id="myLinks" class="mobile-overlay-content">
-                            <div class="dropdown-mob">
-                                <button class="dropbtn-mob">About Us<span class="plus">&#43;</span></button>
-                                <div class="dropdown-content-aboutus">
-
-                                    <div class="dropdown-content-block-mob">
-                                        <a href="aboutUs.html"><h3>About Us</h3></a>
-                                    </div>
-
-                                    <div class="dropdown-content-block-mob">
-                                        <a href="ourHistory.html"><h3>Our History</h3></a>
-                                    </div>
-            
-                                    <div class="dropdown-content-block-mob">
-                                        <a href="ourTeam.html"><h3>Our Team</h3></a>
-                                    </div>
-
-                                </div>
-                            </div>
-            
-                            <div class="dropdown-mob-capabilities">
-                                <button class="dropbtn-mob">Capabilities<span class="plus">&#43;</span></button>
-                                <div class="dropdown-content-capabilities">
-
-                                    <div class="dropdown-content-block-mob">
-                                        <a href="capabilities.html"><h3>Capabilities</h3></a>
-                                    </div>
-                                    
-                                    <div class="dropdown-content-block-mob">
-                                        <a href="financialManagement.html"><h3>Financial Management</h3></a>
-                                    </div>
-            
-                                    <div class="dropdown-content-block-mob">
-                                        <a href="projectManagement.html"><h3>Project Management</h3></a>
-                                    </div>
-            
-                                    <div class="dropdown-content-block-mob">
-                                        <a href="dataAnalytics.html"><h3>Data Analytics</h3></a>
-                                    </div>
-            
-                                    <div class="dropdown-content-block-mob">
-                                        <a href="acquisition.html"><h3>Acquisition</h3></a>
-                                    </div>
-            
-                                    <div class="dropdown-content-block-mob">
-                                        <a href="caseStudies.html"><h3>Case Studies</h3></a>
-                                    </div>
-            
-                                </div>
-                            </div>
-            
-                            <div class="dropdown-mob">
-                                <button class="dropbtn-mob">Career<span class="plus">&#43;</span></button>
-                                <div class="dropdown-content">
-
-                                    <div class="dropdown-content-block-mob">
-                                        <a href="career.html"><h3>Culture & Benefits</h3></a>
-                                    </div>
-            
-                                    <div class="dropdown-content-block-mob">
-                                        <a href="jobs.html"><h3>Open Jobs</h3></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="mobile-address-container">
-                            <div class="mobile-menu-address">
-                                <i class="fa fa-compass"></i>
-                                <p>46915 S Shangri La Dr <br> Lexington Park, MD 20653</p>
-                            </div>
-    
-                            <div class="mobile-menu-phone">
-                                <i class="fa fa-phone"></i>
-                                <p>240-842-9301</p>
-                            </div>
-                        </div>
-                        
-                    </div>
-                    
-                    <span class="ham-menu" onclick="openNav()">&#9776;</span>
-                </div>
-
 
                 <!-- Countdown - Days Till Nine 30 -->
 
-                <div class="countdown" id="myCountdown">
-                    <p id="demo"></p>
-                    <p>Days Till Nine 30</p>
+                <div class="nine30-countdown-contact">
+                    <div class="countdown" id="myCountdown">
+                        <p id="demo"></p>
+                        <p>Days Till Nine 30</p>
+                    </div>
+                    <div class="navbar-button" id="myButton">
+                        <button><a href="https://form.jotform.com/232625193821051">CONTACT US</a></button>
+                    </div>
                 </div>
-                <div class="navbar-button" id="myButton">
-                    <button><a href="https://form.jotform.com/232625193821051">CONTACT US</a></button>
-                </div>
-            </div>
+            </nav>
+        </header>
 
-
+        <div class="hero-container">
+            
             <!-- HERO TITLE IMAGE -->
-
 
             <div class="hero-title-image">
                 <div class="hero-text">
@@ -473,14 +339,12 @@
 
         <script>
 
-            // Mobile Menu w/ Dropdown //
+            // Mobile Menu //
 
-            function closeNav() {
-                document.getElementById("myNav").style.width = "0%";
-            }
-
-            function openNav() {
-                document.getElementById("myNav").style.width = "100%";
+            let menuToggle = document.querySelector('.menuToggle');
+            let header = document.querySelector('header');
+                menuToggle.onclick = function(){
+                header.classList.toggle('active');
             }
 
 

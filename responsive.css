@@ -3,407 +3,7 @@
 @media only screen and (max-width: 374px) {
 
 
-    /* Home Page */
-
-    .dropdown {
-        display: none;
-    }
-
-    div#myNavLogo { order: 2; }
-    div#myNav { order: 1; }
-    div#myCountdown { order: 3; }
-
-
-    /* Mobile Menu */
-
-    .mobile-menu-overlay {
-        display: block;
-    }
-
-    .dropdown-mob {
-        display: block;
-    }
-
-    span.ham-menu {
-        display: block;
-    }
-
-    .mobile-overlay-content {
-        position: relative;
-        top: 10%;
-        width: 100%;
-        text-align: left;
-        padding-left: 30px;
-        margin-top: 25px;
-    }
-
-    .dropbtn-mob {
-        background-color: transparent;
-        color: #F0F9EA;
-        padding: 0px 0px 0px 0px;
-        margin-bottom: 30px;
-        font-size: 18px;
-        border: none;
-        text-decoration: none;
-        font-family: 'Termina', Helvetica, Arial;
-        text-transform: uppercase;
-        letter-spacing: 1.5px;
-    }
-
-    .mobile-menu-overlay .closebtn {
-        position: absolute;
-        top: 10px;
-        right: 30px;
-        font-size: 40px;
-        color: #71AE47;
-    }
     
-    .dropdown-mob {
-        position: relative;
-        display: block;
-    }
-    
-    .dropdown-mob:hover {
-        margin-bottom: 120px;
-    }
-    
-    .dropdown-mob-capabilities:hover {
-        margin-bottom: 210px;
-    }
-    
-    .dropdown-mob .dropdown-content {
-        display: none;
-        position: absolute;
-        background: transparent;
-        min-width: 200px;
-        z-index: 1;
-        border-radius: 10px;
-        box-shadow: none;
-    }
-    
-    .dropdown-mob .dropdown-content-aboutus {
-        display: none;
-        position: absolute;
-        background: transparent;
-        min-width: 145px;
-        z-index: 1;
-        box-shadow: none;
-    }
-    
-    .dropdown-mob-capabilities .dropdown-content-capabilities {
-        display: none;
-        position: absolute;
-        background: transparent;
-        min-width: 235px;
-        margin-bottom: 30px;
-        z-index: 1;
-        box-shadow: none;
-    }
-    
-    .dropdown-mob .dropdown-content h3 {
-        color: #B6C5CE;
-        padding: 15px 0 0 0;
-        font-size: 15px;
-        display: block;
-        font-family: 'Termina', Helvetica, Arial;
-        text-align: left;
-    }
-    
-    .dropdown-mob .dropdown-content a {
-        text-decoration: none;
-    }
-    
-    .dropdown-mob .dropdown-content h3 {
-        color: #B6C5CE;
-        padding: 15px 0 0 0;
-        font-size: 16px;
-        display: block;
-        font-family: 'Montserrat', Helvetica, Arial;
-        text-align: left;
-    }
-    
-    .dropdown-mob-capabilities .dropdown-content a {
-        text-decoration: none;
-    }
-    
-    .dropdown-mob-capabilities .dropdown-content-capabilities h3 {
-        color: #B6C5CE;
-        padding: 15px 0px 0px 0px;
-        font-size: 16px;
-        display: block;
-        font-family: 'Montserrat', Helvetica, Arial;
-        text-align: left;
-    }
-    
-    .dropdown-mob-capabilities .dropdown-content-capabilities a {
-        text-decoration: none;
-    }
-    
-    .dropdown-mob .dropdown-content-aboutus h3 {
-        color: #B6C5CE;
-        padding: 15px 0px 0px 0px;
-        font-size: 16px;
-        display: block;
-        font-family: 'Montserrat', Helvetica, Arial;
-        text-align: left;
-    }
-    
-    .dropdown-mob .dropdown-content-aboutus a {
-        text-decoration: none;
-    }
-    
-    .dropdown-mob .dropdown-content h3:hover {  
-        background-color: transparent; 
-        color: #B6C5CE;
-        border-radius: 10px;
-    }
-    
-    .dropdown-mob-capabilities .dropdown-content-capabilities h3:hover { 
-        background-color: transparent; 
-        color: #B6C5CE;
-        border-radius: 10px;
-    }
-    
-    .dropdown-mob .dropdown-content-aboutus h3:hover { 
-        background-color: transparent; 
-        color: #B6C5CE;
-        border-radius: 10px;
-    }
-    
-    .dropdown-mob:hover .dropdown-content-aboutus { 
-        display: block;
-        top: 25px;
-        gap: 10px;
-        padding: 10px 10px 15px 10px;
-    }
-    
-    .dropdown-mob-capabilities:hover .dropdown-content-capabilities { 
-        display: block;
-        top: 85px;
-        gap: 10px;
-        padding: 10px 10px 15px 10px;
-        margin-bottom: 50px;
-    }
-    
-    .dropdown-mob:hover .dropdown-content { 
-        display: block;
-        top: 25px;
-        gap: 10px;
-        padding: 10px 10px 15px 10px;
-    }
-
-
-
-    /* Mobile Menu BOTTOM */
-
-    /* Mobile Address Container */
-
-    .mobile-address-container {
-        position: absolute;
-        bottom: 96px;
-        left: 12px;
-        display: flex;
-        flex-direction: column;
-        gap: 6px;
-    }
-
-    .mobile-menu-address {
-        display: flex;
-        flex-direction: row;
-        border: 1px solid transparent;
-        background-color: #1E3E53;
-        border-radius: 6px;
-        width: 255px;
-        height: 50px;
-        align-items: center;
-        justify-content: center;
-        
-    }
-
-    .mobile-menu-phone {
-        display: flex;
-        flex-direction: row;
-        border: 1px solid transparent;
-        background-color: #1E3E53;
-        border-radius: 6px;
-        width: 255px;
-        height: 40px;
-        align-items: center;
-        justify-content: left;
-    }
-
-    .mobile-menu-address p {
-        font-size: 12px;
-        font-family: 'Montserrat', Helvetica, Arial;
-        color: #F0F9EA;
-        font-weight: bold;
-        letter-spacing: 1.1px;
-        text-align: left;
-    }
-
-    .mobile-menu-phone p {
-        font-size: 12px;
-        font-family: 'Montserrat', Helvetica, Arial;
-        color: #F0F9EA;
-        font-weight: bold;
-        text-align: left;
-    }
-
-    .mobile-menu-phone .fa {
-        padding-left: 15px;
-    }
-
-
-    /* NAVBAR BOTTOM CONTAINER MOBILE */
-    
-    .navbar-bottom-container-mob {
-        display: flex;
-        flex-direction: column-reverse;
-        justify-content: space-around;
-        gap: 7px;
-        background-color: #81C94C;
-        padding: 10px 0px;
-        align-items: center;
-        position: absolute;
-        bottom: 0;
-        width: 100%;
-    }
-
-    .copyright-mob h3 {
-        font-size: 12px;
-        color: #173142;
-        font-family: 'Montserrat', Helvetica, Arial;
-    }
-
-    .social-media-mob {
-        display: flex;
-        flex-direction: row;
-        padding-left: 28px;
-    }
-    
-    .social-media-mob a {
-        margin-right: 10px;
-    }
-    
-    .social-media-mob .fa {
-        color: #173142;
-        font-size: 20px;
-    }
-
-
-
-    div#myNavLogo {-webkit-order: 2;}
-    div#myNavbar {-webkit-order: 1;}
-    div#myCountdown {-webkit-order: 3;}
-    div#myButton {-webkit-order: 4;}
-
-     /* NAVBAR */
-
-    .header {
-        display: flex;
-        justify-content: normal;
-        align-items: center;
-        overflow: hidden;
-        background-color: #173142;
-        position: fixed;
-        height: 70px;
-        width: 100%;
-        z-index: 5;
-    }
-
-    .nav-logo {
-        margin-right: 0px;
-    }
-
-    .nine30-logo {
-        width: 70px;
-        height: 32px;
-    }
-
-    .navbar {
-        margin-right: 0px;
-    }
-
-    .navbar a {
-        text-decoration: none;
-        font-size: 18px;
-        color: #F0F9EA;
-        padding: 0px 0px 0px 0px;
-        font-family: 'Termina', Helvetica, Arial;
-        letter-spacing: 1.25px;
-    }
-
-    span.ham-menu {
-        color: #71AE47;
-        font-size: 20px;
-        margin-right: 14px;
-        display: inline-block;
-    }
-
-    .navbar span {
-        margin-left: 10px;
-        color: #71AE47;
-        height: 13px;
-        top: 56px;
-        font-weight: bold;
-    }
-
-    .countdown {
-        display: block;
-        align-items: center;
-        justify-content: right;
-        width: 230px;
-        margin-left: 0px;
-        margin-bottom: 7px;
-    }
-
-    .countdown p {
-        display: inline-block;
-        color: #F0F9EA;
-        font-weight: normal;
-        font-family: 'Termina', Helvetica, Arial;
-        font-size: 8px;
-        text-transform: uppercase;
-        margin-left: 4px;
-    }
-
-    .countdown span {
-        color: white;
-    }
-
-    #demo {
-        color: #71AE47;
-        font-size: 10px;
-        font-weight: normal;
-        display: inline-block;
-        width: 40px;
-        font-family: 'Termina', Helvetica, Arial;
-        border: 1px solid black;
-        background-color:rgba(33, 33, 33, 0.746);
-        border-radius: 10px;
-        margin-right: 0px;
-    }
-
-    .navbar-button {
-        display: inline-block;
-        display: none;
-    }
-
-    .navbar-button button {
-        background-color: #00796B;
-        color: #F0F9EA;
-        font-size: 14px;
-        border-radius: 27px;
-        border-color: transparent;
-        padding: 7px 12px;
-        font-family: 'Termina', Helvetica, Arial;
-        letter-spacing: 1.25px;
-    }
-
-    .navbar-button a {
-        text-decoration: none;
-        color: white;
-    }
     
     
 
@@ -2674,428 +2274,29 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* small devices (phones, 375px to 450px) */
 @media only screen and (min-width: 375px) and (max-width: 450px) {
     
-    /* Home Page */
-
-    .dropdown {
-        display: none;
-    }
-
-    div#myNav { order: 1; }
-    div#myNavLogo { order: 2; }
-    div#myCountdown { order: 3; }
-
-
-    /* Mobile Menu */
-
-    .mobile-menu-overlay {
-        display: block;
-        float: none;
-    }
-
-    .dropdown-mob {
-        display: block;
-        float: none;
-    }
-
-    span.ham-menu {
-        display: block;
-        float: none;
-    }
-
-    .mobile-overlay-content {
-        position: relative;
-        top: 10%;
-        /* width: 100%; */
-        text-align: left;
-        padding-left: 30px;
-        margin-top: 60px;
-    }
-
-    .dropbtn-mob {
-        background-color: transparent;
-        color: #F0F9EA;
-        padding: 0px 0px 0px 0px;
-        margin-bottom: 30px;
-        font-size: 24px;
-        border: none;
-        text-decoration: none;
-        font-family: 'Termina', Helvetica, Arial;
-        text-transform: uppercase;
-        letter-spacing: 1.5px;
-    }
-
-    .mobile-menu-overlay .closebtn {
-        position: absolute;
-        top: 20px;
-        right: 45px;
-        font-size: 45px;
-        color: #71AE47;
-    }
     
-    .dropdown-mob {
-        position: relative;
-    }
-    
-    .dropdown-mob:hover {
-        margin-bottom: 120px;
-    }
-    
-    .dropdown-mob-capabilities:hover {
-        margin-bottom: 220px;
-    }
-    
-    .dropdown-mob .dropdown-content {
-        display: none;
-        position: absolute;
-        background: transparent;
-        /* min-width: 200px; */
-        z-index: 1;
-        border-radius: 10px;
-        box-shadow: none;
-    }
-    
-    .dropdown-mob .dropdown-content-aboutus {
-        display: none;
-        position: absolute;
-        background: transparent;
-        /* min-width: 145px; */
-        z-index: 1;
-        box-shadow: none;
-    }
-    
-    .dropdown-mob-capabilities .dropdown-content-capabilities {
-        display: none;
-        position: absolute;
-        background: transparent;
-        /* min-width: 235px; */
-        margin-bottom: 30px;
-        z-index: 1;
-        box-shadow: none;
-    }
-    
-    .dropdown-mob .dropdown-content h3 {
-        color: #B6C5CE;
-        padding: 15px 0 0 0;
-        font-size: 15px;
-        display: block;
-        font-family: 'Termina', Helvetica, Arial;
-        text-align: left;
-    }
-    
-    .dropdown-mob .dropdown-content a {
-        text-decoration: none;
-    }
-    
-    .dropdown-mob .dropdown-content h3 {
-        color: #B6C5CE;
-        padding: 15px 0 0 0;
-        font-size: 18px;
-        display: block;
-        font-family: 'Montserrat', Helvetica, Arial;
-        text-align: left;
-    }
-    
-    .dropdown-mob-capabilities .dropdown-content a {
-        text-decoration: none;
-    }
-    
-    .dropdown-mob-capabilities .dropdown-content-capabilities h3 {
-        color: #B6C5CE;
-        padding: 15px 0px 0px 0px;
-        font-size: 18px;
-        display: block;
-        font-family: 'Montserrat', Helvetica, Arial;
-        text-align: left;
-    }
-    
-    .dropdown-mob-capabilities .dropdown-content-capabilities a {
-        text-decoration: none;
-    }
-    
-    .dropdown-mob .dropdown-content-aboutus h3 {
-        color: #B6C5CE;
-        padding: 15px 0px 0px 0px;
-        font-size: 18px;
-        display: block;
-        font-family: 'Montserrat', Helvetica, Arial;
-        text-align: left;
-    }
-    
-    .dropdown-mob .dropdown-content-aboutus a {
-        text-decoration: none;
-    }
-    
-    .dropdown-mob .dropdown-content h3:hover {  
-        background-color: transparent; 
-        color: #B6C5CE;
-        border-radius: 10px;
-    }
-    
-    .dropdown-mob-capabilities .dropdown-content-capabilities h3:hover { 
-        background-color: transparent; 
-        color: #B6C5CE;
-        border-radius: 10px;
-    }
-    
-    .dropdown-mob .dropdown-content-aboutus h3:hover { 
-        background-color: transparent; 
-        color: #B6C5CE;
-        border-radius: 10px;
-    }
-    
-    .dropdown-mob:hover .dropdown-content-aboutus { 
-        display: block;
-        top: 25px;
-        gap: 10px;
-        padding: 10px 10px 15px 10px;
-    }
-    
-    .dropdown-mob-capabilities:hover .dropdown-content-capabilities { 
-        display: block;
-        top: 95px;
-        gap: 10px;
-        padding: 10px 10px 15px 10px;
-        margin-bottom: 50px;
-    }
-    
-    .dropdown-mob:hover .dropdown-content { 
-        display: block;
-        top: 25px;
-        gap: 10px;
-        padding: 10px 10px 15px 10px;
-    }
-
-
-
-    /* Mobile Menu BOTTOM */
-
-    /* Mobile Address Container */
-
-    .mobile-address-container {
-        position: absolute;
-        bottom: 15px;
-        left: 30px;
-        display: flex;
-        flex-direction: column;
-        gap: 6px;
-    }
-
-    .mobile-menu-address {
-        display: flex;
-        flex-direction: row;
-        border: 1px solid transparent;
-        background-color: #1E3E53;
-        border-radius: 6px;
-        width: 322px;
-        height: 90px;
-        align-items: center;
-        justify-content: left;
-        
-    }
-
-    .mobile-menu-phone {
-        display: flex;
-        flex-direction: row;
-        border: 1px solid transparent;
-        background-color: #1E3E53;
-        border-radius: 6px;
-        width: 322px;
-        height: 67px;
-        align-items: center;
-        justify-content: left;
-    }
-
-    .mobile-menu-address p {
-        font-size: 14px;
-        font-family: 'Montserrat', Helvetica, Arial;
-        color: #F0F9EA;
-        font-weight: bold;
-        letter-spacing: 1.1px;
-        text-align: left;
-    }
-
-    .mobile-menu-phone p {
-        font-size: 14px;
-        font-family: 'Montserrat', Helvetica, Arial;
-        color: #F0F9EA;
-        font-weight: bold;
-        text-align: left;
-    }
-
-    .mobile-menu-address .fa {
-        padding-left: 15px;
-    }
-
-    .mobile-menu-phone .fa {
-        padding-left: 15px;
-    }
-
-
-    /* NAVBAR BOTTOM CONTAINER MOBILE */
-    
-    .navbar-bottom-container-mob {
-        display: flex;
-        flex-direction: column-reverse;
-        justify-content: space-around;
-        gap: 7px;
-        background-color: #81C94C;
-        padding: 10px 0px;
-        align-items: center;
-        position: absolute;
-        bottom: 0;
-        width: 100%;
-    }
-
-    .copyright-mob h3 {
-        font-size: 12px;
-        color: #173142;
-        font-family: 'Montserrat', Helvetica, Arial;
-    }
-
-    .social-media-mob {
-        display: flex;
-        flex-direction: row;
-        padding-left: 28px;
-    }
-    
-    .social-media-mob a {
-        margin-right: 10px;
-    }
-    
-    .social-media-mob .fa {
-        color: #173142;
-        font-size: 20px;
-    }
-
-
-
-
-    div#myNavLogo {-webkit-order: 2;}
-    div#myNavbar {-webkit-order: 1;}
-    div#myCountdown {-webkit-order: 3;}
-    div#myButton {-webkit-order: 4;}
-
-
-
-
-     /* NAVBAR */
-
-    .header {
-        display: flex;
-        justify-content: normal;
-        align-items: center;
-        overflow: hidden;
-        background-color: #173142;
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        height: 70px;
-        width: 100%;
-        z-index: 5;
-    }
-
-    .nav-logo {
-        margin-right: 0px;
-    }
-
-    .nine30-logo {
-        width: 80px;
-        height: 40px;
-    }
-
-    .navbar {
-        margin-right: 0px;
-    }
-
-    .navbar a {
-        text-decoration: none;
-        font-size: 18px;
-        color: #F0F9EA;
-        padding: 0px 0px 0px 0px;
-        font-family: 'Termina', Helvetica, Arial;
-        letter-spacing: 1.25px;
-    }
-
-    span.ham-menu {
-        color: #71AE47;
-        font-size: 23px;
-        margin-right: 15px;
-        display: inline-block;
-        padding-left: 30px;
-    }
-
-    .navbar span {
-        margin-left: 10px;
-        color: #71AE47;
-        height: 34px;
-        top: 40px;
-        font-weight: bold;
-    }
-
-    .countdown {
-        display: block;
-        align-items: center;
-        justify-content: right;
-        width: 210px;
-        margin-left: 0px;
-        margin-bottom: 7px;
-    }
-
-    .countdown p {
-        display: inline-block;
-        color: #F0F9EA;
-        font-weight: normal;
-        font-family: 'Termina', Helvetica, Arial;
-        font-size: 11px;
-        text-transform: uppercase;
-        margin-left: 4px;
-    }
-
-    .countdown span {
-        color: white;
-    }
-
-    #demo {
-        color: #71AE47;
-        font-size: 11px;
-        font-weight: normal;
-        display: inline-block;
-        width: 40px;
-        font-family: 'Termina', Helvetica, Arial;
-        border: 1px solid black;
-        background-color:rgba(33, 33, 33, 0.746);
-        border-radius: 10px;
-        margin-right: 0px;
-    }
-
-    .navbar-button {
-        display: inline-block;
-        display: none;
-    }
-
-    .navbar-button button {
-        background-color: #00796B;
-        color: #F0F9EA;
-        font-size: 14px;
-        border-radius: 27px;
-        border-color: transparent;
-        padding: 7px 12px;
-        font-family: 'Termina', Helvetica, Arial;
-        letter-spacing: 1.25px;
-    }
-
-    .navbar-button a {
-        text-decoration: none;
-        color: white;
-    }
-    
-
-
 
 
     /* Hero TITLE & VIDEO */
@@ -5321,346 +4522,34 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (min-width: 451px) and (max-width: 699px) {
 
 
-    /* Home Page */
-
-    .dropdown {
-        display: none;
-    }
-
-    div#myNavLogo { order: 2; }
-    div#myNav { order: 1; }
-    div#myCountdown { order: 3; }
-
-
-    /* Mobile Menu */
-
-    .mobile-menu-overlay {
-        display: block;
-    }
-
-    .dropdown-mob {
-        display: block;
-    }
-
-    span.ham-menu {
-        display: block;
-    }
-
-    .dropbtn-mob {
-        background-color: transparent;
-        color: #F0F9EA;
-        padding: 0px 0px 0px 0px;
-        margin-bottom: 30px;
-        font-size: 24px;
-        border: none;
-        text-decoration: none;
-        font-family: 'Termina', Helvetica, Arial;
-        text-transform: uppercase;
-        letter-spacing: 1.5px;
-    }
-
-    .mobile-menu-overlay .closebtn {
-        position: absolute;
-        text-decoration: none;
-        color: #71AE47;
-        top: 20px;
-        right: 45px;
-        font-size: 60px;
-        display: block;
-    }
     
-    .dropdown-mob {
-        position: relative;
-        display: block;
-    }
-    
-    .dropdown-mob:hover {
-        margin-bottom: 160px;
-    }
-    
-    .dropdown-mob-capabilities:hover {
-        margin-bottom: 320px;
-    }
-    
-    .dropdown-mob .dropdown-content {
-        display: none;
-        position: absolute;
-        background: transparent;
-        min-width: 200px;
-        z-index: 1;
-        border-radius: 10px;
-        box-shadow: none;
-    }
-    
-    .dropdown-mob .dropdown-content-aboutus {
-        display: none;
-        position: absolute;
-        background: transparent;
-        min-width: 145px;
-        z-index: 1;
-        box-shadow: none;
-    }
-    
-    .dropdown-mob-capabilities .dropdown-content-capabilities {
-        display: none;
-        position: absolute;
-        background: transparent;
-        min-width: 235px;
-        margin-bottom: 30px;
-        z-index: 1;
-        box-shadow: none;
-    }
-    
-    .dropdown-mob .dropdown-content h3 {
-        color: #B6C5CE;
-        padding: 15px 0 0 0;
-        font-size: 14px;
-        display: block;
-        font-family: 'Termina', Helvetica, Arial;
-        text-align: left;
-    }
-    
-    .dropdown-mob .dropdown-content a {
-        text-decoration: none;
-    }
-    
-    .dropdown-mob .dropdown-content h3 {
-        color: #B6C5CE;
-        padding: 15px 0 0 0;
-        font-size: 14px;
-        display: block;
-        font-family: 'Montserrat', Helvetica, Arial;
-        text-align: left;
-    }
-    
-    .dropdown-mob-capabilities .dropdown-content a {
-        text-decoration: none;
-    }
-    
-    .dropdown-mob-capabilities .dropdown-content-capabilities h3 {
-        color: #B6C5CE;
-        padding: 15px 0px 0px 0px;
-        font-size: 14px;
-        display: block;
-        font-family: 'Montserrat', Helvetica, Arial;
-        text-align: left;
-    }
-    
-    .dropdown-mob-capabilities .dropdown-content-capabilities a {
-        text-decoration: none;
-    }
-    
-    .dropdown-mob .dropdown-content-aboutus h3 {
-        color: #B6C5CE;
-        padding: 15px 0px 0px 0px;
-        font-size: 14px;
-        display: block;
-        font-family: 'Montserrat', Helvetica, Arial;
-        text-align: left;
-    }
-    
-    .dropdown-mob .dropdown-content-aboutus a {
-        text-decoration: none;
-    }
-    
-    .dropdown-mob .dropdown-content h3:hover {  
-        background-color: transparent; 
-        color: #B6C5CE;
-        border-radius: 10px;
-    }
-    
-    .dropdown-mob-capabilities .dropdown-content-capabilities h3:hover { 
-        background-color: transparent; 
-        color: #B6C5CE;
-        border-radius: 10px;
-    }
-    
-    .dropdown-mob .dropdown-content-aboutus h3:hover { 
-        background-color: transparent; 
-        color: #B6C5CE;
-        border-radius: 10px;
-    }
-    
-    .dropdown-mob:hover .dropdown-content-aboutus { 
-        display: block;
-        top: 25px;
-        gap: 10px;
-        padding: 10px 10px 15px 10px;
-    }
-    
-    .dropdown-mob-capabilities:hover .dropdown-content-capabilities { 
-        display: block;
-        top: 95px;
-        gap: 6px;
-        padding: 10px 10px 15px 10px;
-        margin-bottom: 50px;
-    }
-    
-    .dropdown-mob:hover .dropdown-content { 
-        display: block;
-        top: 25px;
-        gap: 10px;
-        padding: 10px 10px 15px 10px;
-    }
-
-
-    /* Mobile Menu BOTTOM */
-
-    /* Mobile Address Container */
-
-    .mobile-address-container {
-        position: absolute;
-        bottom: 168px;
-        left: 50px;
-        display: flex;
-        flex-direction: column;
-        gap: 6px;
-        
-    }
-
-    .mobile-menu-address {
-        display: flex;
-        flex-direction: row;
-        border: 1px solid transparent;
-        background-color: #1E3E53;
-        border-radius: 6px;
-        width: 315px;
-        height: 90px;
-        align-items: center;
-        justify-content: center;
-        
-    }
-
-    .mobile-menu-phone {
-        display: flex;
-        flex-direction: row;
-        border: 1px solid transparent;
-        background-color: #1E3E53;
-        border-radius: 6px;
-        width: 315px;
-        height: 67px;
-        align-items: center;
-        justify-content: left;
-    }
-
-    .mobile-menu-address p {
-        font-size: 16px;
-        font-family: 'Montserrat', Helvetica, Arial;
-        color: #F0F9EA;
-        font-weight: bold;
-        letter-spacing: 1.1px;
-        text-align: left;
-    }
-
-    .mobile-menu-phone p {
-        font-size: 16px;
-        font-family: 'Montserrat', Helvetica, Arial;
-        color: #F0F9EA;
-        font-weight: bold;
-        text-align: left;
-    }
-
-    .mobile-menu-phone .fa {
-        padding-left: 15px;
-    }
-
-
-    /* NAVBAR BOTTOM CONTAINER MOBILE */
-    
-    .navbar-bottom-container-mob {
-        display: flex;
-        flex-direction: column-reverse;
-        justify-content: space-around;
-        gap: 10px;
-        background-color: #81C94C;
-        padding: 25px 0px;
-        align-items: center;
-        position: absolute;
-        bottom: 0;
-        width: 100%;
-    }
-
-    .copyright-mob h3 {
-        font-size: 16px;
-        color: #173142;
-        font-family: 'Montserrat', Helvetica, Arial;
-    }
-
-    .social-media-mob {
-        display: flex;
-        flex-direction: row;
-    }
-    
-    .social-media-mob a {
-        margin-right: 20px;
-    }
-    
-    .social-media-mob .fa {
-        color: #173142;
-        font-size: 35px;
-    }
-
-
-
-    /* NavBar */
-
-    .countdown {
-        display: block;
-        margin-left: 30px;
-        margin-right: 0px;
-    }
-
-    .countdown p {
-        font-size: 12px;
-    }
-
-    #demo {
-        font-size: 12px;
-    }
-
-    .navbar-button {
-        display: none;
-    }
-
-    span.ham-menu {
-        color: #71AE47;
-        font-size: 25px;
-        margin-right: 20px;
-        margin-left: 25px;
-        display: inline-block;
-    }
-
-    .nav-logo {
-        margin-right: 0px;
-        margin-left: 0px;
-        padding: 10px;
-    }
-
-    .nine30-logo {
-        height: 40px;
-        width: 85px;
-    }
-
-    .header {
-        text-align: center;
-        display: flex;
-        align-items: center;
-        padding: 15px 0px 10px 0px;
-        background-color: #173142;
-        position: fixed;
-        top: 0;
-        height: 70px;
-        width: 100%;
-        z-index: 5;
-    }
-
-    .navbar {
-        margin-right: 0px;
-        text-align: center;
-    }
 
 
     /* Hero Title and Image */
@@ -7590,339 +6479,27 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Medium devices (portrait tablets, 700px and up) */
 @media only screen and (min-width: 700px) and (max-width: 1050px) {
     
     
-    /* Home Page */
-
-    .dropdown {
-        display: none;
-    }
-
-    div#myNavLogo { order: 2; }
-    div#myNav { order: 1; }
-    div#myCountdown { order: 3; }
-
-
-    /* Mobile Menu */
-
-    .mobile-menu-overlay {
-        display: block;
-    }
-
-    .dropdown-mob {
-        display: block;
-    }
-
-    span.ham-menu {
-        display: block;
-    }
-
-    .dropbtn-mob {
-        background-color: transparent;
-        color: #F0F9EA;
-        padding: 0px 0px 0px 0px;
-        margin-bottom: 30px;
-        font-size: 32px;
-        border: none;
-        text-decoration: none;
-        font-family: 'Termina', Helvetica, Arial;
-        text-transform: uppercase;
-        letter-spacing: 1.5px;
-    }
-
-    .mobile-menu-overlay .closebtn {
-        position: absolute;
-        text-decoration: none;
-        color: #71AE47;
-        top: 20px;
-        right: 45px;
-        font-size: 60px;
-        display: block;
-    }
     
-    .dropdown-mob {
-        position: relative;
-        display: block;
-    }
-    
-    .dropdown-mob:hover {
-        margin-bottom: 160px;
-    }
-    
-    .dropdown-mob-capabilities:hover {
-        margin-bottom: 320px;
-    }
-    
-    .dropdown-mob .dropdown-content {
-        display: none;
-        position: absolute;
-        background: transparent;
-        min-width: 200px;
-        z-index: 1;
-        border-radius: 10px;
-        box-shadow: none;
-    }
-    
-    .dropdown-mob .dropdown-content-aboutus {
-        display: none;
-        position: absolute;
-        background: transparent;
-        min-width: 145px;
-        z-index: 1;
-        box-shadow: none;
-    }
-    
-    .dropdown-mob-capabilities .dropdown-content-capabilities {
-        display: none;
-        position: absolute;
-        background: transparent;
-        min-width: 235px;
-        margin-bottom: 30px;
-        z-index: 1;
-        box-shadow: none;
-    }
-    
-    .dropdown-mob .dropdown-content h3 {
-        color: #B6C5CE;
-        padding: 15px 0 0 0;
-        font-size: 15px;
-        display: block;
-        font-family: 'Termina', Helvetica, Arial;
-        text-align: left;
-    }
-    
-    .dropdown-mob .dropdown-content a {
-        text-decoration: none;
-    }
-    
-    .dropdown-mob .dropdown-content h3 {
-        color: #B6C5CE;
-        padding: 15px 0 0 0;
-        font-size: 20px;
-        display: block;
-        font-family: 'Montserrat', Helvetica, Arial;
-        text-align: left;
-    }
-    
-    .dropdown-mob-capabilities .dropdown-content a {
-        text-decoration: none;
-    }
-    
-    .dropdown-mob-capabilities .dropdown-content-capabilities h3 {
-        color: #B6C5CE;
-        padding: 15px 0px 0px 0px;
-        font-size: 20px;
-        display: block;
-        font-family: 'Montserrat', Helvetica, Arial;
-        text-align: left;
-    }
-    
-    .dropdown-mob-capabilities .dropdown-content-capabilities a {
-        text-decoration: none;
-    }
-    
-    .dropdown-mob .dropdown-content-aboutus h3 {
-        color: #B6C5CE;
-        padding: 15px 0px 0px 0px;
-        font-size: 20px;
-        display: block;
-        font-family: 'Montserrat', Helvetica, Arial;
-        text-align: left;
-    }
-    
-    .dropdown-mob .dropdown-content-aboutus a {
-        text-decoration: none;
-    }
-    
-    .dropdown-mob .dropdown-content h3:hover {  
-        background-color: transparent; 
-        color: #B6C5CE;
-        border-radius: 10px;
-    }
-    
-    .dropdown-mob-capabilities .dropdown-content-capabilities h3:hover { 
-        background-color: transparent; 
-        color: #B6C5CE;
-        border-radius: 10px;
-    }
-    
-    .dropdown-mob .dropdown-content-aboutus h3:hover { 
-        background-color: transparent; 
-        color: #B6C5CE;
-        border-radius: 10px;
-    }
-    
-    .dropdown-mob:hover .dropdown-content-aboutus { 
-        display: block;
-        top: 45px;
-        gap: 10px;
-        padding: 10px 10px 15px 10px;
-    }
-    
-    .dropdown-mob-capabilities:hover .dropdown-content-capabilities { 
-        display: block;
-        top: 115px;
-        gap: 10px;
-        padding: 10px 10px 15px 10px;
-        margin-bottom: 50px;
-    }
-    
-    .dropdown-mob:hover .dropdown-content { 
-        display: block;
-        top: 45px;
-        gap: 10px;
-        padding: 10px 10px 15px 10px;
-    }
-
-
-
-
-    /* Mobile Menu BOTTOM */
-
-    /* Mobile Address Container */
-
-    .mobile-address-container {
-        position: absolute;
-        bottom: 168px;
-        left: 50px;
-        display: flex;
-        flex-direction: column;
-        gap: 6px;
-        
-    }
-
-    .mobile-menu-address {
-        display: flex;
-        flex-direction: row;
-        border: 1px solid transparent;
-        background-color: #1E3E53;
-        border-radius: 6px;
-        width: 315px;
-        height: 90px;
-        align-items: center;
-        justify-content: center;
-        
-    }
-
-    .mobile-menu-phone {
-        display: flex;
-        flex-direction: row;
-        border: 1px solid transparent;
-        background-color: #1E3E53;
-        border-radius: 6px;
-        width: 315px;
-        height: 67px;
-        align-items: center;
-        justify-content: left;
-    }
-
-    .mobile-menu-address p {
-        font-size: 16px;
-        font-family: 'Montserrat', Helvetica, Arial;
-        color: #F0F9EA;
-        font-weight: bold;
-        letter-spacing: 1.1px;
-        text-align: left;
-    }
-
-    .mobile-menu-phone p {
-        font-size: 16px;
-        font-family: 'Montserrat', Helvetica, Arial;
-        color: #F0F9EA;
-        font-weight: bold;
-        text-align: left;
-    }
-
-    .mobile-menu-phone .fa {
-        padding-left: 15px;
-    }
-
-
-    /* NAVBAR BOTTOM CONTAINER MOBILE */
-    
-    .navbar-bottom-container-mob {
-        display: flex;
-        flex-direction: column-reverse;
-        justify-content: space-around;
-        gap: 10px;
-        background-color: #81C94C;
-        padding: 25px 0px;
-        align-items: center;
-        position: absolute;
-        bottom: 0;
-        width: 100%;
-    }
-
-    .copyright-mob h3 {
-        font-size: 16px;
-        color: #173142;
-        font-family: 'Montserrat', Helvetica, Arial;
-    }
-
-    .social-media-mob {
-        display: flex;
-        flex-direction: row;
-    }
-    
-    .social-media-mob a {
-        margin-right: 20px;
-    }
-    
-    .social-media-mob .fa {
-        color: #173142;
-        font-size: 35px;
-    }
-
-
-
-    /* NavBar */
-
-    .countdown {
-        display: block;
-        margin-left: 30px;
-    }
-
-    .navbar-button {
-        display: none;
-    }
-
-    span.ham-menu {
-        color: #71AE47;
-        font-size: 30px;
-        margin-right: 50px;
-        display: inline-block;
-    }
-
-    .nav-logo {
-        margin-right: 0px;
-        margin-left: 5px;
-        padding: 10px;
-    }
-
-    .nine30-logo {
-        height: 47px;
-        width: 95px;
-    }
-
-    .header {
-        text-align: center;
-        display: flex;
-        align-items: center;
-        padding: 15px 0px 10px 0px;
-        background-color: #173142;
-        position: fixed;
-        top: 0;
-        height: 70px;
-        width: 100%;
-        z-index: 5;
-    }
-
-    .navbar {
-        margin-right: 0px;
-        text-align: center;
-    }
 
 
     /* Hero Title and Image */
@@ -9812,261 +8389,131 @@
 
 
 
-/* Large devices (small laptops, 1051px to 1350px) */
-@media only screen and (min-width: 1051px) and (max-width: 1350px) {
+/* Large devices (small laptops, 1051px to 1439px) */
+@media only screen and (min-width: 1051px) and (max-width: 1439px) {
 
-    /* Home Page */
+    
+    
+     /* HEADER / NAVBAR */
 
-    .hero-container {
-        background: transparent linear-gradient(180deg, #173142 22%, #4F8045 63%, #71AE47 100%);
-        height: 700px; 
+    header {
+        position: fixed;
+        width: 100%;
+        height: 70px;
+        background-color: #173142;
+        padding: 15px 0 20px 0;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        z-index: 10;
     }
     
+    header ul {
+        padding-top: 0;
+    }
     
-    /* NAVBAR */
+    header .logo img {
+        width: 100px;
+        height: auto;
+    }
     
-    .header {
-        text-align: center;
+    header .logo {
+        margin-left: 115px;
+    }
+    
+    header .navbar {
         display: flex;
+        flex-direction: row;
         justify-content: center;
         align-items: center;
-        /* overflow: hidden; */
-        background-color: #173142;
-        position: fixed;
-        height: 119px;
-        width: 100%;
-        z-index: 5;
     }
     
-    .header input {
-        display: none;
-    }
-    
-    .nav-logo {
+    header .navbar-icons {
+        position: relative;
+        display: inline-block;
+        padding-right: 0px;
+        padding-top: 6px;
         margin-right: 40px;
     }
     
-    .nine30-logo {
-        width: 100px;
-        height: 50px;
-    }
-    
-    .navbar {
-        margin-right: 20px;
-        text-align: center;
-    }
-    
-    .checkbtn .fa {
-        font-size: 30px;
-        color: white;
-        margin: 0px;
-        float: right;
-        cursor: pointer;
-        display: none;
-    }
-    
-    #check {
-        display: none;
-    }
-    
-    .menu {
-        list-style-type: none;
-    }
-    
-    .menu ul {
-        padding-top: 0px;
-    }
-    
-    .menu li {
-        display: inline-block;
-        margin-bottom: 19px;
-    }
-    
-    .navbar a {
-        text-decoration: none;
-        font-size: 10px;
-        color: #F0F9EA;
-        padding: 0px 10px 0px 0px;
-        font-family: 'Termina', Helvetica, Arial;
-        letter-spacing: 1.25px;
-    }
-    
-    .navbar span {
-        margin-left: 10px;
+    .navbar-icons span {
+        height: 20px;
         color: #71AE47;
-        height: 13px;
-        top: 56px;
-        font-weight: bold;
-    }
-
-
-
-
-
-    /* Dropdown Menu */
-
-    .dropbtn {
-        background-color: transparent;
-        color: #F0F9EA;
-        padding: 22px 10px;
-        font-size: 13px;
-        border: none;
-        text-decoration: none;
-        font-family: 'Termina', Helvetica, Arial;
-        text-transform: uppercase;
-        letter-spacing: 1.5px;
-    }
-
-    .dropbtn a {
-        text-decoration: none;
-        color: #F0F9EA;
-    }
-
-    .dropdown {
-        position: relative;
-        display: inline-block;
-    }
-
-    .dropdown-content {
-        display: none;
-        position: absolute;
-        background: transparent linear-gradient(180deg, #FFFFFF 0%, #FAFDF8 53%, #F2F9EB 100%);
-        min-width: 220px;
-        box-shadow: 2px 2px 5px 1px rgba(118, 118, 118, 0.693);
-        z-index: -1;
-        border-radius: 10px;
-    }
-
-    .dropdown-content-aboutus {
-        display: none;
-        position: absolute;
-        background: transparent linear-gradient(180deg, #FFFFFF 0%, #FAFDF8 53%, #F2F9EB 100%);
-        min-width: 140px;
-        box-shadow: 2px 2px 5px 1px rgba(118, 118, 118, 0.693);
-        z-index: -1;
-        border-radius: 10px;
-    }
-
-    .dropdown-content-capabilities {
-        display: none;
-        position: absolute;
-        background: transparent linear-gradient(180deg, #FFFFFF 0%, #FAFDF8 53%, #F2F9EB 100%);
-        min-width: 235px;
-        box-shadow: 2px 2px 5px 1px rgba(118, 118, 118, 0.693);
-        z-index: -1;
-        border-radius: 10px;
-        float: left;
-    }
-
-    .dropdown-content-block {
         padding-left: 10px;
     }
+    
+    header .nine30-countdown-contact {
+        display: inline-block;  
+        justify-content: normal;
+        align-items: center;
+        padding-top: 3px;
+        margin-right: 120px;
+    }
+    
+    .countdown {
+        display: inline-block;
+    }
+    
+    header ul li {
+        position: relative;
+        list-style: none;
+        float: left;
+        text-transform: uppercase;
+    }
+    
+    header .navbar-menu a {
+        color: #fff;
+        padding: 40px 10px 34px 20px;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        font-size: 13px;
+        font-family: 'Termina', Helvetica, Arial;
+    }
+    
+    header ul .navbar-submenu-icons a {
+        font-family: 'Montserrat', Helvetica, Arial;
+        font-size: 13px;
+        color: #023B31;
+        font-weight: bold;
+        padding: 15px;
+    }
 
-    .caret {
-        width: 0;
-        height: 0;
-        border-top: 8px solid transparent;
-        border-bottom: 8px solid #FFFFFF;
-        border-right: 8px solid transparent;
-        border-left: 8px solid transparent;
+    header ul .navbar-submenu-icons {
+        text-align: left;
+    }
+    
+    header ul li ul {
         position: absolute;
-        top: 50px;
-        left: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #F0F9EA;
         display: none;
     }
-
-    .dropdown-content h3 {
-        color: #023B31;
-        padding: 2px 0 0 0;
-        font-size: 15px;
-        display: block;
-        font-family: 'Termina', Helvetica, Arial;
-        text-align: left;
-    }
-
-    .dropdown-content a {
-        text-decoration: none;
-    }
-
-    .dropdown-content-capabilities h3 {
-        color: #023B31;
-        padding: 0px 0px 0px 0px;
-        font-size: 15px;
-        display: block;
-        font-family: 'Termina', Helvetica, Arial;
-        text-align: left;
-    }
-
-    .dropdown-content-capabilities a {
-        text-decoration: none;
-    }
-
-    .dropdown-content-aboutus h3 {
-        color: #023B31;
-        padding: 0px 0px 0px 0px;
-        font-size: 15px;
-        display: block;
-        font-family: 'Termina', Helvetica, Arial;
-        text-align: left;
-    }
-
-    .dropdown-content-aboutus a {
-        text-decoration: none;
-    }
-
-    .dropdown-content h3:hover {  
-        color: #71AE47;
-        border-radius: 10px;
-    }
-
-    .dropdown-content-capabilities h3:hover { 
-        color: #71AE47;
-        border-radius: 10px;
-    }
-
-    .dropdown-content-aboutus h3:hover { 
-        background-color: white; 
-        color: #71AE47;
-        border-radius: 10px;
-    }
-
-    .dropdown:hover .dropdown-content-aboutus { 
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        padding: 10px 10px 15px 10px;
-        left: 0; 
-    }
-
-    .dropdown:hover .dropdown-content-capabilities { 
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        padding: 10px 10px 15px 10px;
-        left: 0; 
-    }
-
-    .dropdown:hover .dropdown-content { 
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        padding: 10px 10px 15px 10px;
-        left: 0; 
-        text-align: center;
-    }
-
-    .dropdown:hover .caret {
+    
+    header ul li:hover ul {
         display: block;
     }
-
-
-
+    
+    header ul li ul li {
+        position: relative;
+        width: 100%;
+        border: 1px solid #d7e1d1;
+    }
+    
+    header ul li ul li:hover {
+        background-color: #173142;
+    }
+    
+    header ul li ul li:hover a {
+        color: #fff;
+    }
+    
     /* Countdown */
     
     .countdown {
-        display: block;
+        display: inline-block;
         align-items: center;
-        width: 240px;
     }
     
     .countdown p {
@@ -10074,7 +8521,7 @@
         color: #F0F9EA;
         font-weight: normal;
         font-family: 'Termina', Helvetica, Arial;
-        font-size: 12px;
+        font-size: 13px;
         text-transform: uppercase;
     }
     
@@ -10084,26 +8531,29 @@
     
     #demo {
         color: #71AE47;
-        font-size: 14px;
+        font-size: 13px;
         font-weight: normal;
         display: inline-block;
         width: 60px;
         font-family: 'Termina', Helvetica, Arial;
         border: 1px solid black;
         background-color:rgba(33, 33, 33, 0.746);
-        border-radius: 10px;
+        border-radius: 8px;
         margin-right: 10px;
+        text-align: center;
     }
     
     .navbar-button {
         display: inline-block;
-        margin-left: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+        display: none;
     }
     
     .navbar-button button {
         background-color: #00796B;
         color: #F0F9EA;
-        font-size: 14px;
+        font-size: 11px;
         border-radius: 27px;
         border-color: transparent;
         padding: 7px 12px;
@@ -10117,9 +8567,6 @@
         color: white;
     }
     
-    
-
-
 
 
     /* Hero TITLE & VIDEO */
@@ -10129,7 +8576,7 @@
         justify-content: center;
         align-items: center;
         gap: 120px;
-        padding-top: 110px;
+        padding-top: 240px;
     }
     
     .hero-text h1 {
@@ -10180,9 +8627,9 @@
         align-items: center;
         gap: 110px;
         padding-top: 0px;
-        margin-top: -50px;
+        margin-top: 0px;
         background-color: #173142;
-        height: 750px;
+        height: 851px;
     }
     
     .hero-text-casestudies h1 {
@@ -10215,7 +8662,7 @@
         justify-content: center;
         align-items: center;
         gap: 270px;
-        padding-top: 60px;
+        padding-top: 200px;
     }
 
     
@@ -10246,7 +8693,7 @@
         justify-content: center;
         align-items: center;
         gap: 90px;
-        padding-top: 70px;
+        padding-top: 200px;
     }
 
     .hero-picture-ourteam {
@@ -10262,8 +8709,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 120px;
-        padding-top: 100px;
+        gap: 110px;
+        padding-top: 250px;
     }
 
 
@@ -10703,7 +9150,7 @@
     }
     
     .philosophy-title {
-        margin-left: 5.5%;
+        margin-left: 10.5%;
         padding-top: 100px;
     }
     
@@ -10894,6 +9341,7 @@
         text-align: center;
         height: 70px;
         padding-left: 0;
+        padding-top: 10px;
     }
 
     .filter-navbar a {
