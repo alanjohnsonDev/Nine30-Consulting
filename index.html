@@ -22,11 +22,15 @@
         <!-- HERO BACKGROUND -->
 
         <header>
-            <a href="index.html" class="logo"><img src="Nine 30 White_Green Logo.png" alt="Nine30 Logo"></a>
-            <div class="menuToggle"></div>
+           <div id="myLogo">
+                <a href="index.html" id="myLogo" class="logo"><img src="Nine 30 White_Green Logo.png" alt="Nine30 Logo"></a>
+           </div>
+            <div id="myMenu" class="menuToggle"></div>
+
+
             <nav class="navbar">
-                <div>
-                    <ul class="navbar-icons">
+                <div id="myIcons" class="icons">
+                    <ul  class="navbar-icons">
                         <li class="navbar-menu"><a href="aboutUs.html">About Us<span>&#43;</span></a>
                             <ul class="navbar-submenu">
                                 <li class="navbar-submenu-icons"><a href="ourHistory.html">Our History</a></li>
@@ -50,19 +54,21 @@
                         </li>
                     </ul>
                 </div>
-
-                <!-- Countdown - Days Till Nine 30 -->
-
-                <div class="nine30-countdown-contact">
-                    <div class="countdown" id="myCountdown">
-                        <p id="demo"></p>
-                        <p>Days Till Nine 30</p>
-                    </div>
-                    <div class="navbar-button" id="myButton">
-                        <button><a href="https://form.jotform.com/232625193821051">CONTACT US</a></button>
-                    </div>
-                </div>
             </nav>
+
+            <!-- Countdown - Days Till Nine 30 -->
+
+            <div id="myCountdown" class="nine30-countdown-contact">
+                <div  class="countdown">
+                    <p id="demo"></p>
+                    <p>Days Till Nine 30</p>
+                </div>
+                <div class="navbar-button">
+                    <button><a href="https://form.jotform.com/232625193821051">CONTACT US</a></button>
+                </div>
+            </div>
+
+            
         </header>
 
         <div class="hero-container">

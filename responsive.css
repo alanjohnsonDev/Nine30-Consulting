@@ -1,9 +1,165 @@
 
-/* Extra small devices (phones, 374px max width and below) */
-@media only screen and (max-width: 374px) {
+/* Extra small devices (phones, 350px max width and below) */
+@media only screen and (max-width: 350px) {
 
 
+    div#myMenu {order: 1;}
+    div#myLogo {order: 2;}
+    div#myCountdown {order: 3;}
+
+    .nine30-countdown-contact .navbar-button {
+        display: none;
+    }
     
+    header {
+        padding: 5px 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header .logo img {
+        width: 65px;
+        height: auto;
+    }
+
+    header .logo {
+        margin-left: 0px;
+        margin-right: 5px;
+    }
+
+    header .navbar {
+        position: absolute;
+        width: 100%;
+        top: 80px;
+        left: 0;
+        background-color: #173142;
+        display: none;
+    }
+
+    header .nine30-countdown-contact {
+        margin-right: 0px;
+        margin-top: -10px;
+    }
+
+    header.active nav {
+        display: initial;
+    }
+
+    header nav ul li {
+        width: 100%;
+    }
+
+    header .navbar-menu a {
+        color: #fff;
+        font-size: 1.1em;
+        padding: 30px 30px 30px 30px;
+        text-decoration: none;
+        display: flex;
+        margin-left: 0px;
+        width: 225px;
+        justify-content: space-between;
+        font-size: 12px;
+        font-family: 'Termina', Helvetica, Arial;
+    }
+
+    .navbar-icons span {
+        height: 0;
+        font-size: 18px;
+        margin-top: -6px;
+    }
+
+    .countdown p {
+        display: inline-block;
+        color: #F0F9EA;
+        font-weight: normal;
+        font-family: 'Termina', Helvetica, Arial;
+        font-size: 9px;
+        text-transform: uppercase;
+    }
+    
+    #demo {
+        color: #71AE47;
+        font-size: 9px;
+        font-weight: normal;
+        display: inline-block;
+        width: 32px;
+        font-family: 'Termina', Helvetica, Arial;
+        border: 1px solid black;
+        background-color:rgba(33, 33, 33, 0.746);
+        border-radius: 8px;
+        margin-right: 1px;
+        text-align: center;
+    }
+
+    header nav ul li ul {
+        position: relative;
+        width: 100%;
+        left: 0;
+    }
+
+    header ul li ul li {
+        color: white;
+        position: relative;
+        width: 100%;
+        border: 1px solid transparent;
+    }
+
+    header ul .navbar-submenu-icons a {
+        font-family: 'Montserrat', Helvetica, Arial;
+        font-size: 12px;
+        color: #71AE47;
+        font-weight: bold;
+        padding: 0px 0px 20px 0px;
+        margin-left: 55px;
+    }
+
+    .menuToggle {
+        position: relative;
+        width: 16px;
+        height: 50px;
+        margin-right: 12px;
+        margin-left: 0px;
+        margin-top: -5px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header nav ul li a b {
+        margin-right: 45px;
+    }
+
+    .menuToggle::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 3px;
+        background: #71AE47;
+        transform: translateY(-6px);
+        box-shadow: 0 6px #71AE47;
+    }
+
+    .menuToggle::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 3px;
+        background: #71AE47;
+        transform: translateY(6px);
+    }
+
+    header.active .menuToggle::before {
+        transform: rotate(45deg);
+        box-shadow: 0 0 #71AE47;
+    }
+
+    header.active .menuToggle::after {
+        transform: rotate(315deg);
+        box-shadow: 0 0 #71AE47;
+    }
     
     
 
@@ -19,7 +175,7 @@
         align-items: center;
         gap: 50px;
         margin-top: 0px;
-        padding-top: 0px;
+        padding-top: 90px;
         height: 600px;
         width: 280px;
     }
@@ -2293,9 +2449,168 @@
 
 
 
-/* small devices (phones, 375px to 450px) */
-@media only screen and (min-width: 375px) and (max-width: 450px) {
+/* small devices (phones, 350px to 450px) */
+@media only screen and (min-width: 350px) and (max-width: 450px) {
     
+
+
+    div#myMenu {order: 1;}
+    div#myLogo {order: 2;}
+    div#myCountdown {order: 3;}
+
+    .nine30-countdown-contact .navbar-button {
+        display: none;
+    }
+    
+    header {
+        padding: 5px 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    header .logo img {
+        width: 87px;
+        height: auto;
+    }
+
+    header .logo {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    header .navbar {
+        position: absolute;
+        width: 100%;
+        top: 80px;
+        left: 0;
+        background-color: #173142;
+        display: none;
+    }
+
+    header .nine30-countdown-contact {
+        margin-right: 20px;
+    }
+
+    header.active nav {
+        display: initial;
+    }
+
+    header nav ul li {
+        width: 100%;
+    }
+
+    header .navbar-menu a {
+        color: #fff;
+        font-size: 1.1em;
+        padding: 30px 30px 30px 30px;
+        text-decoration: none;
+        display: flex;
+        margin-left: 8px;
+        justify-content: space-between;
+        font-size: 14px;
+        font-family: 'Termina', Helvetica, Arial;
+    }
+
+    .navbar-icons span {
+        height: 0;
+        font-size: 20px;
+        margin-top: -6px;
+    }
+
+    .countdown p {
+        display: inline-block;
+        color: #F0F9EA;
+        font-weight: normal;
+        font-family: 'Termina', Helvetica, Arial;
+        font-size: 11px;
+        text-transform: uppercase;
+    }
+    
+    #demo {
+        color: #71AE47;
+        font-size: 11px;
+        font-weight: normal;
+        display: inline-block;
+        width: 42px;
+        font-family: 'Termina', Helvetica, Arial;
+        border: 1px solid black;
+        background-color:rgba(33, 33, 33, 0.746);
+        border-radius: 8px;
+        margin-right: 4px;
+        text-align: center;
+    }
+
+    header nav ul li ul {
+        position: relative;
+        width: 100%;
+        left: 0;
+    }
+
+    header ul li ul li {
+        color: white;
+        position: relative;
+        width: 100%;
+        border: 1px solid transparent;
+    }
+
+    header ul .navbar-submenu-icons a {
+        font-family: 'Montserrat', Helvetica, Arial;
+        font-size: 14px;
+        color: #71AE47;
+        font-weight: bold;
+        padding: 0px 0px 20px 0px;
+        margin-left: 55px;
+    }
+
+    .menuToggle {
+        position: relative;
+        width: 20px;
+        height: 50px;
+        margin-right: 0px;
+        margin-left: 21px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header nav ul li a b {
+        margin-right: 45px;
+    }
+
+    .menuToggle::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 3px;
+        background: #71AE47;
+        transform: translateY(-8px);
+        box-shadow: 0 8px #71AE47;
+    }
+
+    .menuToggle::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 3px;
+        background: #71AE47;
+        transform: translateY(8px);
+    }
+
+    header.active .menuToggle::before {
+        transform: rotate(45deg);
+        box-shadow: 0 0 #71AE47;
+    }
+
+    header.active .menuToggle::after {
+        transform: rotate(315deg);
+        box-shadow: 0 0 #71AE47;
+    }
+
+
+
     
 
 
@@ -2308,7 +2623,7 @@
         align-items: center;
         gap: 50px;
         margin-top: 0px;
-        padding-top: 0px;
+        padding-top: 94px;
         height: 600px;
         width: 90%;
         margin: 0 auto;
@@ -4549,6 +4864,163 @@
 @media only screen and (min-width: 451px) and (max-width: 699px) {
 
 
+
+    div#myMenu {order: 1;}
+    div#myLogo {order: 2;}
+    div#myIcons {order: 5;}
+    div#myCountdown {order: 3;}
+    div#myButton {order: 4;}
+
+    .nine30-countdown-contact .navbar-button {
+        display: none;
+    }
+    
+    header {
+        padding: 5px 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    header .logo img {
+        width: 95px;
+        height: auto;
+    }
+
+    header .logo {
+        margin-left: 2px;
+        margin-right: 15px;
+    }
+
+    header .navbar {
+        position: absolute;
+        width: 100%;
+        top: 80px;
+        left: 0;
+        background-color: #173142;
+        display: none;
+    }
+
+    header .nine30-countdown-contact {
+        margin-right: 50px;
+    }
+
+    header.active nav {
+        display: initial;
+    }
+
+    header nav ul li {
+        width: 100%;
+    }
+
+    header .navbar-menu a {
+        color: #fff;
+        font-size: 1.1em;
+        padding: 30px 30px 30px 30px;
+        text-decoration: none;
+        display: flex;
+        margin-left: 30px;
+        justify-content: space-between;
+        font-size: 16px;
+        font-family: 'Termina', Helvetica, Arial;
+    }
+
+    .navbar-icons span {
+        height: 0;
+        font-size: 26px;
+        margin-top: -12px;
+    }
+
+    .countdown p {
+        display: inline-block;
+        color: #F0F9EA;
+        font-weight: normal;
+        font-family: 'Termina', Helvetica, Arial;
+        font-size: 12px;
+        text-transform: uppercase;
+    }
+    
+    #demo {
+        color: #71AE47;
+        font-size: 12px;
+        font-weight: normal;
+        display: inline-block;
+        width: 47px;
+        font-family: 'Termina', Helvetica, Arial;
+        border: 1px solid black;
+        background-color:rgba(33, 33, 33, 0.746);
+        border-radius: 8px;
+        margin-right: 10px;
+        text-align: center;
+    }
+
+    header nav ul li ul {
+        position: relative;
+        width: 100%;
+        left: 0;
+    }
+
+    header ul li ul li {
+        color: white;
+        position: relative;
+        width: 100%;
+        border: 1px solid transparent;
+    }
+
+    header ul .navbar-submenu-icons a {
+        font-family: 'Montserrat', Helvetica, Arial;
+        font-size: 16px;
+        color: #71AE47;
+        font-weight: bold;
+        padding: 0px 0px 20px 0px;
+        margin-left: 80px;
+    }
+
+    .menuToggle {
+        position: relative;
+        width: 25px;
+        height: 50px;
+        margin-right: 0px;
+        margin-left: 32px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header nav ul li a b {
+        margin-right: 45px;
+    }
+
+    .menuToggle::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 3px;
+        background: #71AE47;
+        transform: translateY(-10px);
+        box-shadow: 0 10px #71AE47;
+    }
+
+    .menuToggle::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 3px;
+        background: #71AE47;
+        transform: translateY(10px);
+    }
+
+    header.active .menuToggle::before {
+        transform: rotate(45deg);
+        box-shadow: 0 0 #71AE47;
+    }
+
+    header.active .menuToggle::after {
+        transform: rotate(315deg);
+        box-shadow: 0 0 #71AE47;
+    }
     
 
 
@@ -4565,8 +5037,8 @@
         align-items: center;
         justify-content: normal;
         gap: 50px;
-        padding-top: 50px;
-        height: 660px;
+        padding-top: 130px;
+        height: 679px;
     }
 
     .word {
@@ -6498,8 +6970,134 @@
 /* Medium devices (portrait tablets, 700px and up) */
 @media only screen and (min-width: 700px) and (max-width: 1050px) {
     
+    div#myMenu {order: 1;}
+    div#myLogo {order: 2;}
+    div#myCountdown {order: 3;}
     
+
+    .nine30-countdown-contact .navbar-button {
+        display: none;
+    }
     
+    header {
+        padding: 5px 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    header .logo {
+        margin-left: 0;
+        margin-right: 35px;
+    }
+
+    header .navbar {
+        position: absolute;
+        width: 100%;
+        top: 80px;
+        left: 0;
+        background-color: #173142;
+        display: none;
+    }
+
+    header .nine30-countdown-contact {
+        margin-right: 115px;
+        display: flex;
+    }
+
+    header.active nav {
+        display: initial;
+    }
+
+    header nav ul li {
+        width: 100%;
+    }
+
+    header .navbar-menu a {
+        color: #fff;
+        font-size: 1.1em;
+        padding: 30px 30px 30px 30px;
+        text-decoration: none;
+        display: flex;
+        margin-left: 30px;
+        justify-content: space-between;
+        font-size: 16px;
+        font-family: 'Termina', Helvetica, Arial;
+    }
+
+    .navbar-icons span {
+        height: 0;
+        font-size: 26px;
+        margin-top: -12px;
+    }
+
+    header nav ul li ul {
+        position: relative;
+        width: 100%;
+        left: 0;
+    }
+
+    header ul li ul li {
+        color: white;
+        position: relative;
+        width: 100%;
+        border: 1px solid transparent;
+    }
+
+    header ul .navbar-submenu-icons a {
+        font-family: 'Montserrat', Helvetica, Arial;
+        font-size: 16px;
+        color: #71AE47;
+        font-weight: bold;
+        padding: 0px 0px 20px 0px;
+        margin-left: 80px;
+    }
+
+    .menuToggle {
+        position: relative;
+        width: 40px;
+        height: 50px;
+        margin-right: 0px;
+        margin-left: 25px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header nav ul li a b {
+        margin-right: 45px;
+    }
+
+    .menuToggle::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 3px;
+        background: #71AE47;
+        transform: translateY(-12px);
+        box-shadow: 0 12px #71AE47;
+    }
+
+    .menuToggle::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 3px;
+        background: #71AE47;
+        transform: translateY(12px);
+    }
+
+    header.active .menuToggle::before {
+        transform: rotate(45deg);
+        box-shadow: 0 0 #71AE47;
+    }
+
+    header.active .menuToggle::after {
+        transform: rotate(315deg);
+        box-shadow: 0 0 #71AE47;
+    }
 
 
     /* Hero Title and Image */
@@ -6516,7 +7114,7 @@
         justify-content: normal;
         gap: 50px;
         padding-top: 150px;
-        height: 660px;
+        height: 700px;
     }
     
     .hero-text h1 {
@@ -8418,7 +9016,7 @@
     }
     
     header .logo {
-        margin-left: 115px;
+        margin-left: 20px;
     }
     
     header .navbar {
@@ -8447,7 +9045,7 @@
         justify-content: normal;
         align-items: center;
         padding-top: 3px;
-        margin-right: 120px;
+        margin-right: 25px;
     }
     
     .countdown {

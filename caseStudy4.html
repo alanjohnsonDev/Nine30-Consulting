@@ -25,47 +25,53 @@
         <!-- HERO BACKGROUND -->
 
         <header>
-            <a href="index.html" class="logo"><img src="Nine 30 White_Green Logo.png" alt="Nine30 Logo"></a>
-            <div class="menuToggle"></div>
-            <nav class="navbar">
-                <div>
-                    <ul class="navbar-icons">
-                        <li class="navbar-menu"><a href="aboutUs.html">About Us<span>&#43;</span></a>
-                            <ul class="navbar-submenu">
-                                <li class="navbar-submenu-icons"><a href="ourHistory.html">Our History</a></li>
-                                <li class="navbar-submenu-icons"><a href="ourTeam.html">Our Team</a></li>
-                            </ul>
-                        </li>
-                        <li class="navbar-menu"><a href="capabilities.html">Capabilities<span>&#43;</span></a>
-                            <ul class="navbar-submenu">
-                                <li class="navbar-submenu-icons"><a href="financialManagement.html">Financial Management</a></li>
-                                <li class="navbar-submenu-icons"><a href="projectManagement.html">Project Management</a></li>
-                                <li class="navbar-submenu-icons"><a href="dataAnalytics.html">Data Analytics</a></li>
-                                <li class="navbar-submenu-icons"><a href="acquisition.html">Acquisition</a></li>
-                                <li class="navbar-submenu-icons"><a href="caseStudies.html">Case Studies</a></li>
-                            </ul>
-                        </li>
-                        <li class="navbar-menu"><a href="career.html">Career & Benefits<span>&#43;</span></a>
-                            <ul class="navbar-submenu">
-                                <li class="navbar-submenu-icons"><a href="career.html">Career & Benefits</a></li>
-                                <li class="navbar-submenu-icons"><a href="jobs.html">Open Jobs</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-
-                <!-- Countdown - Days Till Nine 30 -->
-
-                <div class="nine30-countdown-contact">
-                    <div class="countdown" id="myCountdown">
-                        <p id="demo"></p>
-                        <p>Days Till Nine 30</p>
-                    </div>
-                    <div class="navbar-button" id="myButton">
-                        <button><a href="https://form.jotform.com/232625193821051">CONTACT US</a></button>
-                    </div>
-                </div>
-            </nav>
+            <div id="myLogo">
+                 <a href="index.html" id="myLogo" class="logo"><img src="Nine 30 White_Green Logo.png" alt="Nine30 Logo"></a>
+            </div>
+             <div id="myMenu" class="menuToggle"></div>
+ 
+ 
+             <nav class="navbar">
+                 <div id="myIcons" class="icons">
+                     <ul  class="navbar-icons">
+                         <li class="navbar-menu"><a href="aboutUs.html">About Us<span>&#43;</span></a>
+                             <ul class="navbar-submenu">
+                                 <li class="navbar-submenu-icons"><a href="ourHistory.html">Our History</a></li>
+                                 <li class="navbar-submenu-icons"><a href="ourTeam.html">Our Team</a></li>
+                             </ul>
+                         </li>
+                         <li class="navbar-menu"><a href="capabilities.html">Capabilities<span>&#43;</span></a>
+                             <ul class="navbar-submenu">
+                                 <li class="navbar-submenu-icons"><a href="financialManagement.html">Financial Management</a></li>
+                                 <li class="navbar-submenu-icons"><a href="projectManagement.html">Project Management</a></li>
+                                 <li class="navbar-submenu-icons"><a href="dataAnalytics.html">Data Analytics</a></li>
+                                 <li class="navbar-submenu-icons"><a href="acquisition.html">Acquisition</a></li>
+                                 <li class="navbar-submenu-icons"><a href="caseStudies.html">Case Studies</a></li>
+                             </ul>
+                         </li>
+                         <li class="navbar-menu"><a href="career.html">Career & Benefits<span>&#43;</span></a>
+                             <ul class="navbar-submenu">
+                                 <li class="navbar-submenu-icons"><a href="career.html">Career & Benefits</a></li>
+                                 <li class="navbar-submenu-icons"><a href="jobs.html">Open Jobs</a></li>
+                             </ul>
+                         </li>
+                     </ul>
+                 </div>
+             </nav>
+ 
+             <!-- Countdown - Days Till Nine 30 -->
+ 
+             <div id="myCountdown" class="nine30-countdown-contact">
+                 <div  class="countdown">
+                     <p id="demo"></p>
+                     <p>Days Till Nine 30</p>
+                 </div>
+                 <div class="navbar-button">
+                     <button><a href="https://form.jotform.com/232625193821051">CONTACT US</a></button>
+                 </div>
+             </div>
+ 
+             
         </header>
 
 
@@ -223,6 +229,17 @@
 
         <script>
 
+
+            // Mobile Menu //
+
+            let menuToggle = document.querySelector('.menuToggle');
+            let header = document.querySelector('header');
+                menuToggle.onclick = function(){
+                header.classList.toggle('active');
+            }
+
+
+
             // Countdown Timer 9.30 //
 
             var countDownDate = new Date("September 30, 2024 06:00:00").getTime();
@@ -244,16 +261,6 @@
                 }
             }, 1000);
 
-
-            // Mobile Menu w/ Dropdown //
-
-            function openNav() {
-                document.getElementById("myNav").style.width = "100%";
-            }
-
-            function closeNav() {
-                document.getElementById("myNav").style.width = "0%";
-            }
         </script>
     </body>
 </html>
