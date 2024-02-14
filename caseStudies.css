@@ -10,7 +10,7 @@
 
 /* NAVBAR - v2 */
 
-header {
+/* header {
     position: fixed;
     width: 100%;
     height: 70px;
@@ -117,7 +117,7 @@ header ul li ul li:hover {
 
 header ul li ul li:hover a {
     color: #fff;
-}
+} */
 
 /* Countdown */
 
@@ -333,7 +333,7 @@ header ul li ul li:hover a {
 
 .case-study-title h2 {
     font-size: 40px;
-    padding-top: 100px;
+    padding-top: 175px;
     letter-spacing: 4px;
     text-align: center;
     color: #023B31;
@@ -386,7 +386,7 @@ header ul li ul li:hover a {
 
 .caseStudy-button a {
     text-decoration: none;
-    background: transparent linear-gradient(270deg, #023B31 0%, #34776B 100%) 0% 0% no-repeat padding-box;
+    background-color: #023B31;
     color: #ffffff;
     font-size: 16px;
     font-weight: 500;

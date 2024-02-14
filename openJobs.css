@@ -28,7 +28,7 @@
 
 .open-job1 {
     background-color: #F0F9EA;
-    height: 1300px;
+    height: 1350px;
 }
 
 .open-job2 {
@@ -55,7 +55,7 @@
 .open-job-title {
     font-size: 40px;
     color: #023B31;
-    padding: 100px 0px 40px 0px;
+    padding: 170px 0px 40px 0px;
     font-family: 'Termina', Helvetica, Arial;
 }
 
@@ -108,7 +108,7 @@
     border: 1px solid transparent;
     border-radius: 20px;
     color: #FFFFFF;
-    background: transparent linear-gradient(270deg, #023B31 0%, #34776B 100%) 0% 0% no-repeat padding-box;
+    background-color: #023B31;
     font-family: 'Termina', Helvetica, Arial;
 }
 

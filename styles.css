@@ -5,7 +5,6 @@
 
 body {
     scroll-behavior: smooth;
-    cursor: pointer;
 }
 
 .hero-container {
@@ -200,7 +199,7 @@ header ul li ul li:hover a {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 237px;
+    gap: 260px;
     padding-top: 170px;
 }
 
@@ -271,8 +270,8 @@ header ul li ul li:hover a {
 
 
 .hero-picture {
-    width: 756px;
-    height: 500px;
+    width: 736px;
+    height: 530px;
     border-radius: 12px;
 }
 
@@ -286,7 +285,7 @@ header ul li ul li:hover a {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 280px;
+    gap: 125px;
     padding-top: 80px;
     background-color: #173142;
     height: 800px;
@@ -309,9 +308,9 @@ header ul li ul li:hover a {
 }
 
 .hero-picture-case-studies {
-    width: 579px;
+    width: 736px;
     height: 530px;
-    border-radius: 20px;
+    border-radius: 12px;
 }
 
 
@@ -321,17 +320,18 @@ header ul li ul li:hover a {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 345px;
+    gap: 115px;
     padding-top: 170px;
 }
 
 .hero-title-image-career p {
-    width: 750px;
+    width: 650px;
 }
 
 .hero-title-image-career img {
-    width: 380px;
-    height: 520px;
+    width: 736px;
+    height: 530px;
+    border-radius: 12px;
 }
 
 
@@ -457,6 +457,12 @@ header ul li ul li:hover a {
     font-weight: bold;
 }
 
+.card-text img {
+    width: 18px;
+    height: 18px;
+    padding-left: 5px;
+}
+
 @media only screen and (min-width: 700px) {
     .card-prev, .card-next {
         display: none;
@@ -579,7 +585,7 @@ header ul li ul li:hover a {
     border: 1px solid transparent;
     border-radius: 20px;
     padding: 12px;
-    background: transparent linear-gradient(270deg, #023B31 0%, #34776B 100%) 0% 0% no-repeat padding-box;
+    background-color: #023B31;
 }
 
 .lets-talk-title a {

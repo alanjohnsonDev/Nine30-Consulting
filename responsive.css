@@ -175,7 +175,7 @@
         align-items: center;
         gap: 50px;
         margin-top: 0px;
-        padding-top: 90px;
+        padding-top: 53px;
         height: 600px;
         width: 280px;
     }
@@ -268,13 +268,13 @@
     .hero-title-image-casestudies {
         display: flex;
         flex-direction: column-reverse;
-        justify-content: center;
+        justify-content: flex-end;
         align-items: center;
         gap: 40px;
-        margin-top: -200px;
-        padding-top: 0px;
+        margin-top: 0px;
+        padding-top: 111px;
         background-color: #173142;
-        height: 950px;
+        height: 505px;
         width: 280px;
     }
     
@@ -283,6 +283,7 @@
         color:rgb(118, 216, 65);
         font-weight: 500;
         font-family: 'Termina', Helvetica, Arial;
+        text-align: center;
     }
 
     .hero-text-casestudies br {
@@ -296,6 +297,7 @@
         line-height: 1.35;
         font-family: 'Montserrat', Helvetica, Arial;
         width: 244px;
+        text-align: center;
     }
     
     .hero-picture-case-studies {
@@ -313,9 +315,9 @@
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
-        gap: 50px;
-        padding-top: 50px;
-        width: 280px;
+        gap: 60px;
+        padding-top: 100px;
+        width: auto;
     }
 
     .hero-text {
@@ -330,7 +332,7 @@
     
     .hero-picture-career img {
         width: 244px;
-        height: 330px;
+        height: 204px;
         border-radius: 20px;
     }
     
@@ -342,11 +344,11 @@
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
-        gap: 40px;
-        margin-top: -100px;
+        gap: 55px;
+        margin-top: 0px;
         padding-top: 0px;
         background-color: #173142;
-        height: 750px;
+        height: 650px;
         width: 280px;
     }
     
@@ -358,9 +360,9 @@
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
-        gap: 60px;
-        padding-top: 0px;
-        width: 280px;
+        gap: 70px;
+        padding-top: 30px;
+        width: auto;
     }
 
     .hero-picture-ourteam {
@@ -380,7 +382,7 @@
     }
 
     .capabilities-title {
-        text-align: left;
+        text-align: center;
         padding-top: 40px;
         width: 250px;
         margin: 0 auto;
@@ -534,6 +536,12 @@
         font-weight: bold;
     }
 
+    .card-text img {
+        width: 18px;
+        height: 18px;
+        padding-left: 5px;
+    }
+
 
 
 
@@ -549,12 +557,13 @@
         margin: 0 auto;
         padding-top: 48px;
         width: 250px;
+        text-align: center;
     }
     
     .supporting-title hr {
         width: 65%;
         border: 0;
-        margin-left: 3px;
+        margin-left: 18px;
         height: 6px;
         background-image: linear-gradient(to left, #023B31, #71AE47);
     }
@@ -572,7 +581,7 @@
         padding-top: 30px;
         font-size: 16px;
         font-family: 'Montserrat', Helvetica, Arial;
-        width: 90%;
+        width: 100%;
     }
     
     .supporting-card-container {
@@ -636,6 +645,7 @@
     
     .lets-talk-title {
         width: 250px;
+        text-align: center;
     }
     
     .lets-talk-title h4 {
@@ -657,7 +667,7 @@
         border: 1px solid transparent;
         border-radius: 20px;
         padding: 12px;
-        background: #00796B;
+        background: #023B31;
     }
     
     .lets-talk-title a {
@@ -699,6 +709,7 @@
     .join-us-title {
         margin-left: 0px;
         width: 250px;
+        text-align: center;
     }
     
     .join-us-title h2 {
@@ -992,8 +1003,8 @@
     /* Capabilities Page */
 
     .core-comp-container {
-        height: 1490px;
-        background-color: rgb(231, 240, 216, 0.8);
+        height: 1625px;
+        background-color: #fff;
     }
     
     .core-comp {
@@ -1002,13 +1013,15 @@
         justify-content: center;
         align-items: center;
         gap: 50px;
+        text-align: center;
     }
     
     .core-comp-title h2 {
-        margin-left: 6%;
+        margin-left: 0;
         font-size: 22px;
         color: #023B31;
-        padding: 50px 0px 40px 0px;
+        text-align: center;
+        padding: 50px 20px 40px 20px;
         font-family: 'Termina', Helvetica, Arial;
     }
     
@@ -1049,6 +1062,7 @@
     .learn-more {
         width: 170px;
         border-radius: 5px;
+        margin-top: 20px;
     }
     
     .capabilities-info-content span {
@@ -1109,12 +1123,12 @@
     .filter-navbar {
         display: flex;
         flex-direction: column;
-        margin-top: -150px;
-        padding-top: 0px;
+        margin-top: 0px;
+        padding-top: 50px;
         background-color: #173142;
         padding-left: 0px;
         text-align: center;
-        height: 320px;
+        height: 240px;
     }
 
     .filter-navbar a {
@@ -1344,13 +1358,13 @@
     .timeline-header span {
         content: '';
         position: absolute;
-        width: 21px;
-        height: 21px;
+        width: 12px;
+        height: 12px;
         right: -17px;
         background-color: #00796B;
         border: 5px solid #E0F2F1;
         border-radius: 50%;
-        left: 4%;
+        left: 3.5%;
         top: 95px;
         bottom: 0px;
         z-index: 1;
@@ -1402,7 +1416,7 @@
     }
 
     .left::after {
-        right: 231.5px;
+        right: 233.5px;
     }
 
     .right::after {
@@ -1475,7 +1489,7 @@
         font-size: 14px;
         font-weight: bold;
         width: 100px;
-        margin: 10px 0 10px 34.5%;
+        margin: 10px 0 10px 29.5%;
         padding: 10px 12px;
         font-family: 'Montserrat', Helvetica, Arial;
         border: 1px solid transparent;
@@ -1493,8 +1507,8 @@
     }
 
     .timeline-ending h2 {
-        font-size: 22px;
-        width: 250px;
+        font-size: 19px;
+        width: 100%;
         font-family: 'Termina', Helvetica, Arial;
         color: #023B31;
         text-align: center;
@@ -1518,6 +1532,7 @@
         height: 750px;
         gap: 60px;
         background-color: #FFFFFF;
+        text-align: center;
     }
 
     .join-image img {
@@ -1532,7 +1547,7 @@
 
     .join-our-team-text h2 {
         color: #222222;
-        font-size: 28px;
+        font-size: 26px;
         padding-bottom: 20px;
         font-family: 'Termina', Helvetica, Arial;
     }
@@ -1708,7 +1723,7 @@
         display: flex;
         flex-direction: column;
         height: 5700px;
-        width: 220px;
+        width: auto;
         align-items: center;
         justify-content: normal;
         gap: 30px 0px;
@@ -1730,7 +1745,7 @@
     .overlay {
         position: absolute;
         height: 85.1%;
-        width: 81.7%;
+        width: 100%;
         top: 0;
         left: 0;
         bottom: 0;
@@ -1747,7 +1762,7 @@
 
     .text {
         color: #FFFFFF;
-        font-size: 11.4px;
+        font-size: 11.3px;
         position: absolute;
         top: 50%;
         left: 50%;
@@ -2009,7 +2024,8 @@
     }
 
     .diversity-title {
-        text-align: left;
+        text-align: center;
+        width: auto;
     }
 
     .diversity-title br {
@@ -2070,7 +2086,7 @@
 
     .community-title {
         width: 244px;
-        text-align: left;
+        text-align: center;
         padding-top: 20px;
     }
 
@@ -2129,8 +2145,8 @@
     }
 
     .apply-image img {
-        width: 244px;
-        height: 230px;
+        width: 210px;
+        height: 260px;
         border-radius: 20px;
         margin-top: 0px;
         box-shadow: 2px 2px 12px rgb(184, 190, 174);
@@ -2138,6 +2154,7 @@
 
     .apply-title {
         width: 244px;
+        text-align: center;
     }
 
     .apply-title br {
@@ -2167,7 +2184,7 @@
         padding: 10px 12px;
         font-size: 16px;
         border-radius: 20px;
-        background: transparent linear-gradient(270deg, #023B31 0%, #34776B 100%) 0% 0% no-repeat padding-box;
+        background-color: #023B31;
         font-family: 'Termina', Helvetica, Arial;
     }
 
@@ -2185,41 +2202,42 @@
 
     .open-job1 {
         background-color: #F0F9EA;
-        height: 2000px;
+        height: 2100px;
     }
 
     .open-job2 {
         background-color: #F0F9EA;
-        height: 1800px;
+        height: 1850px;
     }
 
     .open-job3 {
         background-color: #F0F9EA;
-        height: 1550px;
+        height: 1680px;
     }
 
     .open-job4 {
         background-color: #F0F9EA;
-        height: 1420px;
+        height: 1480px;
     }
 
     .open-job {
-        text-align: left;
+        text-align: normal;
         margin: 0 auto;
         max-width: 250px;
     }
 
     .open-job-title {
         font-size: 20px;
-        text-align: left;
+        text-align: center;
         color: #023B31;
-        padding: 50px 0px 40px 0px;
+        padding: 120px 0px 40px 0px;
         font-family: 'Termina', Helvetica, Arial;
     }
 
     .open-job-subtitle {
         font-size: 16px;
         padding-bottom: 30px;
+        text-align: center;
         color: black;
         font-family: 'Montserrat', Helvetica, Arial;
     }
@@ -2227,6 +2245,7 @@
     .open-job p {
         font-size: 14px;
         padding-bottom: 30px;
+        text-align: center;
         line-height: 1.6;
         color: #525252;
         font-family: 'Montserrat', Helvetica, Arial;
@@ -2266,7 +2285,7 @@
         border: 1px solid transparent;
         border-radius: 20px;
         color: #FFFFFF;
-        background: transparent linear-gradient(270deg, #023B31 0%, #34776B 100%) 0% 0% no-repeat padding-box;
+        background-color: #023B31;
         font-family: 'Termina', Helvetica, Arial;
     }
 
@@ -2374,7 +2393,7 @@
 
     .content {
         padding-top: 40px;
-        text-align: left;
+        text-align: center;
         width: 250px;
     }
 
@@ -2401,7 +2420,7 @@
 
     .caseStudy-button a {
         text-decoration: none;
-        background: transparent linear-gradient(270deg, #023B31 0%, #34776B 100%) 0% 0% no-repeat padding-box;
+        background-color: #023B31;
         color: #ffffff;
         font-size: 16px;
         font-weight: 500;
@@ -2409,9 +2428,6 @@
         border-radius: 20px;
         font-family: 'Termina', Helvetica, Arial;
     }
-
-
-
 }
 
 
@@ -2723,7 +2739,7 @@
         gap: 40px;
         padding-top: 5px;
         background-color: #173142;
-        height: 780px;
+        height: 750px;
     }
     
     .hero-text-casestudies h1 {
@@ -2760,11 +2776,11 @@
     
     .hero-title-image-career {
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
         gap: 50px;
-        padding-top: 10px;
+        padding-top: 120px;
     }
 
     .hero-text {
@@ -2778,8 +2794,8 @@
 
     
     .hero-picture-career img {
-        width: 280px;
-        height: 350px;
+        width: 334px;
+        height: 234px;
         border-radius: 20px;
     }
     
@@ -2805,8 +2821,8 @@
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
-        gap: 60px;
-        padding-top: 30px;
+        gap: 75px;
+        padding-top: 70px;
     }
 
     .hero-picture-ourteam {
@@ -2986,6 +3002,12 @@
         color: #71AE47;
         font-weight: bold;
     }
+
+    .card-text img {
+        width: 18px;
+        height: 18px;
+        padding-left: 5px;
+    }
     
     
 
@@ -3112,7 +3134,7 @@
         border: 1px solid transparent;
         border-radius: 20px;
         padding: 12px;
-        background: #00796B;
+        background: #023B31;
     }
     
     .lets-talk-title a {
@@ -3138,8 +3160,8 @@
     
     .join-us-image img {
         width: 100%;
-        height: 260px;
-        margin-top: 4px;
+        height: 271px;
+        margin-top: 0px;
     }
     
     .join-us-title hr {
@@ -3446,7 +3468,7 @@
 
     .core-comp-container {
         height: 1650px;
-        background-color: rgb(231, 240, 216, 0.8);
+        background-color: #fff;
     }
     
     .core-comp {
@@ -3477,6 +3499,7 @@
     
     .capabilities-info-content {
         margin-bottom: 25px;
+        text-align: center;
     }
     
     .capabilities-info-content h3 {
@@ -3503,6 +3526,7 @@
     .learn-more {
         width: 190px;
         border-radius: 5px;
+        margin-top: 10px;
     }
     
     .capabilities-info-content span {
@@ -3517,6 +3541,7 @@
         height: 2px;
         border:#023B31;
         background-color: #023B31;
+        display: none;
     }
     
     .capabilities-project hr {
@@ -3526,6 +3551,7 @@
         height: 2px;
         border:#023B31;
         background-color: #023B31;
+        display: none;
     }
     
     .capabilities-data hr {
@@ -3535,6 +3561,7 @@
         height: 2px;
         border:#023B31;
         background-color: #023B31;
+        display: none;
     }
     
     .capabilities-acquisition hr {
@@ -3544,6 +3571,7 @@
         height: 2px;
         border:#023B31;
         background-color: #023B31;
+        display: none;
     }
 
 
@@ -3559,11 +3587,11 @@
     .filter-navbar {
         display: flex;
         flex-direction: column;
-        padding-top: 0px;
+        padding-top: 42px;
         background-color: #173142;
         padding-left: 0;
         text-align: center;
-        height: 280px;
+        height: 240px;
 
     }
 
@@ -3794,8 +3822,8 @@
     .timeline-header span {
         content: '';
         position: absolute;
-        width: 40px;
-        height: 40px;
+        width: 20px;
+        height: 20px;
         right: -17px;
         background-color: #00796B;
         border: 9px solid #E0F2F1;
@@ -3805,7 +3833,6 @@
         bottom: 0px;
         z-index: 1;
         animation: pulse 3s infinite;
-        display: none;
     }
 
     .timeline-item::after {
@@ -3853,11 +3880,11 @@
     }
 
     .left::after {
-        right: 297px;
+        right: 298px;
     }
 
     .right::after {
-        left: -61px;
+        left: -59px;
     }
 
     .timeline::after {
@@ -3926,7 +3953,7 @@
         font-size: 16px;
         font-weight: bold;
         width: 120px;
-        margin: 10px 0 10px 38%;
+        margin: 10px 0 10px 32.9%;
         padding: 12px 15px;
         font-family: 'Montserrat', Helvetica, Arial;
         border: 1px solid transparent;
@@ -3942,7 +3969,7 @@
     }
 
     .timeline-ending h2 {
-        font-size: 27px;
+        font-size: 25px;
         width: 380px;
         font-family: 'Termina', Helvetica, Arial;
         color: #023B31;
@@ -3974,6 +4001,7 @@
 
     .join-our-team-text {
         width: 350px;
+        text-align: center;
     }
 
     .join-our-team-text h2 {
@@ -4135,8 +4163,8 @@
 
     .overlay {
         position: absolute;
-        height: 87%;
-        width: 90.5%;
+        height: 87.1%;
+        width: 100%;
         top: 0;
         left: 0;
         bottom: 0;
@@ -4579,7 +4607,7 @@
         padding: 12px 14px;
         font-size: 20px;
         border-radius: 20px;
-        background: transparent linear-gradient(270deg, #023B31 0%, #34776B 100%) 0% 0% no-repeat padding-box;
+        background-color: #023B31;
         font-family: 'Termina', Helvetica, Arial;
     }
 
@@ -4618,14 +4646,14 @@
     }
 
     .open-job {
-        text-align: left;
+        text-align: center;
         margin: 0 auto;
         max-width: 350px;
     }
 
     .open-job-title {
         font-size: 22px;
-        text-align: left;
+        text-align: center;
         color: #023B31;
         padding: 50px 0px 40px 0px;
         font-family: 'Termina', Helvetica, Arial;
@@ -4641,6 +4669,7 @@
     .open-job p {
         font-size: 16px;
         padding-bottom: 30px;
+        text-align: center;
         line-height: 1.6;
         color: #525252;
         font-family: 'Montserrat', Helvetica, Arial;
@@ -4672,7 +4701,7 @@
         border: 1px solid transparent;
         border-radius: 20px;
         color: #FFFFFF;
-        background: transparent linear-gradient(270deg, #023B31 0%, #34776B 100%) 0% 0% no-repeat padding-box;
+        background-color: #023B31;
         font-family: 'Termina', Helvetica, Arial;
     }
 
@@ -4779,7 +4808,7 @@
 
     .content {
         padding-top: 40px;
-        text-align: left;
+        text-align: center;
         width: 350px;
     }
 
@@ -4806,7 +4835,7 @@
 
     .caseStudy-button a {
         text-decoration: none;
-        background: transparent linear-gradient(270deg, #023B31 0%, #34776B 100%) 0% 0% no-repeat padding-box;
+        background-color: #023B31;
         color: #ffffff;
         font-size: 16px;
         font-weight: 500;
@@ -5033,17 +5062,18 @@
     .hero-title-image {
         background: transparent linear-gradient(180deg, #173142 22%, #4F8045 63%, #71AE47 100%);
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         align-items: center;
-        justify-content: normal;
+        justify-content: center;
         gap: 50px;
-        padding-top: 130px;
-        height: 679px;
+        padding-top: 0px;
+        height: 810px;
     }
 
     .word {
         font-size: 34px;
         margin-left: 0%;
+        text-align: center;
     }
     
     .hero-text h1 {
@@ -5052,6 +5082,7 @@
         font-weight: 500;
         font-family: 'Termina', Helvetica, Arial;
         opacity: 1;
+        text-align: center;
     }
     
     .hero-text p {
@@ -5062,6 +5093,7 @@
         margin-left: 0%;
         line-height: 1.35;
         font-family: 'Montserrat', Helvetica, Arial;
+        text-align: center;
     }
     
     .hero-picture {
@@ -5103,7 +5135,7 @@
         padding-bottom: 10px;
         width: 420px;
         margin: 0 auto;
-        text-align: left;
+        text-align: center;
         line-height: 1.25;
     }
     
@@ -5131,6 +5163,12 @@
 
     .card-prev, .card-next {
         font-size: 30px;
+    }
+
+    .card-text img {
+        width: 18px;
+        height: 18px;
+        padding-left: 5px;
     }
 
 
@@ -5208,7 +5246,7 @@
     /* Lets Talk Section */
 
     .lets-talk-container {
-        height: 2100px;
+        height: auto;
         background-image: linear-gradient(to bottom, rgb(231, 240, 216, 0.5) 40%, rgb(177, 221, 151, 0.7) 90%);
     }
 
@@ -5228,21 +5266,29 @@
     }
 
     .lets-talk-title {
-        width: 420px;
+        width: 430px;
+        text-align: center;
     }
 
     .lets-talk-title h4 {
         font-size: 20px;
-        color: rgb(56, 149, 129);
+        color: #00796B;
         font-weight: bold;
         font-family: 'Termina', Helvetica, Arial;
     }
 
     .lets-talk-title h2 {
         font-size: 36px;
-        color: rgb(32, 72, 1);
+        color: #023B31;
         padding-top: 15px;
         font-family: 'Termina', Helvetica, Arial;
+    }
+
+    .lets-talk-title button {
+        border: 1px solid transparent;
+        border-radius: 20px;
+        padding: 12px;
+        background-color: #023B31;
     }
 
     .lets-talk-title a {
@@ -5274,6 +5320,7 @@
         margin-left: 0px;
         margin-top: 30px;
         width: 450px;
+        text-align: center;
     }
 
     .join-us-title h2 {
@@ -5322,6 +5369,7 @@
         padding-top: 10px;
         background-color: #173142;
         height: 660px;
+        display: none;
     }
 
     .nav-bottom-links {
@@ -5526,7 +5574,7 @@
 
     .core-comp-container {
         height: 1750px;
-        background-color: rgb(231, 240, 216, 0.8);
+        background-color: #fff;
     }
     
     .core-comp {
@@ -5625,18 +5673,18 @@
 
     .hero-container-casestudies {
         background-color: #173142;
-        height: 820px;
+        height: 900px;
     }
     
     .hero-title-image-casestudies {
         display: flex;
-        flex-direction: column;
-        justify-content: normal;
+        flex-direction: column-reverse;
+        justify-content: center;
         align-items: center;
         gap: 60px;
-        padding-top: 30px;
+        padding-top: 70px;
         background-color: #173142;
-        height: 980px;
+        height: 700px;
     }
     
     .hero-text-casestudies h1 {
@@ -5644,6 +5692,7 @@
         color:rgb(118, 216, 65);
         font-weight:500;
         font-family: 'Termina', Helvetica, Arial;
+        text-align: center;
     }
     
     .hero-text-casestudies p {
@@ -5653,11 +5702,12 @@
         line-height: 1.5;
         width: 420px;
         font-family: 'Montserrat', Helvetica, Arial;
+        text-align: center;
     }
     
     .hero-picture-case-studies {
         width: 420px;
-        height: 365px;
+        height: 315px;
         border-radius: 20px;
     }
 
@@ -5666,7 +5716,7 @@
 
     .filter-navbar {
         background-color: #173142;
-        padding-top: 20px;
+        padding-top: 0px;
         padding-left: 11%;
         height: 250px;
         display: flex;
@@ -5825,7 +5875,7 @@
         justify-content: normal;
         align-items: center;
         gap: 70px;
-        padding-top: 50px;
+        padding-top: 91px;
         background-color: #173142;
         height: 800px;
     }
@@ -5920,8 +5970,8 @@
     .timeline-header span {
         content: '';
         position: absolute;
-        width: 40px;
-        height: 40px;
+        width: 22px;
+        height: 22px;
         right: -17px;
         background-color: #00796B;
         border: 9px solid #E0F2F1;
@@ -5978,11 +6028,11 @@
     }
 
     .left::after {
-        right: 297px;
+        right: 298px;
     }
 
     .right::after {
-        left: -61px;
+        left: -59px;
     }
 
     .timeline::after {
@@ -6051,7 +6101,7 @@
         font-size: 16px;
         font-weight: bold;
         width: 120px;
-        margin: 10px 0 10px 190px;
+        margin: 10px 0 10px 37.5%;
         padding: 12px 15px;
         font-family: 'Montserrat', Helvetica, Arial;
         border: 1px solid transparent;
@@ -6099,6 +6149,7 @@
 
     .join-our-team-text {
         width: 350px;
+        text-align: center;
     }
 
     .join-our-team-text h2 {
@@ -6139,6 +6190,7 @@
         padding-top: 10px;
         background-color: #173142;
         height: 660px;
+        display: none;
     }
 
     .nav-bottom-links {
@@ -6309,11 +6361,11 @@
 
     .hero-title-image-career {
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
         gap: 55px;
-        padding-top: 15px;
+        padding-top: 120px;
     }
 
     .hero-title-image-career h1 {
@@ -6327,8 +6379,8 @@
     }
     
     .hero-title-image-career img {
-        width: 275px;
-        height: 375px;
+        width: 420px;
+        height: 315px;
     }
 
 
@@ -6353,7 +6405,7 @@
     }
 
     .slideshow-container {
-        max-width: 650px;
+        width: auto;
         height: 270px;
         position: relative;
         margin: auto;
@@ -6371,7 +6423,7 @@
         justify-content: center;
         align-items: center;
         margin: 0 auto;
-        max-width: 420px;
+        max-width: 380px;
         height: 200px;
     }
 
@@ -6653,15 +6705,16 @@
     }
 
     .apply-image img {
-        height: 410px;
-        width: 420px;
+        height: 420px;
+        width: 325px;
         border-radius: 20px;
         margin-top: 0px;
         box-shadow: 2px 2px 12px rgb(184, 190, 174);
     }
 
     .apply-title {
-        width: 600px;
+        width: auto;
+        text-align: center;
     }
 
     .apply-title br {
@@ -6673,7 +6726,6 @@
         padding-bottom: 30px;
         color: #023B31;
         font-family: 'Termina', Helvetica, Arial;
-        text-align: center;
     }
 
     .apply-title p {
@@ -6683,7 +6735,6 @@
         font-family: 'Montserrat', Helvetica, Arial;
         width: 420px;
         margin: 0 auto;
-        text-align: center;
     }
 
     .apply-title a {
@@ -6693,9 +6744,9 @@
         padding: 12px 14px;
         font-size: 18px;
         border-radius: 20px;
-        background: transparent linear-gradient(270deg, #023B31 0%, #34776B 100%) 0% 0% no-repeat padding-box;
+        background-color: #023B31;
         font-family: 'Termina', Helvetica, Arial;
-        margin-left: 37.5%;
+        margin
     }
 
 
@@ -6732,7 +6783,7 @@
     }
     
     .open-job {
-        text-align: justify;
+        text-align: center;
         margin: 0 auto;
         max-width: 420px;
     }
@@ -6740,7 +6791,7 @@
     .open-job-title {
         font-size: 28px;
         color: #023B31;
-        padding: 100px 0px 40px 0px;
+        padding: 120px 0px 40px 0px;
         font-family: 'Termina', Helvetica, Arial;
     }
 
@@ -6785,7 +6836,7 @@
         border: 1px solid transparent;
         border-radius: 20px;
         color: white;
-        background: transparent linear-gradient(270deg, #023B31 0%, #34776B 100%) 0% 0% no-repeat padding-box;
+        background-color: #023B31;
         font-family: 'Termina', Helvetica, Arial;
     }
     
@@ -6862,7 +6913,7 @@
 
     .case-study-title h2 {
         font-size: 30px;
-        padding-top: 340px;
+        padding-top: 120px;
         letter-spacing: 4px;
         text-align: center;
         color: #023B31;
@@ -6888,7 +6939,7 @@
 
     .content {
         padding-top: 40px;
-        text-align: left;
+        text-align: center;
         width: 420px;
     }
 
@@ -6914,7 +6965,7 @@
     
     .caseStudy-button a {
         text-decoration: none;
-        background: transparent linear-gradient(270deg, #023B31 0%, #34776B 100%) 0% 0% no-repeat padding-box;
+        background-color: #023B31;
         color: #ffffff;
         font-size: 16px;
         font-weight: 500;
@@ -7186,6 +7237,12 @@
         padding-top: 20px;
     }
 
+    .card-text img {
+        width: 18px;
+        height: 18px;
+        padding-left: 5px;
+    }
+
 
     /* Supporting Agencies Section */
 
@@ -7285,16 +7342,23 @@
 
     .lets-talk-title h4 {
         font-size: 24px;
-        color: rgb(56, 149, 129);
+        color: #00796B;
         font-weight: bold;
         font-family: 'Termina', Helvetica, Arial;
     }
 
     .lets-talk-title h2 {
         font-size: 40px;
-        color: rgb(32, 72, 1);
+        color: #023B31;
         padding-top: 15px;
         font-family: 'Termina', Helvetica, Arial;
+    }
+
+    .lets-talk-title button {
+        border: 1px solid transparent;
+        border-radius: 20px;
+        padding: 12px;
+        background-color: #023B31;
     }
 
     .lets-talk-title a {
@@ -7325,6 +7389,7 @@
     .join-us-title {
         margin-left: 0px;
         margin-top: 30px;
+        text-align: center;
         width: 450px;
     }
 
@@ -7544,7 +7609,7 @@
 
     .core-comp-container {
         height: 1700px;
-        background-color: rgb(231, 240, 216, 0.8);
+        background-color: #fff;
     }
     
     .core-comp {
@@ -7833,7 +7898,7 @@
         justify-content: center;
         align-items: center;
         gap: 120px;
-        padding-top: 10px;
+        padding-top: 60px;
         background-color: #173142;
         height: 800px;
     }
@@ -7918,8 +7983,8 @@
     .timeline-header span {
         content: '';
         position: absolute;
-        width: 40px;
-        height: 40px;
+        width: 20px;
+        height: 20px;
         right: -17px;
         background-color: #00796B;
         border: 9px solid #E0F2F1;
@@ -7975,7 +8040,7 @@
     }
 
     .left::after {
-        right: -62px;
+        right: -59px;
     }
 
     .right::after {
@@ -8691,7 +8756,7 @@
         padding: 12px 14px;
         font-size: 26px;
         border-radius: 20px;
-        background: transparent linear-gradient(270deg, #023B31 0%, #34776B 100%) 0% 0% no-repeat padding-box;
+        background-color: #023B31;
         font-family: 'Termina', Helvetica, Arial;
         margin-left: 32%;
     }
@@ -8809,7 +8874,7 @@
         border: 1px solid transparent;
         border-radius: 20px;
         color: white;
-        background: transparent linear-gradient(270deg, #023B31 0%, #34776B 100%) 0% 0% no-repeat padding-box;
+        background-color: #023B31;
         font-family: 'Termina', Helvetica, Arial;
     }
     
@@ -8940,7 +9005,7 @@
     
     .caseStudy-button a {
         text-decoration: none;
-        background: transparent linear-gradient(270deg, #023B31 0%, #34776B 100%) 0% 0% no-repeat padding-box;
+        background-color: #023B31;
         color: #ffffff;
         font-size: 16px;
         font-weight: 500;
@@ -9414,6 +9479,12 @@
         font-weight: bold;
     }
 
+    .card-text img {
+        width: 18px;
+        height: 18px;
+        padding-left: 5px;
+    }
+
     
 
 
@@ -9535,7 +9606,7 @@
         border: 1px solid transparent;
         border-radius: 20px;
         padding: 12px;
-        background: transparent linear-gradient(270deg, #023B31 0%, #34776B 100%) 0% 0% no-repeat padding-box;
+        background-color: #023B31;
     }
     
     .lets-talk-title a {
@@ -9557,7 +9628,7 @@
     }
     
     .join-us-image img {
-        width: 105%;
+        width: 100%;
         height: 400px;
         margin-top: 4px;
     }
@@ -9571,7 +9642,7 @@
     
     .join-us-title {
         margin-left: 75px;
-        width: 450px;
+        width: 400px;
     }
     
     .join-us-title h2 {
@@ -9835,7 +9906,7 @@
 
     .core-comp-container {
         height: 950px;
-        background-color: rgb(231, 240, 216, 0.8);
+        background-color: #fff;
     }
     
     .core-comp {
@@ -10163,8 +10234,8 @@
     .timeline-header span {
         content: '';
         position: absolute;
-        width: 40px;
-        height: 40px;
+        width: 20px;
+        height: 20px;
         right: -17px;
         background-color: #00796B;
         border: 9px solid #E0F2F1;
@@ -10220,11 +10291,11 @@
     }
 
     .left::after {
-        right: -97.5px;
+        right: -95.5px;
     }
 
     .right::after {
-        left: -107.7px;
+        left: -95.7px;
     }
 
     .timeline::after {
@@ -10909,7 +10980,7 @@
         padding: 12px 14px;
         font-size: 18px;
         border-radius: 20px;
-        background: transparent linear-gradient(270deg, #023B31 0%, #34776B 100%) 0% 0% no-repeat padding-box;
+        background-color: #023B31;
         font-family: 'Termina', Helvetica, Arial;
     }
 
@@ -10997,7 +11068,7 @@
         border: 1px solid transparent;
         border-radius: 20px;
         color: #FFFFFF;
-        background: transparent linear-gradient(270deg, #023B31 0%, #34776B 100%) 0% 0% no-repeat padding-box;
+        background-color: #023B31;
         font-family: 'Termina', Helvetica, Arial;
     }
     
@@ -11130,7 +11201,7 @@
 
     .caseStudy-button a {
         text-decoration: none;
-        background: transparent linear-gradient(270deg, #023B31 0%, #34776B 100%) 0% 0% no-repeat padding-box;
+        background-color: #023B31;
         color: #ffffff;
         font-size: 16px;
         font-weight: 500;

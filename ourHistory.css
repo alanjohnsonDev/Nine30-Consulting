@@ -86,8 +86,8 @@
 .timeline-header span {
     content: '';
     position: absolute;
-    width: 40px;
-    height: 40px;
+    width: 20px;
+    height: 20px;
     right: -17px;
     background-color: #00796B;
     border: 9px solid #E0F2F1;
@@ -143,11 +143,11 @@
 }
 
 .left::after {
-    right: -146.3px;
+    right: -143.3px;
 }
 
 .right::after {
-    left: -147.3px;
+    left: -145.3px;
 }
 
 .timeline::after {
