@@ -320,7 +320,7 @@ header ul li ul li:hover a {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 115px;
+    gap: 81px;
     padding-top: 170px;
 }
 
@@ -362,7 +362,7 @@ header ul li ul li:hover a {
 /* Capabilities Section */
 
 .capabilities-container {
-    height: 1020px;
+    height: 1140px;
     background-color: #F0F9EA;
 }
 
@@ -403,7 +403,7 @@ header ul li ul li:hover a {
     background: white;
     border-radius: 10px;
     width: 280px;
-    height: 410px;
+    height: 530px;
     padding: 20px 30px;
     box-shadow: -2px 2px 10px rgba(204, 204, 204, 0.898);
     position: relative;

@@ -26,10 +26,6 @@
     gap: 200px;
 }
 
-.hero-title-image-career {
-    gap: 430px;
-}
-
 
 
 
@@ -240,7 +236,7 @@
     position: absolute;
     height: 92%;
     width: 90%;
-    top: 65%;
+    top: 56%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);

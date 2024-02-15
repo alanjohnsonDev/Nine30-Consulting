@@ -428,7 +428,7 @@
     .card-prev, .card-next {
         cursor: pointer;
         position: absolute;
-        top: 91.5%;
+        top: 93.5%;
         padding: 5px;
         color: rgb(149, 149, 149);
         font-weight: bold;
@@ -508,7 +508,7 @@
 
     .capabilities-card h3 {
         color: #023B31;
-        font-size: 18px;
+        font-size: 14px;
         font-family: 'Montserrat', Helvetica, Arial;
         margin-top: 10px;
         font-weight: bold;
@@ -516,7 +516,7 @@
 
     .capabilities-card p {
         color: #525252;
-        font-size: 16px;
+        font-size: 12px;
         font-family: 'Montserrat', Helvetica, Arial;
         margin-top: 10px;
         line-height: 1.3;
@@ -528,7 +528,7 @@
         color: #023B31;
         font-family: 'Montserrat', Helvetica, Arial;
         font-weight: bold;
-        font-size: 18px;
+        font-size: 14px;
     }
 
     .capabilities-card span {
@@ -1003,7 +1003,7 @@
     /* Capabilities Page */
 
     .core-comp-container {
-        height: 1625px;
+        height: 1875px;
         background-color: #fff;
     }
     
@@ -1990,11 +1990,11 @@
 
     .text-career {
         color: #FFFFFF;
-        font-size: 15px;
+        font-size: 14px;
         position: absolute;
         height: 92%;
         width: 90%;
-        top: 60%;
+        top: 52%;
         left: 50%;
         line-height: 1.3;
         font-weight: 600;
@@ -2081,7 +2081,7 @@
         justify-content: normal;
         align-items: center;
         gap: 40px;
-        height: 850px;
+        height: 900px;
     }
 
     .community-title {
@@ -2145,7 +2145,7 @@
     }
 
     .apply-image img {
-        width: 210px;
+        width: 190px;
         height: 260px;
         border-radius: 20px;
         margin-top: 0px;
@@ -2894,7 +2894,7 @@
     .card-prev, .card-next {
         cursor: pointer;
         position: absolute;
-        top: 93.5%;
+        top: 94.6%;
         padding: 6px;
         color: rgb(149, 149, 149);
         font-weight: bold;
@@ -2956,7 +2956,7 @@
         background: white;
         border-radius: 10px;
         width: 328px;
-        height: 380px;
+        height: 400px;
         padding: 30px;
         box-shadow: -2px 2px 10px rgba(204, 204, 204, 0.898);
         position: normal;
@@ -2967,22 +2967,22 @@
     }
 
     .capabilities-card img {
-        width: 64px;
-        height: 64px;
+        width: 60px;
+        height: 60px;
     }
 
     .capabilities-card h3 {
         color: #023B31;
-        font-size: 18px;
+        font-size: 16px;
         font-family: 'Montserrat', Helvetica, Arial;
-        margin-top: 30px;
+        margin-top: 15px;
         font-weight: bold;
         text-align: center;
     }
 
     .capabilities-card p {
         color: #525252;
-        font-size: 16px;
+        font-size: 14px;
         font-family: 'Montserrat', Helvetica, Arial;
         margin-top: 10px;
         line-height: 1.3;
@@ -2995,7 +2995,7 @@
         color: #023B31;
         font-family: 'Montserrat', Helvetica, Arial;
         font-weight: bold;
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .capabilities-card span {
@@ -3467,7 +3467,7 @@
     /* Capabilities Page */
 
     .core-comp-container {
-        height: 1650px;
+        height: 1830px;
         background-color: #fff;
     }
     
@@ -4415,11 +4415,11 @@
 
     .text-career {
         color: #FFFFFF;
-        font-size: 20px;
+        font-size: 17.5px;
         position: absolute;
         height: 92%;
         width: 90%;
-        top: 65%;
+        top: 55%;
         left: 50%;
         line-height: 1.3;
         font-weight: 600;
@@ -4504,7 +4504,7 @@
         justify-content: normal;
         align-items: center;
         gap: 40px;
-        height: 950px;
+        height: 1000px;
     }
 
     .community-title {
@@ -4569,8 +4569,8 @@
     }
 
     .apply-image img {
-        width: 334px;
-        height: 295px;
+        height: 300px;
+        width: 230px;
         border-radius: 20px;
         margin-top: 0px;
         box-shadow: 2px 2px 12px rgb(184, 190, 174);
@@ -5107,7 +5107,7 @@
     /* Capabilities Section */
 
     .capabilities-container {
-        height: 1100px;
+        height: 1200px;
         background-color: rgb(231, 240, 216, 0.8);
     }
     
@@ -5573,7 +5573,7 @@
     /* Core Competencies Page */
 
     .core-comp-container {
-        height: 1750px;
+        height: 1800px;
         background-color: #fff;
     }
     
@@ -6557,12 +6557,12 @@
 
     .text-career {
         color: #FFFFFF;
-        font-size: 16px;
+        font-size: 15px;
         line-height: 1.35;
         position: absolute;
         height: 92%;
         width: 90%;
-        top: 58%;
+        top: 55%;
         left: 50%;
         -webkit-transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
@@ -6705,8 +6705,8 @@
     }
 
     .apply-image img {
-        height: 420px;
-        width: 325px;
+        height: 355px;
+        width: 265px;
         border-radius: 20px;
         margin-top: 0px;
         box-shadow: 2px 2px 12px rgb(184, 190, 174);
@@ -7018,6 +7018,11 @@
 
 
 
+
+
+
+
+
 /* Medium devices (portrait tablets, 700px and up) */
 @media only screen and (min-width: 700px) and (max-width: 1050px) {
     
@@ -7195,7 +7200,7 @@
     /* Capabilities Section */
 
     .capabilities-container {
-        height: 1525px;
+        height: 1750px;
         background-color: rgb(231, 240, 216, 0.8);
     }
     
@@ -7608,7 +7613,7 @@
     /* Core Competencies Page */
 
     .core-comp-container {
-        height: 1700px;
+        height: 1850px;
         background-color: #fff;
     }
     
@@ -8392,8 +8397,8 @@
     }
     
     .hero-title-image-career img {
-        width: 300px;
-        height: 400px;
+        width: 500px;
+        height: 350px;    
     }
 
 
@@ -8569,12 +8574,12 @@
 
     .text-career {
         color: #FFFFFF;
-        font-size: 18px;
+        font-size: 16.5px;
         line-height: 1.35;
         position: absolute;
         height: 92%;
         width: 90%;
-        top: 58%;
+        top: 53%;
         left: 50%;
         -webkit-transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
@@ -8717,7 +8722,7 @@
 
     .apply-image img {
         height: 450px;
-        width: 450px;
+        width: 350px;
         border-radius: 20px;
         margin-top: 0px;
         box-shadow: 2px 2px 12px rgb(184, 190, 174);
@@ -9324,14 +9329,14 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 270px;
+        gap: 110px;
         padding-top: 200px;
     }
 
     
     .hero-picture-career img {
-        height: 400px;
-        width: 290px;
+        width: 450px;
+        height: 300px;
         border-radius: 20px;
     }
     
@@ -9384,7 +9389,7 @@
 
 
     .capabilities-container {
-        height: 1020px;
+        height: 1050px;
         background-color: #F0F9EA;
     }
 
@@ -9408,7 +9413,7 @@
 
     .green-line {
         border-left: 4px solid #91C75E;
-        height: 109px;
+        height: 85px;
         width: 0%;
         margin: 50px auto;
     }
@@ -9425,7 +9430,7 @@
         background: white;
         border-radius: 10px;
         width: 170px;
-        height: 420px;
+        height: 500px;
         padding: 15px 20px;
         box-shadow: -2px 2px 10px rgba(204, 204, 204, 0.898);
         position: relative;
@@ -9445,13 +9450,13 @@
     }
 
     .capabilities-card img {
-        width: 70px;
-        height: 70px;
+        width: 65px;
+        height: 65px;
     }
 
     .capabilities-card h3 {
         color: #023B31;
-        font-size: 18px;
+        font-size: 16px;
         font-family: 'Montserrat', Helvetica, Arial;
         margin-top: 30px;
         font-weight: bold;
@@ -9459,10 +9464,10 @@
 
     .capabilities-card p {
         color: #525252;
-        font-size: 13px;
+        font-size: 12px;
         font-family: 'Montserrat', Helvetica, Arial;
         margin-top: 10px;
-        line-height: 1.4;
+        line-height: 1.3;
         margin-bottom: 20px;
     }
 
@@ -9471,7 +9476,7 @@
         color: #023B31;
         font-family: 'Montserrat', Helvetica, Arial;
         font-weight: bold;
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .capabilities-card span {
@@ -9905,7 +9910,7 @@
     /* Capabilities Page */
 
     .core-comp-container {
-        height: 950px;
+        height: 1100px;
         background-color: #fff;
     }
     
@@ -10815,7 +10820,7 @@
         position: absolute;
         height: 92%;
         width: 90%;
-        top: 70%;
+        top: 55%;
         left: 50%;
         line-height: 1.35;
         font-weight: 600;
@@ -10944,8 +10949,8 @@
     }
 
     .apply-image img {
-        height: 450px;
-        width: 500px;
+        height: 440px;
+        width: 340px;
         border-radius: 20px;
         margin-top: -70px;
         box-shadow: 2px 2px 12px rgb(184, 190, 174);
