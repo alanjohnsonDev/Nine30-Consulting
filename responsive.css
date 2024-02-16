@@ -2144,9 +2144,13 @@
         background-color: rgb(231, 240, 216, 0.8);
     }
 
+    .apply-image {
+        text-align: center;
+    }
+
     .apply-image img {
-        width: 190px;
-        height: 260px;
+        width: 80%;
+        height: 80%;
         border-radius: 20px;
         margin-top: 0px;
         box-shadow: 2px 2px 12px rgb(184, 190, 174);
@@ -4568,9 +4572,13 @@
         background-color: rgb(231, 240, 216, 0.8);
     }
 
+    .apply-image {
+        text-align: center;
+    }
+
     .apply-image img {
-        height: 300px;
-        width: 230px;
+        height: 70%;
+        width: 70%;
         border-radius: 20px;
         margin-top: 0px;
         box-shadow: 2px 2px 12px rgb(184, 190, 174);
@@ -6698,15 +6706,19 @@
         justify-content: normal;
         align-items: center;
         gap: 100px;
-        height: 850px;
+        height: 875px;
         margin-top: 200px;
         padding-bottom: 60px;
         background-color: rgb(231, 240, 216, 0.8);
     }
 
+    .apply-image {
+        text-align: center;
+    }
+
     .apply-image img {
-        height: 355px;
-        width: 265px;
+        height: 85%;
+        width: 85%;
         border-radius: 20px;
         margin-top: 0px;
         box-shadow: 2px 2px 12px rgb(184, 190, 174);
@@ -8713,18 +8725,22 @@
         flex-direction: column-reverse;
         justify-content: normal;
         align-items: center;
-        gap: 100px;
-        height: 850px;
+        gap: 30px;
+        height: 1000px;
         margin-top: 200px;
         padding-bottom: 60px;
         background-color: rgb(231, 240, 216, 0.8);
     }
 
+    .apply-image {
+        text-align: center;
+    }
+
     .apply-image img {
-        height: 450px;
-        width: 350px;
+        height: 80%;
+        width: 80%;
         border-radius: 20px;
-        margin-top: 0px;
+        margin-top: 60px;
         box-shadow: 2px 2px 12px rgb(184, 190, 174);
     }
 
@@ -10942,15 +10958,19 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 110px;
+        gap: 0px;
         margin-top: 200px;
         padding-bottom: 60px;
         background-color: rgb(231, 240, 216, 0.8);
     }
 
+    .apply-image {
+        width: 500px;
+    }
+
     .apply-image img {
-        height: 440px;
-        width: 340px;
+        height: 70%;
+        width: 70%;
         border-radius: 20px;
         margin-top: -70px;
         box-shadow: 2px 2px 12px rgb(184, 190, 174);
@@ -10958,6 +10978,7 @@
 
     .apply-title {
         width: 350px;
+        margin-top: 30px;
     }
 
     .apply-title br {

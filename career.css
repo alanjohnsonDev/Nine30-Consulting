@@ -345,22 +345,26 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 240px;
+    gap: 50px;
     margin-top: 200px;
     padding-bottom: 60px;
     background-color: rgb(231, 240, 216, 0.8);
 }
 
+.apply-image {
+    text-align: center;
+}
+
 .apply-image img {
-    height: 580px;
-    width: 480px;
+    height: 55%;
+    width: 55%;
     border-radius: 20px;
     margin-top: -70px;
     box-shadow: 2px 2px 12px rgb(184, 190, 174);
 }
 
 .apply-title {
-    width: 550px;
+    width: 650px;
 }
 
 .apply-title h2 {
@@ -374,6 +378,7 @@
     font-size: 16px;
     color: #525252;
     padding-bottom: 40px;
+    width: 550px;
     line-height: 1.5;
     font-family: 'Montserrat', Helvetica, Arial;
 }

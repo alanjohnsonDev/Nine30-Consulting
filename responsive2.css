@@ -1931,15 +1931,19 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 120px;
+        gap: 75px;
         margin-top: 200px;
         padding-bottom: 60px;
         background-color: rgb(231, 240, 216, 0.8);
     }
 
+    .apply-image {
+        width: 500px;
+    }
+
     .apply-image img {
-        height: 520px;
-        width: 400px;
+        height: 90%;
+        width: 90%;
         border-radius: 20px;
         margin-top: -70px;
         box-shadow: 2px 2px 12px rgb(184, 190, 174);
