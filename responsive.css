@@ -376,7 +376,7 @@
     /* Capabilities Section */
 
     .capabilities-container {
-        height: 1050px;
+        height: 1015px;
         background-color: #F0F9EA;
         position: relative;
     }
@@ -491,7 +491,7 @@
         background: white;
         border-radius: 10px;
         width: 230px;
-        height: 435px;
+        height: 400px;
         padding: 10px;
         box-shadow: -2px 2px 10px rgba(204, 204, 204, 0.898);
         position: normal;
@@ -516,7 +516,7 @@
 
     .capabilities-card p {
         color: #525252;
-        font-size: 12px;
+        font-size: 13px;
         font-family: 'Montserrat', Helvetica, Arial;
         margin-top: 10px;
         line-height: 1.3;
@@ -1003,7 +1003,7 @@
     /* Capabilities Page */
 
     .core-comp-container {
-        height: 1875px;
+        height: 1800px;
         background-color: #fff;
     }
     
@@ -2838,7 +2838,7 @@
     /* Capabilities Section */
 
     .capabilities-container {
-        height: 930px;
+        height: 950px;
         background-color: #F0F9EA;
         position: relative;
     }
@@ -2879,7 +2879,7 @@
     /* Card Slideshow */
 
     .slide-card-container {
-        width: 280px;
+        width: 290px;
         margin: auto;
     }
 
@@ -2956,7 +2956,7 @@
         background: white;
         border-radius: 10px;
         width: 328px;
-        height: 400px;
+        height: 410px;
         padding: 30px;
         box-shadow: -2px 2px 10px rgba(204, 204, 204, 0.898);
         position: normal;
@@ -2982,7 +2982,7 @@
 
     .capabilities-card p {
         color: #525252;
-        font-size: 14px;
+        font-size: 16px;
         font-family: 'Montserrat', Helvetica, Arial;
         margin-top: 10px;
         line-height: 1.3;
@@ -3467,7 +3467,7 @@
     /* Capabilities Page */
 
     .core-comp-container {
-        height: 1830px;
+        height: 1790px;
         background-color: #fff;
     }
     
@@ -5107,7 +5107,7 @@
     /* Capabilities Section */
 
     .capabilities-container {
-        height: 1200px;
+        height: 1140px;
         background-color: rgb(231, 240, 216, 0.8);
     }
     
@@ -7200,7 +7200,7 @@
     /* Capabilities Section */
 
     .capabilities-container {
-        height: 1750px;
+        height: 1680px;
         background-color: rgb(231, 240, 216, 0.8);
     }
     
@@ -9389,7 +9389,7 @@
 
 
     .capabilities-container {
-        height: 1050px;
+        height: 1000px;
         background-color: #F0F9EA;
     }
 
@@ -9430,7 +9430,7 @@
         background: white;
         border-radius: 10px;
         width: 170px;
-        height: 500px;
+        height: 450px;
         padding: 15px 20px;
         box-shadow: -2px 2px 10px rgba(204, 204, 204, 0.898);
         position: relative;
@@ -9910,7 +9910,7 @@
     /* Capabilities Page */
 
     .core-comp-container {
-        height: 1100px;
+        height: 1050px;
         background-color: #fff;
     }
     
