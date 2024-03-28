@@ -28,22 +28,27 @@
 
 .open-job1 {
     background-color: #F0F9EA;
-    height: 1350px;
+    height: 1150px;
 }
 
 .open-job2 {
     background-color: #F0F9EA;
-    height: 1130px;
+    height: 1250px;
 }
 
 .open-job3 {
     background-color: #F0F9EA;
-    height: 1030px;
+    height: 1200px;
 }
 
 .open-job4 {
     background-color: #F0F9EA;
-    height: 1000px;
+    height: 1050px;
+}
+
+.open-job5 {
+    background-color: #F0F9EA;
+    height: 1040px;
 }
 
 .open-job {
@@ -121,7 +126,7 @@
 /* Jobs Page */
 
 .jobs-container {
-    height: 750px;
+    height: 90vh;
     background-color: rgb(231, 240, 216, 0.8);
 }
 
@@ -130,7 +135,7 @@
     font-weight: normal;
     text-align: center;
     color:#023B31;
-    padding-top: 75px;
+    padding-top: 65px;
     font-family: 'Termina', Helvetica, Arial;
 }
 

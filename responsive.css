@@ -2206,20 +2206,25 @@
 
     .open-job1 {
         background-color: #F0F9EA;
-        height: 2100px;
+        height: 1700px;
     }
 
     .open-job2 {
         background-color: #F0F9EA;
-        height: 1850px;
+        height: 1900px;
     }
 
     .open-job3 {
         background-color: #F0F9EA;
-        height: 1680px;
+        height: 1800px;
     }
 
     .open-job4 {
+        background-color: #F0F9EA;
+        height: 1650px;
+    }
+
+    .open-job5 {
         background-color: #F0F9EA;
         height: 1480px;
     }
@@ -2283,7 +2288,7 @@
 
     .open-job a {
         text-decoration: none;
-        font-size: 16px;
+        font-size: 14px;
         font-weight: normal;
         padding: 10px 12px;
         border: 1px solid transparent;
@@ -2327,7 +2332,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 50px 0px;
+        gap: 30px 0px;
         width: 250px;
         margin: 0 auto;
     }
@@ -4635,22 +4640,27 @@
 
     .open-job1 {
         background-color: #F0F9EA;
-        height: 1950px;
+        height: 1700px;
     }
 
     .open-job2 {
         background-color: #F0F9EA;
-        height: 1750px;
+        height: 1850px;
     }
 
     .open-job3 {
         background-color: #F0F9EA;
-        height: 1550px;
+        height: 1800px;
     }
 
     .open-job4 {
         background-color: #F0F9EA;
-        height: 1430px;
+        height: 1600px;
+    }
+
+    .open-job5 {
+        background-color: #F0F9EA;
+        height: 1500px;
     }
 
     .open-job {
@@ -4663,7 +4673,7 @@
         font-size: 22px;
         text-align: center;
         color: #023B31;
-        padding: 50px 0px 40px 0px;
+        padding: 140px 0px 40px 0px;
         font-family: 'Termina', Helvetica, Arial;
     }
 
@@ -4720,7 +4730,7 @@
     /* Jobs Page */
 
     .jobs-container {
-        height: 650px;
+        height: 750px;
         background-color: rgb(231, 240, 216, 0.8);
     }
 
@@ -6758,7 +6768,6 @@
         border-radius: 20px;
         background-color: #023B31;
         font-family: 'Termina', Helvetica, Arial;
-        margin
     }
 
 
@@ -6776,7 +6785,7 @@
     
     .open-job1 {
         background-color: #F0F9EA;
-        height: 1725px;
+        height: 1450px;
     }
     
     .open-job2 {
@@ -6786,12 +6795,17 @@
     
     .open-job3 {
         background-color: #F0F9EA;
-        height: 1385px;
+        height: 1575px;
     }
     
     .open-job4 {
         background-color: #F0F9EA;
-        height: 1270px;
+        height: 1350px;
+    }
+
+    .open-job5 {
+        background-color: #F0F9EA;
+        height: 1250px;
     }
     
     .open-job {
@@ -6858,12 +6872,12 @@
     /* Jobs Page */
     
     .jobs-container {
-        height: 750px;
+        height: 760px;
         background-color: rgb(231, 240, 216, 0.8);
     }
     
     .jobs-title {
-        font-size: 34px;
+        font-size: 28px;
         text-align: center;
         color: #023B31;
         padding-top: 60px;
@@ -6897,7 +6911,7 @@
     .jobs-links a {
         text-decoration: none;
         color: black;
-        font-size: 22px;
+        font-size: 20px;
         font-weight: 600;
         font-family: 'Montserrat', Helvetica, Arial;
     }
@@ -8827,7 +8841,7 @@
     
     .open-job1 {
         background-color: #F0F9EA;
-        height: 1950px;
+        height: 1600px;
     }
     
     .open-job2 {
@@ -8837,12 +8851,17 @@
     
     .open-job3 {
         background-color: #F0F9EA;
-        height: 1550px;
+        height: 1750px;
     }
     
     .open-job4 {
         background-color: #F0F9EA;
-        height: 1430px;
+        height: 1470px;
+    }
+
+    .open-job5 {
+        background-color: #F0F9EA;
+        height: 1375px;
     }
     
     .open-job {
@@ -8854,12 +8873,12 @@
     .open-job-title {
         font-size: 36px;
         color: #023B31;
-        padding: 100px 0px 40px 0px;
+        padding: 150px 0px 40px 0px;
         font-family: 'Termina', Helvetica, Arial;
     }
 
     .PM-Analyst {
-        font-size: 32px;
+        font-size: 28px;
     }
     
     .open-job-subtitle {
@@ -8890,7 +8909,7 @@
     
     .open-job a {
         text-decoration: none;
-        font-size: 28px;
+        font-size: 22px;
         padding: 12px;
         border: 1px solid transparent;
         border-radius: 20px;
@@ -8905,7 +8924,7 @@
     /* Jobs Page */
     
     .jobs-container {
-        height: 900px;
+        height: 90vh;
         background-color: rgb(231, 240, 216, 0.8);
     }
     
@@ -8925,7 +8944,7 @@
     }
     
     .jobs-links-container {
-        padding-top: 100px;
+        padding-top: 80px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -11024,22 +11043,27 @@
     
     .open-job1 {
         background-color: #F0F9EA;
-        height: 1300px;
+        height: 1200px;
     }
     
     .open-job2 {
         background-color: #F0F9EA;
-        height: 1200px;
+        height: 1270px;
     }
     
     .open-job3 {
         background-color: #F0F9EA;
-        height: 1060px;
+        height: 1250px;
     }
     
     .open-job4 {
         background-color: #F0F9EA;
-        height: 1010px;
+        height: 1100px;
+    }
+
+    .open-job5 {
+        background-color: #F0F9EA;
+        height: 1075px;
     }
     
     .open-job {
@@ -11051,7 +11075,7 @@
     .open-job-title {
         font-size: 35px;
         color: #023B31;
-        padding: 100px 0px 40px 0px;
+        padding: 150px 0px 40px 0px;
         font-family: 'Termina', Helvetica, Arial;
     }
     
@@ -11105,7 +11129,7 @@
     /* Jobs Page */
     
     .jobs-container {
-        height: 750px;
+        height: 100vh;
         background-color: rgb(231, 240, 216, 0.8);
     }
     
