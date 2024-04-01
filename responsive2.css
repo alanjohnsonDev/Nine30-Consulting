@@ -2102,6 +2102,26 @@
         
     }
 
+    .new-container {
+        position: relative;
+    }
+    
+    .new-icon {
+        padding-right: 2px;
+        position: absolute;
+        top: -27px;
+    }
+    
+    .new-icon img {
+        display: inline-block;
+        margin-left: -90px;
+    }
+    
+    .new-job {
+        display: inline-block;
+        margin-top: -20px;
+    }
+
     .jobs-links-container {
         padding-top: 50px;
         display: flex;

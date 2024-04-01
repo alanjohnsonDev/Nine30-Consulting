@@ -126,7 +126,7 @@
 /* Jobs Page */
 
 .jobs-container {
-    height: 90vh;
+    height: 800px;
     background-color: rgb(231, 240, 216, 0.8);
 }
 
@@ -145,6 +145,26 @@
     background-color: #023B31;
     margin: 6px auto;
     
+}
+
+.new-container {
+    position: relative;
+}
+
+.new-icon {
+    padding-right: 2px;
+    position: absolute;
+    top: -25px;
+}
+
+.new-icon img {
+    display: inline-block;
+    margin-left: -90px;
+}
+
+.new-job {
+    display: inline-block;
+    margin-top: -20px;
 }
 
 .jobs-links-container {
