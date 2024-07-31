@@ -5,7 +5,6 @@
 .our-team-container {
     display: grid;
     grid-template-columns: repeat(5, 260px);
-    height: 1500px;
     align-items: center;
     justify-content: center;
     gap: 20px 60px;
@@ -43,7 +42,7 @@
     opacity: 1;
 }
 
-.text {
+.overlay .text {
     color: #FFFFFF;
     font-size: 13.5px;
     line-height: 1.25;

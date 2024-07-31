@@ -1539,7 +1539,6 @@
     .our-team-container {
     display: grid;
     grid-template-columns: repeat(3, 300px);
-    height: 2600px;
     align-items: center;
     justify-content: center;
     gap: 20px 92px;
