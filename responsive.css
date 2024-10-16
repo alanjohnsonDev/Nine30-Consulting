@@ -8184,6 +8184,12 @@
         padding-top: 50px;
     }
 
+    .simDiv-logo {
+        width: 250px;
+        height: 140px;
+        padding-top: 40px;
+    }
+
     .timeline .office-space {
         width: 265px;
         height: 210px;
@@ -10460,6 +10466,12 @@
     .timeline .office-space {
         width: 280px;
         height: 220px;
+    }
+
+    .simDiv-logo {
+        width: 220px;
+        height: 150px;
+        padding-top: 40px;
     }
 
     .timeline-container {
